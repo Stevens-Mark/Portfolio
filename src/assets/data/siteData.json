@@ -315,7 +315,6 @@
 		"tags": [
 			"React",
 			"Recharts",
-			"API REST",
 			"JSDoc"
 		],
 		"website": "https://stevens-mark.github.io/StevensMark_P12_08112021/",
@@ -359,39 +358,5 @@
 		,
 		"website": "https://stevens-mark.github.io/StevensMark_P13_02122021/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
-	},
-	{
-		"id": "2cf259e1",
-		"title": "Charmant Studio Marais",
-		"date": "2021-12-02",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
-		"summary": "spare place",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-4.jpg"
-		],
-		"description": "Situé en plein coeur du Marais, notre studio est idéal pour les touristes en quête de découverte. Sa cuisine toute équipée est particulièrement pratique.",
-		"host": {
-			"name": "Victor Moran",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg"
-		},
-		"rating": "4",
-		"location": "Ile de France - Paris 11e",
-		"skills": [
-			"Clic-clac",
-			"Four",
-			"Sèche Cheveux",
-			"Wi-fi"
-		],
-		"tags": [
-			"Marais",
-			"Studio",
-			"Parc"
-		],
-		"website": "",
-		"github": ""
 	}
-
 ]

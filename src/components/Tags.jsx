@@ -30,7 +30,6 @@ const TagWrapper = styled.div`
     @media screen and (min-width: 1220px) {
         margin-top: 0.625rem;
     }
-
 `;
 
 /**

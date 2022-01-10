@@ -8,7 +8,6 @@ import logo from '../assets/logos/mark_logo.png'
 /**
  * CSS for component using styled.components
  */
-
 const HEADER = styled.header`
   display: flex;
   position: fixed;
@@ -17,7 +16,7 @@ const HEADER = styled.header`
   right: 0;
   margin: 0 auto;
   z-index: 9999;
-  background: black;
+  background: ${colors.secondary};
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;

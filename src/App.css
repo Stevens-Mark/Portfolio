@@ -1,12 +1,10 @@
 body {
   /* margin: 0; */
   font-family:  'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',-apple-system, BlinkMacSystemFont,
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   /* -moz-osx-font-smoothing: grayscale; */
   color: #FFFFFF;
-  /* max-width: 1440px; */
   margin: auto;
   box-sizing: border-box;
 }
@@ -23,13 +21,7 @@ main {
   /* min-height: 85vh; */
 }
 
-/* @media screen and (max-width: 1240px) {
-  main {
-    margin: 20px;
-  }
-} */
-
 a {
   text-decoration: none;
-  color: black;
+  color: #000;
 }

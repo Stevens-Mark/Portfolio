@@ -16,8 +16,7 @@ const ProjectCard = styled.article`
   color: ${colors.secondary};
   border-radius: 0.313rem;
   padding: 0.938rem;
-  margin: 1.25rem;
-  flex: 1 1 250px;
+  margin: 1rem;
   filter: brightness(95%);
   transition: 0.4s;
   &:hover {
@@ -59,7 +58,7 @@ const TagForm = styled.span`
  padding: 1px 8px;
 `;
 
-const SummeryText = styled.h3`
+const SummaryText = styled.h3`
   font-weight: 500;
   font-size: clamp(0.9rem, 1vw, 1rem);
 `;
@@ -90,7 +89,7 @@ const Card = ( {id, title, summary, cover, tags, website, github} ) => {
           <CoverImage src={cover} alt='Cover'/>
    
           {(tags).map((tag) => ( <TagForm key={tag}>{tag} </TagForm> ))}
-          <SummeryText>{summary}</SummeryText>
+          <SummaryText>{summary}</SummaryText>
         </Link> 
     </ProjectCard>
   )

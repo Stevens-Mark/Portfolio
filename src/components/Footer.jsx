@@ -14,7 +14,7 @@ const FOOTER = styled.footer`
   justify-content: center;
   align-items: center;
   height: 8rem;
-  margin-top: 6rem;
+  margin-top: 1rem;
   background: ${colors.secondary};
   
   img {
@@ -26,7 +26,7 @@ const FOOTER = styled.footer`
     font-size: clamp(0.75rem, 1.5vw, 2rem);
     font-family: Vladimir script;
     margin: unset;
-    color: ${colors.styledText};
+    color: ${colors.primary};
   }
 `;
 

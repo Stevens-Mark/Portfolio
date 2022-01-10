@@ -9,7 +9,6 @@ import ReactSpinner from'../components/ReactSpinner'
  */
 const HeroContainer = styled.section`
   background-image: url(${heroImg});
-  // background-position: 0 -50px;
   background-size: cover;
   background-repeat: no-repeat;
   height: 18.75rem;
@@ -17,7 +16,6 @@ const HeroContainer = styled.section`
   
   @media (min-width: 920px) {
     height: 25rem;
-    // background-position: 0% 33%;
   }
 `;
 
@@ -28,9 +26,7 @@ const HeroContent = styled.article`
   width: 12.5rem;
   background: ${({ theme }) => (theme === 'light' ? `${colors.tertiary}` : `${colors.mainBackgroundDarkMode}`)};
   padding: 1.5rem;
-  // text-align: left;
   margin: 0 auto;
-
 
   @media (min-width: 500px) {
     width: 18.5rem;
