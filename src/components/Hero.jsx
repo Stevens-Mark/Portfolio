@@ -1,13 +1,17 @@
 // styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+// import fade-in keyframe
+import { fadeIn } from '../utils/style/keyframes'
 // hero banner background
 import heroImg from '../assets/images/banner4.jpg'
 import ReactSpinner from'../components/ReactSpinner'
+
 /**
  * CSS for the component using styled.components
  */
 const HeroContainer = styled.section`
+  animation: ${fadeIn} 1s forwards ease-in-out;
   background-image: url(${heroImg});
   background-size: cover;
   background-repeat: no-repeat;

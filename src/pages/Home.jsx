@@ -56,6 +56,7 @@ const Home = ( {siteData} ) => {
 
 export default Home
 
+// Prototypes
 Home.propTypes = {
   siteData: PropTypes.array.isRequired,
 }

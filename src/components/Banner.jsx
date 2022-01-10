@@ -33,6 +33,7 @@ const Banner = ( {image, alternate} ) => {
 
 export default Banner
 
+// Prototypes
 Banner.propTypes = {
   image: PropTypes.string.isRequired,
   alternate: PropTypes.string.isRequired,

@@ -25,7 +25,8 @@ const DropDown = ( {dropdownWidth, dropdownHeight, title, content} ) => {
           <div className='dropDownTitleBar' onClick={() =>handleButtonClick()}>
               <h2 className='dropDownTitleBarText'>{title}</h2>
               <span>{open ? (<img className='dropdownArrow' src={upArrow} alt="icon" />) : 
-                  (<img className='dropdownArrow' src={downArrow} alt="icon" />)} </span>
+                  (<img className='dropdownArrow' src={downArrow} alt="icon" />)}
+              </span>
           </div>
 
           {open && (typeof(content) === 'string' ? (
@@ -41,7 +42,7 @@ const DropDown = ( {dropdownWidth, dropdownHeight, title, content} ) => {
 
 export default DropDown
 
-
+// Prototypes
 DropDown.propTypes = {
   dropdownWidth: PropTypes.string.isRequired,
   dropdownHeight: PropTypes.string.isRequired,

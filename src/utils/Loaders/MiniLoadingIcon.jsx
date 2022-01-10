@@ -1,20 +1,9 @@
 // import colors from '../style/colors'
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
+// import rotate keyframe
+import { rotate } from '../style/keyframes'
 import PropTypes from 'prop-types'
-
-/**
- * Keyframe for Loader component
- */
-const rotate = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-`;
 
 /**
  * CSS for the Loader component
@@ -48,7 +37,6 @@ const LoadingIcon= ({ isWhite }) => {
 export default LoadingIcon
 
 // Prototypes
-
 LoadingIcon.propTypes = {
   isWhite: PropTypes.bool,
 }

@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+// import fade-in keyframe
+import { fadeIn } from '../utils/style/keyframes'
 // import link logos
 import preview from '../assets/icons/preview.svg'
 import git from '../assets/icons/github.svg'
@@ -11,6 +13,7 @@ import git from '../assets/icons/github.svg'
  * CSS for component using styled.components
  */
 const ProjectCard = styled.article`
+animation: ${fadeIn} 2s forwards ease-in-out;
   border: 1px solid ${colors.secondary};
   background: ${colors.tertiary};
   color: ${colors.secondary};
@@ -84,10 +87,10 @@ const Card = ( {id, title, summary, cover, tags, website, github} ) => {
           <a href={website} rel="noreferrer" target="_blank"><LinkImg src={preview} alt="" title="Visit Website"/></a>
           <a href={github} rel="noreferrer" target="_blank"><LinkImg src={git} alt="" title="Project's Repo" /></a>
         </span>
-      </ProjectHeading> 
+      </ProjectHeading>
+
         <Link to={`/project/${id}`}>
           <CoverImage src={cover} alt='Cover'/>
-   
           {(tags).map((tag) => ( <TagForm key={tag}>{tag} </TagForm> ))}
           <SummaryText>{summary}</SummaryText>
         </Link> 
@@ -97,6 +100,7 @@ const Card = ( {id, title, summary, cover, tags, website, github} ) => {
 
 export default Card
 
+// Prototypes
 Card.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,

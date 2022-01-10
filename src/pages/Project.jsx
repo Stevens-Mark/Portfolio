@@ -158,6 +158,7 @@ const Project = ( { siteData } ) => {
 
 export default Project
 
+// Prototypes
 Project.propTypes = {
   siteData: PropTypes.array.isRequired,
 }

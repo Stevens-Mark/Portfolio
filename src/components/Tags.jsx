@@ -51,6 +51,7 @@ const Tags = ( {tagData} ) => {
 
 export default Tags
 
+// Prototypes
 Tags.propTypes = {
     tagData: PropTypes.array.isRequired,
 }

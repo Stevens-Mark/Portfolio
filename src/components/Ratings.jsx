@@ -29,6 +29,7 @@ export default class Ratings extends Component {
 	}
 }
 
+// Prototypes
 Ratings.propTypes = {
 	ratingNumber: PropTypes.oneOf(['1', '2', '3', '4', '5']).isRequired,
 }

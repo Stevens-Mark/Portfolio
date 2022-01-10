@@ -50,6 +50,7 @@ export default class Carousel extends Component {
   }
 }
 
+// Prototypes
 Carousel.propTypes = {
   photoAlbum : PropTypes.array.isRequired,
  }

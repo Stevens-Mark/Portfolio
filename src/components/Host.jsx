@@ -24,6 +24,7 @@ export default class Host extends Component {
     }
 }
 
+// Prototypes
 Host.propTypes = {
     name: PropTypes.string.isRequired,
     picture: PropTypes.string.isRequired,
