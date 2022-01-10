@@ -1,8 +1,10 @@
 [
 	{
 		"id": "reservia",
+		"date": "2021-03-30",
 		"title": "Reservia",
-		"cover": "images/projects/reservia/project_reservia.png",
+		"cover": "images/projects/reservia/project_reservia.jpg",
+		"summary": "Transformer une maquette en site web",
 		"pictures": [
 			"../images/projects/reservia/Reservia.svg",
 			"../images/projects/reservia/project_reservia.png",
@@ -17,22 +19,23 @@
 		},
 		"rating": "5",
 		"location": "Ile de France - Paris 17e",
-		"equipments": [
-			"Équipements de base",
-			"Micro-Ondes",
-			"Douche italienne",
-			"Frigo",
-			"WIFI"
+		"skills": [
+			"Implémenter une interface responsive",
+			"Intégrer du contenu conformément à une maquette"
 		],
 		"tags": [
-			"Batignolle",
-			"Montmartre"
-		]
+			"HTML",
+			"CSS"
+		],
+		"website": "https://stevens-mark.github.io/StevensMark_P2_30032021/",
+		"github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
 	},
 	{
 		"id": "ohmyfood",
+		"date": "2021-04-21",
 		"title": "Ohmyfood",
 		"cover": "images/projects/ohmyfood/project_ohmyfood.jpg",
+		"summary": "Une page web dynamique avec des animations",
 		"pictures": [
 			"../images/projects/ohmyfood/ohmyfood.svg",
 			"../images/projects/ohmyfood/project_ohmyfood.jpg",
@@ -48,24 +51,27 @@
 		},
 		"rating": "4",
 		"location": "Ile de France - Paris 10e",
-		"equipments": [
-			"Parking",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision"
+		"skills": [
+			"Assurer la cohérence graphique d'un site web",
+			"Utiliser un système de gestion de versions pour le suivi du projet et son hébergement",
+			"Mettre en œuvre des effets CSS graphiques avancés",
+			"Mettre en place son environnement Front-End",
+			"Mettre en place une structure de navigation pour un site web"
 		],
 		"tags": [
-			"Canal Saint Martin",
-			"République",
-			"Appartement"
-		]
+			"Sass",
+			"Git/Github",
+			"Terminal"
+		],
+		"website": "https://stevens-mark.github.io/StevensMark_P3_21042021/",
+		"github": "https://github.com/Stevens-Mark/StevensMark_P3_21042021"
 	},
 	{
 		"id": "gameon",
+		"date": "2021-05-06",
 		"title": "Game On",
 		"cover": "images/projects/gameon/project_gameon.jpg",
+		"summary": "Créer une landing page",
 		"pictures": [
 			"../images/projects/gameon/gameon_modal.jpg",
 			"../images/projects/gameon/name_error.jpg",
@@ -83,22 +89,23 @@
 		},
 		"rating": "3",
 		"location": "Ile de France - Paris 20e",
-		"equipments": [
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision",
-			"Sèche Cheveux"
+		"skills": [
+			"Programmer en JavaScript"
 		],
 		"tags": [
-			"Buttes Chaumont",
-			"Laumière",
-			"Studio"
-		]
+			"JavaScript",
+			"HTML",
+			"CSS"
+		],
+		"website": "https://stevens-mark.github.io/StevensMark_P4_06052021/",
+		"github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
 	},
 	{
 		"id": "fisheye",
+		"date": "2021-06-09",
 		"title": "Fisheye",
 		"cover": "images/projects/fisheye/project_fisheye.jpg",
+		"summary": "Créer un site web accessible",
 		"pictures": [
 			"../images/projects/fisheye/fisheye.svg",
 			"../images/projects/fisheye/project_fisheye.jpg",
@@ -118,24 +125,26 @@
 		},
 		"rating": "3",
 		"location": "Ile de France - Paris 11e",
-		"equipments": [
-			"Micro-Ondes",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Climatisation",
-			"Télévision"
+		"skills": [
+			"Gérer les évènements d'un site avec JavaScript",
+			"Développer une application web modulaire avec des design patterns",
+			"Ecrire du code JavaScript maintenable",
+			"Assurer l'accessibilité d'un site web"
 		],
 		"tags": [
-			"Parmentier",
-			"Marais",
-			"Parc",
-			"Night Life"
-		]
+			"JavaScript",
+			"Sass",
+			"Accessibilité"
+		],
+		"website": "https://stevens-mark.github.io/StevensMark_P6_09062021/",
+		"github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
 	},
 	{
 		"id": "lespetitsplats",
+		"date": "2021-07-12",
 		"title": "Les Petits Plats",
 		"cover": "images/projects/petitsplats/project_lespetitsplats.jpg",
+		"summary": "Développer un algorithme de recherche",
 		"pictures": [
 			"../images/projects/petitsplats/les_petits_plats.svg",
 			"../images/projects/petitsplats/mainsearch.jpg",
@@ -151,22 +160,24 @@
 		},
 		"rating": "5",
 		"location": "Ile de France - Paris 10e",
-		"equipments": [
-			"Frigo Américain",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Parking"
+		"skills": [
+			"Analyser un problème informatique",
+			"Développer un algorithme pour résoudre un problème"
 		],
 		"tags": [
-			"Goncourt",
-			"Proche commerces"
-		]
+			"JavaScript",
+			"Sass",
+			"Algorithms"
+		],
+		"website": "https://stevens-mark.github.io/StevensMark_P7_12072021/",
+		"github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
 	},
 	{
 		"id": "billed",
+		"date": "2021-08-09",
 		"title": "Billed",
 		"cover": "images/projects/billed/project_billed.jpg",
+		"summary": "Déboguer et tester un SaaS RH",
 		"pictures": [
 			"../images/projects/billed/billed.jpg",
 			"../images/projects/billed/project_billed.jpg",
@@ -186,20 +197,26 @@
 		},
 		"rating": "5",
 		"location": "Ile de France - Paris 18e",
-		"equipments": [
-			"Chambre Séparée",
-			"Parking"
+		"skills": [
+			"Ecrire des tests unitaires avec JavaScript",
+			"Débugger une application web avec le Chrome Debugger",
+			"Rédiger un plan de test end-to-end manuel",
+			"Ecrire des tests d'intégration avec JavaScript"
 		],
 		"tags": [
-			"Montmartre",
-			"Culture",
-			"Charme"
-		]
+			"Jest",
+			"JavaScript",
+			"Débogage"
+		],
+		"website": "https://stevens-mark.github.io/StevensMark_P9_09082021/",
+		"github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
 	},
 	{
 		"id": "learnathome",
+		"date": "2021-09-20",
 		"title": "Learn At Home",
-		"cover": "images/projects/learnathome/project_learnathome.jpg",
+		"cover": "images/projects/learnathome/7_messages.jpg",
+		"summary": "Définir les besoins pour une app de soutien scolaire",
 		"pictures": [
 			"../images/projects/learnathome/learnathome.jpg",
 			"../images/projects/learnathome/project_learnathome.jpg",
@@ -221,24 +238,27 @@
 		},
 		"rating": "3",
 		"location": "Ile de France - Paris 18e",
-		"equipments": [
-			"Salle de bains",
-			"Frigo",
-			"Wi-fi",
-			"Sèche Cheveux",
-			"Bureau",
-			"Parking"
+		"skills": [
+			"Contribuer à un projet en utilisant une méthodologie agile",
+			"Créer une maquette pour un client",
+			"Identifier les besoins de l'application à partir d'un cahier des charges",
+			"Modéliser une solution technique pour un client"
 		],
 		"tags": [
-			"Transports",
-			"Cheap",
-			"18ème"
-		]
+			"Agile",
+			"User Stories",
+			"UML",
+			"Figma"
+		],
+		"website": "https://www.figma.com/file/K8QF42xb6EzUyqDOvKHAXW/Learn-at-home",
+		"github": "https://github.com/Stevens-Mark/StevensMark_P10_20092021"
 	},
 	{
 		"id": "kasa",
+		"date": "2021-10-18",
 		"title": "Kasa",
 		"cover": "images/projects/kasa/project_kasa.jpg",
+		"summary": "Développer une application web",
 		"pictures": [
 			"../images/projects/kasa/kasa_logo.svg",
 			"../images/projects/kasa/project_kasa.jpg",
@@ -255,25 +275,24 @@
 		},
 		"rating": "5",
 		"location": "Ile de France - Paris 6e",
-		"equipments": [
-			"Wi-fi",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Parking",
-			"Lit King Size",
-			"Ascenseur"
+		"skills": [
+			"Développer les routes d'une application web avec React Router",
+			"Initialiser une application web avec un framework",
+			"Créer des composants avec React"
 		],
 		"tags": [
-			"Luxe",
-			"Tour Eiffel",
-			"T3",
-			"6ème"
-		]
+			"React",
+			"React-Router"
+		],
+		"website": "https://stevens-mark.github.io/StevensMark_P11_18102021/",
+		"github": "https://github.com/Stevens-Mark/StevensMark_P11_18102021"
 	},
 	{
 		"id": "sportsee",
+		"date": "2021-11-08",
 		"title": "Sports See",
-		"cover": "images/projects/sportsee/karl.jpg",
+		"cover": "images/projects/sportsee/cecelia.jpg",
+		"summary":"Développer un tableau de bord analytique",
 		"pictures": [
 			"../images/projects/sportsee/sportsSee_logo.png",
 			"../images/projects/sportsee/project_sportsee.jpg",
@@ -287,23 +306,27 @@
 		},
 		"rating": "4",
 		"location": "Ile de France - Paris 14e",
-		"equipments": [
-			"Climatisation",
-			"Machine à laver",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Parking"
+		"skills": [
+			"Assurer la qualité des données d'une application",
+			"Interagir avec un service Web",
+			"Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
+			"Produire de la documentation technique pour une application"
 		],
 		"tags": [
-			"Montparnasse",
-			"Commerces",
-			"Famille"
-		]
+			"React",
+			"Recharts",
+			"API REST",
+			"JSDoc"
+		],
+		"website": "https://stevens-mark.github.io/StevensMark_P12_08112021/",
+		"github": "https://github.com/Stevens-Mark/StevensMark_P12_08112021"
 	},
 	{
 		"id": "argentbank",
 		"title": "Argent Bank",
+		"date": "2021-12-02",
 		"cover": "images/projects/argentbank/project_argentbank.jpg",
+		"summary": "Utiliser une API pour un compte utilisateur bancaire",
 		"pictures": [
 			"../images/projects/argentbank/argentBankLogo.png",
 			"../images/projects/argentbank/project_argentbank.jpg",
@@ -322,25 +345,27 @@
 		},
 		"rating": "3",
 		"location": "Ile de France - Paris 11e",
-		"equipments": [
-			"Vue Parc",
-			"Chauffage",
-			"Sèche linge",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Ascenseur"
+		"skills": [
+			"Implémenter un gestionnaire d'état dans une application React",
+			"Intéragir avec une API",
+			"Modéliser une API",
+			"S'authentifier à une API"
 		],
 		"tags": [
-			"Père Lachaise",
-			"11e",
-			"Metro 3",
-			"Metro 2"
+			"React",
+			"Redux",
+			"Swagger"
 		]
+		,
+		"website": "https://stevens-mark.github.io/StevensMark_P13_02122021/",
+		"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
 	},
 	{
 		"id": "2cf259e1",
 		"title": "Charmant Studio Marais",
+		"date": "2021-12-02",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
+		"summary": "spare place",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-2.jpg",
@@ -354,7 +379,7 @@
 		},
 		"rating": "4",
 		"location": "Ile de France - Paris 11e",
-		"equipments": [
+		"skills": [
 			"Clic-clac",
 			"Four",
 			"Sèche Cheveux",
@@ -364,7 +389,9 @@
 			"Marais",
 			"Studio",
 			"Parc"
-		]
+		],
+		"website": "",
+		"github": ""
 	}
 
 ]

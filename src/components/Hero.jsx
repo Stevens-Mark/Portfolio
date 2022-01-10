@@ -31,6 +31,10 @@ const HeroContent = styled.article`
   // text-align: left;
   margin: 0 auto;
 
+
+  @media (min-width: 500px) {
+    width: 18.5rem;
+  }
   @media (min-width: 920px) {
     position: absolute;
     top: 2rem;

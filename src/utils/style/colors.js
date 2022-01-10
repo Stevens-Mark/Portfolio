@@ -1,12 +1,12 @@
 // colors used on the website
 
 const colors = {
-  primary: '#FF0000',
+  primary: '#33CCCC',
   secondary: '#000',
   tertiary: '#fff',
   quaternary: ' #282D30',
   backgroundLight: '#FBFBFB',
-
+  background: '#F6F6F6',
   shadow: '#d9d9d9',
 
   // Text

@@ -20,12 +20,7 @@ const HEADER = styled.header`
   background: black;
   justify-content: space-between;
   align-items: center;
-  // max-width: 1240px;
   padding: 1.5rem;
-  
-  // @media screen and (max-width: 1240px) {
-  //   margin: 1.25rem;
-  // }
 `;
 
 const LogoImg = styled.img`

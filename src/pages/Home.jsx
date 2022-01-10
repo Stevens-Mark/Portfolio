@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
+import colors from '../utils/style/colors'
 // import components
 import Hero from '../components/Hero'
 import Card from '../components/Card'
@@ -12,21 +13,16 @@ import Card from '../components/Card'
  const HomeWrapper = styled.main`
   display: flex;
   flex-direction: column;
-  // align-items: center;
 `;
 
 const PortFolioWrapper = styled.div`
   margin-top: 1.25rem;
   // max-width: 1240px;
-  border-radius: 1.563rem;
+  // border-radius: 1.563rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-
-  @media screen and (min-width: 670px) {
-    background: #F6F6F6;
-    margin-top: 2.5rem;
-    }
+  background: ${colors.primary};
 `;
 
 /**
@@ -46,7 +42,7 @@ const Home = ( {siteData} ) => {
       <Hero />
       <PortFolioWrapper>
           {siteData.map((data) => ( 
-                <Card key={data.id} id={data.id} title={data.title} cover={data.cover}/> 
+                <Card key={data.id} id={data.id} title={data.title} summary={data.summary} cover={data.cover} tags={data.tags} website={data.website} github={data.github}/> 
           ))}         
       </PortFolioWrapper>
   </HomeWrapper>

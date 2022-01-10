@@ -147,7 +147,7 @@ const Project = ( { siteData } ) => {
 
                     <Details>
                         <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation' title={'Description'} content={data.description}/>
-                        <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation'  title={'Equipment'} content={data.equipments}/>
+                        <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation'  title={'Skills'} content={data.skills}/>
                     </Details>
 
                   </ProjectWrapper>                   
