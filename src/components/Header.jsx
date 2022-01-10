@@ -24,9 +24,7 @@ const HEADER = styled.header`
 `;
 
 const LogoImg = styled.img`
-  width: 14.6vw;
-  min-width: 11rem;
-  max-width: 11rem;
+  width: clamp(8rem, 12.2vw, 12rem);
 `;
 
 const UList = styled.ul`
@@ -42,17 +40,13 @@ const NAVLINK = styled(NavLink)`
   font-family: Vladimir script, 'Montserrat', sans-serif;
   font-weight: 500;
   color: ${colors.tertiary};
-  font-size: clamp(0.75rem, 2vw, 2.5rem);
+  font-size: clamp(1.3rem, 2vw, 2.5rem);
   &.${(props) => props.activeClassName} {
     color: ${colors.activeA};
   }
   &:hover {
     color: ${colors.activeA};
     text-decoration: underline;
-  }
-
-  @media screen and (max-width: 600px) {
-    text-transform: uppercase;
   }
 `;
 

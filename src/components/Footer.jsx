@@ -13,7 +13,6 @@ const FOOTER = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // max-width: 1440px;
   height: 8rem;
   margin-top: 6rem;
   background: ${colors.secondary};

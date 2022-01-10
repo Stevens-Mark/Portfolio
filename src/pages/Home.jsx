@@ -21,7 +21,7 @@ const PortFolioWrapper = styled.div`
   // border-radius: 1.563rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  // justify-content: spac-between;
   background: ${colors.primary};
 `;
 

@@ -15,7 +15,8 @@ const ProjectCard = styled.article`
   background: ${colors.tertiary};
   color: ${colors.secondary};
   border-radius: 0.313rem;
-  padding: 15px;
+  padding: 0.938rem;
+  margin: 1.25rem;
   flex: 1 1 250px;
   filter: brightness(95%);
   transition: 0.4s;
@@ -24,20 +25,9 @@ const ProjectCard = styled.article`
     box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
   }
 
-  // @media screen and (min-width: 670px) {
-  //   height:500px;
-    margin: 1.25rem;
-  //   flex: 1 1 275px;
-  //   /* max-width: 275px; */
-  // } 
-  
   h2 {
-    font-size: 1.125rem;
-    // font-style: normal;
+    font-size: 1.2rem;
     font-weight: 500;
-    // position: relative;
-    // bottom: 4rem;
-    // margin: 0.625rem;
   }
 `;
 
@@ -48,13 +38,12 @@ const ProjectHeading = styled.div`
 `;
 
 const LinkImg = styled.img`
-  width: 25px;
+  width: 1.563rem;
+  width: clamp(1rem, 1.6vw, 1.4rem);
   margin: 0px 5px;
 `;
 
 const CoverImage = styled.img`
-  // border: 1px solid ${colors.secondary};
-  // filter: brightness(95%);
   // object-fit: cover;
   max-height: 300px;
   width: 100%; 
@@ -62,18 +51,17 @@ const CoverImage = styled.img`
 `;
 
 const TagForm = styled.span`
-font-size: 0.8rem;
+ font-size: 0.8rem;
  background: ${colors.primary};
  color: ${colors.tertiary};
  border-radius: 5px;
  margin: 2px;
  padding: 1px 8px;
-
 `;
 
-
-const SummeryText = styled.p`
-  color: ${colors.secondary};
+const SummeryText = styled.h3`
+  font-weight: 500;
+  font-size: clamp(0.9rem, 1vw, 1rem);
 `;
 
 /**
