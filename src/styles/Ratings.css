@@ -1,0 +1,26 @@
+/* CSS for host rating component*/
+
+
+.ratingsWrapper {
+        text-align: right;
+}
+
+.star {
+    margin-top: 0.5rem;
+    width: 1.25rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 600px) {
+    .star {
+        width: 1.875rem;
+        margin-top: 0.938rem;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    .star {
+        margin-top: 1.563rem;
+    }
+}
