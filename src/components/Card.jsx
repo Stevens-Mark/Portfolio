@@ -67,6 +67,14 @@ const SummaryText = styled.h3`
   font-size: clamp(0.9rem, 1vw, 1rem);
 `;
 
+const ScenarioText = styled.p`
+  font-weight: 500;
+  font-size: clamp(0.9rem, 1vw, 0.8rem);
+  text-align: justify;
+  // text-justify: inter-word;
+`;
+
+
 /**
  * Individual announcement card for each project on Home page
  * @function Card
@@ -78,7 +86,7 @@ const SummaryText = styled.h3`
  * @param {string} github: project repo
  * @returns {JSX}
  */
-const Card = ( {id, title, summary, cover, tags, website, github} ) => {
+const Card = ( {id, title,  cover, summary, scenario, tags, website, github} ) => {
 
   const { theme } = useTheme()
 
@@ -96,6 +104,7 @@ const Card = ( {id, title, summary, cover, tags, website, github} ) => {
           <CoverImage src={cover} alt='Cover'/>
           {(tags).map((tag) => ( <TagForm key={tag}>{tag} </TagForm> ))}
           <SummaryText>{summary}</SummaryText>
+          <ScenarioText>{scenario}</ScenarioText>
         </Link> 
     </ProjectCard>
   )

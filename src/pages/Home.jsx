@@ -50,7 +50,7 @@ const Home = ( {siteData} ) => {
       <Hero />
       <PortFolioWrapper theme={theme}>
           {siteData.map((data) => ( 
-                <Card key={data.id} id={data.id} title={data.title} summary={data.summary} cover={data.cover} tags={data.tags} website={data.website} github={data.github}/> 
+                <Card key={data.id} id={data.id} title={data.title} cover={data.cover} summary={data.summary} scenario={data.scenario} tags={data.tags} website={data.website} github={data.github}/> 
           ))}   
       </PortFolioWrapper>
       <GoToTop />
