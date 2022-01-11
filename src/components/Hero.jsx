@@ -27,17 +27,19 @@ const HeroContainer = styled.section`
 
 const HeroContent = styled.article`
   position: relative;
-  top: 2rem;
+  top: 3rem;
   z-index: 1;
   width: 12.5rem;
   background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
-  padding: 1.5rem;
+  padding: 0.5rem;
   margin: 0 auto;
 
   @media (min-width: 500px) {
+    padding: 1rem;
     width: 18.5rem;
   }
   @media (min-width: 920px) {
+    padding: 1.5rem;
     position: absolute;
     top: 2rem;
     right: 3.125rem;
@@ -45,6 +47,18 @@ const HeroContent = styled.article`
     margin: 2rem;
   }
 `;
+
+// const HeroTitle = styled.h2`
+//   font-size: 1.5rem;
+
+//   @media (min-width: 500px) {
+//     font-size: 24px;
+//   }
+//   @media (min-width: 920px) {
+//     font-size: 24px;
+//   }
+// `;
+
 
 const HeroSubtitle = styled.p`
   font-weight: bold;
@@ -73,7 +87,7 @@ const HeroText = styled.p`
 const Hero = () => {
 
   const { theme } = useTheme()
-  
+
   return (
     <HeroContainer theme={theme}>
         <h1 className="sr-only">Mark Stevens - Welcome</h1>

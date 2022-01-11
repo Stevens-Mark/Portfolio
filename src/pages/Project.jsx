@@ -129,7 +129,7 @@ const Project = ( { siteData } ) => {
         {
           return (
               <main>
-                     <ProjectWrapper>
+                  <ProjectWrapper>
                     <Carousel photoAlbum={data.pictures}/>
                     <ProjectHeader>
 

@@ -24,7 +24,7 @@ body {
   margin: auto;
   box-sizing: border-box;
   
-  // background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
+  background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
   // min-height: 100vh;
   // color: ${({ isDarkMode }) => (isDarkMode ? `${colors.tertiary}` : `${colors.secondary}`)};
 } 
@@ -35,9 +35,9 @@ code {
 
 main {
   padding-top: 110px;
-  min-height: calc(100vh - 22rem);
-  /* height: 100%; */
-  /* min-height: 85vh; */
+  // min-height: calc(100vh - 22rem);
+  //  height: 100%; 
+  min-height: 85vh; 
 }
 
 a {

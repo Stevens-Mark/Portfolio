@@ -17,7 +17,8 @@ import Error from './pages/Error'
  * @returns {JSX}
  */
 const App = () => {
-    return (
+
+  return (
       <Router>
         <Header />   
           <Switch>

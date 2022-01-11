@@ -7,6 +7,7 @@ import { useTheme } from '../utils/Functions/theme'
 // import components
 import Hero from '../components/Hero'
 import Card from '../components/Card'
+import GoToTop from '../utils/Functions/GoToTop'
 
 /**
  * CSS for component using styled.components
@@ -43,15 +44,16 @@ const Home = ( {siteData} ) => {
   useEffect(() => {
     document.title = 'Mark Stevens - Home'
   }, [])
-
+ 
   return (
     <main>
       <Hero />
       <PortFolioWrapper theme={theme}>
           {siteData.map((data) => ( 
                 <Card key={data.id} id={data.id} title={data.title} summary={data.summary} cover={data.cover} tags={data.tags} website={data.website} github={data.github}/> 
-          ))}         
+          ))}   
       </PortFolioWrapper>
+      <GoToTop />
   </main>
   )
 }

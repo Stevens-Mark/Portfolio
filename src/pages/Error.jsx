@@ -12,7 +12,7 @@ const ErrorWrapper = styled.main`
   color: ${colors.styledText};
   display: flex;
   flex-direction: column;
- 
+
   h1 {
     font-family: Vladimir script;
     font-size: clamp(6rem, 10vw, 17rem);

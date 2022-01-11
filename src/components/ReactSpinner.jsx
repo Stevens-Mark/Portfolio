@@ -11,9 +11,9 @@ const SpinnerWrapper = styled.div`
 `;
 
 const LogoImg = styled.img`
-height: 30vmin;
-pointer-events: none;
-animation: ${rotate} infinite 20s linear;   
+  height: 25vmin;
+  pointer-events: none;
+  animation: ${rotate} infinite 20s linear;   
 `;
 
 /**

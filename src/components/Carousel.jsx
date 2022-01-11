@@ -11,7 +11,7 @@ import Blank from '../assets/images/blank.jpg'
 /**
  * CSS for the component using styled.components
  */
-const CarouselWrapper = styled.div`
+const CarouselWrapper = styled.article`
   position: relative;
   display: flex;
   align-items: center;
