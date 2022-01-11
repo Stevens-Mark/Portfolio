@@ -1,47 +1,63 @@
 import { createGlobalStyle } from 'styled-components'
-import { useTheme } from '../functions/theme'
+import { useTheme } from '../Functions/theme'
 import colors from './colors'
 
 /**
  * CSS Global styles for the site using styled.components
  */
  const StyledGlobalStyle = createGlobalStyle`
- html {
-   box-sizing: border-box;
-   font-family: Avenir, Helvetica, Arial, sans-serif;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   text-align: center;
-   color: ${colors.aLink};
- }
+//  html {
+//    box-sizing: border-box;
+//    font-family: Avenir, Helvetica, Arial, sans-serif;
+//    -webkit-font-smoothing: antialiased;
+//    -moz-osx-font-smoothing: grayscale;
+//    text-align: center;
+//    color: ${colors.aLink};
+//  }
 
- body {  
-  background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+
+body {  
+  font-family:  'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: ${({ isDarkMode }) => (isDarkMode ? `${colors.tertiary}` : `${colors.secondary}`)};
- } 
+  color: #FFFFFF;
+  margin: auto;
+  box-sizing: border-box;
+  
+  // background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
+  // min-height: 100vh;
+  // color: ${({ isDarkMode }) => (isDarkMode ? `${colors.tertiary}` : `${colors.secondary}`)};
+} 
 
- .main {
-    flex: 1;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+main {
+  padding-top: 110px;
+  min-height: calc(100vh - 22rem);
+  /* height: 100%; */
+  /* min-height: 85vh; */
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
  
- .sr-only {
-   border: 0 !important;
-   clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
-   -webkit-clip-path: inset(50%) !important;
-   clip-path: inset(50%) !important; /* 2 */
-   height: 1px !important;
-   margin: -1px !important;
-   overflow: hidden !important;
-   padding: 0 !important;
-   position: absolute !important;
-   width: 1px !important;
-   white-space: nowrap !important; /* 3 */
- }
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important; /* 2 */
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important; /* 3 */
+}
 `;
 
 /**

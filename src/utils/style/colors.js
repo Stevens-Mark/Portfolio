@@ -14,6 +14,12 @@ const colors = {
   // Link
   activeA: '#33CCCC',
   aLink: '#2c3e50',
+
+  mainBackgroundDarkMode: '#2F2E41',
+  darkModeHighlights: '#4F4C6B',
+
 }
+
+
 
 export default colors

@@ -2,6 +2,7 @@ import { Link} from 'react-router-dom'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+import { useTheme } from '../utils/Functions/theme'
 // import logo
 import FooterLogo from '../assets/logos/mark_logo.png'
 
@@ -15,7 +16,7 @@ const FOOTER = styled.footer`
   align-items: center;
   height: 8rem;
   margin-top: 1rem;
-  background: ${colors.secondary};
+  background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
   
   img {
     margin-top: 0.5rem;
@@ -30,16 +31,27 @@ const FOOTER = styled.footer`
   }
 `;
 
+const NightModeButton = styled.button`
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: ${({ theme }) => (theme === 'light' ? `${colors.tertiary}` : `${colors.primary}`)};  
+`;
+
 /**
  * Renders Footer on each page
  * @function Banner
  * @returns {JSX}
  */
 const Footer = () => {
+  const { toggleTheme, theme } = useTheme()
   return (
-    <FOOTER>
+    <FOOTER theme={theme}>
         <Link to="/"><img src={FooterLogo} alt="logo"></img></Link>
         <p>© 2022 Mark Stevens. All rights reserved</p>
+        <NightModeButton theme={theme} onClick={() => toggleTheme()}>
+            Change mode : {theme === 'light' ? '☀️' : '🌙'}
+        </NightModeButton>
     </FOOTER>
   )
 }

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+import { useTheme } from '../utils/Functions/theme'
 // import components
 import Hero from '../components/Hero'
 import Card from '../components/Card'
@@ -13,7 +14,7 @@ import Card from '../components/Card'
 const PortFolioWrapper = styled.div`
   margin-top: .25rem;
   padding: 1rem 0rem;
-  background: ${colors.primary};
+  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.darkModeHighlights}`)};
     @media screen and (min-width: 668px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -37,6 +38,7 @@ const PortFolioWrapper = styled.div`
  * @returns {JSX}
  */
 const Home = ( {siteData} ) => {
+  const { theme } = useTheme()
 
   useEffect(() => {
     document.title = 'Mark Stevens - Home'
@@ -45,7 +47,7 @@ const Home = ( {siteData} ) => {
   return (
     <main>
       <Hero />
-      <PortFolioWrapper>
+      <PortFolioWrapper theme={theme}>
           {siteData.map((data) => ( 
                 <Card key={data.id} id={data.id} title={data.title} summary={data.summary} cover={data.cover} tags={data.tags} website={data.website} github={data.github}/> 
           ))}         

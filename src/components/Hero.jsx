@@ -1,6 +1,7 @@
 // styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
 // hero banner background
@@ -17,7 +18,8 @@ const HeroContainer = styled.section`
   background-repeat: no-repeat;
   height: 18.75rem;
   position: relative;
-  
+  filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
+
   @media (min-width: 920px) {
     height: 25rem;
   }
@@ -25,10 +27,10 @@ const HeroContainer = styled.section`
 
 const HeroContent = styled.article`
   position: relative;
-  top: 1rem;
+  top: 2rem;
   z-index: 1;
   width: 12.5rem;
-  background: ${({ theme }) => (theme === 'light' ? `${colors.tertiary}` : `${colors.mainBackgroundDarkMode}`)};
+  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
   padding: 1.5rem;
   margin: 0 auto;
 
@@ -70,12 +72,14 @@ const HeroText = styled.p`
  */
 const Hero = () => {
 
+  const { theme } = useTheme()
+  
   return (
-    <HeroContainer>
-        {/* <h1 className="sr-only">Argent Bank - Welcome</h1> */}
+    <HeroContainer theme={theme}>
+        <h1 className="sr-only">Mark Stevens - Welcome</h1>
         <ReactSpinner />
 
-        <HeroContent>
+        <HeroContent theme={theme} >
           <h2>Développeur Front-end</h2>
           <HeroSubtitle>Fiabilité.</HeroSubtitle>
           <HeroSubtitle>Respect.</HeroSubtitle>

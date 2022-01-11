@@ -89,8 +89,8 @@ export default class Carousel extends Component {
     return (   
           <CarouselWrapper>
             <CarouselControls>
-              <CarouselControlArrows src={previousArrow} alt='précédent' onClick={previousSlide} />
-              <CarouselControlArrows src={nextArrow} alt='suivant' onClick={nextSlide} />
+              <CarouselControlArrows src={previousArrow} alt='previous' onClick={previousSlide} />
+              <CarouselControlArrows src={nextArrow} alt='next' onClick={nextSlide} />
             </CarouselControls>
               <CarouselImages src={pictures? pictures[currentImageIndex] : Blank} alt='Carousel Gallery' />
               <Counter>{currentImageIndex+1}/{length || 0 }</Counter>

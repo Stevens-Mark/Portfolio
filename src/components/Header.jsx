@@ -2,6 +2,10 @@ import { Link, NavLink } from 'react-router-dom'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+import { useTheme } from '../utils/Functions/theme'
+// import fade-in keyframe
+import { fadeIn } from '../utils/style/keyframes'
+
 // import logo
 import logo from '../assets/logos/mark_logo.png'
 
@@ -16,13 +20,14 @@ const HEADER = styled.header`
   right: 0;
   margin: 0 auto;
   z-index: 9999;
-  background: ${colors.secondary};
+  background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
 `;
 
 const LogoImg = styled.img`
+  animation: ${fadeIn} 3s forwards ease-in-out;
   width: clamp(8rem, 12.2vw, 12rem);
 `;
 
@@ -55,8 +60,11 @@ const NAVLINK = styled(NavLink)`
  * @returns {JSX}
  */
 const Header = () => {
+
+  const { theme } = useTheme()
+
   return (
-    <HEADER>
+    <HEADER theme={theme}>
       <Link to="/"><LogoImg src={logo} alt="logo"/></Link>
       <nav>
         <UList>

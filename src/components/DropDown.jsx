@@ -6,6 +6,7 @@ import colors from '../utils/style/colors'
 // import icons
 import upArrow from '../assets/icons/up_arrow_white.svg'
 import downArrow from '../assets/icons/down_arrow_white.svg'
+// import Css as passed as parameters
 import '../utils/style/DropDown.css'
 
 /**
@@ -64,8 +65,8 @@ const DropDown = ( {dropdownWidth, dropdownHeight, title, content} ) => {
       <div className={dropdownWidth} /* ref={this.container} */>
           <DropDownTitleBar onClick={() =>handleButtonClick()}>
               <DropDownTitleBarText>{title}</DropDownTitleBarText>
-              <span>{open ? (<DropdownArrow src={upArrow} alt="icon" />) : 
-                  (<DropdownArrow src={downArrow} alt="icon" />)}
+              <span>{open ? (<DropdownArrow src={upArrow} alt="" />) : 
+                  (<DropdownArrow src={downArrow} alt="" />)}
               </span>
           </DropDownTitleBar>
 

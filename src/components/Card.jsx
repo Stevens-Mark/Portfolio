@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
 // import link logos
@@ -13,14 +14,14 @@ import git from '../assets/icons/github.svg'
  * CSS for component using styled.components
  */
 const ProjectCard = styled.article`
-animation: ${fadeIn} 2s forwards ease-in-out;
+  animation: ${fadeIn} 2s forwards ease-in-out;
   border: 1px solid ${colors.secondary};
-  background: ${colors.tertiary};
+  background: ${({ theme }) => (theme === 'light' ? `${colors.tertiary}` : `${colors.tertiary}`)};
+  filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
   color: ${colors.secondary};
   border-radius: 0.313rem;
   padding: 0.938rem;
   margin: 1rem;
-  filter: brightness(95%);
   transition: 0.4s;
   &:hover {
     filter: brightness(100%);
@@ -79,8 +80,10 @@ const SummaryText = styled.h3`
  */
 const Card = ( {id, title, summary, cover, tags, website, github} ) => {
 
+  const { theme } = useTheme()
+
   return (
-    <ProjectCard>
+    <ProjectCard theme={theme}>
       <ProjectHeading>
         <h2>{title}</h2>
         <span>
