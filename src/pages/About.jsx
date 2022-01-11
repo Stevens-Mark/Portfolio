@@ -1,10 +1,13 @@
 import { useEffect } from 'react'
+// for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+// import components
 import Banner from '../components/Banner'
-import aboutBanner from '../assets/images/aboutBanner.jpg'
-import { dropDownList} from '../assets/data/aboutDropdownData.js'
 import DropDown from '../components/DropDown'
+import aboutBanner from '../assets/images/aboutBanner.jpg'
+// import data
+import { dropDownList} from '../assets/data/aboutDropdownData.js'
 
 /**
  * CSS for component using styled.components
