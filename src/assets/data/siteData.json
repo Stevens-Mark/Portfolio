@@ -264,7 +264,7 @@
 		"date": "2021-10-18",
 		"title": "Kasa",
 		"cover": "images/projects/kasa/project_kasa.jpg",
-		"summary": "Développement d'un single page application",
+		"summary": "Développement d'un SPA",
 		"pictures": [
 			"../images/projects/kasa/kasa_logo.svg",
 			"../images/projects/kasa/project_kasa.jpg",

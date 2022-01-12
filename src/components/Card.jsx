@@ -30,7 +30,6 @@ const ProjectCard = styled.article`
 
   h2 {
     font-size: 1.2rem;
-    // font-weight: 500;
   }
 `;
 
@@ -63,15 +62,23 @@ const TagForm = styled.span`
 `;
 
 const SummaryText = styled.h3`
-  // font-weight: 500;
   font-size: clamp(0.9rem, 1vw, 1rem);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  @media screen and (min-width: 668px) {
+    -webkit-line-clamp: 1;
+  }
 `;
 
 const DescriptionText = styled.p`
   color: darkslategrey;
   font-size: clamp(0.8rem, 1vw, 0.9rem);
   text-align: justify;
-  // text-justify: inter-word;
+  text-justify: inter-word;
 `;
 
 
