@@ -14,13 +14,13 @@ const ToTopButton = styled.img`
   right: 20px;
   width: clamp(1.5rem, 3.2vw, 2.5rem);
   padding: 3px;
-  background: yellow;
+  background: ${colors.topButtonMain};
   border: 2px solid ${colors.tertiary};
   cursor: pointer;
   border-radius: 40%;
   transition: 0.4s;
   &:hover {
-    background: ${colors.primary};
+    background: ${colors.topButtonHover};
 `;
 
 /**

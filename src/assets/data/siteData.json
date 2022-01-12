@@ -36,7 +36,7 @@
 		"date": "2021-04-21",
 		"title": "Ohmyfood",
 		"cover": "images/projects/ohmyfood/project_ohmyfood.jpg",
-		"summary": "Une page web dynamique avec des animations",
+		"summary": "Création d'un site web dynamique",
 		"pictures": [
 			"../images/projects/ohmyfood/ohmyfood.svg",
 			"../images/projects/ohmyfood/project_ohmyfood.jpg",
@@ -46,7 +46,7 @@
 			"../images/projects/ohmyfood/menu4.jpg"
 		],
 		"description": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.",
-		"objective": "Objectif : traduire les maquettes et rendre le site plus dynamique grâce à des animations réalisées à l'aide de Sass.",
+		"objective": "Traduire les maquettes et rendre le site plus dynamique grâce à des animations réalisées à l'aide de Sass.",
 		"host": {
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
@@ -73,7 +73,7 @@
 		"date": "2021-05-06",
 		"title": "Game On",
 		"cover": "images/projects/gameon/project_gameon.jpg",
-		"summary": "Créer une landing page",
+		"summary": "Création du formulaire d'inscription",
 		"pictures": [
 			"../images/projects/gameon/gameon_modal.jpg",
 			"../images/projects/gameon/name_error.jpg",
@@ -108,7 +108,7 @@
 		"date": "2021-06-09",
 		"title": "Fisheye",
 		"cover": "images/projects/fisheye/project_fisheye.jpg",
-		"summary": "Créer un site web accessible",
+		"summary": "Création d'un site web accessible",
 		"pictures": [
 			"../images/projects/fisheye/fisheye.svg",
 			"../images/projects/fisheye/project_fisheye.jpg",
@@ -182,7 +182,7 @@
 		"date": "2021-08-09",
 		"title": "Billed",
 		"cover": "images/projects/billed/project_billed.jpg",
-		"summary": "Déboguer et tester un SaaS RH",
+		"summary": "Le débogage et le test d'un SaaS RH",
 		"pictures": [
 			"../images/projects/billed/billed.jpg",
 			"../images/projects/billed/project_billed.jpg",
@@ -195,7 +195,7 @@
 			"../images/projects/billed/tests_Jest_src_views.jpg",
 			"../images/projects/billed/tests_Jest_src_views.jpg"
 		],
-		"description": "Billed is a company that produces Saas solutions for human resources teams. la fonction de rapport de dépenses d'une application n'est pas terminée. Dans deux semaines, l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise.",
+		"description": "Billed est une société qui produit des solutions Saas pour les équipes de ressources humaines. Dans deux semaines, l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise.",
 		"objective": "Trouver les bogues indiqués dans le rapport de bogue. Rédiger également les tests unitaires et d'intégration ainsi qu'un plan E2E.",
 		"host": {
 			"name": "Line Rolland",
@@ -222,7 +222,7 @@
 		"date": "2021-09-20",
 		"title": "Learn At Home",
 		"cover": "images/projects/learnathome/7_messages.jpg",
-		"summary": "Définir les besoins pour une app de soutien scolaire",
+		"summary": "Définir les besoins d'une app de tutorat",
 		"pictures": [
 			"../images/projects/learnathome/learnathome.jpg",
 			"../images/projects/learnathome/project_learnathome.jpg",
@@ -252,7 +252,6 @@
 			"Modéliser une solution technique pour un client"
 		],
 		"tags": [
-			"Agile",
 			"User Stories",
 			"Use Case",
 			"Figma"
@@ -265,7 +264,7 @@
 		"date": "2021-10-18",
 		"title": "Kasa",
 		"cover": "images/projects/kasa/project_kasa.jpg",
-		"summary": "Développer une application web",
+		"summary": "Développement d'un single page application",
 		"pictures": [
 			"../images/projects/kasa/kasa_logo.svg",
 			"../images/projects/kasa/project_kasa.jpg",
@@ -275,7 +274,7 @@
 			"../images/projects/kasa/page4.jpg",
 			"../images/projects/kasa/about.jpg"
 		],
-		"description": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Il souhaite qu'une nouvelle plateforme web soit développée",
+		"description": "Kasa est dans le métier de la location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
 		"objective": "Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
 		"host": {
 			"name": "Sébastien Fournier",
@@ -307,7 +306,7 @@
 			"../images/projects/sportsee/karl.jpg",
 			"../images/projects/sportsee/cecelia.jpg"
 		],
-		"description": "SportSee est une startup dédiée au coaching sportif. En pleine croissance, l’entreprise lancera une nouvelle version de la page profil de l’utilisateur. Cette page va notamment permettre à l’utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.",
+		"description": "SportSee est une startup dédiée au coaching sportif. La société va lancer une nouvelle version de la page de profil de l'utilisateur, qui permettra de suivre le nombre de séances effectuées ainsi que les calories brûlées.",
 		"objective": "Redessiner la page de profil avec React, en utilisant soit D3 ou Recharts pour les graphiques d'activité sportive de l'utilisateur. Créez un service séparé qui se chargera des appels HTTP vers le backend (NodeJS) en utilisant Fetch ou Axios. Il est important que vous fassiez les appels en dehors des composants React. Enfin, toute la documentation doit être réalisée en anglais.",
 		"host": {
 			"name": "Adrien Chiran",
@@ -334,7 +333,7 @@
 		"title": "Argent Bank",
 		"date": "2021-12-02",
 		"cover": "images/projects/argentbank/project_argentbank.jpg",
-		"summary": "Utiliser une API pour un compte utilisateur bancaire",
+		"summary": "Utilisation d'une API pour un compte bancaire",
 		"pictures": [
 			"../images/projects/argentbank/argentBankLogo.png",
 			"../images/projects/argentbank/project_argentbank.jpg",
@@ -346,7 +345,7 @@
 			"../images/projects/argentbank/6_transactionsnight.jpg",
 			"../images/projects/argentbank/7_editnamenight.jpg"
 		],
-		"description": "Argent Bank est une nouvelle banque qui tente de percer dans le secteur et a besoin d'aide pour mettre en place son application. Le contrat en deux parties est décomposé en plusieurs phases : Phase 1 : Authentification de l'utilisateur - Création d'une application web permettant aux clients de se connecter et de gérer leurs comptes et leurs profils. Phase 2 : Transactions - il s'agit de spécifier les points de terminaison de l'API nécessaires pour une éventuelle deuxième mission une fois la phase 1 terminée.",
+		"description": "Argent Bank est une nouvelle banque qui tente de percer dans le secteur et a besoin d'aide pour mettre en place son application. Le contrat en deux parties est décomposé en plusieurs phases.",
 		"objective": "Créer une application web entièrement responsive avec React en utilisant Redux pour gérer l'état de l'ensemble de l'application. Les utilisateurs doivent pouvoir visiter la page d'accueil, se connecter, voir les informations de leur profil et les modifier. Fournir également un document décrivant les API de transaction proposées, en suivant les directives Swagger.",
 		"host": {
 			"name": "Adrien Chiran",

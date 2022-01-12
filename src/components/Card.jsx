@@ -30,7 +30,7 @@ const ProjectCard = styled.article`
 
   h2 {
     font-size: 1.2rem;
-    font-weight: 500;
+    // font-weight: 500;
   }
 `;
 
@@ -59,20 +59,22 @@ const TagForm = styled.span`
  color: ${colors.tertiary};
  border-radius: 5px;
  margin: 2px;
- padding: 1px 8px;
+ padding: 3px 8px;
 `;
 
 const SummaryText = styled.h3`
-  font-weight: 500;
+  // font-weight: 500;
   font-size: clamp(0.9rem, 1vw, 1rem);
 `;
 
-const ScenarioText = styled.p`
-  font-weight: 500;
+const DescriptionText = styled.p`
+  color: darkslategrey;
   font-size: clamp(0.8rem, 1vw, 0.9rem);
   text-align: justify;
   // text-justify: inter-word;
 `;
+
+
 
 /**
  * Individual announcement card for each project on Home page
@@ -88,7 +90,7 @@ const Card = ( { data } ) => {
   let { id, title,  cover, summary, description, tags, website, github} = data
 
   /*truncate recipe description text after 230 chararcters */
-  if ( description.length > 200) {  description =  description.substring(0, 198) + "...";}
+  // if ( description.length > 200) {  description =  description.substring(0, 198) + "...";}
 
   return (
     <ProjectCard theme={theme}>
@@ -104,8 +106,10 @@ const Card = ( { data } ) => {
           <CoverImage src={cover} alt='Cover'/>
           {(tags).map((tag) => ( <TagForm key={tag}>{tag} </TagForm> ))}
           <SummaryText>{summary}</SummaryText>
-          <ScenarioText>{description}</ScenarioText>
+          <DescriptionText>{description}</DescriptionText>
         </Link> 
+
+
     </ProjectCard>
   )
 }

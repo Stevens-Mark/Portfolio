@@ -15,6 +15,11 @@ const colors = {
   activeA: '#33CCCC',
   aLink: '#2c3e50',
 
+  // back to top button colors
+  topButtonMain: '#6699cc',
+  topButtonHover: '#cc3399',
+
+ // night mode colors
   mainBackgroundDarkMode: '#2F2E41',
   darkModeHighlights: '#4F4C6B',
 
