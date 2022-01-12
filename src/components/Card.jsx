@@ -69,26 +69,26 @@ const SummaryText = styled.h3`
 
 const ScenarioText = styled.p`
   font-weight: 500;
-  font-size: clamp(0.9rem, 1vw, 0.8rem);
+  font-size: clamp(0.8rem, 1vw, 0.9rem);
   text-align: justify;
   // text-justify: inter-word;
 `;
 
-
 /**
  * Individual announcement card for each project on Home page
  * @function Card
- * @param {string} id: used for the route
- * @param {string} title: title
- * @param {string} cover: cover photo 
- * @param {array} tags: project tags
- * @param {string} website: project website
- * @param {string} github: project repo
+ * @param {string} id: of project
+ * @param {object} data: for an individual project
  * @returns {JSX}
  */
-const Card = ( {id, title,  cover, summary, scenario, tags, website, github} ) => {
+const Card = ( { data } ) => {
 
   const { theme } = useTheme()
+
+  let { id, title,  cover, summary, description, tags, website, github} = data
+
+  /*truncate recipe description text after 230 chararcters */
+  if ( description.length > 200) {  description =  description.substring(0, 198) + "...";}
 
   return (
     <ProjectCard theme={theme}>
@@ -104,7 +104,7 @@ const Card = ( {id, title,  cover, summary, scenario, tags, website, github} ) =
           <CoverImage src={cover} alt='Cover'/>
           {(tags).map((tag) => ( <TagForm key={tag}>{tag} </TagForm> ))}
           <SummaryText>{summary}</SummaryText>
-          <ScenarioText>{scenario}</ScenarioText>
+          <ScenarioText>{description}</ScenarioText>
         </Link> 
     </ProjectCard>
   )
@@ -114,11 +114,7 @@ export default Card
 
 // Prototypes
 Card.propTypes = {
-  id: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  summary: PropTypes.string.isRequired,
-  cover: PropTypes.string.isRequired,
-  tags: PropTypes.array.isRequired,
-  website: PropTypes.string.isRequired,
-  github: PropTypes.string.isRequired,
+  data: PropTypes.object.isRequired,
+
+
 }

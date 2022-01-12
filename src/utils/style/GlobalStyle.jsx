@@ -17,7 +17,7 @@ import colors from './colors'
 
 
 body {  
-  font-family:  'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'comfortaa', 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #FFFFFF;

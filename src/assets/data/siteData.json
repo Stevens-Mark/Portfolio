@@ -12,8 +12,8 @@
 			"../images/projects/reservia/2_middle.png",
 			"../images/projects/reservia/3_bottom.png"
 		],
-		"scenario": "Une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-		"description": "Objectif : traduire une maquette en une page Web à l'aide de HTML et de CSS.",
+		"description": "Une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+		"objective": "Traduire une maquette en une page Web à l'aide de HTML et de CSS.",
 		"host": {
 			"name": "Nathalie Jean",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
@@ -45,8 +45,8 @@
 			"../images/projects/ohmyfood/menu3.jpg",
 			"../images/projects/ohmyfood/menu4.jpg"
 		],
-		"scenario": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.",
-		"description": "Objectif : traduire les maquettes et rendre le site plus dynamique grâce à des animations réalisées à l'aide de Sass.",
+		"description": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.",
+		"objective": "Objectif : traduire les maquettes et rendre le site plus dynamique grâce à des animations réalisées à l'aide de Sass.",
 		"host": {
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
@@ -84,8 +84,8 @@
 			"../images/projects/gameon/terms_error.jpg",
 			"../images/projects/gameon/accept.jpg"
 		],
-		"scenario": "GameOn, spécialisée dans les conférences et les compétitions de jeux. La société simplifie la nouvelle page d'accueil et l'inscription au concours après avoir reçu des commentaires négatifs de certains utilisateurs.",
-		"description":"Objectif : ajouter le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel en utilisant javascript.",
+		"description": "GameOn, spécialisée dans les conférences et les compétitions de jeux. La société simplifie la nouvelle page d'accueil et l'inscription au concours après avoir reçu des commentaires négatifs de certains utilisateurs.",
+		"objective":"Ajouter le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel en utilisant javascript.",
 		"host": {
 			"name": "Franck Maher",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
@@ -121,8 +121,8 @@
 			"../images/projects/fisheye/lightbox3.jpg",
 			"../images/projects/fisheye/contact.jpg"
 		],
-		"scenario": "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Ils ont récemment levé des fonds et aimeraient mettre à jour leur site web.",
-		"description": "Objectif : construire un prototype de site web dynamique en mettant l'accent sur l'accessibilité (aria). Autres fonctionnalités : filtres, tri, lightbox, galerie de photos et formulaires.",
+		"description": "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Ils ont récemment levé des fonds et aimeraient mettre à jour leur site web.",
+		"objective": "Construire un prototype de site web dynamique en mettant l'accent sur l'accessibilité (aria). Autres fonctionnalités : filtres, tri, lightbox, galerie de photos et formulaires.",
 		"host": {
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
@@ -157,8 +157,8 @@
 			"../images/projects/petitsplats/tag.jpg",
 			"../images/projects/petitsplats/itemsfinished.jpg"
 		],
-		"scenario": "Les Petits plats ont décidé de lancer leur propre site de recettes de cuisine. Comme il existe de nombreux sites proposant des recettes de cuisine, la fluidité et l'efficacité du moteur de recherche feront la différence.",
-		"description": "Objectif : Développer deux algorithmes de recherche pour la fonctionnalité de recherche (recherches primaires et secondaires). Tester et mettre en œuvre les algorithmes les plus efficaces.",
+		"description": "Les Petits plats ont décidé de lancer leur propre site de recettes de cuisine. Comme il existe de nombreux sites proposant des recettes de cuisine, la fluidité et l'efficacité du moteur de recherche feront la différence.",
+		"objective": "Développer deux algorithmes de recherche pour la fonctionnalité de recherche (recherches primaires et secondaires). Tester et mettre en œuvre les algorithmes les plus efficaces.",
 		"host": {
 			"name": "Franck Maher",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
@@ -195,8 +195,8 @@
 			"../images/projects/billed/tests_Jest_src_views.jpg",
 			"../images/projects/billed/tests_Jest_src_views.jpg"
 		],
-		"scenario": "Billed is a company that produces Saas solutions for human resources teams. la fonction de rapport de dépenses d'une application n'est pas terminée. Dans deux semaines, l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise.",
-		"description": "Objectif : trouver les bogues indiqués dans le rapport de bogue. Rédiger également les tests unitaires et d'intégration ainsi qu'un plan E2E. ",
+		"description": "Billed is a company that produces Saas solutions for human resources teams. la fonction de rapport de dépenses d'une application n'est pas terminée. Dans deux semaines, l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise.",
+		"objective": "Trouver les bogues indiqués dans le rapport de bogue. Rédiger également les tests unitaires et d'intégration ainsi qu'un plan E2E.",
 		"host": {
 			"name": "Line Rolland",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
@@ -237,8 +237,8 @@
 			"../images/projects/learnathome/9_Kaban.jpg",
 			"../images/projects/learnathome/10_uml.jpg"
 		],
-		"scenario": "",
-		"description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
+		"description": "Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles. En gros, leur objectif est de permettre à tout élève, où qu’il soit, d’avoir accès à un soutien scolaire à distance.",
+		"objective": "Définir clairement les besoins du client. Créez les diagrammes de cas d'utilisation et les user stories avec les critères d'acceptation pour chaque fonctionnalité. Maquettes du site (Figma ou Sketch) avec un Kanban décomposant le projet.",
 		"host": {
 			"name": "Hugo Perrier",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
@@ -254,7 +254,7 @@
 		"tags": [
 			"Agile",
 			"User Stories",
-			"UML",
+			"Use Case",
 			"Figma"
 		],
 		"website": "https://www.figma.com/file/K8QF42xb6EzUyqDOvKHAXW/Learn-at-home",
@@ -275,8 +275,8 @@
 			"../images/projects/kasa/page4.jpg",
 			"../images/projects/kasa/about.jpg"
 		],
-		"scenario": "",
-		"description": "Ce superbe appartement vous surprendra par son charme. Entièrement refait à neuf, il est équipé avec goût. La taille des pièces vous fera douter que vous êtes à Paris. Mais il vous suffit de sortir pour voir que vous êtes au coeur des plus belles attractions de Paris : le Louvre, la Tour Eiffel, le Grand Palais sont à deux pas. À vous de venir découvrir Paris !",
+		"description": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Il souhaite qu'une nouvelle plateforme web soit développée",
+		"objective": "Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
 		"host": {
 			"name": "Sébastien Fournier",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-5.jpg"
@@ -307,8 +307,8 @@
 			"../images/projects/sportsee/karl.jpg",
 			"../images/projects/sportsee/cecelia.jpg"
 		],
-		"scenario": "",
-		"description": "Paris vous tend les bras ! En famille ou entre amis, venez découvrir la ville de l'amour dans un appartement de goût. Vous pourrez profiter de tous les commerces seulement à quelques minutes de l'appartement. Sa proximité avec la gare Montparnasse en fait également un choix idéal pour celles et ceux qui doivent prendre un train.",
+		"description": "SportSee est une startup dédiée au coaching sportif. En pleine croissance, l’entreprise lancera une nouvelle version de la page profil de l’utilisateur. Cette page va notamment permettre à l’utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.",
+		"objective": "Redessiner la page de profil avec React, en utilisant soit D3 ou Recharts pour les graphiques d'activité sportive de l'utilisateur. Créez un service séparé qui se chargera des appels HTTP vers le backend (NodeJS) en utilisant Fetch ou Axios. Il est important que vous fassiez les appels en dehors des composants React. Enfin, toute la documentation doit être réalisée en anglais.",
 		"host": {
 			"name": "Adrien Chiran",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
@@ -346,8 +346,8 @@
 			"../images/projects/argentbank/6_transactionsnight.jpg",
 			"../images/projects/argentbank/7_editnamenight.jpg"
 		],
-		"scenario": "",
-		"description": "Respirer en plein coeur de Paris ? C'est possible ! Avec vue sur un parc résidentiel, vous pourrez ouvrir les fenêtres sans avoir à souffrir du bruit des voitures et de la pollution. Au contraire, vous pourrez écouter les oiseaux. Notre appartement est également idéalement situé au coeur du 11ème arrondissement. Proche des lignes 3 et 2, vous pourrez découvrir Paris sans effort !",
+		"description": "Argent Bank est une nouvelle banque qui tente de percer dans le secteur et a besoin d'aide pour mettre en place son application. Le contrat en deux parties est décomposé en plusieurs phases : Phase 1 : Authentification de l'utilisateur - Création d'une application web permettant aux clients de se connecter et de gérer leurs comptes et leurs profils. Phase 2 : Transactions - il s'agit de spécifier les points de terminaison de l'API nécessaires pour une éventuelle deuxième mission une fois la phase 1 terminée.",
+		"objective": "Créer une application web entièrement responsive avec React en utilisant Redux pour gérer l'état de l'ensemble de l'application. Les utilisateurs doivent pouvoir visiter la page d'accueil, se connecter, voir les informations de leur profil et les modifier. Fournir également un document décrivant les API de transaction proposées, en suivant les directives Swagger.",
 		"host": {
 			"name": "Adrien Chiran",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
