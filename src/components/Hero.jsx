@@ -14,6 +14,8 @@ import ReactSpinner from'../components/ReactSpinner'
 const HeroContainer = styled.section`
   animation: ${fadeIn} 1s forwards ease-in-out;
   background-image: url(${heroImg});
+  // background-image: ${props => props.backImg ? `url(${props.backImg}`: `url(${heroImg})`};
+  // background-image: url(${({ backImg }) => backImg});
   background-size: cover;
   background-repeat: no-repeat;
   height: 18.75rem;
@@ -29,7 +31,7 @@ const HeroContent = styled.article`
   position: relative;
   top: 3rem;
   z-index: 1;
-  width: 12.5rem;
+  width: 13rem;
   background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
   padding: 0.5rem;
   margin: 0 auto;
@@ -47,18 +49,6 @@ const HeroContent = styled.article`
     margin: 2rem;
   }
 `;
-
-// const HeroTitle = styled.h2`
-//   font-size: 1.5rem;
-
-//   @media (min-width: 500px) {
-//     font-size: 24px;
-//   }
-//   @media (min-width: 920px) {
-//     font-size: 24px;
-//   }
-// `;
-
 
 const HeroSubtitle = styled.p`
   font-weight: bold;
@@ -89,11 +79,11 @@ const Hero = () => {
   const { theme } = useTheme()
 
   return (
-    <HeroContainer theme={theme}>
+    <HeroContainer  theme={theme}>
         <h1 className="sr-only">Mark Stevens - Welcome</h1>
         <ReactSpinner />
 
-        <HeroContent theme={theme} >
+        <HeroContent  theme={theme} >
           <h2>Développeur Front-end</h2>
           <HeroSubtitle>Fiabilité.</HeroSubtitle>
           <HeroSubtitle>Respect.</HeroSubtitle>

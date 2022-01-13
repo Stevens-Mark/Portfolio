@@ -18,7 +18,7 @@ const DropDownTitleBar = styled.div`
   max-width: 1023px;
   justify-content: space-between;
   align-items: center;
-  background:  #FF6060;
+  background: ${props => props.color ? props.color : `${colors.primary}`};
   height: 1.875rem;
   border-radius: 5px;
   cursor: pointer;
@@ -52,19 +52,22 @@ const DropdownArrow = styled.img`
 * @function DropDown
 * @param {string} dropdownWidth: sets width of dropdown depending on page
 * @param {string} dropdownHeight: sets height of dropdown depending on page
+* @param {string} barColor: sets color of dropdown 
 * @param {string} title: dropdown heading
 * @param {string/array} content: either text or list rendered in dropdown
 * @returns {JSX}
 */
-const DropDown = ( {dropdownWidth, dropdownHeight, title, content} ) => {
+const DropDown = ( {dropdownWidth, dropdownHeight, dropdownColor, title, content } ) => {
 
   const [open, setOpen] = useState(false)
   const handleButtonClick = () => { setOpen(!open) }
   
   return (
       <div className={dropdownWidth} /* ref={this.container} */>
-          <DropDownTitleBar onClick={() =>handleButtonClick()}>
+          <DropDownTitleBar color={dropdownColor} onClick={() =>handleButtonClick()}>
+
               <DropDownTitleBarText>{title}</DropDownTitleBarText>
+
               <span>{open ? (<DropdownArrow src={upArrow} alt="" />) : 
                   (<DropdownArrow src={downArrow} alt="" />)}
               </span>
@@ -87,6 +90,7 @@ export default DropDown
 DropDown.propTypes = {
   dropdownWidth: PropTypes.string.isRequired,
   dropdownHeight: PropTypes.string.isRequired,
+  barColor: PropTypes.string,
   title: PropTypes.string.isRequired,
   content: PropTypes.oneOfType([
     PropTypes.string,

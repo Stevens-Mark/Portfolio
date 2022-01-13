@@ -81,8 +81,6 @@ const DescriptionText = styled.p`
   text-justify: inter-word;
 `;
 
-
-
 /**
  * Individual announcement card for each project on Home page
  * @function Card
@@ -109,12 +107,12 @@ const Card = ( { data } ) => {
         </span>
       </ProjectHeading>
 
-        <Link to={`/project/${id}`}>
+        {/* <Link to={`/project/${id}`}> */}
           <CoverImage src={cover} alt='Cover'/>
           {(tags).map((tag) => ( <TagForm key={tag}>{tag} </TagForm> ))}
           <SummaryText>{summary}</SummaryText>
           <DescriptionText>{description}</DescriptionText>
-        </Link> 
+        {/* </Link>  */}
 
 
     </ProjectCard>

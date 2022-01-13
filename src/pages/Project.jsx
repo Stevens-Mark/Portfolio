@@ -144,10 +144,10 @@ const Project = ( { siteData } ) => {
                             <Ratings ratingNumber={data.rating}/>
                         </HostSummary>
                     </ProjectHeader>   
-
+{/* EXPERIMENT - color are passed as parameters to change the colo of the drop downs */}
                     <Details>
-                        <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation' title={'Description'} content={data.description}/>
-                        <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation'  title={'Skills'} content={data.skills}/>
+                        <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation' dropdownColor='orange' title={'Description'} content={data.description}/>
+                        <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation' dropdownColor='green'  title={'Skills'} content={data.skills}/>
                     </Details>
 
                   </ProjectWrapper>                   

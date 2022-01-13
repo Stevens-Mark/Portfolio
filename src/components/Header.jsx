@@ -24,6 +24,7 @@ const HEADER = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
 `;
 
 const LogoImg = styled.img`
