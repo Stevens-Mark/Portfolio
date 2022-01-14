@@ -9,6 +9,7 @@ import Hero from '../components/Hero'
 import Card from '../components/Card'
 import GoToTop from '../utils/Functions/GoToTop'
 
+import heroImg from '../assets/images/banner4.jpg'
 /**
  * CSS for component using styled.components
  */
@@ -48,7 +49,7 @@ const Home = ( { siteData } ) => {
  
   return (
     <main>
-      <Hero />
+      <Hero image={heroImg}/>
       <PortFolioWrapper theme={theme}>
           {siteData.map((data) => ( 
                 <Card key={data.id} data={data}/> 

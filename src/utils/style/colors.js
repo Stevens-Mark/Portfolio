@@ -11,10 +11,6 @@ const colors = {
   // Text
   styledText: '#33CCCC',
  
-  // Link
-  activeA: '#33CCCC',
-  aLink: '#2c3e50',
-
   // back to top button colors
   topButtonMain: '#6699cc',
   topButtonHover: '#cc3399',

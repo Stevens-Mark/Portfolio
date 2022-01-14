@@ -6,9 +6,9 @@ import colors from '../utils/style/colors'
 import Banner from '../components/Banner'
 import aboutBanner from '../assets/images/banner2.jpg'
 import DropDown from '../components/DropDown'
-
 // import data
 import { dropDownList} from '../assets/data/aboutDropdownData.js'
+// import Hero from '../components/Hero'
 
 /**
  * CSS for component using styled.components
@@ -42,7 +42,7 @@ const About = () => {
 
   return ( 
     <main>
- 
+        {/* <Hero  image={aboutBanner}/> */}
       <AboutWrapper>
        <Banner image={aboutBanner} alternate='The world - techno style'/>
        

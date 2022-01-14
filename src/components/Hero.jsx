@@ -13,9 +13,8 @@ import ReactSpinner from'../components/ReactSpinner'
  */
 const HeroContainer = styled.section`
   animation: ${fadeIn} 1s forwards ease-in-out;
-  background-image: url(${heroImg});
-  // background-image: ${props => props.backImg ? `url(${props.backImg}`: `url(${heroImg})`};
-  // background-image: url(${({ backImg }) => backImg});
+  // background-image: url(${heroImg});
+  background-image: url(${({ backImg }) => backImg});
   background-size: cover;
   background-repeat: no-repeat;
   height: 18.75rem;
@@ -74,12 +73,12 @@ const HeroText = styled.p`
  * @function Hero
  * @returns {JSX}
  */
-const Hero = () => {
+const Hero = ({ image } ) => {
 
   const { theme } = useTheme()
 
   return (
-    <HeroContainer  theme={theme}>
+    <HeroContainer backImg={image} theme={theme}>
         <h1 className="sr-only">Mark Stevens - Welcome</h1>
         <ReactSpinner />
 

@@ -6,16 +6,6 @@ import colors from './colors'
  * CSS Global styles for the site using styled.components
  */
  const StyledGlobalStyle = createGlobalStyle`
-//  html {
-//    box-sizing: border-box;
-//    font-family: Avenir, Helvetica, Arial, sans-serif;
-//    -webkit-font-smoothing: antialiased;
-//    -moz-osx-font-smoothing: grayscale;
-//    text-align: center;
-//    color: ${colors.aLink};
-//  }
-
-
 body {  
   font-family: 'comfortaa', 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -23,10 +13,11 @@ body {
   color: #FFFFFF;
   margin: auto;
   box-sizing: border-box;
-  
   background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
-  // min-height: 100vh;
   // color: ${({ isDarkMode }) => (isDarkMode ? `${colors.tertiary}` : `${colors.secondary}`)};
+  max-width: 1920px;
+
+  // min-height: 100vh;
 } 
 
 code {

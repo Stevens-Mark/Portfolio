@@ -5,15 +5,17 @@ import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
-
 // import logo
-import logo from '../assets/logos/mark_logo.png'
+import logoM from '../assets/logos/mark_logo.png'
 
 /**
  * CSS for component using styled.components
  */
 const HEADER = styled.header`
+  max-width: 1920px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -21,36 +23,35 @@ const HEADER = styled.header`
   margin: 0 auto;
   z-index: 9999;
   background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem;
+  padding: 1.5rem 0rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
 `;
 
 const LogoImg = styled.img`
   animation: ${fadeIn} 3s forwards ease-in-out;
   width: clamp(8rem, 12.2vw, 12rem);
+  padding-left: 1.5rem;
 `;
 
-const UList = styled.ul`
+const Nav = styled.div`
   display: flex;
   list-style-type: none; 
-  padding-left: 0rem;
+  padding-right: 1.5rem;
 `;
 
 const NAVLINK = styled(NavLink)`
   text-decoration: none;
   padding-left: 2.5vw;
   cursor: pointer;  
-  font-family: Vladimir script, 'Montserrat', sans-serif;
+  font-family: Vladimir script, 'comfortaa', 'Montserrat', sans-serif;
   font-weight: 500;
   color: ${colors.tertiary};
   font-size: clamp(1.3rem, 2vw, 2.5rem);
   &.${(props) => props.activeClassName} {
-    color: ${colors.activeA};
+    color: ${colors.primary};
   }
   &:hover {
-    color: ${colors.activeA};
+    color: ${colors.primary};
     text-decoration: underline;
   }
 `;
@@ -66,13 +67,11 @@ const Header = () => {
 
   return (
     <HEADER theme={theme}>
-      <Link to="/"><LogoImg src={logo} alt="logo"/></Link>
-      <nav>
-        <UList>
-          <li><NAVLINK activeClassName="active" exact to="/">Accueil</NAVLINK></li>
-          <li><NAVLINK activeClassName="active" to="/about">A Propos</NAVLINK></li>
-        </UList>
-      </nav>
+      <Link to="/"><LogoImg src={logoM} alt="logo"/></Link>
+      <Nav>
+        <NAVLINK activeClassName="active" exact to="/">Accueil</NAVLINK>
+        <NAVLINK activeClassName="active" to="/about">A Propos</NAVLINK>
+      </Nav>
     </HEADER>
   )
 }

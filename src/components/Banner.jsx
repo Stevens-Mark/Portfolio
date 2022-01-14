@@ -9,7 +9,7 @@ import colors from '../utils/style/colors'
  const BannerImg = styled.img`
   width: 100%;
   height: 100%;
-  max-width: 1240px;
+  // max-width: 1440px;
   max-height: 13.938rem;
   min-height: 6.938rem; 
   border-radius: clamp(0.625rem, 1.736vw, 1.563rem);

@@ -40,7 +40,7 @@ const ProjectHeading = styled.div`
 `;
 
 const LinkImg = styled.img`
-  width: 1.563rem;
+  // width: 1.563rem;
   width: clamp(1rem, 1.6vw, 1.4rem);
   margin: 0px 5px;
 `;
@@ -103,7 +103,7 @@ const Card = ( { data } ) => {
         <h2>{title}</h2>
         <span>
           <a href={website} rel="noreferrer" target="_blank"><LinkImg src={preview} alt="" title="Visit Website"/></a>
-          <a href={github} rel="noreferrer" target="_blank"><LinkImg src={git} alt="" title="Project's Repo" /></a>
+          <a href={github} rel="noreferrer" target="_blank"><LinkImg src={git} alt="" title="Project Git Repo" /></a>
         </span>
       </ProjectHeading>
 
