@@ -33,6 +33,7 @@ const ProjectCard = styled.article`
   }
 `;
 
+
 const ProjectHeading = styled.div`
   display: flex;
   justify-content: space-between;
@@ -43,6 +44,13 @@ const LinkImg = styled.img`
   // width: 1.563rem;
   width: clamp(1rem, 1.6vw, 1.4rem);
   margin: 0px 5px;
+`;
+
+const NoLink = styled.img`
+  // width: 1.563rem;
+  width: clamp(1rem, 1.6vw, 1.4rem);
+  margin: 0px 5px;
+  filter: invert(57%) sepia(0%) saturate(4%) hue-rotate(266deg) brightness(88%) contrast(89%);
 `;
 
 const CoverImage = styled.img`
@@ -61,6 +69,7 @@ const TagForm = styled.span`
  padding: 3px 8px;
 `;
 
+// text trunacted if needed
 const SummaryText = styled.h3`
   font-size: clamp(0.9rem, 1vw, 1rem);
   display: -webkit-box;
@@ -68,7 +77,6 @@ const SummaryText = styled.h3`
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
-
   @media screen and (min-width: 668px) {
     -webkit-line-clamp: 1;
   }
@@ -80,6 +88,7 @@ const DescriptionText = styled.p`
   text-align: justify;
   text-justify: inter-word;
 `;
+
 
 /**
  * Individual announcement card for each project on Home page
@@ -94,24 +103,26 @@ const Card = ( { data } ) => {
 
   let { id, title,  cover, summary, description, tags, website, github} = data
 
-  /*truncate recipe description text after 230 chararcters */
-  // if ( description.length > 200) {  description =  description.substring(0, 198) + "...";}
-
   return (
     <ProjectCard theme={theme}>
       <ProjectHeading>
         <h2>{title}</h2>
         <span>
-          <a href={website} rel="noreferrer" target="_blank"><LinkImg src={preview} alt="" title="Visit Website"/></a>
-          <a href={github} rel="noreferrer" target="_blank"><LinkImg src={git} alt="" title="Project Git Repo" /></a>
+          {website ?
+              (<a href={website} rel="noreferrer" target="_blank"><LinkImg src={preview} alt="" title="Visit Website"/></a>) : 
+              (<NoLink src={preview} alt="" title="No Preview"/>)}
+
+          {github ?
+              (<a href={github} rel="noreferrer" target="_blank"><LinkImg src={git} alt="" title="Project Git Repo" /></a>) : 
+              (<NoLink src={git} alt="" title="No Project Repo"/>)}   
         </span>
       </ProjectHeading>
 
         {/* <Link to={`/project/${id}`}> */}
           <CoverImage src={cover} alt='Cover'/>
           {(tags).map((tag) => ( <TagForm key={tag}>{tag} </TagForm> ))}
-          <SummaryText>{summary}</SummaryText>
-          <DescriptionText>{description}</DescriptionText>
+          <SummaryText className="test">{summary}</SummaryText>
+          <DescriptionText >{description}</DescriptionText>
         {/* </Link>  */}
 
 
