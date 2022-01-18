@@ -2,7 +2,6 @@ import { Component } from "react"
 import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
-import colors from '../utils/style/colors'
 // import icons
 import previousArrow from '../assets/icons/white_back_arrow.svg'
 import nextArrow from '../assets/icons/white_forward_arrow.svg'
@@ -12,22 +11,24 @@ import Blank from '../assets/images/blank.jpg'
  * CSS for the component using styled.components
  */
 const CarouselWrapper = styled.article`
+  margin: 10px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex:1;
 `;
 
 const CarouselImages = styled.img`
-  width: 100%;
+  width: 85%;
   height: 15.938rem;
   border-radius: clamp(0.625rem, 1.736vw, 1.563rem);
-  /* object-fit: cover; */
-  box-shadow: 0px 4px 12px 3px ${colors.shadow};
+  object-fit: contain;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
 
   @media screen and (min-width: 600px) {
     height: unset;
-    height: 25.938rem;
   }
 `;
 
@@ -40,11 +41,9 @@ const CarouselControls = styled.div`
 `;
 
 const CarouselControlArrows = styled.img`
-  width: 1.875rem;
-
-  @media screen and (min-width: 600px) {
-      width: 3.125rem;
-  }
+  filter: invert(68%) sepia(39%) saturate(716%) hue-rotate(131deg) brightness(93%) contrast(89%);
+  width: clamp(2rem, 3.4vw, 3.125rem);
+  margin: -5px;
 `;
 
 const Counter = styled.p`

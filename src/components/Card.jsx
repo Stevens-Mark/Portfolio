@@ -83,7 +83,7 @@ const SummaryText = styled.h3`
 `;
 
 const DescriptionText = styled.p`
-  color: darkslategrey;
+  color: ${colors.darkGrey};
   font-size: clamp(0.8rem, 1vw, 0.9rem);
   text-align: justify;
   text-justify: inter-word;
@@ -118,12 +118,12 @@ const Card = ( { data } ) => {
         </span>
       </ProjectHeading>
 
-        {/* <Link to={`/project/${id}`}> */}
+        <Link to={`/project/${id}`}>
           <CoverImage src={cover} alt='Cover'/>
           {(tags).map((tag) => ( <TagForm key={tag}>{tag} </TagForm> ))}
           <SummaryText className="test">{summary}</SummaryText>
           <DescriptionText >{description}</DescriptionText>
-        {/* </Link>  */}
+        </Link> 
 
 
     </ProjectCard>

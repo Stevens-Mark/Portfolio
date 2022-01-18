@@ -7,10 +7,8 @@ import colors from '../utils/style/colors'
 // import components
 import LoadingIcon from '../utils/Loaders/MiniLoadingIcon'
 import Carousel from '../components/Carousel'
-import Host from '../components/Host'
 import Tags from '../components/Tags'
 import DropDown from '../components/DropDown'
-import Ratings from '../components/Ratings'
 import Error from './Error'
 
 /**
@@ -24,50 +22,41 @@ const LoadingWrapper = styled.div`
 `;
 
 const ProjectWrapper = styled.div`
-  max-width: 1240px;
+  background: ${colors.primary};
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  
 `;
 
-const ProjectHeader = styled.div`
-  display: block;
-  color: ${colors.primary};
+const Overview = styled.div`
+  // display: block;
+  max-width: 1440px;
+  margin: auto;
   margin-top: 1rem;
-
+  color: ${colors.secondary};
   @media screen and (min-width: 660px) {
     display: flex;
     justify-content: space-between;
-    margin-top: 1.875rem;
-  }
-
-  h1 {
-    font-weight: 500;
-    font-size: clamp(1.125rem, 2.5vw, 2.25rem);
-    margin: unset;
-    /* margin-top: 0.938rem; */
-  }
-
-  p {
-    margin: unset;
-    margin-top: 5px;
-    font-weight: 500;
-    font-size: clamp(0.875rem, 1.2vw, 1.125rem);
-    // @media screen and (min-width: 660px) {
-    //   margin-top: 1.25rem;
-    // }
+    // margin-top: 1.875rem;
   }
 `;
 
-const HostSummary = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row-reverse;
-  
-  @media screen and (min-width: 660px) {
-    display: block;
+const Texte = styled.div`
+  margin: 10px;
+  flex:1;
+
+  h1 {
+    font-size: clamp(1.125rem, 2.5vw, 2.25rem);
+    margin: unset;
+  }
+  p {
+    color: ${colors.darkGrey};
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 5px;
+    font-size: clamp(0.875rem, 1.2vw, 1.125rem);
   }
 `;
 
@@ -130,24 +119,23 @@ const Project = ( { siteData } ) => {
           return (
               <main>
                   <ProjectWrapper>
-                    <Carousel photoAlbum={data.pictures}/>
-                    <ProjectHeader>
+                  
+                    <Overview>
+                      <Texte>
+                        <h1>{data.title}</h1>
+                        <p>{data.scenario}</p>
+                      </Texte>
+                      <Carousel photoAlbum={data.pictures}/>
+                    </Overview> 
 
-                        <div>
-                            <h1>{data.title}</h1>
-                            <p>{data.location}</p> 
-                            <Tags tagData={data.tags} />
-                        </div>
 
-                        <HostSummary>
-                            <Host hostData={data.host} />
-                            <Ratings ratingNumber={data.rating}/>
-                        </HostSummary>
-                    </ProjectHeader>   
+
 {/* EXPERIMENT - color are passed as parameters to change the colo of the drop downs */}
                     <Details>
-                        <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation' dropdownColor='orange' title={'Description'} content={data.description}/>
-                        <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation' dropdownColor='green'  title={'Skills'} content={data.skills}/>
+
+                         <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation' dropdownColor={colors.darkGrey}  title={'Compétences'} content={data.skills}/>
+
+                        <Tags tagData={data.tags} tagColor={colors.secondary} /> 
                     </Details>
 
                   </ProjectWrapper>                   

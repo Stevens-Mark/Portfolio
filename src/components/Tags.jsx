@@ -7,8 +7,8 @@ const TagWrapper = styled.div`
     display: flex;
     margin-top: 0.625rem;
     align-items: center;
-    flex-wrap: wrap;
-    white-space: nowrap;
+    // flex-wrap: wrap;
+    // white-space: nowrap;
 
     h3 {
         font-size: clamp(0.625rem, 1vw, 0.875rem);
@@ -16,7 +16,8 @@ const TagWrapper = styled.div`
         font-weight: 500;
         text-align: center;
         color: #fff;
-        background: ${colors.primary};
+        // background: ${colors.primary};
+        background: ${props => props.color ? props.color : `${colors.primary}`};
         padding: 5px;
         width: clamp(6rem, 9.8vw, 11rem);
         border-radius: 0.625rem;
@@ -24,25 +25,26 @@ const TagWrapper = styled.div`
         box-shadow: 0px 4px 12px 3px ${colors.shadow};
     }
 
-    @media screen and (min-width: 680px) {
-        margin-top: 1.563rem;
-    }
+    // @media screen and (min-width: 680px) {
+    //     margin-top: 1.563rem;
+    // }
     
-    @media screen and (min-width: 1220px) {
-        margin-top: 0.625rem;
-    }
+    // @media screen and (min-width: 1220px) {
+    //     margin-top: 0.625rem;
+    // }
 `;
 
 /**
- * Renders Individual accomodation "tags"
+ * Renders Individual "tags" for the projects
  * @function Tags
- * @param {array} tagData: tags for the accomodation
+ * @param {array} tagData: tags (react, JavaScript, etc...)
+ * @param {string} tagColor: defiines color of tag
  * @returns {JSX}
  */
-const Tags = ( {tagData} ) => {
-    
+const Tags = ( {tagData, tagColor} ) => {
+
     return (
-        <TagWrapper>
+        <TagWrapper color={tagColor}>
             {(tagData || []).map((tag) => ( 
                 <h3 key={tag}>{tag}</h3>
             ))}  
@@ -55,5 +57,6 @@ export default Tags
 // Prototypes
 Tags.propTypes = {
     tagData: PropTypes.array.isRequired,
+    tagColor: PropTypes.string.isRequired,
 }
   

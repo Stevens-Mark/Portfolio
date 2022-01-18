@@ -6,23 +6,20 @@
 		"cover": "images/projects/reservia/project_reservia.jpg",
 		"summary": "Transformer une maquette en site web",
 		"pictures": [
-			"../images/projects/reservia/Reservia.svg",
-			"../images/projects/reservia/project_reservia.png",
-			"../images/projects/reservia/1_top.png",
-			"../images/projects/reservia/2_middle.png",
-			"../images/projects/reservia/3_bottom.png"
+			"../images/projects/reservia/ReserviaLogo.jpg",
+			"../images/projects/reservia/reservia1.jpg",
+			"../images/projects/reservia/project_reservia.jpg",
+			"../images/projects/reservia/reservia2.jpg",
+			"../images/projects/reservia/reservia3.jpg"
 		],
 		"description": "Une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
 		"objective": "Traduire une maquette en une page Web à l'aide de HTML et de CSS.",
-		"host": {
-			"name": "Nathalie Jean",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-		},
-		"rating": "5",
-		"location": "Ile de France - Paris 17e",
+		"scenario": "Reservia, une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.\n Pour plus d'informations (scénario, etc.) sur ce projet, veuillez consulter le dossier ‘Project brief’.",
 		"skills": [
-			"Implémenter une interface responsive",
-			"Intégrer du contenu conformément à une maquette"
+			"Utiliser un système de gestion de versions pour le suivi du projet et son hébergement.",
+			"Mettre en place son environnement Front-End.",
+ 			"Intégrer du contenu conformément à une maquette.",
+ 			"Implémenter une interface responsive."
 		],
 		"tags": [
 			"HTML",
@@ -38,7 +35,7 @@
 		"cover": "images/projects/ohmyfood/project_ohmyfood.jpg",
 		"summary": "Création d'un site web dynamique",
 		"pictures": [
-			"../images/projects/ohmyfood/ohmyfood.svg",
+			"../images/projects/ohmyfood/ohmyfoodLogo.jpg",
 			"../images/projects/ohmyfood/project_ohmyfood.jpg",
 			"../images/projects/ohmyfood/menu1.jpg",
 			"../images/projects/ohmyfood/menu2.jpg",
@@ -47,12 +44,7 @@
 		],
 		"description": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.",
 		"objective": "Traduire les maquettes et rendre le site plus dynamique grâce à des animations réalisées à l'aide de Sass.",
-		"host": {
-			"name": "Della Case",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
-		},
-		"rating": "4",
-		"location": "Ile de France - Paris 10e",
+		"scenario":"",
 		"skills": [
 			"Assurer la cohérence graphique d'un site web",
 			"Utiliser un système de gestion de versions pour le suivi du projet et son hébergement",
@@ -86,12 +78,7 @@
 		],
 		"description": "GameOn, spécialisée dans les conférences et les compétitions de jeux. La société simplifie la nouvelle page d'accueil et l'inscription au concours après avoir reçu des commentaires négatifs de certains utilisateurs.",
 		"objective":"Ajouter le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel en utilisant javascript.",
-		"host": {
-			"name": "Franck Maher",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
-		},
-		"rating": "3",
-		"location": "Ile de France - Paris 20e",
+		"scenario":"",
 		"skills": [
 			"Programmer en JavaScript"
 		],
@@ -110,7 +97,7 @@
 		"cover": "images/projects/fisheye/project_fisheye.jpg",
 		"summary": "Création d'un site web accessible",
 		"pictures": [
-			"../images/projects/fisheye/fisheye.svg",
+			"../images/projects/fisheye/fisheyeLogo.jpg",
 			"../images/projects/fisheye/project_fisheye.jpg",
 			"../images/projects/fisheye/nabeel.jpg",
 			"../images/projects/fisheye/portrait.jpg",
@@ -123,12 +110,7 @@
 		],
 		"description": "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Ils ont récemment levé des fonds et aimeraient mettre à jour leur site web.",
 		"objective": "Construire un prototype de site web dynamique en mettant l'accent sur l'accessibilité (aria). Autres fonctionnalités : filtres, tri, lightbox, galerie de photos et formulaires.",
-		"host": {
-			"name": "Della Case",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
-		},
-		"rating": "3",
-		"location": "Ile de France - Paris 11e",
+		"scenario":"",
 		"skills": [
 			"Gérer les évènements d'un site avec JavaScript",
 			"Développer une application web modulaire avec des design patterns",
@@ -150,7 +132,7 @@
 		"cover": "images/projects/petitsplats/project_lespetitsplats.jpg",
 		"summary": "Développer un algorithme de recherche",
 		"pictures": [
-			"../images/projects/petitsplats/les_petits_plats.svg",
+			"../images/projects/petitsplats/les_petits_platsLogo.jpg",
 			"../images/projects/petitsplats/mainsearch.jpg",
 			"../images/projects/petitsplats/wordsearch.jpg",
 			"../images/projects/petitsplats/menuopen.jpg",
@@ -159,12 +141,7 @@
 		],
 		"description": "Les Petits plats ont décidé de lancer leur propre site de recettes de cuisine. Comme il existe de nombreux sites proposant des recettes de cuisine, la fluidité et l'efficacité du moteur de recherche feront la différence.",
 		"objective": "Développer deux algorithmes de recherche pour la fonctionnalité de recherche (recherches primaires et secondaires). Tester et mettre en œuvre les algorithmes les plus efficaces.",
-		"host": {
-			"name": "Franck Maher",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
-		},
-		"rating": "5",
-		"location": "Ile de France - Paris 10e",
+		"scenario":"",
 		"skills": [
 			"Analyser un problème informatique",
 			"Développer un algorithme pour résoudre un problème"
@@ -197,12 +174,7 @@
 		],
 		"description": "Billed est une société qui produit des solutions Saas pour les équipes de ressources humaines. Dans deux semaines, l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise.",
 		"objective": "Trouver les bogues indiqués dans le rapport de bogue. Rédiger également les tests unitaires et d'intégration ainsi qu'un plan E2E.",
-		"host": {
-			"name": "Line Rolland",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
-		},
-		"rating": "5",
-		"location": "Ile de France - Paris 18e",
+		"scenario":"",
 		"skills": [
 			"Ecrire des tests unitaires avec JavaScript",
 			"Débugger une application web avec le Chrome Debugger",
@@ -239,12 +211,7 @@
 		],
 		"description": "Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles. En gros, leur objectif est de permettre à tout élève, où qu’il soit, d’avoir accès à un soutien scolaire à distance.",
 		"objective": "Définir clairement les besoins du client. Créez les diagrammes de cas d'utilisation et les user stories avec les critères d'acceptation pour chaque fonctionnalité. Maquettes du site (Figma ou Sketch) avec un Kanban décomposant le projet.",
-		"host": {
-			"name": "Hugo Perrier",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
-		},
-		"rating": "3",
-		"location": "Ile de France - Paris 18e",
+		"scenario":"",
 		"skills": [
 			"Contribuer à un projet en utilisant une méthodologie agile",
 			"Créer une maquette pour un client",
@@ -266,7 +233,7 @@
 		"cover": "images/projects/kasa/project_kasa.jpg",
 		"summary": "Développement d'un SPA",
 		"pictures": [
-			"../images/projects/kasa/kasa_logo.svg",
+			"../images/projects/kasa/kasa_logoLogo.jpg",
 			"../images/projects/kasa/project_kasa.jpg",
 			"../images/projects/kasa/page1.jpg",
 			"../images/projects/kasa/page2.jpg",
@@ -276,12 +243,7 @@
 		],
 		"description": "Kasa est dans le métier de la location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
 		"objective": "Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
-		"host": {
-			"name": "Sébastien Fournier",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-5.jpg"
-		},
-		"rating": "5",
-		"location": "Ile de France - Paris 6e",
+		"scenario":"",
 		"skills": [
 			"Développer les routes d'une application web avec React Router",
 			"Initialiser une application web avec un framework",
@@ -308,12 +270,7 @@
 		],
 		"description": "SportSee est une startup dédiée au coaching sportif. La société va lancer une nouvelle version de la page de profil de l'utilisateur, qui permettra de suivre le nombre de séances effectuées ainsi que les calories brûlées.",
 		"objective": "Redessiner la page de profil avec React, en utilisant soit D3 ou Recharts pour les graphiques d'activité sportive de l'utilisateur. Créez un service séparé qui se chargera des appels HTTP vers le backend (NodeJS) en utilisant Fetch ou Axios. Il est important que vous fassiez les appels en dehors des composants React. Enfin, toute la documentation doit être réalisée en anglais.",
-		"host": {
-			"name": "Adrien Chiran",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
-		},
-		"rating": "4",
-		"location": "Ile de France - Paris 14e",
+		"scenario":"",
 		"skills": [
 			"Assurer la qualité des données d'une application",
 			"Interagir avec un service Web",
@@ -347,12 +304,7 @@
 		],
 		"description": "Argent Bank est une nouvelle banque qui tente de percer dans le secteur et a besoin d'aide pour mettre en place son application. Le contrat en deux parties est décomposé en plusieurs phases.",
 		"objective": "Créer une application web entièrement responsive avec React en utilisant Redux pour gérer l'état de l'ensemble de l'application. Les utilisateurs doivent pouvoir visiter la page d'accueil, se connecter, voir les informations de leur profil et les modifier. Fournir également un document décrivant les API de transaction proposées, en suivant les directives Swagger.",
-		"host": {
-			"name": "Adrien Chiran",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
-		},
-		"rating": "3",
-		"location": "Ile de France - Paris 11e",
+		"scenario":"",
 		"skills": [
 			"Implémenter un gestionnaire d'état dans une application React",
 			"Intéragir avec une API",

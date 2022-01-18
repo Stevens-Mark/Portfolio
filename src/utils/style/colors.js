@@ -10,6 +10,7 @@ const colors = {
 
   // Text
   styledText: '#33CCCC',
+  darkGrey: '#284646',
  
   // back to top button colors
   topButtonMain: '#6699cc',

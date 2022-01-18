@@ -22,7 +22,6 @@ const HostTitle = styled.h2`
         width: 5.5rem;
         font-size: 1.125rem;     
     }
-
 `;
 
 const HostPhoto = styled.img`
