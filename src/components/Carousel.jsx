@@ -21,15 +21,10 @@ const CarouselWrapper = styled.article`
 
 const CarouselImages = styled.img`
   width: 85%;
-  height: 15.938rem;
   border-radius: clamp(0.625rem, 1.736vw, 1.563rem);
   object-fit: contain;
   background: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
-
-  @media screen and (min-width: 600px) {
-    height: unset;
-  }
 `;
 
 const CarouselControls = styled.div`

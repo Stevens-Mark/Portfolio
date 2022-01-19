@@ -37,14 +37,14 @@
 		"pictures": [
 			"../images/projects/ohmyfood/ohmyfoodLogo.jpg",
 			"../images/projects/ohmyfood/project_ohmyfood.jpg",
-			"../images/projects/ohmyfood/menu1.jpg",
-			"../images/projects/ohmyfood/menu2.jpg",
-			"../images/projects/ohmyfood/menu3.jpg",
-			"../images/projects/ohmyfood/menu4.jpg"
+			"../images/projects/ohmyfood/menu_1.jpg",
+			"../images/projects/ohmyfood/menu_2.jpg",
+			"../images/projects/ohmyfood/menu_3.jpg",
+			"../images/projects/ohmyfood/menu_4.jpg"
 		],
 		"description": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.",
 		"objective": "Traduire les maquettes et rendre le site plus dynamique grâce à des animations réalisées à l'aide de Sass.",
-		"scenario":"",
+		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		"skills": [
 			"Assurer la cohérence graphique d'un site web",
 			"Utiliser un système de gestion de versions pour le suivi du projet et son hébergement",
@@ -67,18 +67,15 @@
 		"cover": "images/projects/gameon/project_gameon.jpg",
 		"summary": "Création du formulaire d'inscription",
 		"pictures": [
-			"../images/projects/gameon/gameon_modal.jpg",
-			"../images/projects/gameon/name_error.jpg",
-			"../images/projects/gameon/email_error.jpg",
-			"../images/projects/gameon/date_error.jpg",
-			"../images/projects/gameon/games_error.jpg",
-			"../images/projects/gameon/city_error.jpg",
-			"../images/projects/gameon/terms_error.jpg",
-			"../images/projects/gameon/accept.jpg"
+			"../images/projects/gameon/gameOnLogo.jpg",
+			"../images/projects/gameon/gameon_1.jpg",
+			"../images/projects/gameon/gameon_2.jpg",
+			"../images/projects/gameon/gameon_3.jpg",
+			"../images/projects/gameon/gameon_4.jpg"
 		],
 		"description": "GameOn, spécialisée dans les conférences et les compétitions de jeux. La société simplifie la nouvelle page d'accueil et l'inscription au concours après avoir reçu des commentaires négatifs de certains utilisateurs.",
 		"objective":"Ajouter le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel en utilisant javascript.",
-		"scenario":"",
+		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		"skills": [
 			"Programmer en JavaScript"
 		],
@@ -98,19 +95,14 @@
 		"summary": "Création d'un site web accessible",
 		"pictures": [
 			"../images/projects/fisheye/fisheyeLogo.jpg",
-			"../images/projects/fisheye/project_fisheye.jpg",
-			"../images/projects/fisheye/nabeel.jpg",
-			"../images/projects/fisheye/portrait.jpg",
-			"../images/projects/fisheye/events.jpg",
-			"../images/projects/fisheye/filter.jpg",
-			"../images/projects/fisheye/lightbox.jpg",
-			"../images/projects/fisheye/lightbox2.jpg",
-			"../images/projects/fisheye/lightbox3.jpg",
-			"../images/projects/fisheye/contact.jpg"
+			"../images/projects/fisheye/fisheye_1.jpg",
+			"../images/projects/fisheye/fisheye_2.jpg",
+			"../images/projects/fisheye/fisheye_3.jpg",
+			"../images/projects/fisheye/fisheye_4.jpg"
 		],
 		"description": "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Ils ont récemment levé des fonds et aimeraient mettre à jour leur site web.",
 		"objective": "Construire un prototype de site web dynamique en mettant l'accent sur l'accessibilité (aria). Autres fonctionnalités : filtres, tri, lightbox, galerie de photos et formulaires.",
-		"scenario":"",
+		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		"skills": [
 			"Gérer les évènements d'un site avec JavaScript",
 			"Développer une application web modulaire avec des design patterns",
@@ -132,16 +124,15 @@
 		"cover": "images/projects/petitsplats/project_lespetitsplats.jpg",
 		"summary": "Développer un algorithme de recherche",
 		"pictures": [
-			"../images/projects/petitsplats/les_petits_platsLogo.jpg",
-			"../images/projects/petitsplats/mainsearch.jpg",
-			"../images/projects/petitsplats/wordsearch.jpg",
-			"../images/projects/petitsplats/menuopen.jpg",
-			"../images/projects/petitsplats/tag.jpg",
-			"../images/projects/petitsplats/itemsfinished.jpg"
+			"../images/projects/petitsplats/petitsLogo.jpg",
+			"../images/projects/petitsplats/project_lespetitsplats.jpg",
+			"../images/projects/petitsplats/petits_2.jpg",
+			"../images/projects/petitsplats/petits_3.jpg",
+			"../images/projects/petitsplats/petits_4.jpg"
 		],
 		"description": "Les Petits plats ont décidé de lancer leur propre site de recettes de cuisine. Comme il existe de nombreux sites proposant des recettes de cuisine, la fluidité et l'efficacité du moteur de recherche feront la différence.",
 		"objective": "Développer deux algorithmes de recherche pour la fonctionnalité de recherche (recherches primaires et secondaires). Tester et mettre en œuvre les algorithmes les plus efficaces.",
-		"scenario":"",
+		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		"skills": [
 			"Analyser un problème informatique",
 			"Développer un algorithme pour résoudre un problème"
@@ -161,20 +152,15 @@
 		"cover": "images/projects/billed/project_billed.jpg",
 		"summary": "Le débogage et le test d'un SaaS RH",
 		"pictures": [
-			"../images/projects/billed/billed.jpg",
-			"../images/projects/billed/project_billed.jpg",
-			"../images/projects/billed/admin.jpg",
-			"../images/projects/billed/admincheck.jpg",
-			"../images/projects/billed/bill.jpg",
-			"../images/projects/billed/notedefrais.jpg",
-			"../images/projects/billed/notedefraisform.jpg",
-			"../images/projects/billed/rapport_de couverture_Jest.jpg",
-			"../images/projects/billed/tests_Jest_src_views.jpg",
-			"../images/projects/billed/tests_Jest_src_views.jpg"
+			"../images/projects/billed/billedLogo.jpg",
+			"../images/projects/billed/billed_1.jpg",
+			"../images/projects/billed/billed_2.jpg",
+			"../images/projects/billed/billed_3.jpg",
+			"../images/projects/billed/billed_4.jpg"
 		],
 		"description": "Billed est une société qui produit des solutions Saas pour les équipes de ressources humaines. Dans deux semaines, l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise.",
 		"objective": "Trouver les bogues indiqués dans le rapport de bogue. Rédiger également les tests unitaires et d'intégration ainsi qu'un plan E2E.",
-		"scenario":"",
+		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		"skills": [
 			"Ecrire des tests unitaires avec JavaScript",
 			"Débugger une application web avec le Chrome Debugger",
@@ -193,25 +179,20 @@
 		"id": "learnathome",
 		"date": "2021-09-20",
 		"title": "Learn At Home",
-		"cover": "images/projects/learnathome/7_messages.jpg",
+		"cover": "images/projects/learnathome/learn_2.jpg",
 		"summary": "Définir les besoins d'une app de tutorat",
 		"pictures": [
-			"../images/projects/learnathome/learnathome.jpg",
-			"../images/projects/learnathome/project_learnathome.jpg",
-			"../images/projects/learnathome/1_Inscription.jpg",
-			"../images/projects/learnathome/2_password1.jpg",
-			"../images/projects/learnathome/3_password2.jpg",
-			"../images/projects/learnathome/4_tableau.jpg",
-			"../images/projects/learnathome/5_tasks.jpg",
-			"../images/projects/learnathome/6_calendar.jpg",
-			"../images/projects/learnathome/7_messages.jpg",
-			"../images/projects/learnathome/8_contact.jpg",
-			"../images/projects/learnathome/9_Kaban.jpg",
-			"../images/projects/learnathome/10_uml.jpg"
+			"../images/projects/learnathome/learnathomeLogo.jpg",
+			"../images/projects/learnathome/learn_1.jpg",
+			"../images/projects/learnathome/learn_2.jpg",
+			"../images/projects/learnathome/learn_3.jpg",
+			"../images/projects/learnathome/learn_4.jpg",
+			"../images/projects/learnathome/learn_5.jpg",
+			"../images/projects/learnathome/learn_6.jpg"
 		],
 		"description": "Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles. En gros, leur objectif est de permettre à tout élève, où qu’il soit, d’avoir accès à un soutien scolaire à distance.",
 		"objective": "Définir clairement les besoins du client. Créez les diagrammes de cas d'utilisation et les user stories avec les critères d'acceptation pour chaque fonctionnalité. Maquettes du site (Figma ou Sketch) avec un Kanban décomposant le projet.",
-		"scenario":"",
+		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		"skills": [
 			"Contribuer à un projet en utilisant une méthodologie agile",
 			"Créer une maquette pour un client",
@@ -230,20 +211,18 @@
 		"id": "kasa",
 		"date": "2021-10-18",
 		"title": "Kasa",
-		"cover": "images/projects/kasa/project_kasa.jpg",
+		"cover": "images/projects/kasa/kasa_1.jpg",
 		"summary": "Développement d'un SPA",
 		"pictures": [
-			"../images/projects/kasa/kasa_logoLogo.jpg",
-			"../images/projects/kasa/project_kasa.jpg",
-			"../images/projects/kasa/page1.jpg",
-			"../images/projects/kasa/page2.jpg",
-			"../images/projects/kasa/page3.jpg",
-			"../images/projects/kasa/page4.jpg",
-			"../images/projects/kasa/about.jpg"
+			"../images/projects/kasa/kasaLogo.jpg",
+			"../images/projects/kasa/kasa_1.jpg",
+			"../images/projects/kasa/kasa_2.jpg",
+			"../images/projects/kasa/kasa_3.jpg",
+			"../images/projects/kasa/kasa_4.jpg"
 		],
 		"description": "Kasa est dans le métier de la location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
 		"objective": "Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
-		"scenario":"",
+		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		"skills": [
 			"Développer les routes d'une application web avec React Router",
 			"Initialiser une application web avec un framework",
@@ -260,17 +239,17 @@
 		"id": "sportsee",
 		"date": "2021-11-08",
 		"title": "Sports See",
-		"cover": "images/projects/sportsee/cecelia.jpg",
+		"cover": "images/projects/sportsee/project_sportsee.jpg",
 		"summary":"Développer un tableau de bord analytique",
 		"pictures": [
-			"../images/projects/sportsee/sportsSee_logo.png",
-			"../images/projects/sportsee/project_sportsee.jpg",
-			"../images/projects/sportsee/karl.jpg",
-			"../images/projects/sportsee/cecelia.jpg"
+			"../images/projects/sportsee/sportseeLogo.jpg",
+			"../images/projects/sportsee/sportsee_1.jpg",
+			"../images/projects/sportsee/sportsee_2.jpg",
+			"../images/projects/sportsee/sportsee_3.jpg"
 		],
 		"description": "SportSee est une startup dédiée au coaching sportif. La société va lancer une nouvelle version de la page de profil de l'utilisateur, qui permettra de suivre le nombre de séances effectuées ainsi que les calories brûlées.",
 		"objective": "Redessiner la page de profil avec React, en utilisant soit D3 ou Recharts pour les graphiques d'activité sportive de l'utilisateur. Créez un service séparé qui se chargera des appels HTTP vers le backend (NodeJS) en utilisant Fetch ou Axios. Il est important que vous fassiez les appels en dehors des composants React. Enfin, toute la documentation doit être réalisée en anglais.",
-		"scenario":"",
+		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		"skills": [
 			"Assurer la qualité des données d'une application",
 			"Interagir avec un service Web",
@@ -292,19 +271,16 @@
 		"cover": "images/projects/argentbank/project_argentbank.jpg",
 		"summary": "Utilisation d'une API pour un compte bancaire",
 		"pictures": [
-			"../images/projects/argentbank/argentBankLogo.png",
+			"../images/projects/argentbank/bankLogo.jpg",
 			"../images/projects/argentbank/project_argentbank.jpg",
-			"../images/projects/argentbank/1_login.jpg",
-			"../images/projects/argentbank/2_transactions.jpg",
-			"../images/projects/argentbank/3_editname.jpg",
-			"../images/projects/argentbank/4_project_argentbanknight.jpg",
-			"../images/projects/argentbank/5_loginnight.jpg",
-			"../images/projects/argentbank/6_transactionsnight.jpg",
-			"../images/projects/argentbank/7_editnamenight.jpg"
+			"../images/projects/argentbank/argent_1.jpg",
+			"../images/projects/argentbank/argent_2.jpg",
+			"../images/projects/argentbank/argent_3.jpg",
+			"../images/projects/argentbank/argent_4.jpg"
 		],
 		"description": "Argent Bank est une nouvelle banque qui tente de percer dans le secteur et a besoin d'aide pour mettre en place son application. Le contrat en deux parties est décomposé en plusieurs phases.",
 		"objective": "Créer une application web entièrement responsive avec React en utilisant Redux pour gérer l'état de l'ensemble de l'application. Les utilisateurs doivent pouvoir visiter la page d'accueil, se connecter, voir les informations de leur profil et les modifier. Fournir également un document décrivant les API de transaction proposées, en suivant les directives Swagger.",
-		"scenario":"",
+		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		"skills": [
 			"Implémenter un gestionnaire d'état dans une application React",
 			"Intéragir avec une API",
