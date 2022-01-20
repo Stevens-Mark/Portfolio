@@ -1,6 +1,7 @@
 // import colors from '../style/colors'
 import React from 'react'
 import styled from 'styled-components'
+import colors from '../style/colors'
 // import rotate keyframe
 import { rotate } from '../style/keyframes'
 import PropTypes from 'prop-types'
@@ -10,7 +11,7 @@ import PropTypes from 'prop-types'
  */
 const Loader = styled.div`
   animation: ${rotate} 1s infinite linear;
-  border: 0.5rem solid ${props => props.primary ? '#fff' : '#FF0000'};
+  border: 0.5rem solid ${props => props.primary ? '#fff' : `${colors.primary}` };
   border-bottom-color: transparent;
   border-radius: 6.625rem;   
   padding: 0.938rem;

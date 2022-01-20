@@ -3,9 +3,11 @@ import { Link} from 'react-router-dom'
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
+// import fade-in keyframe
+import { fadeIn } from '../utils/style/keyframes'
 // import logos
 import logoM from '../assets/logos/logoM.png'
-import git from '../assets/icons/github.svg'
+import git from '../assets/icons/tech/github.svg'
 import linkedIn from '../assets/icons/linked_in.svg'
 import contact from '../assets/icons/contact.svg'
 // import links
@@ -15,13 +17,14 @@ import { gitLink, linkedInLink, mail } from '../assets/data/linkData'
  * CSS for component using styled.components
  */
 const FOOTER = styled.footer`
+  animation: ${fadeIn} 1s 200ms both ease-in-out;
+  background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   margin-top: 1rem;
-  background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
   padding: 0.5rem 0rem;
 
   p {
@@ -35,7 +38,7 @@ const FOOTER = styled.footer`
 const LogosWrapper = styled.span`
   @media screen and (min-width: 768px) {
     position: absolute;
-    right: 20px;
+    right: 1.25rem;
   }
 `;
 
@@ -46,7 +49,7 @@ const LogoMark = styled.img`
 
 const LinkImg = styled.img`
   width: clamp(1.2rem, 2vw, 2rem);
-  margin: 0px 10px;
+  margin: 0rem 0.625rem;
   filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(342deg) brightness(105%) contrast(101%);
 `;
 

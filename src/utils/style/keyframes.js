@@ -19,7 +19,7 @@ export const rotate = keyframes`
 
 
 // export const slideIn = keyframes`
-//   10% { opacity: 0; transform: translateY(-100px); }
+//   10% { opacity: 0; transform: translateX(-100px); }
 
 //   75% { opacity: 0; }
 

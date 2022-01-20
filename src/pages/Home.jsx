@@ -7,9 +7,10 @@ import { useTheme } from '../utils/Functions/theme'
 // import components
 import Hero from '../components/Hero'
 import Card from '../components/Card'
+import Footer from '../components/Footer'
 import GoToTop from '../utils/Functions/GoToTop'
-
 import heroImg from '../assets/images/banner4.jpg'
+
 /**
  * CSS for component using styled.components
  */
@@ -48,15 +49,18 @@ const Home = ( { siteData } ) => {
   }, [])
  
   return (
-    <main>
-      <Hero image={heroImg}/>
-      <PortFolioWrapper theme={theme}>
-          {siteData.map((data) => ( 
-                <Card key={data.id} data={data}/> 
-          ))}   
-      </PortFolioWrapper>
-      <GoToTop />
-  </main>
+    <>
+      <main>
+        <Hero image={heroImg}/>
+        <PortFolioWrapper theme={theme}>
+            {siteData.map((data) => ( 
+                  <Card key={data.id} data={data}/> 
+            ))}   
+        </PortFolioWrapper>
+        <GoToTop />
+      </main>
+      <Footer />
+    </>
   )
 }
 

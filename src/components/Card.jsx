@@ -8,13 +8,13 @@ import { useTheme } from '../utils/Functions/theme'
 import { fadeIn } from '../utils/style/keyframes'
 // import link logos
 import preview from '../assets/icons/preview.svg'
-import git from '../assets/icons/github.svg'
+import git from '../assets/icons/tech/github.svg'
 
 /**
  * CSS for component using styled.components
  */
 const ProjectCard = styled.article`
-  animation: ${fadeIn} 2s forwards ease-in-out;
+  animation: ${fadeIn} 2s both ease-in-out;
   border: 1px solid ${colors.secondary};
   background: ${({ theme }) => (theme === 'light' ? `${colors.tertiary}` : `${colors.tertiary}`)};
   filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
@@ -33,7 +33,6 @@ const ProjectCard = styled.article`
   }
 `;
 
-
 const ProjectHeading = styled.div`
   display: flex;
   justify-content: space-between;
@@ -41,13 +40,11 @@ const ProjectHeading = styled.div`
 `;
 
 const LinkImg = styled.img`
-  // width: 1.563rem;
   width: clamp(1rem, 1.6vw, 1.4rem);
   margin: 0px 5px;
 `;
 
 const NoLink = styled.img`
-  // width: 1.563rem;
   width: clamp(1rem, 1.6vw, 1.4rem);
   margin: 0px 5px;
   filter: invert(57%) sepia(0%) saturate(4%) hue-rotate(266deg) brightness(88%) contrast(89%);
@@ -77,6 +74,7 @@ const SummaryText = styled.h3`
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
+  
   @media screen and (min-width: 668px) {
     -webkit-line-clamp: 1;
   }
@@ -89,11 +87,9 @@ const DescriptionText = styled.p`
   text-justify: inter-word;
 `;
 
-
 /**
  * Individual announcement card for each project on Home page
  * @function Card
- * @param {string} id: of project
  * @param {object} data: for an individual project
  * @returns {JSX}
  */

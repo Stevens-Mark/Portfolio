@@ -6,6 +6,8 @@ import colors from '../utils/style/colors'
 import Banner from '../components/Banner'
 import aboutBanner from '../assets/images/banner2.jpg'
 import DropDown from '../components/DropDown'
+import Footer from '../components/Footer'
+
 // import data
 import { dropDownList} from '../assets/data/aboutDropdownData.js'
 // import Hero from '../components/Hero'
@@ -17,6 +19,7 @@ const AboutWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: calc(100vh - 12.5rem);
 `;
 
 const AboutBanner = styled.div`
@@ -41,20 +44,23 @@ const About = () => {
   }, [])
 
   return ( 
-    <main>
-        {/* <Hero  image={aboutBanner}/> */}
-      <AboutWrapper>
-       <Banner image={aboutBanner} alternate='The world - techno style'/>
-       
-      <AboutBanner>
-      <h1 className='sr-only'>A Propos</h1>
-      
-        </AboutBanner>     
-          {dropDownList.map((data) => (
-          <DropDown key={data.id} dropdownWidth='DropdownAboutPage' dropdownHeight='dropDownListAbout' dropdownColor='' title={data.title} content={data.content} />
-          ))}   
-      </AboutWrapper>
-    </main>
+    <>
+      <main>
+          {/* <Hero  image={aboutBanner}/> */}
+        <AboutWrapper>
+        <Banner image={aboutBanner} alternate='The world - techno style'/>
+        
+        <AboutBanner>
+        <h1 className='sr-only'>A Propos</h1>
+        
+          </AboutBanner>     
+            {dropDownList.map((data) => (
+            <DropDown key={data.id} dropdownWidth='DropdownAboutPage' dropdownHeight='dropDownListAbout' dropdownColor='' title={data.title} content={data.content} />
+            ))}   
+        </AboutWrapper>
+      </main>
+      <Footer />
+    </>
   )
 }
 

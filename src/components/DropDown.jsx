@@ -13,7 +13,7 @@ import '../utils/style/DropDown.css'
  * CSS for component using styled.components
  */
 const DropDownTitleBar = styled.div`
-  margin-top: 20px;
+  margin-top: 1.25rem;
   display: flex;
   max-width: 1023px;
   justify-content: space-between;

@@ -28,7 +28,7 @@ const HEADER = styled.header`
 `;
 
 const LogoImg = styled.img`
-  animation: ${fadeIn} 3s forwards ease-in-out;
+  animation: ${fadeIn} 3s both ease-in-out;
   width: clamp(8rem, 12.2vw, 12rem);
   padding-left: 1.5rem;
 `;

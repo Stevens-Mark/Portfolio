@@ -3,15 +3,20 @@ import { Link } from 'react-router-dom'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
-
+// import fade-in keyframe
+import { fadeIn } from '../utils/style/keyframes'
+// import components
+import Footer from '../components/Footer'
 /**
  * CSS for component using styled.components
  */
 const ErrorWrapper = styled.main`
+  animation: ${fadeIn} 1s both ease-in-out;
   align-items: center;
   color: ${colors.styledText};
   display: flex;
   flex-direction: column;
+  min-height: calc(100vh - 12.5rem);
 
   h1 {
     font-family: Vladimir script;
@@ -48,11 +53,14 @@ const Error = () => {
   }, [])
 
   return (
-    <ErrorWrapper>
-      <h1>404</h1>
-      <p>Oups! La page que vous demandez n'existe pas.</p>
-      <ReturnLink to="/">Retourner sur la page d’accueil</ReturnLink>
-    </ErrorWrapper>
+    <>
+      <ErrorWrapper>
+        <h1>404</h1>
+        <p>Oups! La page que vous demandez n'existe pas.</p>
+        <ReturnLink to="/">Retourner sur la page d’accueil</ReturnLink>
+      </ErrorWrapper>
+      <Footer />
+    </>
   )
 }
 

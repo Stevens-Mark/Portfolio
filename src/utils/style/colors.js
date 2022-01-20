@@ -11,6 +11,7 @@ const colors = {
   // Text
   styledText: '#33CCCC',
   darkGrey: '#284646',
+  Zircon: '#DBE1E1',
  
   // back to top button colors
   topButtonMain: '#6699cc',

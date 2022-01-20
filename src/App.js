@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import data from './assets/data/siteData.json'
 // import components
 import Header from './components/Header'
-import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import Project from './pages/Project'
@@ -27,7 +26,6 @@ const App = () => {
             <Route path="/project/:id" exact component={()=><Project siteData={data} />} />
             <Route component={Error} />
           </Switch> 
-        <Footer />
       </Router>  
       )
   }

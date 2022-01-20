@@ -1,22 +1,29 @@
-import { Component } from "react"
+import { useState } from 'react'
 import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
+import colors from '../utils/style/colors'
+import { useTheme } from '../utils/Functions/theme'
 // import icons
-import previousArrow from '../assets/icons/white_back_arrow.svg'
-import nextArrow from '../assets/icons/white_forward_arrow.svg'
+import previousArrow from '../assets/icons/chevron_back.svg'
+import nextArrow from '../assets/icons/chevron_forward.svg'
 import Blank from '../assets/images/blank.jpg'
 
 /**
  * CSS for the component using styled.components
  */
 const CarouselWrapper = styled.article`
-  margin: 10px;
+  margin: 0.625rem;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   flex:1;
+  filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
+  transition: 0.4s;
+  &:hover {
+    filter: brightness(100%);
+  }
 `;
 
 const CarouselImages = styled.img`
@@ -30,68 +37,59 @@ const CarouselImages = styled.img`
 const CarouselControls = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
   cursor: pointer;
   position: absolute;
 `;
 
 const CarouselControlArrows = styled.img`
-  filter: invert(68%) sepia(39%) saturate(716%) hue-rotate(131deg) brightness(93%) contrast(89%);
-  width: clamp(2rem, 3.4vw, 3.125rem);
+  filter: ${({ theme }) => (theme === 'light' ? 'invert(68%) sepia(39%) saturate(716%) hue-rotate(131deg) brightness(93%) contrast(89%)' : 'invert(0%) sepia(1%) saturate(1253%) hue-rotate(149deg) brightness(96%) contrast(83%)')};
+  width: clamp(1.5rem, 2.2vw, 2.5rem);
   margin: -5px;
 `;
 
 const Counter = styled.p`
+  color: ${colors.primary};
   position: absolute;
-  bottom: 0.625rem;
+  bottom: -0.5rem;
   font-size: clamp(0.625rem, 1.3vw, 1.25rem);
-  margin: unset;
 `;
 
 /**
- * Renders Carousel at top of page for accomodation announcement
+ * Renders Carousel at top of page for the project
  * @function Carousel
- * @extends Component
- * @param {array} props photoAlbum: pictures for the carousel
+ * @param {array} photoAlbum: pictures for the carousel
  * @returns {JSX}
  */
-export default class Carousel extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      currentImageIndex: 0,
-    }
+const Carousel = ( {photoAlbum} ) => {
+
+  const { theme } = useTheme()
+  const pictures = photoAlbum
+  const length = photoAlbum.length
+  const [current, setCurrent] = useState(0)
+
+  const nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
   }
 
-	render() { 
-    const {currentImageIndex} = this.state
-    const pictures = this.props.photoAlbum
-    const length = pictures?.length
+  const prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  }
+
+  return (   
+    <CarouselWrapper theme={theme}>
+      <CarouselControls>
+        <CarouselControlArrows theme={theme} src={previousArrow} alt='previous' onClick={prevSlide} />
+        <CarouselControlArrows theme={theme} src={nextArrow} alt='next' onClick={nextSlide} />
+      </CarouselControls>
+        <CarouselImages src={pictures? pictures[current] : Blank} alt='Project Gallery' />
+        <Counter>{current+1}/{length || 0 }</Counter>
+    </CarouselWrapper>     
+  )
   
-    const previousSlide = () => {
-        this.setState((prevState) => ({
-          currentImageIndex: prevState.currentImageIndex !== 0 ? prevState.currentImageIndex - 1 : prevState.currentImageIndex = length - 1
-        }))
-    };
-
-    const nextSlide = () => {
-        this.setState((prevState) => ({
-          currentImageIndex: prevState.currentImageIndex !== length - 1 ? prevState.currentImageIndex + 1 : prevState.currentImageIndex = 0
-        }))
-    };
-
-    return (   
-          <CarouselWrapper>
-            <CarouselControls>
-              <CarouselControlArrows src={previousArrow} alt='previous' onClick={previousSlide} />
-              <CarouselControlArrows src={nextArrow} alt='next' onClick={nextSlide} />
-            </CarouselControls>
-              <CarouselImages src={pictures? pictures[currentImageIndex] : Blank} alt='Carousel Gallery' />
-              <Counter>{currentImageIndex+1}/{length || 0 }</Counter>
-          </CarouselWrapper>     
-    )
-  }
 }
+
+export default Carousel
 
 // Prototypes
 Carousel.propTypes = {

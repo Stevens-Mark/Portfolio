@@ -26,9 +26,9 @@ code {
 
 main {
   padding-top: 110px;
-  // min-height: calc(100vh - 22rem);
+  // min-height: calc(100vh - 12.5rem);
   //  height: 100%; 
-  min-height: 85vh; 
+  // min-height: 85vh; 
 }
 
 a {

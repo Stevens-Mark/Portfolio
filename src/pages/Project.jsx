@@ -4,12 +4,20 @@ import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+import { useTheme } from '../utils/Functions/theme'
+// import fade-in keyframe
+import { fadeIn } from '../utils/style/keyframes'
 // import components
 import LoadingIcon from '../utils/Loaders/MiniLoadingIcon'
 import Carousel from '../components/Carousel'
-import Tags from '../components/Tags'
-import DropDown from '../components/DropDown'
+// import Tags from '../components/Tags'
+import Footer from '../components/Footer'
 import Error from './Error'
+// import tech logos
+import css3 from '../assets/icons/tech/css.svg'
+import html5 from '../assets/icons/tech/javascript.svg'
+import sass from '../assets/icons/tech/sass.svg'
+
 
 /**
  * CSS for component using styled.components
@@ -22,42 +30,52 @@ const LoadingWrapper = styled.div`
 `;
 
 const ProjectWrapper = styled.div`
-  background: ${colors.primary};
+  animation: ${fadeIn} 1s both ease-in-out;
+  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.darkModeHighlights}`)};
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: auto;
-  
 `;
 
 const Overview = styled.div`
-  // display: block;
-  max-width: 1440px;
-  margin: auto;
   margin-top: 1rem;
   color: ${colors.secondary};
-  @media screen and (min-width: 660px) {
+  @media screen and (min-width: 900px) {
     display: flex;
-    justify-content: space-between;
-    // margin-top: 1.875rem;
+    flex-direction: row-reverse;
+    // align-items: center;
   }
 `;
 
+const LeftSide = styled.div`
+  flex: 1;
+`;
+
+const RightSide = styled.div`
+  animation: ${fadeIn} 1.5s 300ms both ease-in-out;
+  flex: 1;
+  // text-align: center;
+`;
+
+
 const Texte = styled.div`
-  margin: 10px;
-  flex:1;
+  margin: 1rem;
+  flex: 1;
+  color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
 
   h1 {
     font-size: clamp(1.125rem, 2.5vw, 2.25rem);
-    margin: unset;
   }
-  p {
-    color: ${colors.darkGrey};
+  h2 {
+    font-size: clamp(1rem, 1.6vw, 1.5rem);
+  }
+  p, li {
+    color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
     text-align: justify;
     text-justify: inter-word;
-    margin-top: 5px;
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
   }
+
 `;
 
 const Details = styled.div`
@@ -66,9 +84,13 @@ const Details = styled.div`
   
   @media screen and (min-width: 600px) {
     flex-direction: row;
-    justify-content: space-between;
-    gap: 3.125rem;
   }
+`;
+
+const Tech = styled.img`
+  width: clamp(1.5rem, 2.1vw, 2rem);
+  margin: .5rem;
+  height:  2rem;
 `;
 
 /**
@@ -79,6 +101,8 @@ const Details = styled.div`
  * @returns {JSX}
  */
 const Project = ( { siteData } ) => {
+
+  const { theme } = useTheme()
 
   const [data, setData] = useState('')
   const [isLoading, setLoading] = useState(true)
@@ -117,29 +141,56 @@ const Project = ( { siteData } ) => {
         else 
         {
           return (
-              <main>
-                  <ProjectWrapper>
+          <>
+            <main>
+              <ProjectWrapper theme={theme}>    
+                <Overview>
+
+                  <RightSide>
+                    <Carousel photoAlbum={data.pictures}/>
+                    <Tech src={css3} alt="" title=""/>
+                    <Tech src={html5} alt="" title=""/>
+                    <Tech src={sass} alt="" title=""/>
+                  </RightSide>
+
+                  <LeftSide>
+                    <Texte theme={theme}>
+                      <h1>{data.title}</h1>
+                      <p>{data.scenario}</p>
+                    </Texte>
+
+                    <Texte theme={theme}>
+                      <h2>Brief</h2>
+                      <p>{data.scenario}</p>
+                    </Texte>
+
+                    <Texte theme={theme}>
+                      <h2>Constraints</h2>
+                      <p>{data.scenario}</p>
+                    </Texte>
+                  </LeftSide>
                   
-                    <Overview>
-                      <Texte>
-                        <h1>{data.title}</h1>
-                        <p>{data.scenario}</p>
-                      </Texte>
-                      <Carousel photoAlbum={data.pictures}/>
-                    </Overview> 
+                </Overview> 
 
+                <Details>
+                    <Texte theme={theme}>
+                    <h2>Skills</h2>
+                    <ul>{data.skills.map((skill, index) => (
+                      <li key={`${skill}-${index}`}>{skill}</li> ))}
+                    </ul>  
+                  </Texte>
+                
+                    <Texte theme={theme}>
+                      <h2>Notes</h2>
+                      <p>{data.scenario}</p>
+                    </Texte>
 
-
-{/* EXPERIMENT - color are passed as parameters to change the colo of the drop downs */}
-                    <Details>
-
-                         <DropDown dropdownWidth='DropdownAccomPage' dropdownHeight='dropDownListAccomodation' dropdownColor={colors.darkGrey}  title={'Compétences'} content={data.skills}/>
-
-                        <Tags tagData={data.tags} tagColor={colors.secondary} /> 
-                    </Details>
-
-                  </ProjectWrapper>                   
-              </main>
+                      {/* <Tags tagData={data.tags} tagColor={colors.secondary} />  */}
+                </Details>
+              </ProjectWrapper>                   
+            </main>
+            <Footer/>
+          </>
           )
         }
 }
