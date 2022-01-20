@@ -25,6 +25,10 @@
 			"HTML",
 			"CSS"
 		],
+		"techIcons": [
+			"../images/techIcons/html5.svg",
+			"../images/techIcons/bootstrap.svg"
+		],
 		"website": "https://reservia2021.netlify.app/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
 	},
@@ -57,6 +61,11 @@
 			"Git/Github",
 			"Terminal"
 		],
+		"techIcons": [
+			"../images/techIcons/html5.svg",
+			"../images/techIcons/sass.svg",
+			"../images/techIcons/github.svg"
+		],
 		"website": "https://ohmyfood2021.netlify.app/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P3_21042021"
 	},
@@ -83,6 +92,10 @@
 			"JavaScript",
 			"HTML",
 			"CSS"
+		],
+		"techIcons": [
+			"../images/techIcons/javascript.svg",
+			"../images/techIcons/html5.svg"
 		],
 		"website": "https://stevens-mark.github.io/StevensMark_P4_06052021/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
@@ -114,6 +127,11 @@
 			"Sass",
 			"Accessibilité"
 		],
+		"techIcons": [
+			"../images/techIcons/accessibility.svg",
+			"../images/techIcons/javascript.svg",
+			"../images/techIcons/sass.svg"
+			],
 		"website": "https://fisheye2021.netlify.app/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
 	},
@@ -142,6 +160,11 @@
 			"Sass",
 			"Algorithms"
 		],
+		"techIcons": [
+			"../images/techIcons/javascript.svg",
+			"../images/techIcons/html5.svg",
+			"../images/techIcons/sass.svg"
+			],
 		"website": "https://stevens-mark.github.io/StevensMark_P7_12072021/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
 	},
@@ -172,6 +195,10 @@
 			"JavaScript",
 			"Débogage"
 		],
+		"techIcons": [
+			"../images/techIcons/jest.svg",
+			"../images/techIcons/html5.svg"
+			],
 		"website": "https://billed.netlify.app/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
 	},
@@ -204,6 +231,9 @@
 			"Use Case",
 			"Figma"
 		],
+		"techIcons": [
+			"../images/techIcons/figma.svg"
+			],
 		"website": "https://www.figma.com/file/K8QF42xb6EzUyqDOvKHAXW/Learn-at-home",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P10_20092021"
 	},
@@ -232,6 +262,9 @@
 			"React",
 			"React-Router"
 		],
+		"techIcons": [
+			"../images/techIcons/react.svg"
+			],
 		"website": "https://kasa2021.netlify.app/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P11_18102021"
 	},
@@ -261,6 +294,11 @@
 			"Recharts",
 			"JSDoc"
 		],
+		"techIcons": [
+			"../images/techIcons/react.svg",
+			"../images/techIcons/JSDoc.jpg",
+			"../images/techIcons/recharts.jpg"
+			],
 		"website": "https://sportsee2021.netlify.app/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P12_08112021"
 	},
@@ -291,8 +329,12 @@
 			"React",
 			"Redux",
 			"Swagger"
-		]
-		,
+		],
+		"techIcons": [
+			"../images/techIcons/react.svg",
+			"../images/techIcons/redux.svg",
+			"../images/techIcons/swagger-green.svg"
+			],
 		"website": "https://stevens-mark.github.io/StevensMark_P13_02122021/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
 	}

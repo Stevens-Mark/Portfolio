@@ -10,15 +10,9 @@ import { fadeIn } from '../utils/style/keyframes'
 // import components
 import LoadingIcon from '../utils/Loaders/MiniLoadingIcon'
 import Carousel from '../components/Carousel'
-// import Tags from '../components/Tags'
+import TechIcons from '../components/Tech'
 import GoToTop from '../utils/Functions/GoToTop'
-
 import Error from './Error'
-// import tech logos
-import css3 from '../assets/icons/tech/css.svg'
-import html5 from '../assets/icons/tech/javascript.svg'
-import sass from '../assets/icons/tech/sass.svg'
-
 
 /**
  * CSS for component using styled.components
@@ -88,12 +82,6 @@ const Details = styled.div`
   }
 `;
 
-const Tech = styled.img`
-  width: clamp(1.5rem, 2.1vw, 2rem);
-  margin: .5rem;
-  height:  2rem;
-`;
-
 /**
 * Individual Project page template
 * relevant project displayed based on ID extracted from Url params
@@ -116,9 +104,7 @@ const Project = ( { siteData } ) => {
     window.scrollTo(0, 0)
   }, [])
 
- 
-
-  useEffect(() => {
+   useEffect(() => {
     const projectToShow = siteData.find((room) => room.id === idUrl)
     if (projectToShow) {
           setData(projectToShow)
@@ -152,9 +138,7 @@ const Project = ( { siteData } ) => {
 
                   <RightSide>
                     <Carousel photoAlbum={data.pictures}/>
-                    <Tech src={css3} alt="" title=""/>
-                    <Tech src={html5} alt="" title=""/>
-                    <Tech src={sass} alt="" title=""/>
+                    <TechIcons icons={data.techIcons} /> 
                   </RightSide>
 
                   <LeftSide>
@@ -188,13 +172,10 @@ const Project = ( { siteData } ) => {
                       <h2>Notes</h2>
                       <p>{data.scenario}</p>
                     </Texte>
-
-                      {/* <Tags tagData={data.tags} tagColor={colors.secondary} />  */}
                 </Details>
               </ProjectWrapper>  
               <GoToTop />                 
             </main>
-           
           )
         }
 }
