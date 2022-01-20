@@ -5,8 +5,7 @@ import styled from 'styled-components'
 import colors from '../utils/style/colors'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
-// import components
-import Footer from '../components/Footer'
+
 /**
  * CSS for component using styled.components
  */
@@ -50,17 +49,15 @@ const Error = () => {
   
   useEffect(() => {
     document.title = 'Mark Stevens - Page not found'
+    window.scrollTo(0, 0)
   }, [])
 
   return (
-    <>
       <ErrorWrapper>
         <h1>404</h1>
         <p>Oups! La page que vous demandez n'existe pas.</p>
         <ReturnLink to="/">Retourner sur la page d’accueil</ReturnLink>
       </ErrorWrapper>
-      <Footer />
-    </>
   )
 }
 

@@ -6,7 +6,7 @@ import colors from '../utils/style/colors'
 import Banner from '../components/Banner'
 import aboutBanner from '../assets/images/banner2.jpg'
 import DropDown from '../components/DropDown'
-import Footer from '../components/Footer'
+
 
 // import data
 import { dropDownList} from '../assets/data/aboutDropdownData.js'
@@ -41,10 +41,10 @@ const About = () => {
  
   useEffect(() => {
     document.title = 'Mark Stevens - About'
+    window.scrollTo(0, 0)
   }, [])
 
   return ( 
-    <>
       <main>
           {/* <Hero  image={aboutBanner}/> */}
         <AboutWrapper>
@@ -59,8 +59,6 @@ const About = () => {
             ))}   
         </AboutWrapper>
       </main>
-      <Footer />
-    </>
   )
 }
 

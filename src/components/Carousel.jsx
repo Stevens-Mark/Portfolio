@@ -45,7 +45,7 @@ const CarouselControls = styled.div`
 const CarouselControlArrows = styled.img`
   filter: ${({ theme }) => (theme === 'light' ? 'invert(68%) sepia(39%) saturate(716%) hue-rotate(131deg) brightness(93%) contrast(89%)' : 'invert(0%) sepia(1%) saturate(1253%) hue-rotate(149deg) brightness(96%) contrast(83%)')};
   width: clamp(1.5rem, 2.2vw, 2.5rem);
-  margin: -5px;
+  margin: -8px;
 `;
 
 const Counter = styled.p`

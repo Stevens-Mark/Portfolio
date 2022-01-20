@@ -16,8 +16,6 @@ body {
   background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
   // color: ${({ isDarkMode }) => (isDarkMode ? `${colors.tertiary}` : `${colors.secondary}`)};
   max-width: 1920px;
-
-  // min-height: 100vh;
 } 
 
 code {
@@ -28,7 +26,7 @@ main {
   padding-top: 110px;
   // min-height: calc(100vh - 12.5rem);
   //  height: 100%; 
-  // min-height: 85vh; 
+  min-height: 90vh;
 }
 
 a {

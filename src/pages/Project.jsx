@@ -11,7 +11,8 @@ import { fadeIn } from '../utils/style/keyframes'
 import LoadingIcon from '../utils/Loaders/MiniLoadingIcon'
 import Carousel from '../components/Carousel'
 // import Tags from '../components/Tags'
-import Footer from '../components/Footer'
+import GoToTop from '../utils/Functions/GoToTop'
+
 import Error from './Error'
 // import tech logos
 import css3 from '../assets/icons/tech/css.svg'
@@ -112,7 +113,10 @@ const Project = ( { siteData } ) => {
 
   useEffect(() => {
     document.title = 'Mark Stevens - Project'
+    window.scrollTo(0, 0)
   }, [])
+
+ 
 
   useEffect(() => {
     const projectToShow = siteData.find((room) => room.id === idUrl)
@@ -141,7 +145,7 @@ const Project = ( { siteData } ) => {
         else 
         {
           return (
-          <>
+    
             <main>
               <ProjectWrapper theme={theme}>    
                 <Overview>
@@ -187,10 +191,10 @@ const Project = ( { siteData } ) => {
 
                       {/* <Tags tagData={data.tags} tagColor={colors.secondary} />  */}
                 </Details>
-              </ProjectWrapper>                   
+              </ProjectWrapper>  
+              <GoToTop />                 
             </main>
-            <Footer/>
-          </>
+           
           )
         }
 }
