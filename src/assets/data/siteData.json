@@ -14,7 +14,26 @@
 		],
 		"description": "Une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
 		"objective": "Traduire une maquette en une page Web à l'aide de HTML et de CSS.",
-		"scenario": "Reservia, une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.\n Pour plus d'informations (scénario, etc.) sur ce projet, veuillez consulter le dossier ‘Project brief’.",
+		"scenario": "Reservia, une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.\n \n Un nouveau design basé sur les principes du Material Design vient d’être proposé par le designer UI.  Avant de valider définitivement ce design, l’entreprise décide de réaliser un prototype. La première étape consiste à intégrer la maquette responsive en HTML et CSS.",
+		"functionality": [
+			"Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.", 
+			"Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.", 
+			"Les filtres ne seront pas fonctionnels pour cette version, en revanche, il faut qu’ils changent d’apparence au survol.",
+			"Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page."
+		],
+		"constraints": [
+			"Il y a fournis deux maquettes : l’un desktop et l’autre mobile.", 
+			"Libre de faire les adaptations nécessaires avec la mise en page, tant qu’aucun élément n’est coupé et que le texte a une taille suffisante.", 
+			"Choisir les breakpoints appropriés.",
+			"N’utilise pas de Framework ou pré-compilateur CSS pour ce projet (comme SASS par exemple).",
+			"L'utilisation de Visual studio est recommandé.",
+			"Intégrer les icônes Font Awesome en HTML ou CSS.",
+			"Utiliser Flexbox ou  CSS Grid.",
+			"Le code doit utiliser des balises sémantiques et ne doit pas contenir d'erreurs ou d'alertes pour le validateur HTML et CSS du W3C.",
+			"Le site devra être compatible avec les dernières versions de Chrome et Firefox.",
+			"Versionner le code avec Git."
+		],
+		"notes":"",
 		"skills": [
 			"Utiliser un système de gestion de versions pour le suivi du projet et son hébergement.",
 			"Mettre en place son environnement Front-End.",
@@ -27,7 +46,7 @@
 		],
 		"techIcons": [
 			"../images/techIcons/html5.svg",
-			"../images/techIcons/bootstrap.svg"
+			"../images/techIcons/css.svg"
 		],
 		"website": "https://reservia2021.netlify.app/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
@@ -48,7 +67,25 @@
 		],
 		"description": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.",
 		"objective": "Traduire les maquettes et rendre le site plus dynamique grâce à des animations réalisées à l'aide de Sass.",
-		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"scenario":"Ohmyfood est une société de commande de repas en ligne. Leur concept permet aux utilisateurs de composer leur propre menu et de réduire leur temps d'attente dans les restaurants, car leur menu est préparé à l'avance. Plus de temps perdu à regarder le menu.\n\n Ils veulent offrir à leurs clients les menus des restaurants gastronomiques. Initialement développés à New York, ils souhaitent désormais étendre leur concept à la capitale de la gastronomie : Paris. Ils se positionnent sur un marché de niche, auprès des restaurants de luxe des villes dans lesquelles ils sont implantés. Ils souhaitent être identifiés comme une entreprise offrant des services haut de gamme aux classes moyennes et supérieures, connectées et souvent pressées, désireuses de déguster des produits de qualité.",
+		"functionality": [
+			"Un spinner de chargement pour quand l'application a plus de menus.",
+			"Une section contenant 4 menus sous forme de carte. En cliquant dessus, l'utilisateur est redirigé vers le menu.",
+			"En arrivant sur une page de menu, les plats doivent apparaître progressivement avec un léger décalage.",
+			"Au survol, une petite coche doit apparaître à droite pour simuler le choix d'un plat par le visiteur.",
+			"Au survol, la couleur de fond des boutons principaux s'illumine légèrement et l'ombre portée devient plus visible.",
+			"Un bouton 'J'aime' en forme de cœur, au survol, il se remplit progressivement. (pour simuler un visiteur qui enregistre ses menus préférés)."
+		],
+		"constraints": [
+			"Maquettes fournies.",
+			"Le développement doit se faire en CSS, sans JavaScript.",
+			"Aucun Framework ne doit être utilisé, cependant l'utilisation de SASS serait un plus.",
+			"Aucun code CSS ne doit être appliqué via un attribut de style dans une balise HTML.",
+			"L'ensemble du site doit être responsive sur mobile, tablette et desktop.",
+			"Les pages doivent passer la validation W3C en HTML et CSS sans erreur.",
+			"Le site doit être entièrement compatible avec les dernières versions de bureau de Chrome et Firefox."
+		],
+		"notes":"",
 		"skills": [
 			"Assurer la cohérence graphique d'un site web",
 			"Utiliser un système de gestion de versions pour le suivi du projet et son hébergement",
@@ -84,7 +121,21 @@
 		],
 		"description": "GameOn, spécialisée dans les conférences et les compétitions de jeux. La société simplifie la nouvelle page d'accueil et l'inscription au concours après avoir reçu des commentaires négatifs de certains utilisateurs.",
 		"objective":"Ajouter le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel en utilisant javascript.",
-		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"scenario":"GameOn qui est spécialisée dans les conférences et les concours de jeux vidéo. L'entreprise simplifie la nouvelle page d'accueil et l'inscription aux concours après avoir reçu des commentaires négatifs de certains utilisateurs.\n\n Malheureusement, l'ancien développeur qui travaillait dessus n'a pas eu le temps de terminer avant de partir pour son nouvel emploi dans sa nouvelle entreprise.\n\n La structure HTML et le style CSS, basés sur les maquettes, ont été commencés et la mise en page et le contenu de la page d'accueil et de la modale de formulaire sont terminés, mais le front-end doit être complété. En outre, le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel, en utilisant JavaScript, doit être ajouté et les problèmes décrits sur le repo Git Hub doivent être complétés.",
+		"functionality": [
+			"Validation du formulaire - Le champ Prénom/ nom de famille a un minimum de 2 caractères / n'est pas vide. L'adresse électronique est valide. Pour le nombre de concours, une valeur numérique est saisie. Un bouton radio est sélectionné. La case des conditions générales est cochée, l'autre case est facultative / peut être laissée décochée. Conserver les données du formulaire (ne pas effacer le formulaire) lorsqu'il ne passe pas la validation.",
+			"Soit le formulaire est validé, soit il y a un message d'erreur.",
+			"Il y a un message de confirmation lorsque l'envoi est réussi."
+		],
+		"constraints": [
+			"Utiliser du JavaScript pur (pas de jQuery) pour terminer le formulaire.",
+			"Travailler sur un repo GitHub forké.",
+			"Utiliser des fichiers séparés pour le HTML, le CSS et le JavaScript.",
+			"Commenter toujours le code (en décrivant chaque fonction et classe, ainsi que les parties du code qui nécessitent plus de détails).",
+			"Tester manuellement les fonctionnalités, les entrées de formulaire et l'affichage réactif dans les dernières versions de Chrome et de Firefox, ainsi que dans les versions mobile et desktop.",
+			"Réviser le code et assurez-vous qu'il est prêt pour la production."
+		],
+		"notes":"Je n'ai pas créé l'interface utilisateur. \n\nLe brief était d'écrire le code de validation du formulaire en JavaScript et de résoudre les problèmes ('break of design') avec le responsive design uniquement.",
 		"skills": [
 			"Programmer en JavaScript"
 		],
@@ -95,7 +146,7 @@
 		],
 		"techIcons": [
 			"../images/techIcons/javascript.svg",
-			"../images/techIcons/html5.svg"
+			"../images/techIcons/css.svg"
 		],
 		"website": "https://stevens-mark.github.io/StevensMark_P4_06052021/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
@@ -115,7 +166,30 @@
 		],
 		"description": "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Ils ont récemment levé des fonds et aimeraient mettre à jour leur site web.",
 		"objective": "Construire un prototype de site web dynamique en mettant l'accent sur l'accessibilité (aria). Autres fonctionnalités : filtres, tri, lightbox, galerie de photos et formulaires.",
-		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"scenario":"FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux.\n\n On peut lire sur le site web de photographes freelances. “Nos clients prennent de super photos, mais ils n’y connaissent rien en développement web. C'est pourquoi nous proposons une plateforme unique pour montrer leurs photos sur une belle page et les contacter pour des événements ou des tirages. Nous sommes l'un des plus grands sites de photographie en freelance, avec un énorme réseau de photographes.”\n\n Pour eux, l'accessibilité est essentielle ! Il est donc très important que le site soit accessible aux utilisateurs malvoyants, avec des descriptions textuelles pour toutes les photos et des commandes au clavier pour naviguer sur le site. Le site étant obsolète, il doit être remanié et passer d'un site statique à un site dynamique en mettant l'accent sur l'accessibilité (aria).",
+		"functionality": [
+			"Page d'accueil - Liste de tous les photographes.",
+			"La liste des photographes peut être filtrée par tag.",
+			"En cliquant sur la vignette d'un photographe, on est redirigé vers sa page.",
+			"Pages du photographe - Affiche une galerie des travaux du photographe.",
+			"En cliquant sur l'icône 'J'aime', on incrémente le nombre de likes affichés.",
+			"Les médias peuvent être triés par popularité, date ou titre.",
+			"En cliquant sur un média, il devrait s'ouvrir dans une lightbox.",
+			"Un bouton pour contacter le photographe ouvre un formulaire de contact.",
+			"Le site est mobile convivial et responsive."
+		],
+		"constraints": [
+			"Ajouter des attributs ARIA pour créer un élément personnalisé et décrire ce qu'il fait.",
+			"Le code devrait passer les tests AChecker sans “known issue” (afin qu'il soit conforme aux WCAG).",
+			"Toute la gestion des événements (les pressions au clavier) doit être configurée.",
+			"Utiliser des éléments HTML 'sémantiques' qui décrivent leur intention, au lieu de mettre des éléments <div> et <span> partout.",
+			"Le site web doit correspondre aux maquettes et fonctionner correctement (pas d'erreurs).",
+			"Le code est séparé en différents fichiers (HTML avec balises d'accessibilité, CSS, JavaScript).",
+			"Une version moderne (ES6 ou supérieure) de JavaScript est utilisée.",
+			"Utiliser le pattern Factory Method.",
+			"La programmation orientée objet est utilisée."
+		],
+		"notes":"J'ai utilisé un lecteur d'écran gratuit pour me faire une idée de ce que serait l'utilisation du site pour une personne malvoyante.",
 		"skills": [
 			"Gérer les évènements d'un site avec JavaScript",
 			"Développer une application web modulaire avec des design patterns",
@@ -150,20 +224,41 @@
 		],
 		"description": "Les Petits plats ont décidé de lancer leur propre site de recettes de cuisine. Comme il existe de nombreux sites proposant des recettes de cuisine, la fluidité et l'efficacité du moteur de recherche feront la différence.",
 		"objective": "Développer deux algorithmes de recherche pour la fonctionnalité de recherche (recherches primaires et secondaires). Tester et mettre en œuvre les algorithmes les plus efficaces.",
-		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"scenario":"Après avoir édité des livres de cuisine pendant plusieurs années, l’entreprise a décidé de se lancer dans un nouveau projet : réaliser son propre site de recettes de cuisine à l’instar de Marmiton ou 750g.\n\n Comme il existe de nombreux sites proposant des recettes de cuisine, on pense qu'un des éléments qui peut faire la différence sur leur site est la fluidité du moteur de recherche. De plus, l'entreprise veut avant tout quelque chose d'efficace, car ses utilisateurs veulent une recherche rapide, presque instantanée !\n\n Un fichier JavaScript contenant un tableau JSON de 50 recettes a été fourni pour développer le projet et la première mission est d'implémenter la fonctionnalité de recherche.",
+		"functionality": [
+			"La recherche doit pouvoir se faire via le champ principal ou via les tags (ingrédients, ustensiles ou appareil).",
+			"La recherche principale se lance à partir de 3 caractères entrés par l’utilisateur dans la barre de recherche.",
+			"La recherche s’actualise pour chaque nouveau caractère entré.",
+			"La recherche principale affiche les premiers résultats le plus rapidement possible.",
+			"Les champs ingrédients, ustensiles et appareil de la recherche avancée proposent seulement les éléments restant dans les recettes présentes sur la page",
+			"Les retours de recherche doivent être une intersection des résultats. Si l’on ajoute les tags “coco” et “chocolat” dans les ingrédients, on doit récupérer les recettes qui ont à la fois de la coco et du chocolat."
+		],
+		"constraints": [
+			"Maquettes fournies.",
+			"Le code HTML et CSS pour l’interface doit passer avec succès le validateur W3C.",
+			"Aucune librairie ne doit être utilisée pour le JavaScript du moteur de recherche.",
+			"Utiliser Bootstrap 4 est recommandée.",
+			"Rédiger deux algorithmes de recherche qui se concentrent uniquement sur le champ de recherche principal.",
+			"Remplir un document d'investigation des fonctionnalités décrivant les deux algorithmes à comparer.",
+			"Faire un schéma pour chacune des propositions afin que la séquence des étapes pour chaque algorithme soit claire.",
+			"Tester leurs performances à l'aide d'un outil de comparaison d'analyses de performances (par exemple, Jsben.ch).",
+			"Ne teste que la recherche principale (pas besoin d'utiliser de filtres)."
+		],
+		"notes":"",
 		"skills": [
 			"Analyser un problème informatique",
 			"Développer un algorithme pour résoudre un problème"
 		],
 		"tags": [
 			"JavaScript",
-			"Sass",
-			"Algorithms"
+			"Bootstrap",
+			"Sass"
 		],
 		"techIcons": [
 			"../images/techIcons/javascript.svg",
 			"../images/techIcons/html5.svg",
-			"../images/techIcons/sass.svg"
+			"../images/techIcons/sass.svg",
+			"../images/techIcons/bootstrap.svg"
 			],
 		"website": "https://stevens-mark.github.io/StevensMark_P7_12072021/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
@@ -183,7 +278,19 @@
 		],
 		"description": "Billed est une société qui produit des solutions Saas pour les équipes de ressources humaines. Dans deux semaines, l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise.",
 		"objective": "Trouver les bogues indiqués dans le rapport de bogue. Rédiger également les tests unitaires et d'intégration ainsi qu'un plan E2E.",
-		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"scenario":"Billed est une entreprise qui produit des solutions Saas pour les équipes de ressources humaines. La fonctionnalité 'note de frais' est très attendue sur le marché et la direction générale en a fait une priorité. L'objectif est de la lancer officiellement auprès de ses clients dans les deux semaines, les délais sont donc très serrés. L'équipe chargée de la fonctionnalité a travaillé dur au cours des deux dernières semaines.\n\n Malheureusement, après qu'un collègue de l'équipe chargée des rapports de dépenses a quitté l'entreprise avant d'avoir terminé l'application, le développeur principal de l'équipe chargée de la fonctionnalité a demandé de l'aide pour terminer les tests et respecter le délai.\n\n L'application doit être terminée en une semaine, car l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise. Description de la fonctionnalité - Il y a deux chemins d'accès à cette fonctionnalité : un du côté de l'administrateur RH et un du côté de l'employé. Le back-end est prêt (en version alpha). Sur le front-end, le parcours de l'administrateur RH est complet, entièrement testé et débogué.",
+		"functionality": [
+			"Le parcours de l'employé a été fiabilisé et amélioré.",
+			"Les bogues identifiés dans le rapport de bogue fourni par Jest ont été corrigés.",
+			"Les bogues identifiés sur le parcours de l'employé par l'équipe QA ont été corrigés.",
+			"Les tests unitaires et d'intégration pour les fichiers Bills et NewBill ont été ajoutés : ces tests permettront d'éliminer ces bugs et d'éviter toute régression lors de la prochaine évolution de la solution.",
+			"Une couverture de branche à 100% (en dehors des appels au back-end de firebase : ceux-ci sont indiqués en commentaire dans le code).",
+			"Test E2E - il existe un plan de test de bout en bout (comme il n'y a pas de temps pour automatiser le test de bout en bout, le test sera effectué manuellement par l'équipe AQ)."
+		],
+		"constraints": [
+			"Aucune contrainte mentionnée."
+		],
+		"notes":"Je n'ai pas créé l'interface utilisateur. Le brief était de déboguer le code, d'écrire les tests unitaires et d'intégration ainsi qu'un rapport E2E.\n\n Une description des fonctionnalités, des rapports de bogues et du plan E2E peut être trouvée dans le repo Github de ce projet.",
 		"skills": [
 			"Ecrire des tests unitaires avec JavaScript",
 			"Débugger une application web avec le Chrome Debugger",
@@ -197,7 +304,7 @@
 		],
 		"techIcons": [
 			"../images/techIcons/jest.svg",
-			"../images/techIcons/html5.svg"
+			"../images/techIcons/javascript.svg"
 			],
 		"website": "https://billed.netlify.app/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
@@ -219,7 +326,26 @@
 		],
 		"description": "Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles. En gros, leur objectif est de permettre à tout élève, où qu’il soit, d’avoir accès à un soutien scolaire à distance.",
 		"objective": "Définir clairement les besoins du client. Créez les diagrammes de cas d'utilisation et les user stories avec les critères d'acceptation pour chaque fonctionnalité. Maquettes du site (Figma ou Sketch) avec un Kanban décomposant le projet.",
-		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"scenario":"Learn@Home est une association qui met en relation des enfants ayant des difficultés d'apprentissage et des bénévoles, en ligne. Leur objectif est de permettre à tout élève, où qu'il se trouve, d'accéder à un soutien scolaire à distance. Chaque élève inscrit sur le site a un tuteur bénévole qui lui est attribué. L'objectif du bénévole est de soutenir l'étudiant dans son apprentissage grâce à courts rendez-vous programmés chaque semaine. Au cours de ces rendez-vous, le bénévole aide l'élève à faire ses devoirs et à s'organiser.\n\n Pour faciliter l'interaction et la communication, Learn@Home souhaite créer un nouveau site web. Avant de commencer le développement du logiciel pur, la première étape consiste à définir clairement ses besoins, en fournissant des diagrammes de cas d'utilisation pour chacune des principales fonctionnalités de chaque page, des histoires d'utilisateurs avec des critères d'acceptation pour chaque fonctionnalité et des maquettes du site (Figma ou Sketch).",
+		"functionality": [
+			"Une page de connexion pour permettre à un étudiant ou à un volontaire de se connecter.",
+			"Un système permettant de récupérer un mot de passe oublié.",
+			"Un lien vers une page de création de compte.",
+			"Un tableau de bord contenant un résumé de toutes les informations récentes et importantes des autres pages : chat, calendrier, gestion des tâches.",
+			"Une page de chat classique.",
+			"Une page classique de calendrier.",
+			"Une page de gestion des tâches."
+		],
+		"constraints": [
+			"Il devrait y avoir un historique des conversations.",
+			"L'utilisateur peut ajouter ou supprimer un contact.",
+			"Il devrait y avoir une photo de l'expéditeur, à côté de chaque message dans l'interface de chat.",
+			"Il devrait y avoir un indicateur permettant de visualiser si un message a été lu ou non.",
+			"Il devrait y avoir un horodatage des messages.",
+			"Le calendrier affiche les différents événements, rendez-vous de l'utilisateur.",
+			"Un utilisateur peut créer des tâches pour lui-même ou pour un autre utilisateur, mais un étudiant ne peut créer des tâches que pour lui-même alors qu'un volontaire peut créer des tâches pour les étudiants de son choix."
+		],
+		"notes":"",
 		"skills": [
 			"Contribuer à un projet en utilisant une méthodologie agile",
 			"Créer une maquette pour un client",
@@ -252,7 +378,29 @@
 		],
 		"description": "Kasa est dans le métier de la location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
 		"objective": "Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
-		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"scenario":"Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.\n\n Le site Web de Kasa a été codé il y a plus de 10 ans en ASP.NET avec beaucoup de code hérité. Le directeur technique a donc décidé de le remanier complètement et de passer à une stack JavaScript complète avec NodeJS en back-end et React en front-end.\n\n Le développeur doit démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, tout en suivant les maquettes Figma (responsive !). De plus, comme l'équipe Back-End et les données ne sont pas en place, 20 annonces de logements (dans un fichier JSON) ont été fournies afin de construire le Front-End correspondant.",
+		"functionality": [
+			"Une page d’accueil avec une section contenant tous les logements sous forme de carte. En cliquant dessus, l'utilisateur est redirigé vers le logement.",
+			"Une page À propos avec 4 menus déroulants décrivant les valeurs de l'entreprise.",
+			"Un carrousel de photos présentant le logement.",
+			"Le classement par étoiles d'un hôte.",
+			"Deux menus déroulants décrivant le logement et fournissant une liste d'équipements disponibles.",
+			"Des tags de classification."
+		],
+		"constraints": [
+			"Composants à base de classe, aucun composant fonction.",
+			"Code décomposé en composants modulaires et réutilisables, avec un composant par fichier.",
+			"Pas de bibliothèque React externe.",
+			"Utilisation de props entre les composants.",
+			"Utilisation du state dans les composants quand c'est nécessaire.",
+			"Gestion des événements.",
+			"Les paramètres des routes sont gérés par React Router dans l'URL pour récupérer les informations de chaque logement.",
+			"Il existe une page par route.",
+			"La page 404 est renvoyée pour chaque route inexistante, ou si une valeur présente dans l’URL ne fait pas partie des données renseignées.",
+			"La logique du routeur est réunie dans un seul fichier.",
+			"Le code ne doit pas produire d'erreur ou de warning dans la console."
+		],
+		"notes":"",
 		"skills": [
 			"Développer les routes d'une application web avec React Router",
 			"Initialiser une application web avec un framework",
@@ -263,7 +411,8 @@
 			"React-Router"
 		],
 		"techIcons": [
-			"../images/techIcons/react.svg"
+			"../images/techIcons/react.svg",
+			"../images/techIcons/css.svg"
 			],
 		"website": "https://kasa2021.netlify.app/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P11_18102021"
@@ -282,7 +431,28 @@
 		],
 		"description": "SportSee est une startup dédiée au coaching sportif. La société va lancer une nouvelle version de la page de profil de l'utilisateur, qui permettra de suivre le nombre de séances effectuées ainsi que les calories brûlées.",
 		"objective": "Redessiner la page de profil avec React, en utilisant soit D3 ou Recharts pour les graphiques d'activité sportive de l'utilisateur. Créez un service séparé qui se chargera des appels HTTP vers le backend (NodeJS) en utilisant Fetch ou Axios. Il est important que vous fassiez les appels en dehors des composants React. Enfin, toute la documentation doit être réalisée en anglais.",
-		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"scenario":"SportSee est une startup dédiée au coaching sportif. En pleine croissance, l'entreprise va lancer une nouvelle version de la page de profil de l'utilisateur. Cette page permet à l'utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées. Ainsi, la nouvelle page de profil utilisateur doit être refaite avec React, en intégrant les graphiques sur l'activité sportive de l'utilisateur en utilisant soit D3 soit Recharts.",
+		"functionality": [
+			"Un menu de navigation horizontal pour permettre la navigation entre les différents écrans.",
+			"Un menu de navigation vertical pour permettre la navigation entre les futurs blocs de navigation.",
+			"L'affichage des données de l'activité quotidienne concernant le poids et les calories brûlées, sous la forme d'un Barchart. Un tooltip apparaît au survol.",
+			"L'affichage de la durée moyenne des sessions sous la forme d'un LineChart. Un tooltip apparaît au survol.",
+			"L'affichage des informations concernant la complétion de l'objectif journalier (score moyen) sous la forme d'un RadialBarChart.",
+			"L'affichage des types d’activités réalisées sous la forme d'un RadarChart.",
+			"L'affichage des informations concernant les calories, protéines, glucides et lipides de la journée sous forme de card."
+		],
+		"constraints": [
+			"Utiliser les maquettes Figma et le Kanban avec les User Stories. Pour ce sprint, intégrer les US de la partie TODO (le reste sera dans le prochain sprint).",
+			"La résolution minimale de l'écran est d'au moins 1024 par 780 pixels.",
+			"Concernant les données, un Backend utilisant NodeJS est fourni qui permet de faire des appels HTTP et de récupérer des données d'exemple.",
+			"Utiliser soit Fetch soit Axios pour la gestion des appels eux-mêmes, qui sont effectués en dehors des composants React.",
+			"Créer un service séparé qui se chargera de faire ces appels.",
+			"Démarrer le projet avec les données simulées. Une fois le projet fonctionnel, intégrer l'API.",
+			"Inclure des proptypes pour chacun des composants.",
+			"Utiliser JsDoc pour documenter les fonctions et les méthodes.",
+			"Toute la documentation doit être faite en anglais."
+		],
+		"notes":"",
 		"skills": [
 			"Assurer la qualité des données d'une application",
 			"Interagir avec un service Web",
@@ -319,6 +489,28 @@
 		"description": "Argent Bank est une nouvelle banque qui tente de percer dans le secteur et a besoin d'aide pour mettre en place son application. Le contrat en deux parties est décomposé en plusieurs phases.",
 		"objective": "Créer une application web entièrement responsive avec React en utilisant Redux pour gérer l'état de l'ensemble de l'application. Les utilisateurs doivent pouvoir visiter la page d'accueil, se connecter, voir les informations de leur profil et les modifier. Fournir également un document décrivant les API de transaction proposées, en suivant les directives Swagger.",
 		"scenario":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"functionality": [
+			"Une page d’accueil avec une section contenant tous les logements sous forme de carte. En cliquant dessus, l'utilisateur est redirigé vers le logement.",
+			"Une page À propos avec 4 menus déroulants décrivant les valeurs de l'entreprise.",
+			"Un carrousel de photos présentant le logement.",
+			"Le classement par étoiles d'un hôte.",
+			"Deux menus déroulants décrivant le logement et fournissant une liste d'équipements disponibles.",
+			"Des tags de classification."
+		],
+		"constraints": [
+			"Composants à base de classe, aucun composant fonction.",
+			"Code décomposé en composants modulaires et réutilisables, avec un composant par fichier.",
+			"Pas de bibliothèque React externe.",
+			"Utilisation de props entre les composants.",
+			"Utilisation du state dans les composants quand c'est nécessaire.",
+			"Gestion des événements.",
+			"Les paramètres des routes sont gérés par React Router dans l'URL pour récupérer les informations de chaque logement.",
+			"Il existe une page par route.",
+			"La page 404 est renvoyée pour chaque route inexistante, ou si une valeur présente dans l’URL ne fait pas partie des données renseignées.",
+			"La logique du routeur est réunie dans un seul fichier.",
+			"Le code ne doit pas produire d'erreur ou de warning dans la console."
+		],
+		"notes":"",
 		"skills": [
 			"Implémenter un gestionnaire d'état dans une application React",
 			"Intéragir avec une API",

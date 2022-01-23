@@ -43,15 +43,14 @@ const Overview = styled.div`
 `;
 
 const LeftSide = styled.div`
-  flex: 1;
+  flex: 2;
 `;
 
 const RightSide = styled.div`
   animation: ${fadeIn} 1.5s 300ms both ease-in-out;
   flex: 1;
-  // text-align: center;
+  text-align: center;
 `;
-
 
 const Texte = styled.div`
   margin: 1rem;
@@ -65,13 +64,16 @@ const Texte = styled.div`
     font-size: clamp(1rem, 1.6vw, 1.5rem);
   }
   p, li {
+    margin: 10px 0px;
     color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
     text-align: justify;
     text-justify: inter-word;
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
+    white-space: pre-line;
   }
-
 `;
+// white-space: pre-line used in conjunction with control character such as \n 
+// to format the text on the page.
 
 const Details = styled.div`
   display: flex;
@@ -117,67 +119,69 @@ const Project = ( { siteData } ) => {
       }
   }, [idUrl, siteData])
 
-      if (isLoading) return (  
-        <main>   
-          <LoadingWrapper>
-            <LoadingIcon />
-          </LoadingWrapper>
-        </main> 
-        ) 
-      
-        if (isError) 
-          return <Error />
-        
-        else 
-        {
-          return (
-    
-            <main>
-              <ProjectWrapper theme={theme}>    
-                <Overview>
+  if (isLoading) return (  
+    <main>   
+      <LoadingWrapper>
+        <LoadingIcon />
+      </LoadingWrapper>
+    </main> 
+    ) 
+    if (isError) 
+      return <Error />  
+    else 
+    {
+      return (
+        <main>
+          <ProjectWrapper theme={theme}>    
+            <Overview>
+              <RightSide>
+                <Carousel photoAlbum={data.pictures}/>
+                <TechIcons icons={data.techIcons} /> 
+              </RightSide>
 
-                  <RightSide>
-                    <Carousel photoAlbum={data.pictures}/>
-                    <TechIcons icons={data.techIcons} /> 
-                  </RightSide>
+              <LeftSide>
+                <Texte theme={theme}>
+                  <h1>{data.title}</h1>
+                  <p>{data.scenario}</p>
+                </Texte>
 
-                  <LeftSide>
-                    <Texte theme={theme}>
-                      <h1>{data.title}</h1>
-                      <p>{data.scenario}</p>
-                    </Texte>
+                <Texte theme={theme}>
+                  <h2>Fonctionnalités</h2>
+                  <ul>{data.functionality.map((func, index) => (
+                    <li key={`func-${index}`}>{func}</li> ))}
+                  </ul> 
+                </Texte>
+              </LeftSide>     
+            </Overview> 
 
-                    <Texte theme={theme}>
-                      <h2>Brief</h2>
-                      <p>{data.scenario}</p>
-                    </Texte>
+            <Details>
+                <Texte theme={theme}>
+                  <h2>Contraints</h2>
+                  <ul>{data.constraints.map((constraint, index) => (
+                    <li key={`cons-${index}`}>{constraint}</li> ))}
+                  </ul>
+                </Texte>
 
-                    <Texte theme={theme}>
-                      <h2>Constraints</h2>
-                      <p>{data.scenario}</p>
-                    </Texte>
-                  </LeftSide>
-                  
-                </Overview> 
-
-                <Details>
-                    <Texte theme={theme}>
-                    <h2>Skills</h2>
-                    <ul>{data.skills.map((skill, index) => (
-                      <li key={`${skill}-${index}`}>{skill}</li> ))}
-                    </ul>  
-                  </Texte>
-                
-                    <Texte theme={theme}>
-                      <h2>Notes</h2>
-                      <p>{data.scenario}</p>
-                    </Texte>
-                </Details>
-              </ProjectWrapper>  
-              <GoToTop />                 
-            </main>
-          )
-        }
+                <Texte theme={theme}>
+                <h2>Skills</h2>
+                <ul>{data.skills.map((skill, index) => (
+                  <li key={`${skill}-${index}`}>{skill}</li> ))}
+                </ul>  
+              </Texte>
+            </Details>
+            
+              {data.notes?  
+                <Texte theme={theme}>
+                  <h2>Notes</h2>
+                  <p>{data.notes}</p>
+                </Texte>
+              : null 
+              }            
+          </ProjectWrapper>  
+          <GoToTop />                 
+        </main>
+      )
+    }
 }
 
 export default Project
