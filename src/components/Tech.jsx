@@ -33,6 +33,6 @@ export default Tech
 
 // Prototypes
 Tech.propTypes = {
-    techIcons: PropTypes.array.isRequired,
+    techIcons: PropTypes.array,
 }
   

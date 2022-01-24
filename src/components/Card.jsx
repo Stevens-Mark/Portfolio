@@ -1,4 +1,4 @@
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
@@ -85,10 +85,11 @@ const Card = ( { data } ) => {
 
   const { theme } = useTheme()
 
-  let { id, title,  cover, summary, description, tags, website, github} = data
+  const { id, title,  cover, summary, description, tags, website, github} = data
 
   return (
     <ProjectCard theme={theme}>
+      
       <ProjectHeading>
         <h2>{title}</h2>
         <span>
@@ -98,11 +99,11 @@ const Card = ( { data } ) => {
 
         <Link to={`/project/${id}`}>
           <CoverImage src={cover} alt='Cover'/>
-          {(tags).map((tag) => ( <TagForm key={tag}>{tag} </TagForm> ))}
+          {(tags).map((tag) => ( 
+              <TagForm key={tag}>{tag} </TagForm> ))}
           <SummaryText className="test">{summary}</SummaryText>
           <DescriptionText >{description}</DescriptionText>
         </Link> 
-
 
     </ProjectCard>
   )

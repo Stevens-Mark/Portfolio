@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 // styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
@@ -71,28 +72,34 @@ const HeroText = styled.p`
 /**
  * Renders Hero Banner on Homepage
  * @function Hero
+ * @package {string} image: path to image for the background
  * @returns {JSX}
  */
-const Hero = ({ image } ) => {
+const Hero = ( { image } ) => {
 
   const { theme } = useTheme()
 
   return (
     <HeroContainer backImg={image} theme={theme}>
+      
         <h1 className="sr-only">Mark Stevens - Welcome</h1>
         <ReactSpinner />
 
-        <HeroContent  theme={theme} >
+        <HeroContent theme={theme} >
           <h2>Développeur Front-end</h2>
           <HeroSubtitle>Fiabilité.</HeroSubtitle>
           <HeroSubtitle>Respect.</HeroSubtitle>
           <HeroSubtitle>Loyauté.</HeroSubtitle>
           <HeroText>Toujours prêt à apprendre !</HeroText>
         </HeroContent>
+
     </HeroContainer>
     )
 }
 
 export default Hero
 
-
+// Prototypes
+Hero.propTypes = {
+  image: PropTypes.string,
+}

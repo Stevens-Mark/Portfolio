@@ -46,7 +46,7 @@ export default Tags
 
 // Prototypes
 Tags.propTypes = {
-    tagData: PropTypes.array.isRequired,
-    tagColor: PropTypes.string.isRequired,
+    tagData: PropTypes.array,
+    tagColor: PropTypes.string,
 }
   

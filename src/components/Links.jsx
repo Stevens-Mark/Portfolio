@@ -20,7 +20,7 @@ const NoLink = styled.img`
 `;
 
 /**
-  * Links to Github & Porject websites
+  * Links/icons to Github & Project websites
   * @function Links
   * @param {string} website: link to project webite
   * @param {string} github: link to project github repo 

@@ -28,6 +28,7 @@ const CarouselWrapper = styled.article`
 
 const CarouselImages = styled.img`
   width: 85%;
+  max-width: 600px;
   border-radius: clamp(0.625rem, 1.736vw, 1.563rem);
   object-fit: contain;
   background: white;
@@ -78,12 +79,15 @@ const Carousel = ( {photoAlbum} ) => {
 
   return (   
     <CarouselWrapper theme={theme}>
+
       <CarouselControls>
         <CarouselControlArrows theme={theme} src={previousArrow} alt='previous' onClick={prevSlide} />
         <CarouselControlArrows theme={theme} src={nextArrow} alt='next' onClick={nextSlide} />
       </CarouselControls>
+
         <CarouselImages src={pictures? pictures[current] : Blank} alt='Project Gallery' />
         <Counter>{current+1}/{length || 0 }</Counter>
+        
     </CarouselWrapper>     
   )
   

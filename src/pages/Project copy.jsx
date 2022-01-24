@@ -22,8 +22,7 @@ const LoadingWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  // min-height: 85vh;
-  min-height: calc(100vh - 12.5rem);
+  min-height: 85vh;
 `;
 
 const ProjectWrapper = styled.div`
@@ -135,70 +134,72 @@ const Project = ( { siteData } ) => {
       }
   }, [idUrl, siteData])
 
-  return (
-    <>
-      {isLoading ? <LoadingWrapper><LoadingIcon /></LoadingWrapper> : 
-      <>
-        {isError ? <Error /> :  
-          <>     
-            <main>
-              <ProjectWrapper theme={theme}>    
-                <Overview>
-                  
-                  <RightSide>
-                    <Carousel photoAlbum={data.pictures}/>
-                    <TechIcons icons={data.techIcons} /> 
-                  </RightSide>
+  if (isLoading) return (  
+    <main>   
+      <LoadingWrapper>
+        <LoadingIcon />
+      </LoadingWrapper>
+    </main> 
+    ) 
+    if (isError) 
+      return <Error />  
+    else 
+    {
+      return (
+        <main>
+          <ProjectWrapper theme={theme}>    
+            <Overview>
+              
+              <RightSide>
+                <Carousel photoAlbum={data.pictures}/>
+                <TechIcons icons={data.techIcons} /> 
+              </RightSide>
 
-                  <LeftSide> 
-                    <Texte theme={theme}>
-                      <h1>{data.title}</h1>
-                      <Links website={data.website} github={data.github} />
-                      <p>{data.scenario}</p>
-                    </Texte>
+              <LeftSide> 
+                <Texte theme={theme}>
+                  <h1>{data.title}</h1>
+                  <Links website={data.website} github={data.github} />
+                  <p>{data.scenario}</p>
+                </Texte>
 
-                    <Texte theme={theme}>
-                      <h2>Fonctionnalités</h2>
-                      <Ulist>{data.functionality.map((func, index) => (
-                        <li key={`func-${index}`}>{func}</li> ))}
-                      </Ulist> 
-                    </Texte>
-                  </LeftSide>
+                <Texte theme={theme}>
+                  <h2>Fonctionnalités</h2>
+                  <Ulist>{data.functionality.map((func, index) => (
+                    <li key={`func-${index}`}>{func}</li> ))}
+                  </Ulist> 
+                </Texte>
+              </LeftSide>
 
-                </Overview> 
+            </Overview> 
 
-                <Details>
-                    <Texte theme={theme}>
-                      <h2>Contraints</h2>
-                      <Ulist>{data.constraints.map((constraint, index) => (
-                        <li key={`cons-${index}`}>{constraint}</li> ))}
-                      </Ulist>
-                    </Texte>
+            <Details>
+                <Texte theme={theme}>
+                  <h2>Contraints</h2>
+                  <Ulist>{data.constraints.map((constraint, index) => (
+                    <li key={`cons-${index}`}>{constraint}</li> ))}
+                  </Ulist>
+                </Texte>
 
-                    <Texte theme={theme}>
-                    <h2>Compétences</h2>
-                    <Ulist>{data.skills.map((skill, index) => (
-                      <li key={`skill-${index}`}>{skill}</li> ))}
-                    </Ulist>  
-                  </Texte>
-                </Details>
+                <Texte theme={theme}>
+                <h2>Compétences</h2>
+                <Ulist>{data.skills.map((skill, index) => (
+                  <li key={`skill-${index}`}>{skill}</li> ))}
+                </Ulist>  
+              </Texte>
+            </Details>
 
-                  {data.notes?  
-                    <Texte theme={theme}>
-                      <h2>Notes</h2>
-                      <p>{data.notes}</p>
-                    </Texte>
-                  : null 
-                  }            
-              </ProjectWrapper>  
-              <GoToTop />                 
-            </main>   
-          </>
-          }
-      </>
-      }   
-    </>
-  )
+              {data.notes?  
+                <Texte theme={theme}>
+                  <h2>Notes</h2>
+                  <p>{data.notes}</p>
+                </Texte>
+              : null 
+              }            
+          </ProjectWrapper>  
+          <GoToTop />                 
+        </main>
+      )
+    }
 }
 
 export default Project
