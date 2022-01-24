@@ -9,6 +9,7 @@ import { useTheme } from '../utils/Functions/theme'
 import { fadeIn } from '../utils/style/keyframes'
 // import components
 import LoadingIcon from '../utils/Loaders/MiniLoadingIcon'
+import Links from '../components/Links'
 import Carousel from '../components/Carousel'
 import TechIcons from '../components/Tech'
 import GoToTop from '../utils/Functions/GoToTop'
@@ -35,10 +36,10 @@ const ProjectWrapper = styled.div`
 const Overview = styled.div`
   margin-top: 1rem;
   color: ${colors.secondary};
+
   @media screen and (min-width: 900px) {
     display: flex;
     flex-direction: row-reverse;
-    // align-items: center;
   }
 `;
 
@@ -71,6 +72,9 @@ const Texte = styled.div`
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
     white-space: pre-line;
   }
+  img {
+    width: clamp(1.5rem, 2.1vw, 2rem);
+  }
 `;
 // white-space: pre-line used in conjunction with control character such as \n 
 // to format the text on the page.
@@ -79,9 +83,20 @@ const Details = styled.div`
   display: flex;
   flex-direction: column;
   
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 900px) {
     flex-direction: row;
   }
+`;
+
+const Ulist = styled.ul`
+  list-style: none;
+  padding-inline-start: 0px;
+
+  @media screen and (min-width: 475px) {
+    list-style: inside;
+    padding-inline-start: 20px;
+  }
+}
 `;
 
 /**
@@ -134,42 +149,45 @@ const Project = ( { siteData } ) => {
         <main>
           <ProjectWrapper theme={theme}>    
             <Overview>
+              
               <RightSide>
                 <Carousel photoAlbum={data.pictures}/>
                 <TechIcons icons={data.techIcons} /> 
               </RightSide>
 
-              <LeftSide>
+              <LeftSide> 
                 <Texte theme={theme}>
                   <h1>{data.title}</h1>
+                  <Links website={data.website} github={data.github} />
                   <p>{data.scenario}</p>
                 </Texte>
 
                 <Texte theme={theme}>
                   <h2>Fonctionnalités</h2>
-                  <ul>{data.functionality.map((func, index) => (
+                  <Ulist>{data.functionality.map((func, index) => (
                     <li key={`func-${index}`}>{func}</li> ))}
-                  </ul> 
+                  </Ulist> 
                 </Texte>
-              </LeftSide>     
+              </LeftSide>
+                   
             </Overview> 
 
             <Details>
                 <Texte theme={theme}>
                   <h2>Contraints</h2>
-                  <ul>{data.constraints.map((constraint, index) => (
+                  <Ulist>{data.constraints.map((constraint, index) => (
                     <li key={`cons-${index}`}>{constraint}</li> ))}
-                  </ul>
+                  </Ulist>
                 </Texte>
 
                 <Texte theme={theme}>
-                <h2>Skills</h2>
-                <ul>{data.skills.map((skill, index) => (
-                  <li key={`${skill}-${index}`}>{skill}</li> ))}
-                </ul>  
+                <h2>Compétences</h2>
+                <Ulist>{data.skills.map((skill, index) => (
+                  <li key={`skill-${index}`}>{skill}</li> ))}
+                </Ulist>  
               </Texte>
             </Details>
-            
+
               {data.notes?  
                 <Texte theme={theme}>
                   <h2>Notes</h2>

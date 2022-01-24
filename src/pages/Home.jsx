@@ -45,7 +45,7 @@ const Home = ( { siteData } ) => {
 
   useEffect(() => {
     document.title = 'Mark Stevens - Home'
-    // window.scrollTo(0, 0)
+    window.scrollTo(0, 0)
   }, [])
  
   return (

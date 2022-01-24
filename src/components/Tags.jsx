@@ -7,8 +7,6 @@ const TagWrapper = styled.div`
     display: flex;
     margin-top: 0.625rem;
     align-items: center;
-    // flex-wrap: wrap;
-    // white-space: nowrap;
 
     h3 {
         font-size: clamp(0.625rem, 1vw, 0.875rem);
@@ -24,14 +22,6 @@ const TagWrapper = styled.div`
         margin-right: 0.625rem;
         box-shadow: 0px 4px 12px 3px ${colors.shadow};
     }
-
-    // @media screen and (min-width: 680px) {
-    //     margin-top: 1.563rem;
-    // }
-    
-    // @media screen and (min-width: 1220px) {
-    //     margin-top: 0.625rem;
-    // }
 `;
 
 /**

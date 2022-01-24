@@ -1,5 +1,4 @@
 // import colors from '../style/colors'
-import React from 'react'
 import styled from 'styled-components'
 import colors from '../style/colors'
 // import rotate keyframe
@@ -18,21 +17,21 @@ const Loader = styled.div`
 `;
 
 /**
- * Renders a loading icon (either white or red)
+ * Renders a loading icon (either white or primary color of website)
  * @function LoadingIcon
  * @param {boolean} isWhite
  * @returns {JSX}
  */
-const LoadingIcon= ({ isWhite }) => {
-    return (
-      <React.Fragment>
-        {isWhite ? ( 
-          <Loader primary /> ) 
-        : ( 
-          <Loader /> 
-        )}      
-      </React.Fragment>
-    )
+const LoadingIcon = ( { isWhite } ) => {
+  return (
+    <>
+      {isWhite ? ( 
+        <Loader primary /> ) 
+      : ( 
+        <Loader /> 
+      )}      
+    </>
+  )
 }
 
 export default LoadingIcon

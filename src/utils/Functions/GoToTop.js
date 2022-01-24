@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import colors from '../style/colors'
 import { useTheme } from './theme'
-
 import upArrow from '../../assets/icons/arrow_up.svg'
 
 /**

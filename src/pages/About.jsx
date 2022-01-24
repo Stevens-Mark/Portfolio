@@ -5,9 +5,9 @@ import colors from '../utils/style/colors'
 // import components
 import Banner from '../components/Banner'
 import aboutBanner from '../assets/images/banner2.jpg'
-import DropDown from '../components/DropDown'
+// import DropDown from '../components/DropDown'
 // import data
-import { dropDownList } from '../assets/data/aboutDropdownData.js'
+// import { dropDownList } from '../assets/data/aboutDropdownData.js'
 // import Hero from '../components/Hero'
 
 /**
@@ -52,9 +52,9 @@ const About = () => {
         <h1 className='sr-only'>A Propos</h1>
         
           </AboutBanner>     
-            {dropDownList.map((data) => (
+            {/* {dropDownList.map((data) => (
             <DropDown key={data.id} dropdownWidth='DropdownAboutPage' dropdownHeight='dropDownListAbout' dropdownColor='' title={data.title} content={data.content} />
-            ))}   
+            ))}    */}
         </AboutWrapper>
       </main>
   )

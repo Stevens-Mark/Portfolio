@@ -12,7 +12,7 @@ import { fadeIn } from '../utils/style/keyframes'
 const ErrorWrapper = styled.main`
   animation: ${fadeIn} 1s both ease-in-out;
   align-items: center;
-  color: ${colors.styledText};
+  color: ${colors.primary};
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - 12.5rem);
@@ -34,10 +34,10 @@ const ErrorWrapper = styled.main`
 `;
 
 const ReturnLink = styled(Link)`
- color: ${colors.styledText};
- font-size: clamp(0.875rem, 1.5vw, 1.375rem);
- font-weight: 500;
- margin-bottom: 2rem;
+  color: ${colors.primary};
+  font-size: clamp(0.875rem, 1.5vw, 1.375rem);
+  font-weight: 500;
+  margin-bottom: 2rem;
 `;
 
 /**

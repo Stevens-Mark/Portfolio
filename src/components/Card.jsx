@@ -6,9 +6,8 @@ import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
-// import link logos
-import preview from '../assets/icons/preview.svg'
-import git from '../assets/icons/tech/github.svg'
+// import link components
+import Links from './Links'
 
 /**
  * CSS for component using styled.components
@@ -39,17 +38,6 @@ const ProjectHeading = styled.div`
   align-items: center;
 `;
 
-const LinkImg = styled.img`
-  width: clamp(1rem, 1.6vw, 1.4rem);
-  margin: 0px 5px;
-`;
-
-const NoLink = styled.img`
-  width: clamp(1rem, 1.6vw, 1.4rem);
-  margin: 0px 5px;
-  filter: invert(57%) sepia(0%) saturate(4%) hue-rotate(266deg) brightness(88%) contrast(89%);
-`;
-
 const CoverImage = styled.img`
   // object-fit: cover;
   max-height: 300px;
@@ -58,12 +46,12 @@ const CoverImage = styled.img`
 `;
 
 const TagForm = styled.span`
- font-size: 0.8rem;
- background: ${colors.primary};
- color: ${colors.tertiary};
- border-radius: 5px;
- margin: 2px;
- padding: 3px 8px;
+  font-size: 0.8rem;
+  background: ${colors.primary};
+  color: ${colors.tertiary};
+  border-radius: 5px;
+  margin: 2px;
+  padding: 3px 8px;
 `;
 
 // text trunacted if needed
@@ -104,13 +92,7 @@ const Card = ( { data } ) => {
       <ProjectHeading>
         <h2>{title}</h2>
         <span>
-          {website ?
-              (<a href={website} rel="noreferrer" target="_blank"><LinkImg src={preview} alt="" title="Visit Website"/></a>) : 
-              (<NoLink src={preview} alt="" title="No Preview"/>)}
-
-          {github ?
-              (<a href={github} rel="noreferrer" target="_blank"><LinkImg src={git} alt="" title="Project Git Repo" /></a>) : 
-              (<NoLink src={git} alt="" title="No Project Repo"/>)}   
+          <Links website={website} github={github} />
         </span>
       </ProjectHeading>
 
@@ -131,6 +113,4 @@ export default Card
 // Prototypes
 Card.propTypes = {
   data: PropTypes.object.isRequired,
-
-
 }

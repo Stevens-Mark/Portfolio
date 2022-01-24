@@ -16,21 +16,21 @@
 		"objective": "Traduire une maquette en une page Web à l'aide de HTML et de CSS.",
 		"scenario": "Reservia, une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.\n \n Un nouveau design basé sur les principes du Material Design vient d’être proposé par le designer UI.  Avant de valider définitivement ce design, l’entreprise décide de réaliser un prototype. La première étape consiste à intégrer la maquette responsive en HTML et CSS.",
 		"functionality": [
-			"Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.", 
+			"Le champ de recherche est un champ de saisie, cependant, à ce stade, le bouton de recherche ne sera pas fonctionnel.", 
 			"Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.", 
 			"Les filtres ne seront pas fonctionnels pour cette version, en revanche, il faut qu’ils changent d’apparence au survol.",
 			"Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page."
 		],
 		"constraints": [
 			"Il y a fournis deux maquettes : l’un desktop et l’autre mobile.", 
-			"Libre de faire les adaptations nécessaires avec la mise en page, tant qu’aucun élément n’est coupé et que le texte a une taille suffisante.", 
+			"Aucun élément ne doit être coupé et le texte est de taille suffisante.", 
 			"Choisir les breakpoints appropriés.",
 			"N’utilise pas de Framework ou pré-compilateur CSS pour ce projet (comme SASS par exemple).",
 			"L'utilisation de Visual studio est recommandé.",
 			"Intégrer les icônes Font Awesome en HTML ou CSS.",
 			"Utiliser Flexbox ou  CSS Grid.",
-			"Le code doit utiliser des balises sémantiques et ne doit pas contenir d'erreurs ou d'alertes pour le validateur HTML et CSS du W3C.",
-			"Le site devra être compatible avec les dernières versions de Chrome et Firefox.",
+			"Utiliser des balises sémantiques et passer le validateur HTML et CSS du W3C.",
+			"Le site doit être compatible avec les dernières versions de Chrome et de Firefox.",
 			"Versionner le code avec Git."
 		],
 		"notes":"",
@@ -74,7 +74,7 @@
 			"En arrivant sur une page de menu, les plats doivent apparaître progressivement avec un léger décalage.",
 			"Au survol, une petite coche doit apparaître à droite pour simuler le choix d'un plat par le visiteur.",
 			"Au survol, la couleur de fond des boutons principaux s'illumine légèrement et l'ombre portée devient plus visible.",
-			"Un bouton 'J'aime' en forme de cœur, au survol, il se remplit progressivement. (pour simuler un visiteur qui enregistre ses menus préférés)."
+			"Un bouton 'J'aime' en forme de cœur, au survol, il se remplit progressivement. (simule un visiteur qui enregistre ses menus préférés)."
 		],
 		"constraints": [
 			"Maquettes fournies.",
@@ -83,7 +83,7 @@
 			"Aucun code CSS ne doit être appliqué via un attribut de style dans une balise HTML.",
 			"L'ensemble du site doit être responsive sur mobile, tablette et desktop.",
 			"Les pages doivent passer la validation W3C en HTML et CSS sans erreur.",
-			"Le site doit être entièrement compatible avec les dernières versions de bureau de Chrome et Firefox."
+			"Le site doit être compatible avec les dernières versions de Chrome et de Firefox."
 		],
 		"notes":"",
 		"skills": [
@@ -123,7 +123,10 @@
 		"objective":"Ajouter le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel en utilisant javascript.",
 		"scenario":"GameOn qui est spécialisée dans les conférences et les concours de jeux vidéo. L'entreprise simplifie la nouvelle page d'accueil et l'inscription aux concours après avoir reçu des commentaires négatifs de certains utilisateurs.\n\n Malheureusement, l'ancien développeur qui travaillait dessus n'a pas eu le temps de terminer avant de partir pour son nouvel emploi dans sa nouvelle entreprise.\n\n La structure HTML et le style CSS, basés sur les maquettes, ont été commencés et la mise en page et le contenu de la page d'accueil et de la modale de formulaire sont terminés, mais le front-end doit être complété. En outre, le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel, en utilisant JavaScript, doit être ajouté et les problèmes décrits sur le repo Git Hub doivent être complétés.",
 		"functionality": [
-			"Validation du formulaire - Le champ Prénom/ nom de famille a un minimum de 2 caractères / n'est pas vide. L'adresse électronique est valide. Pour le nombre de concours, une valeur numérique est saisie. Un bouton radio est sélectionné. La case des conditions générales est cochée, l'autre case est facultative / peut être laissée décochée. Conserver les données du formulaire (ne pas effacer le formulaire) lorsqu'il ne passe pas la validation.",
+			"Validation du formulaire - Le champ prénom/nom a un minimum de 2 caractères / n'est pas vide.",
+			"L'adresse électronique est valide, le nombre de concours est une valeur numérique et un bouton radio doit être sélectionné.",
+			"La case des conditions générales est cochée, l'autre case est facultative.",
+			"Les données du formulaire ne sont pas supprimées lorsqu'elles ne passent pas la validation.",
 			"Soit le formulaire est validé, soit il y a un message d'erreur.",
 			"Il y a un message de confirmation lorsque l'envoi est réussi."
 		],
@@ -131,8 +134,9 @@
 			"Utiliser du JavaScript pur (pas de jQuery) pour terminer le formulaire.",
 			"Travailler sur un repo GitHub forké.",
 			"Utiliser des fichiers séparés pour le HTML, le CSS et le JavaScript.",
-			"Commenter toujours le code (en décrivant chaque fonction et classe, ainsi que les parties du code qui nécessitent plus de détails).",
-			"Tester manuellement les fonctionnalités, les entrées de formulaire et l'affichage réactif dans les dernières versions de Chrome et de Firefox, ainsi que dans les versions mobile et desktop.",
+			"Commentaires décrivant chaque fonction et classe.",
+			"Tester manuellement les fonctionnalités et l'affichage réactif.",
+			"Le site doit être compatible avec les dernières versions de Chrome et de Firefox.",
 			"Réviser le code et assurez-vous qu'il est prêt pour la production."
 		],
 		"notes":"Je n'ai pas créé l'interface utilisateur. \n\nLe brief était d'écrire le code de validation du formulaire en JavaScript et de résoudre les problèmes ('break of design') avec le responsive design uniquement.",
@@ -180,9 +184,9 @@
 		],
 		"constraints": [
 			"Ajouter des attributs ARIA pour créer un élément personnalisé et décrire ce qu'il fait.",
-			"Le code devrait passer les tests AChecker sans “known issue” (afin qu'il soit conforme aux WCAG).",
+			"Passer les tests AChecker sans 'known issue' (conforme aux WCAG).",
 			"Toute la gestion des événements (les pressions au clavier) doit être configurée.",
-			"Utiliser des éléments HTML 'sémantiques' qui décrivent leur intention, au lieu de mettre des éléments <div> et <span> partout.",
+			"Utiliser des éléments HTML 'sémantiques' qui décrivent leur intention.",
 			"Le site web doit correspondre aux maquettes et fonctionner correctement (pas d'erreurs).",
 			"Le code est séparé en différents fichiers (HTML avec balises d'accessibilité, CSS, JavaScript).",
 			"Une version moderne (ES6 ou supérieure) de JavaScript est utilisée.",
@@ -230,18 +234,18 @@
 			"La recherche principale se lance à partir de 3 caractères entrés par l’utilisateur dans la barre de recherche.",
 			"La recherche s’actualise pour chaque nouveau caractère entré.",
 			"La recherche principale affiche les premiers résultats le plus rapidement possible.",
-			"Les champs ingrédients, ustensiles et appareil de la recherche avancée proposent seulement les éléments restant dans les recettes présentes sur la page",
-			"Les retours de recherche doivent être une intersection des résultats. Si l’on ajoute les tags “coco” et “chocolat” dans les ingrédients, on doit récupérer les recettes qui ont à la fois de la coco et du chocolat."
+			"Les champs de la recherche avancée ne suggèrent que les éléments restant dans les recettes de la page.",
+			"Les retours de recherche doivent être une intersection des résultats.\n (L'ajoute les tags “coco” et “chocolat” ne permet de retrouver que les recettes qui contiennent les deux)."
 		],
 		"constraints": [
 			"Maquettes fournies.",
 			"Le code HTML et CSS pour l’interface doit passer avec succès le validateur W3C.",
 			"Aucune librairie ne doit être utilisée pour le JavaScript du moteur de recherche.",
 			"Utiliser Bootstrap 4 est recommandée.",
-			"Rédiger deux algorithmes de recherche qui se concentrent uniquement sur le champ de recherche principal.",
-			"Remplir un document d'investigation des fonctionnalités décrivant les deux algorithmes à comparer.",
-			"Faire un schéma pour chacune des propositions afin que la séquence des étapes pour chaque algorithme soit claire.",
-			"Tester leurs performances à l'aide d'un outil de comparaison d'analyses de performances (par exemple, Jsben.ch).",
+			"Rédiger deux algorithmes de recherche pour le champ de recherche principal.",
+			"Remplir un document d'investigation des fonctionnalités décrivant les deux algorithmes.",
+			"Faites un diagramme pour chaque algorithme afin que les étapes de chaque algorithme soient claires.",
+			"Tester leurs performances à l'aide d'un outil d'évaluation comparative (Jsben.ch?).",
 			"Ne teste que la recherche principale (pas besoin d'utiliser de filtres)."
 		],
 		"notes":"",
@@ -283,14 +287,15 @@
 			"Le parcours de l'employé a été fiabilisé et amélioré.",
 			"Les bogues identifiés dans le rapport de bogue fourni par Jest ont été corrigés.",
 			"Les bogues identifiés sur le parcours de l'employé par l'équipe QA ont été corrigés.",
-			"Les tests unitaires et d'intégration pour les fichiers Bills et NewBill ont été ajoutés : ces tests permettront d'éliminer ces bugs et d'éviter toute régression lors de la prochaine évolution de la solution.",
-			"Une couverture de branche à 100% (en dehors des appels au back-end de firebase : ceux-ci sont indiqués en commentaire dans le code).",
-			"Test E2E - il existe un plan de test de bout en bout (comme il n'y a pas de temps pour automatiser le test de bout en bout, le test sera effectué manuellement par l'équipe AQ)."
+			"Des tests unitaires et d'intégration pour les fichiers Bills et NewBill ont été ajoutés.",
+			"Une couverture de branche à 100% (en dehors des appels au back-end de firebase).",
+			"Test E2E - Un plan de test E2E a été inclus pour compléter le processus de test."
 		],
 		"constraints": [
-			"Aucune contrainte mentionnée."
+			"Le test E2E doit être effectué manuellement par l'équipe AQ (non automatisé).",
+			"Aucune autre contrainte n'est mentionnée."
 		],
-		"notes":"Je n'ai pas créé l'interface utilisateur. Le brief était de déboguer le code, d'écrire les tests unitaires et d'intégration ainsi qu'un rapport E2E.\n\n Une description des fonctionnalités, des rapports de bogues et du plan E2E peut être trouvée dans le repo Github de ce projet.",
+		"notes":"Je n'ai pas créé l'interface utilisateur.\n\n Le brief était de déboguer le code, d'écrire les tests unitaires et d'intégration ainsi qu'un rapport E2E (pour éliminer les bugs et éviter toute régression dans la prochaine évolution).\n\n Une description des fonctionnalités, des rapports de bogues et du plan E2E peut être trouvée dans le repo Github de ce projet.",
 		"skills": [
 			"Ecrire des tests unitaires avec JavaScript",
 			"Débugger une application web avec le Chrome Debugger",
@@ -331,7 +336,7 @@
 			"Une page de connexion pour permettre à un étudiant ou à un volontaire de se connecter.",
 			"Un système permettant de récupérer un mot de passe oublié.",
 			"Un lien vers une page de création de compte.",
-			"Un tableau de bord contenant un résumé de toutes les informations récentes et importantes des autres pages : chat, calendrier, gestion des tâches.",
+			"Un tableau de bord contenant un résumé de toutes les informations récentes et importantes des autres pages.",
 			"Une page de chat classique.",
 			"Une page classique de calendrier.",
 			"Une page de gestion des tâches."
@@ -343,7 +348,8 @@
 			"Il devrait y avoir un indicateur permettant de visualiser si un message a été lu ou non.",
 			"Il devrait y avoir un horodatage des messages.",
 			"Le calendrier affiche les différents événements, rendez-vous de l'utilisateur.",
-			"Un utilisateur peut créer des tâches pour lui-même ou pour un autre utilisateur, mais un étudiant ne peut créer des tâches que pour lui-même alors qu'un volontaire peut créer des tâches pour les étudiants de son choix."
+			"Un utilisateur peut créer des tâches pour lui-même ou pour un autre utilisateur.", "Un étudiant ne peut créer des tâches que pour lui-même.", 
+			"Un volontaire peut créer des tâches pour les étudiants de son choix."
 		],
 		"notes":"",
 		"skills": [
@@ -380,7 +386,8 @@
 		"objective": "Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
 		"scenario":"Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.\n\n Le site Web de Kasa a été codé il y a plus de 10 ans en ASP.NET avec beaucoup de code hérité. Le directeur technique a donc décidé de le remanier complètement et de passer à une stack JavaScript complète avec NodeJS en back-end et React en front-end.\n\n Le développeur doit démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, tout en suivant les maquettes Figma (responsive !). De plus, comme l'équipe Back-End et les données ne sont pas en place, 20 annonces de logements (dans un fichier JSON) ont été fournies afin de construire le Front-End correspondant.",
 		"functionality": [
-			"Une page d’accueil avec une section contenant tous les logements sous forme de carte. En cliquant dessus, l'utilisateur est redirigé vers le logement.",
+			"Une page d’accueil avec une section contenant tous les logements sous forme de carte.",
+			"En cliquant sur une carte, l'utilisateur est redirigé vers le logement.",
 			"Une page À propos avec 4 menus déroulants décrivant les valeurs de l'entreprise.",
 			"Un carrousel de photos présentant le logement.",
 			"Le classement par étoiles d'un hôte.",
@@ -394,10 +401,10 @@
 			"Utilisation de props entre les composants.",
 			"Utilisation du state dans les composants quand c'est nécessaire.",
 			"Gestion des événements.",
-			"Les paramètres des routes sont gérés par React Router dans l'URL pour récupérer les informations de chaque logement.",
+			"Les paramètres des routes sont gérés par React Router dans l'URL.",
 			"Il existe une page par route.",
-			"La page 404 est renvoyée pour chaque route inexistante, ou si une valeur présente dans l’URL ne fait pas partie des données renseignées.",
-			"La logique du routeur est réunie dans un seul fichier.",
+			"La page 404 est renvoyée pour chaque route inexistante.",
+			"La page 404 est renvoyée si une valeur de l'URL ne fait pas partie des données saisies.",
 			"Le code ne doit pas produire d'erreur ou de warning dans la console."
 		],
 		"notes":"",
@@ -435,24 +442,25 @@
 		"functionality": [
 			"Un menu de navigation horizontal pour permettre la navigation entre les différents écrans.",
 			"Un menu de navigation vertical pour permettre la navigation entre les futurs blocs de navigation.",
-			"L'affichage des données de l'activité quotidienne concernant le poids et les calories brûlées, sous la forme d'un Barchart. Un tooltip apparaît au survol.",
+			"L'affichage de l'activité quotidienne (poids et calories brûlées), sous la forme d'un Barchart. Un tooltip apparaît au survol.",
 			"L'affichage de la durée moyenne des sessions sous la forme d'un LineChart. Un tooltip apparaît au survol.",
 			"L'affichage des informations concernant la complétion de l'objectif journalier (score moyen) sous la forme d'un RadialBarChart.",
 			"L'affichage des types d’activités réalisées sous la forme d'un RadarChart.",
 			"L'affichage des informations concernant les calories, protéines, glucides et lipides de la journée sous forme de card."
 		],
 		"constraints": [
-			"Utiliser les maquettes Figma et le Kanban avec les User Stories. Pour ce sprint, intégrer les US de la partie TODO (le reste sera dans le prochain sprint).",
+			"Utiliser les maquettes Figma et le Kanban avec les User Stories.",
 			"La résolution minimale de l'écran est d'au moins 1024 par 780 pixels.",
-			"Concernant les données, un Backend utilisant NodeJS est fourni qui permet de faire des appels HTTP et de récupérer des données d'exemple.",
-			"Utiliser soit Fetch soit Axios pour la gestion des appels eux-mêmes, qui sont effectués en dehors des composants React.",
+			"Un backend (NodeJS) est fourni qui permet les appels HTTP et la récupération de données.",
+			"Utiliser soit Fetch soit Axios pour la gestion des appels eux-mêmes.",
+			"Les appels doivent être effectués en dehors des composants React",
 			"Créer un service séparé qui se chargera de faire ces appels.",
 			"Démarrer le projet avec les données simulées. Une fois le projet fonctionnel, intégrer l'API.",
 			"Inclure des proptypes pour chacun des composants.",
 			"Utiliser JsDoc pour documenter les fonctions et les méthodes.",
 			"Toute la documentation doit être faite en anglais."
 		],
-		"notes":"",
+		"notes":"Pour le prototype, il n'y a actuellement que deux utilisateurs : Cecelia et Karl",
 		"skills": [
 			"Assurer la qualité des données d'une application",
 			"Interagir avec un service Web",
