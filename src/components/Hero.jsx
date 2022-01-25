@@ -32,6 +32,7 @@ const HeroContent = styled.article`
   top: 3rem;
   z-index: 1;
   width: 13rem;
+  border-radius: 0.313rem;
   background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
   padding: 0.5rem;
   margin: 0 auto;

@@ -140,7 +140,7 @@ const Project = ( { siteData } ) => {
                   
                   <RightSide>
                     <Carousel photoAlbum={pictures}/>
-                    <TechIcons icons={techIcons} /> 
+                    <TechIcons icons={techIcons} />
                   </RightSide>
 
                   <LeftSide> 

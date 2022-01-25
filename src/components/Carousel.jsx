@@ -86,7 +86,7 @@ const Carousel = ( { photoAlbum } ) => {
         <CarouselControlArrows theme={theme} src={nextArrow} alt='next' onClick={nextSlide} />
       </CarouselControls> : null}
 
-        <CarouselImages src={pictures? pictures[current] : Blank} alt='Project Gallery' />
+        <CarouselImages src={length>0? pictures[current] : Blank} alt='Project Gallery' />
         <Counter>{current+1}/{length || 0 }</Counter>
     </CarouselWrapper>     
   )

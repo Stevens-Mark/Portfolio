@@ -13,7 +13,7 @@ import heroImg from '../assets/images/banner4.jpg'
 /**
  * CSS for component using styled.components
  */
-const PortFolioWrapper = styled.div`
+const PortFolioWrapper = styled.section`
   margin-top: .25rem;
   padding: 1rem 0rem;
   background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.darkModeHighlights}`)};
@@ -52,6 +52,7 @@ const Home = ( { siteData } ) => {
       <main>
         <Hero image={heroImg}/>
         <PortFolioWrapper theme={theme}>
+            <h2 className="sr-only">Portfolio</h2>
             {siteData.map((data) => ( 
                   <Card key={data.id} data={data}/> 
             ))}   

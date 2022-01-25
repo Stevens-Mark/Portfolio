@@ -11,10 +11,11 @@ import { fadeIn } from '../utils/style/keyframes'
  */
 const ErrorWrapper = styled.main`
   animation: ${fadeIn} 1s both ease-in-out;
-  align-items: center;
   color: ${colors.primary};
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   h1 {
     font-family: Vladimir script;
