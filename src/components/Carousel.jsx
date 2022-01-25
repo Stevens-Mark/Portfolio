@@ -31,7 +31,7 @@ const CarouselImages = styled.img`
   max-width: 600px;
   border-radius: clamp(0.625rem, 1.736vw, 1.563rem);
   object-fit: contain;
-  background: white;
+  // background:${colors.tertiary};
   box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
 `;
 

@@ -43,7 +43,7 @@ const NAVLINK = styled(NavLink)`
   text-decoration: none;
   padding-left: 2.5vw;
   cursor: pointer;  
-  font-family: Vladimir script, 'comfortaa', 'Montserrat', sans-serif;
+  font-family: Vladimir script, 'comfortaa', sans-serif;
   font-weight: 500;
   color: ${colors.tertiary};
   font-size: clamp(1.3rem, 2vw, 2.5rem);

@@ -34,12 +34,10 @@ const ProjectWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin: auto;
-  // min-height: calc(100vh - 12.5rem);
   min-height: 85vh;
 `;
 
 const Heading = styled.div`
-
   padding: 0rem 1rem;
   display: flex;
   align-items: center;
@@ -48,6 +46,10 @@ const Heading = styled.div`
   img {
     width: clamp(1.5rem, 2.1vw, 2rem);
   }
+`;
+
+const NightDayFilter = styled.span`
+  filter: ${({ theme }) => (theme === 'light' ? '' : 'invert(65%) sepia(100%) saturate(341%) hue-rotate(127deg) brightness(91%) contrast(83%);')};
 `;
 
 const Overview = styled.div`
@@ -146,9 +148,9 @@ const Project = ( { siteData } ) => {
               <ProjectWrapper theme={theme}>  
                   <Heading>
                     <h1>{title}</h1>
-                    <span>
+                    <NightDayFilter theme={theme}>
                       <Links website={website} github={github} />
-                    </span>
+                    </NightDayFilter>
                   </Heading>
                 <Overview>
                   

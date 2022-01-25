@@ -261,8 +261,8 @@
 		"techIcons": [
 			"../images/techIcons/javascript.svg",
 			"../images/techIcons/html5.svg",
-			"../images/techIcons/sass.svg",
-			"../images/techIcons/bootstrap.svg"
+			"../images/techIcons/bootstrap.svg",
+			"../images/techIcons/sass.svg"
 			],
 		"website": "https://stevens-mark.github.io/StevensMark_P7_12072021/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
@@ -295,7 +295,7 @@
 			"Le test E2E doit être effectué manuellement par l'équipe AQ (non automatisé).",
 			"Aucune autre contrainte n'est mentionnée."
 		],
-		"notes":"Je n'ai pas créé l'interface utilisateur.\n\n Le brief était de déboguer le code, d'écrire les tests unitaires et d'intégration ainsi qu'un rapport E2E (pour éliminer les bugs et éviter toute régression dans la prochaine évolution).\n\n Une description des fonctionnalités, des rapports de bogues et du plan E2E peut être trouvée dans le repo Github de ce projet.",
+		"notes":"Je n'ai pas créé l'interface utilisateur car le brief était de déboguer le code, d'écrire des tests unitaires et d'intégration ainsi qu'un rapport E2E (pour éliminer les bugs et éviter la régression dans la prochaine évolution).\n\n Les rapports de bugs et le plan E2E se trouvent dans le repo Github de ce projet.\n\n Le lien vers le site web donne accès aux comptes administrateur et employé mais sans fonctionnalité. Pour voir le projet avec fonctionnalité, veuillez-vous rendre sur le repo du projet et suivre attentivement les instructions d'installation.",
 		"skills": [
 			"Ecrire des tests unitaires avec JavaScript",
 			"Débugger une application web avec le Chrome Debugger",
@@ -364,7 +364,9 @@
 			"Figma"
 		],
 		"techIcons": [
-			"../images/techIcons/figma.svg"
+			"../images/techIcons/figma.svg",
+			"../images/techIcons/notion.svg",
+			"../images/techIcons/usecase.svg"
 			],
 		"website": "https://www.figma.com/file/K8QF42xb6EzUyqDOvKHAXW/Learn-at-home",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P10_20092021"
@@ -474,8 +476,9 @@
 		],
 		"techIcons": [
 			"../images/techIcons/react.svg",
-			"../images/techIcons/JSDoc.jpg",
-			"../images/techIcons/recharts.jpg"
+			"../images/techIcons/styled.png",
+			"../images/techIcons/recharts.jpg",
+			"../images/techIcons/JSDoc.jpg"
 			],
 		"website": "https://sportsee2021.netlify.app/",
 		"github": "https://github.com/Stevens-Mark/StevensMark_P12_08112021"
@@ -532,6 +535,7 @@
 		"techIcons": [
 			"../images/techIcons/react.svg",
 			"../images/techIcons/redux.svg",
+			"../images/techIcons/styled.png",
 			"../images/techIcons/swagger-green.svg"
 			],
 		"website": "https://stevens-mark.github.io/StevensMark_P13_02122021/",

@@ -13,7 +13,7 @@ const TagWrapper = styled.div`
         font-style: normal;
         font-weight: 500;
         text-align: center;
-        color: #fff;
+        color: ${colors.tertiary};
         // background: ${colors.primary};
         background: ${props => props.color ? props.color : `${colors.primary}`};
         padding: 5px;
