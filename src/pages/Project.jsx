@@ -29,6 +29,7 @@ const LoadingWrapper = styled.div`
 
 const ProjectWrapper = styled.div`
   animation: ${fadeIn} 1s both ease-in-out;
+  color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
   background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.darkModeHighlights}`)};
   display: flex;
   flex-direction: column;
@@ -37,9 +38,20 @@ const ProjectWrapper = styled.div`
   min-height: 85vh;
 `;
 
+const Heading = styled.div`
+
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    width: clamp(1.5rem, 2.1vw, 2rem);
+  }
+`;
+
 const Overview = styled.div`
   margin-top: 1rem;
-  color: ${colors.secondary};
 
   @media screen and (min-width: 900px) {
     display: flex;
@@ -60,7 +72,6 @@ const RightSide = styled.div`
 const Texte = styled.div`
   margin: 1rem;
   flex: 1;
-  color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
 
   h1 {
     font-size: clamp(1.125rem, 2.5vw, 2.25rem);
@@ -75,9 +86,6 @@ const Texte = styled.div`
     text-justify: inter-word;
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
     white-space: pre-line; 
-  }
-  img {
-    width: clamp(1.5rem, 2.1vw, 2rem);
   }
 `;
 // white-space: pre-line used with \n to format text on the page.
@@ -135,7 +143,13 @@ const Project = ( { siteData } ) => {
         {isError ? <Error /> :  
           <>     
             <main>
-              <ProjectWrapper theme={theme}>    
+              <ProjectWrapper theme={theme}>  
+                  <Heading>
+                    <h1>{title}</h1>
+                    <span>
+                      <Links website={website} github={github} />
+                    </span>
+                  </Heading>
                 <Overview>
                   
                   <RightSide>
@@ -145,8 +159,7 @@ const Project = ( { siteData } ) => {
 
                   <LeftSide> 
                     <Texte theme={theme}>
-                      <h1>{title}</h1>
-                      <Links website={website} github={github} />
+
                       <p>{description}</p>
                     </Texte>
 
