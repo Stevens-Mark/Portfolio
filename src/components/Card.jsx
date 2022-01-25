@@ -54,11 +54,10 @@ const TagForm = styled.span`
   padding: 3px 8px;
 `;
 
-// text trunacted if needed
-const SummaryText = styled.h3`
+const SummaryText = styled.h3`    
   font-size: clamp(0.9rem, 1vw, 1rem);
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 2;    // text trunacted if needed
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;

@@ -23,7 +23,7 @@ const LoadingWrapper = styled.div`
   justify-content: center;
   align-items: center;
   // min-height: 85vh;
-  min-height: calc(100vh - 12.5rem);
+  // min-height: calc(100vh - 12.5rem);
 `;
 
 const ProjectWrapper = styled.div`
@@ -32,6 +32,8 @@ const ProjectWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin: auto;
+  // min-height: calc(100vh - 12.5rem);
+  min-height: 85vh;
 `;
 
 const Overview = styled.div`
@@ -94,7 +96,7 @@ const Ulist = styled.ul`
   padding-inline-start: 0px;
 
   @media screen and (min-width: 475px) {
-    list-style: inside;
+    // list-style: inside;
     padding-inline-start: 20px;
   }
 }
@@ -114,8 +116,8 @@ const Project = ( { siteData } ) => {
   const [data, setData] = useState('')
   const [isLoading, setLoading] = useState(true)
   const [isError, setIsError] = useState(false)
-  // Get ID from URL param
-  const idUrl = useParams().id
+
+  const idUrl = useParams().id   // Get ID from URL param
 
   useEffect(() => {
     document.title = 'Mark Stevens - Project'

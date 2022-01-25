@@ -80,17 +80,16 @@ const Carousel = ( {photoAlbum} ) => {
   return (   
     <CarouselWrapper theme={theme}>
 
+      {length >1 ? 
       <CarouselControls>
         <CarouselControlArrows theme={theme} src={previousArrow} alt='previous' onClick={prevSlide} />
         <CarouselControlArrows theme={theme} src={nextArrow} alt='next' onClick={nextSlide} />
-      </CarouselControls>
+      </CarouselControls> : null}
 
         <CarouselImages src={pictures? pictures[current] : Blank} alt='Project Gallery' />
         <Counter>{current+1}/{length || 0 }</Counter>
-        
     </CarouselWrapper>     
   )
-  
 }
 
 export default Carousel

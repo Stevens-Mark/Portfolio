@@ -17,7 +17,8 @@ const AboutWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: calc(100vh - 12.5rem);
+  // min-height: calc(100vh - 12.5rem);
+  min-height: 85vh;
 `;
 
 const AboutBanner = styled.div`

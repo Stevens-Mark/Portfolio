@@ -15,7 +15,6 @@ const ErrorWrapper = styled.main`
   color: ${colors.primary};
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 12.5rem);
 
   h1 {
     font-family: Vladimir script;
@@ -36,6 +35,7 @@ const ErrorWrapper = styled.main`
 const ReturnLink = styled(Link)`
   color: ${colors.primary};
   font-size: clamp(0.875rem, 1.5vw, 1.375rem);
+  text-decoration: underline;
   font-weight: 500;
   margin-bottom: 2rem;
 `;
