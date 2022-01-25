@@ -13,6 +13,7 @@ import Links from '../components/Links'
 import Carousel from '../components/Carousel'
 import TechIcons from '../components/Tech'
 import GoToTop from '../utils/Functions/GoToTop'
+import ListCreate from '../components/ListCreate'
 import Error from './Error'
 
 /**
@@ -73,14 +74,13 @@ const Texte = styled.div`
     text-align: justify;
     text-justify: inter-word;
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
-    white-space: pre-line;
+    white-space: pre-line; 
   }
   img {
     width: clamp(1.5rem, 2.1vw, 2rem);
   }
 `;
-// white-space: pre-line used in conjunction with control character such as \n 
-// to format the text on the page.
+// white-space: pre-line used with \n to format text on the page.
 
 const Details = styled.div`
   display: flex;
@@ -89,17 +89,6 @@ const Details = styled.div`
   @media screen and (min-width: 900px) {
     flex-direction: row;
   }
-`;
-
-const Ulist = styled.ul`
-  list-style: none;
-  padding-inline-start: 0px;
-
-  @media screen and (min-width: 475px) {
-    // list-style: inside;
-    padding-inline-start: 20px;
-  }
-}
 `;
 
 /**
@@ -137,6 +126,8 @@ const Project = ( { siteData } ) => {
       }
   }, [idUrl, siteData])
 
+  const { title, pictures, description, functionality, constraints, notes, skills, techIcons, website, github} = data
+
   return (
     <>
       {isLoading ? <LoadingWrapper><LoadingIcon /></LoadingWrapper> : 
@@ -148,22 +139,20 @@ const Project = ( { siteData } ) => {
                 <Overview>
                   
                   <RightSide>
-                    <Carousel photoAlbum={data.pictures}/>
-                    <TechIcons icons={data.techIcons} /> 
+                    <Carousel photoAlbum={pictures}/>
+                    <TechIcons icons={techIcons} /> 
                   </RightSide>
 
                   <LeftSide> 
                     <Texte theme={theme}>
-                      <h1>{data.title}</h1>
-                      <Links website={data.website} github={data.github} />
-                      <p>{data.scenario}</p>
+                      <h1>{title}</h1>
+                      <Links website={website} github={github} />
+                      <p>{description}</p>
                     </Texte>
 
                     <Texte theme={theme}>
                       <h2>Fonctionnalités</h2>
-                      <Ulist>{data.functionality.map((func, index) => (
-                        <li key={`func-${index}`}>{func}</li> ))}
-                      </Ulist> 
+                      <ListCreate group='functionality' data={functionality}/>
                     </Texte>
                   </LeftSide>
 
@@ -172,23 +161,19 @@ const Project = ( { siteData } ) => {
                 <Details>
                     <Texte theme={theme}>
                       <h2>Contraints</h2>
-                      <Ulist>{data.constraints.map((constraint, index) => (
-                        <li key={`cons-${index}`}>{constraint}</li> ))}
-                      </Ulist>
+                      <ListCreate group='constraints' data={constraints}/>
                     </Texte>
 
                     <Texte theme={theme}>
-                    <h2>Compétences</h2>
-                    <Ulist>{data.skills.map((skill, index) => (
-                      <li key={`skill-${index}`}>{skill}</li> ))}
-                    </Ulist>  
+                      <h2>Compétences</h2>
+                      <ListCreate group='skills' data={skills}/>
                   </Texte>
                 </Details>
 
-                  {data.notes?  
+                  {notes?  
                     <Texte theme={theme}>
                       <h2>Notes</h2>
-                      <p>{data.notes}</p>
+                      <p>{notes}</p>
                     </Texte>
                   : null 
                   }            

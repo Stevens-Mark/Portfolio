@@ -4,7 +4,8 @@
 		"date": "2021-03-30",
 		"title": "Reservia",
 		"cover": "images/projects/reservia/project_reservia.jpg",
-		"summary": "Transformer une maquette en site web",
+		"objective": "Transformer une maquette en site web",
+		"summary": "Une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
 		"pictures": [
 			"../images/projects/reservia/ReserviaLogo.jpg",
 			"../images/projects/reservia/reservia1.jpg",
@@ -12,9 +13,8 @@
 			"../images/projects/reservia/reservia2.jpg",
 			"../images/projects/reservia/reservia3.jpg"
 		],
-		"description": "Une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-		"objective": "Traduire une maquette en une page Web à l'aide de HTML et de CSS.",
-		"scenario": "Reservia, une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.\n \n Un nouveau design basé sur les principes du Material Design vient d’être proposé par le designer UI.  Avant de valider définitivement ce design, l’entreprise décide de réaliser un prototype. La première étape consiste à intégrer la maquette responsive en HTML et CSS.",
+		"goal": "Traduire une maquette en une page Web à l'aide de HTML et de CSS.",
+		"description": "Reservia, une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.\n \n Un nouveau design basé sur les principes du Material Design vient d’être proposé par le designer UI.  Avant de valider définitivement ce design, l’entreprise décide de réaliser un prototype. La première étape consiste à intégrer la maquette responsive en HTML et CSS.",
 		"functionality": [
 			"Le champ de recherche est un champ de saisie, cependant, à ce stade, le bouton de recherche ne sera pas fonctionnel.", 
 			"Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.", 
@@ -56,7 +56,8 @@
 		"date": "2021-04-21",
 		"title": "Ohmyfood",
 		"cover": "images/projects/ohmyfood/project_ohmyfood.jpg",
-		"summary": "Création d'un site web dynamique",
+		"objective": "Création d'un site web dynamique",
+		"summary": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.",
 		"pictures": [
 			"../images/projects/ohmyfood/ohmyfoodLogo.jpg",
 			"../images/projects/ohmyfood/project_ohmyfood.jpg",
@@ -65,9 +66,8 @@
 			"../images/projects/ohmyfood/menu_3.jpg",
 			"../images/projects/ohmyfood/menu_4.jpg"
 		],
-		"description": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.",
-		"objective": "Traduire les maquettes et rendre le site plus dynamique grâce à des animations réalisées à l'aide de Sass.",
-		"scenario":"Ohmyfood est une société de commande de repas en ligne. Leur concept permet aux utilisateurs de composer leur propre menu et de réduire leur temps d'attente dans les restaurants, car leur menu est préparé à l'avance. Plus de temps perdu à regarder le menu.\n\n Ils veulent offrir à leurs clients les menus des restaurants gastronomiques. Initialement développés à New York, ils souhaitent désormais étendre leur concept à la capitale de la gastronomie : Paris. Ils se positionnent sur un marché de niche, auprès des restaurants de luxe des villes dans lesquelles ils sont implantés. Ils souhaitent être identifiés comme une entreprise offrant des services haut de gamme aux classes moyennes et supérieures, connectées et souvent pressées, désireuses de déguster des produits de qualité.",
+		"goal": "Traduire les maquettes et rendre le site plus dynamique grâce à des animations réalisées à l'aide de Sass.",
+		"description":"Ohmyfood est une société de commande de repas en ligne. Leur concept permet aux utilisateurs de composer leur propre menu et de réduire leur temps d'attente dans les restaurants, car leur menu est préparé à l'avance. Plus de temps perdu à regarder le menu.\n\n Ils veulent offrir à leurs clients les menus des restaurants gastronomiques. Initialement développés à New York, ils souhaitent désormais étendre leur concept à la capitale de la gastronomie : Paris. Ils se positionnent sur un marché de niche, auprès des restaurants de luxe des villes dans lesquelles ils sont implantés. Ils souhaitent être identifiés comme une entreprise offrant des services haut de gamme aux classes moyennes et supérieures, connectées et souvent pressées, désireuses de déguster des produits de qualité.",
 		"functionality": [
 			"Un spinner de chargement pour quand l'application a plus de menus.",
 			"Une section contenant 4 menus sous forme de carte. En cliquant dessus, l'utilisateur est redirigé vers le menu.",
@@ -111,7 +111,8 @@
 		"date": "2021-05-06",
 		"title": "Game On",
 		"cover": "images/projects/gameon/project_gameon.jpg",
-		"summary": "Création du formulaire d'inscription",
+		"objective": "Création du formulaire d'inscription",
+		"summary": "GameOn, spécialisée dans les conférences et les compétitions de jeux. La société simplifie la nouvelle page d'accueil et l'inscription au concours après avoir reçu des commentaires négatifs de certains utilisateurs.",
 		"pictures": [
 			"../images/projects/gameon/gameOnLogo.jpg",
 			"../images/projects/gameon/gameon_1.jpg",
@@ -119,9 +120,8 @@
 			"../images/projects/gameon/gameon_3.jpg",
 			"../images/projects/gameon/gameon_4.jpg"
 		],
-		"description": "GameOn, spécialisée dans les conférences et les compétitions de jeux. La société simplifie la nouvelle page d'accueil et l'inscription au concours après avoir reçu des commentaires négatifs de certains utilisateurs.",
-		"objective":"Ajouter le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel en utilisant javascript.",
-		"scenario":"GameOn qui est spécialisée dans les conférences et les concours de jeux vidéo. L'entreprise simplifie la nouvelle page d'accueil et l'inscription aux concours après avoir reçu des commentaires négatifs de certains utilisateurs.\n\n Malheureusement, l'ancien développeur qui travaillait dessus n'a pas eu le temps de terminer avant de partir pour son nouvel emploi dans sa nouvelle entreprise.\n\n La structure HTML et le style CSS, basés sur les maquettes, ont été commencés et la mise en page et le contenu de la page d'accueil et de la modale de formulaire sont terminés, mais le front-end doit être complété. En outre, le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel, en utilisant JavaScript, doit être ajouté et les problèmes décrits sur le repo Git Hub doivent être complétés.",
+		"goal":"Ajouter le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel en utilisant javascript.",
+		"description":"GameOn qui est spécialisée dans les conférences et les concours de jeux vidéo. L'entreprise simplifie la nouvelle page d'accueil et l'inscription aux concours après avoir reçu des commentaires négatifs de certains utilisateurs.\n\n Malheureusement, l'ancien développeur qui travaillait dessus n'a pas eu le temps de terminer avant de partir pour son nouvel emploi dans sa nouvelle entreprise.\n\n La structure HTML et le style CSS, basés sur les maquettes, ont été commencés et la mise en page et le contenu de la page d'accueil et de la modale de formulaire sont terminés, mais le front-end doit être complété. En outre, le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel, en utilisant JavaScript, doit être ajouté et les problèmes décrits sur le repo Git Hub doivent être complétés.",
 		"functionality": [
 			"Validation du formulaire - Le champ prénom/nom a un minimum de 2 caractères / n'est pas vide.",
 			"L'adresse électronique est valide, le nombre de concours est une valeur numérique et un bouton radio doit être sélectionné.",
@@ -160,7 +160,8 @@
 		"date": "2021-06-09",
 		"title": "Fisheye",
 		"cover": "images/projects/fisheye/project_fisheye.jpg",
-		"summary": "Création d'un site web accessible",
+		"objective": "Création d'un site web accessible",
+		"summary": "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Ils ont récemment levé des fonds et aimeraient mettre à jour leur site web.",
 		"pictures": [
 			"../images/projects/fisheye/fisheyeLogo.jpg",
 			"../images/projects/fisheye/fisheye_1.jpg",
@@ -168,9 +169,8 @@
 			"../images/projects/fisheye/fisheye_3.jpg",
 			"../images/projects/fisheye/fisheye_4.jpg"
 		],
-		"description": "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Ils ont récemment levé des fonds et aimeraient mettre à jour leur site web.",
-		"objective": "Construire un prototype de site web dynamique en mettant l'accent sur l'accessibilité (aria). Autres fonctionnalités : filtres, tri, lightbox, galerie de photos et formulaires.",
-		"scenario":"FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux.\n\n On peut lire sur le site web de photographes freelances. “Nos clients prennent de super photos, mais ils n’y connaissent rien en développement web. C'est pourquoi nous proposons une plateforme unique pour montrer leurs photos sur une belle page et les contacter pour des événements ou des tirages. Nous sommes l'un des plus grands sites de photographie en freelance, avec un énorme réseau de photographes.”\n\n Pour eux, l'accessibilité est essentielle ! Il est donc très important que le site soit accessible aux utilisateurs malvoyants, avec des descriptions textuelles pour toutes les photos et des commandes au clavier pour naviguer sur le site. Le site étant obsolète, il doit être remanié et passer d'un site statique à un site dynamique en mettant l'accent sur l'accessibilité (aria).",
+		"goal": "Construire un prototype de site web dynamique en mettant l'accent sur l'accessibilité (aria). Autres fonctionnalités : filtres, tri, lightbox, galerie de photos et formulaires.",
+		"description":"FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux.\n\n On peut lire sur le site web de photographes freelances. “Nos clients prennent de super photos, mais ils n’y connaissent rien en développement web. C'est pourquoi nous proposons une plateforme unique pour montrer leurs photos sur une belle page et les contacter pour des événements ou des tirages. Nous sommes l'un des plus grands sites de photographie en freelance, avec un énorme réseau de photographes.”\n\n Pour eux, l'accessibilité est essentielle ! Il est donc très important que le site soit accessible aux utilisateurs malvoyants, avec des descriptions textuelles pour toutes les photos et des commandes au clavier pour naviguer sur le site. Le site étant obsolète, il doit être remanié et passer d'un site statique à un site dynamique en mettant l'accent sur l'accessibilité (aria).",
 		"functionality": [
 			"Page d'accueil - Liste de tous les photographes.",
 			"La liste des photographes peut être filtrée par tag.",
@@ -218,7 +218,8 @@
 		"date": "2021-07-12",
 		"title": "Les Petits Plats",
 		"cover": "images/projects/petitsplats/project_lespetitsplats.jpg",
-		"summary": "Développer un algorithme de recherche",
+		"objective": "Développer un algorithme de recherche",
+		"summary": "Les Petits plats ont décidé de lancer leur propre site de recettes de cuisine. Comme il existe de nombreux sites proposant des recettes de cuisine, la fluidité et l'efficacité du moteur de recherche feront la différence.",
 		"pictures": [
 			"../images/projects/petitsplats/petitsLogo.jpg",
 			"../images/projects/petitsplats/project_lespetitsplats.jpg",
@@ -226,9 +227,8 @@
 			"../images/projects/petitsplats/petits_3.jpg",
 			"../images/projects/petitsplats/petits_4.jpg"
 		],
-		"description": "Les Petits plats ont décidé de lancer leur propre site de recettes de cuisine. Comme il existe de nombreux sites proposant des recettes de cuisine, la fluidité et l'efficacité du moteur de recherche feront la différence.",
-		"objective": "Développer deux algorithmes de recherche pour la fonctionnalité de recherche (recherches primaires et secondaires). Tester et mettre en œuvre les algorithmes les plus efficaces.",
-		"scenario":"Après avoir édité des livres de cuisine pendant plusieurs années, l’entreprise a décidé de se lancer dans un nouveau projet : réaliser son propre site de recettes de cuisine à l’instar de Marmiton ou 750g.\n\n Comme il existe de nombreux sites proposant des recettes de cuisine, on pense qu'un des éléments qui peut faire la différence sur leur site est la fluidité du moteur de recherche. De plus, l'entreprise veut avant tout quelque chose d'efficace, car ses utilisateurs veulent une recherche rapide, presque instantanée !\n\n Un fichier JavaScript contenant un tableau JSON de 50 recettes a été fourni pour développer le projet et la première mission est d'implémenter la fonctionnalité de recherche.",
+		"goal": "Développer deux algorithmes de recherche pour la fonctionnalité de recherche (recherches primaires et secondaires). Tester et mettre en œuvre les algorithmes les plus efficaces.",
+		"description":"Après avoir édité des livres de cuisine pendant plusieurs années, l’entreprise a décidé de se lancer dans un nouveau projet : réaliser son propre site de recettes de cuisine à l’instar de Marmiton ou 750g.\n\n Comme il existe de nombreux sites proposant des recettes de cuisine, on pense qu'un des éléments qui peut faire la différence sur leur site est la fluidité du moteur de recherche. De plus, l'entreprise veut avant tout quelque chose d'efficace, car ses utilisateurs veulent une recherche rapide, presque instantanée !\n\n Un fichier JavaScript contenant un tableau JSON de 50 recettes a été fourni pour développer le projet et la première mission est d'implémenter la fonctionnalité de recherche.",
 		"functionality": [
 			"La recherche doit pouvoir se faire via le champ principal ou via les tags (ingrédients, ustensiles ou appareil).",
 			"La recherche principale se lance à partir de 3 caractères entrés par l’utilisateur dans la barre de recherche.",
@@ -272,7 +272,8 @@
 		"date": "2021-08-09",
 		"title": "Billed",
 		"cover": "images/projects/billed/project_billed.jpg",
-		"summary": "Le débogage et le test d'un SaaS RH",
+		"objective": "Le débogage et le test d'un SaaS RH",
+		"summary": "Billed est une société qui produit des solutions Saas pour les équipes de ressources humaines. Dans deux semaines, l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise.",
 		"pictures": [
 			"../images/projects/billed/billedLogo.jpg",
 			"../images/projects/billed/billed_1.jpg",
@@ -280,9 +281,8 @@
 			"../images/projects/billed/billed_3.jpg",
 			"../images/projects/billed/billed_4.jpg"
 		],
-		"description": "Billed est une société qui produit des solutions Saas pour les équipes de ressources humaines. Dans deux semaines, l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise.",
-		"objective": "Trouver les bogues indiqués dans le rapport de bogue. Rédiger également les tests unitaires et d'intégration ainsi qu'un plan E2E.",
-		"scenario":"Billed est une entreprise qui produit des solutions Saas pour les équipes de ressources humaines. La fonctionnalité 'note de frais' est très attendue sur le marché et la direction générale en a fait une priorité. L'objectif est de la lancer officiellement auprès de ses clients dans les deux semaines, les délais sont donc très serrés. L'équipe chargée de la fonctionnalité a travaillé dur au cours des deux dernières semaines.\n\n Malheureusement, après qu'un collègue de l'équipe chargée des rapports de dépenses a quitté l'entreprise avant d'avoir terminé l'application, le développeur principal de l'équipe chargée de la fonctionnalité a demandé de l'aide pour terminer les tests et respecter le délai.\n\n L'application doit être terminée en une semaine, car l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise. Description de la fonctionnalité - Il y a deux chemins d'accès à cette fonctionnalité : un du côté de l'administrateur RH et un du côté de l'employé. Le back-end est prêt (en version alpha). Sur le front-end, le parcours de l'administrateur RH est complet, entièrement testé et débogué.",
+		"goal": "Trouver les bogues indiqués dans le rapport de bogue. Rédiger également les tests unitaires et d'intégration ainsi qu'un plan E2E.",
+		"description":"Billed est une entreprise qui produit des solutions Saas pour les équipes de ressources humaines. La fonctionnalité 'note de frais' est très attendue sur le marché et la direction générale en a fait une priorité. L'objectif est de la lancer officiellement auprès de ses clients dans les deux semaines, les délais sont donc très serrés. L'équipe chargée de la fonctionnalité a travaillé dur au cours des deux dernières semaines.\n\n Malheureusement, après qu'un collègue de l'équipe chargée des rapports de dépenses a quitté l'entreprise avant d'avoir terminé l'application, le développeur principal de l'équipe chargée de la fonctionnalité a demandé de l'aide pour terminer les tests et respecter le délai.\n\n L'application doit être terminée en une semaine, car l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise. Description de la fonctionnalité - Il y a deux chemins d'accès à cette fonctionnalité : un du côté de l'administrateur RH et un du côté de l'employé. Le back-end est prêt (en version alpha). Sur le front-end, le parcours de l'administrateur RH est complet, entièrement testé et débogué.",
 		"functionality": [
 			"Le parcours de l'employé a été fiabilisé et amélioré.",
 			"Les bogues identifiés dans le rapport de bogue fourni par Jest ont été corrigés.",
@@ -319,7 +319,8 @@
 		"date": "2021-09-20",
 		"title": "Learn At Home",
 		"cover": "images/projects/learnathome/learn_2.jpg",
-		"summary": "Définir les besoins d'une app de tutorat",
+		"objective": "Définir les besoins d'une app de tutorat",
+		"summary": "Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles. En gros, leur objectif est de permettre à tout élève, où qu’il soit, d’avoir accès à un soutien scolaire à distance.",
 		"pictures": [
 			"../images/projects/learnathome/learnathomeLogo.jpg",
 			"../images/projects/learnathome/learn_1.jpg",
@@ -329,9 +330,8 @@
 			"../images/projects/learnathome/learn_5.jpg",
 			"../images/projects/learnathome/learn_6.jpg"
 		],
-		"description": "Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles. En gros, leur objectif est de permettre à tout élève, où qu’il soit, d’avoir accès à un soutien scolaire à distance.",
-		"objective": "Définir clairement les besoins du client. Créez les diagrammes de cas d'utilisation et les user stories avec les critères d'acceptation pour chaque fonctionnalité. Maquettes du site (Figma ou Sketch) avec un Kanban décomposant le projet.",
-		"scenario":"Learn@Home est une association qui met en relation des enfants ayant des difficultés d'apprentissage et des bénévoles, en ligne. Leur objectif est de permettre à tout élève, où qu'il se trouve, d'accéder à un soutien scolaire à distance. Chaque élève inscrit sur le site a un tuteur bénévole qui lui est attribué. L'objectif du bénévole est de soutenir l'étudiant dans son apprentissage grâce à courts rendez-vous programmés chaque semaine. Au cours de ces rendez-vous, le bénévole aide l'élève à faire ses devoirs et à s'organiser.\n\n Pour faciliter l'interaction et la communication, Learn@Home souhaite créer un nouveau site web. Avant de commencer le développement du logiciel pur, la première étape consiste à définir clairement ses besoins, en fournissant des diagrammes de cas d'utilisation pour chacune des principales fonctionnalités de chaque page, des histoires d'utilisateurs avec des critères d'acceptation pour chaque fonctionnalité et des maquettes du site (Figma ou Sketch).",
+		"goal": "Définir clairement les besoins du client. Créez les diagrammes de cas d'utilisation et les user stories avec les critères d'acceptation pour chaque fonctionnalité. Maquettes du site (Figma ou Sketch) avec un Kanban décomposant le projet.",
+		"description":"Learn@Home est une association qui met en relation des enfants ayant des difficultés d'apprentissage et des bénévoles, en ligne. Leur objectif est de permettre à tout élève, où qu'il se trouve, d'accéder à un soutien scolaire à distance. Chaque élève inscrit sur le site a un tuteur bénévole qui lui est attribué. L'objectif du bénévole est de soutenir l'étudiant dans son apprentissage grâce à courts rendez-vous programmés chaque semaine. Au cours de ces rendez-vous, le bénévole aide l'élève à faire ses devoirs et à s'organiser.\n\n Pour faciliter l'interaction et la communication, Learn@Home souhaite créer un nouveau site web. Avant de commencer le développement du logiciel pur, la première étape consiste à définir clairement ses besoins, en fournissant des diagrammes de cas d'utilisation pour chacune des principales fonctionnalités de chaque page, des histoires d'utilisateurs avec des critères d'acceptation pour chaque fonctionnalité et des maquettes du site (Figma ou Sketch).",
 		"functionality": [
 			"Une page de connexion pour permettre à un étudiant ou à un volontaire de se connecter.",
 			"Un système permettant de récupérer un mot de passe oublié.",
@@ -374,7 +374,8 @@
 		"date": "2021-10-18",
 		"title": "Kasa",
 		"cover": "images/projects/kasa/kasa_1.jpg",
-		"summary": "Développement d'un SPA",
+		"objective": "Développement d'un SPA",
+		"summary": "Kasa est dans le métier de la location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
 		"pictures": [
 			"../images/projects/kasa/kasaLogo.jpg",
 			"../images/projects/kasa/kasa_1.jpg",
@@ -382,9 +383,8 @@
 			"../images/projects/kasa/kasa_3.jpg",
 			"../images/projects/kasa/kasa_4.jpg"
 		],
-		"description": "Kasa est dans le métier de la location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
-		"objective": "Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
-		"scenario":"Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.\n\n Le site Web de Kasa a été codé il y a plus de 10 ans en ASP.NET avec beaucoup de code hérité. Le directeur technique a donc décidé de le remanier complètement et de passer à une stack JavaScript complète avec NodeJS en back-end et React en front-end.\n\n Le développeur doit démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, tout en suivant les maquettes Figma (responsive !). De plus, comme l'équipe Back-End et les données ne sont pas en place, 20 annonces de logements (dans un fichier JSON) ont été fournies afin de construire le Front-End correspondant.",
+		"goal": "Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
+		"description":"Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.\n\n Le site Web de Kasa a été codé il y a plus de 10 ans en ASP.NET avec beaucoup de code hérité. Le directeur technique a donc décidé de le remanier complètement et de passer à une stack JavaScript complète avec NodeJS en back-end et React en front-end.\n\n Le développeur doit démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, tout en suivant les maquettes Figma (responsive !). De plus, comme l'équipe Back-End et les données ne sont pas en place, 20 annonces de logements (dans un fichier JSON) ont été fournies afin de construire le Front-End correspondant.",
 		"functionality": [
 			"Une page d’accueil avec une section contenant tous les logements sous forme de carte.",
 			"En cliquant sur une carte, l'utilisateur est redirigé vers le logement.",
@@ -429,16 +429,16 @@
 		"date": "2021-11-08",
 		"title": "Sports See",
 		"cover": "images/projects/sportsee/project_sportsee.jpg",
-		"summary":"Développer un tableau de bord analytique",
+		"objective":"Développer un tableau de bord analytique",
+		"summary": "SportSee est une startup dédiée au coaching sportif. La société va lancer une nouvelle version de la page de profil de l'utilisateur, qui permettra de suivre le nombre de séances effectuées ainsi que les calories brûlées.",
 		"pictures": [
 			"../images/projects/sportsee/sportseeLogo.jpg",
 			"../images/projects/sportsee/sportsee_1.jpg",
 			"../images/projects/sportsee/sportsee_2.jpg",
 			"../images/projects/sportsee/sportsee_3.jpg"
 		],
-		"description": "SportSee est une startup dédiée au coaching sportif. La société va lancer une nouvelle version de la page de profil de l'utilisateur, qui permettra de suivre le nombre de séances effectuées ainsi que les calories brûlées.",
-		"objective": "Redessiner la page de profil avec React, en utilisant soit D3 ou Recharts pour les graphiques d'activité sportive de l'utilisateur. Créez un service séparé qui se chargera des appels HTTP vers le backend (NodeJS) en utilisant Fetch ou Axios. Il est important que vous fassiez les appels en dehors des composants React. Enfin, toute la documentation doit être réalisée en anglais.",
-		"scenario":"SportSee est une startup dédiée au coaching sportif. En pleine croissance, l'entreprise va lancer une nouvelle version de la page de profil de l'utilisateur. Cette page permet à l'utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées. Ainsi, la nouvelle page de profil utilisateur doit être refaite avec React, en intégrant les graphiques sur l'activité sportive de l'utilisateur en utilisant soit D3 soit Recharts.",
+		"goal": "Redessiner la page de profil avec React, en utilisant soit D3 ou Recharts pour les graphiques d'activité sportive de l'utilisateur. Créez un service séparé qui se chargera des appels HTTP vers le backend (NodeJS) en utilisant Fetch ou Axios. Il est important que vous fassiez les appels en dehors des composants React. Enfin, toute la documentation doit être réalisée en anglais.",
+		"description":"SportSee est une startup dédiée au coaching sportif. En pleine croissance, l'entreprise va lancer une nouvelle version de la page de profil de l'utilisateur. Cette page permet à l'utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées. Ainsi, la nouvelle page de profil utilisateur doit être refaite avec React, en intégrant les graphiques sur l'activité sportive de l'utilisateur en utilisant soit D3 soit Recharts.",
 		"functionality": [
 			"Un menu de navigation horizontal pour permettre la navigation entre les différents écrans.",
 			"Un menu de navigation vertical pour permettre la navigation entre les futurs blocs de navigation.",
@@ -485,7 +485,8 @@
 		"title": "Argent Bank",
 		"date": "2021-12-02",
 		"cover": "images/projects/argentbank/project_argentbank.jpg",
-		"summary": "Utilisation d'une API pour un compte bancaire",
+		"objective": "Utilisation d'une API pour un compte bancaire",
+		"summary": "Argent Bank est une nouvelle banque qui tente de percer dans le secteur et a besoin d'aide pour mettre en place son application. Le contrat en deux parties est décomposé en plusieurs phases.",
 		"pictures": [
 			"../images/projects/argentbank/bankLogo.jpg",
 			"../images/projects/argentbank/project_argentbank.jpg",
@@ -494,9 +495,8 @@
 			"../images/projects/argentbank/argent_3.jpg",
 			"../images/projects/argentbank/argent_4.jpg"
 		],
-		"description": "Argent Bank est une nouvelle banque qui tente de percer dans le secteur et a besoin d'aide pour mettre en place son application. Le contrat en deux parties est décomposé en plusieurs phases.",
-		"objective": "Créer une application web entièrement responsive avec React en utilisant Redux pour gérer l'état de l'ensemble de l'application. Les utilisateurs doivent pouvoir visiter la page d'accueil, se connecter, voir les informations de leur profil et les modifier. Fournir également un document décrivant les API de transaction proposées, en suivant les directives Swagger.",
-		"scenario":"Argent Bank est une nouvelle banque en démarrage qui tente de percer dans le secteur. L'entreprise souhaite créer une application web pour que ses clients puissent se connecter et gérer leurs comptes et leurs profils.\n\n Le projet se décompose en plusieurs phases : la première phase est la création d'une application Web entièrement réactive avec authentification de l'utilisateur. Elle est suivie de la phase deux, qui consiste à spécifier les points de terminaison de l'API nécessaires pour une éventuelle deuxième mission une fois la phase un est terminée.",
+		"goal": "Créer une application web entièrement responsive avec React en utilisant Redux pour gérer l'état de l'ensemble de l'application. Les utilisateurs doivent pouvoir visiter la page d'accueil, se connecter, voir les informations de leur profil et les modifier. Fournir également un document décrivant les API de transaction proposées, en suivant les directives Swagger.",
+		"description":"Argent Bank est une nouvelle banque en démarrage qui tente de percer dans le secteur. L'entreprise souhaite créer une application web pour que ses clients puissent se connecter et gérer leurs comptes et leurs profils.\n\n Le projet se décompose en plusieurs phases : la première phase est la création d'une application Web entièrement réactive avec authentification de l'utilisateur. Elle est suivie de la phase deux, qui consiste à spécifier les points de terminaison de l'API nécessaires pour une éventuelle deuxième mission une fois la phase un est terminée.",
 		"functionality": [
 			"L'utilisateur peut visiter la page d'accueil.",
 			"L'utilisateur peut se connecter au système.",

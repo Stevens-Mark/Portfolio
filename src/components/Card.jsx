@@ -54,7 +54,7 @@ const TagForm = styled.span`
   padding: 3px 8px;
 `;
 
-const SummaryText = styled.h3`    
+const ObjectiveText = styled.h3`    
   font-size: clamp(0.9rem, 1vw, 1rem);
   display: -webkit-box;
   -webkit-line-clamp: 2;    // text trunacted if needed
@@ -67,7 +67,7 @@ const SummaryText = styled.h3`
   }
 `;
 
-const DescriptionText = styled.p`
+const SummaryText = styled.p`
   color: ${colors.darkGrey};
   font-size: clamp(0.8rem, 1vw, 0.9rem);
   text-align: justify;
@@ -84,7 +84,7 @@ const Card = ( { data } ) => {
 
   const { theme } = useTheme()
 
-  const { id, title,  cover, summary, description, tags, website, github} = data
+  const { id, title, cover, objective, summary, tags, website, github} = data
 
   return (
     <ProjectCard theme={theme}>
@@ -100,8 +100,8 @@ const Card = ( { data } ) => {
           <CoverImage src={cover} alt='Cover'/>
           {(tags).map((tag) => ( 
               <TagForm key={tag}>{tag} </TagForm> ))}
-          <SummaryText className="test">{summary}</SummaryText>
-          <DescriptionText >{description}</DescriptionText>
+          <ObjectiveText>{objective}</ObjectiveText>
+          <SummaryText>{summary}</SummaryText>
         </Link> 
 
     </ProjectCard>

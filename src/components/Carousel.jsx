@@ -62,7 +62,7 @@ const Counter = styled.p`
  * @param {array} photoAlbum: pictures for the carousel
  * @returns {JSX}
  */
-const Carousel = ( {photoAlbum} ) => {
+const Carousel = ( { photoAlbum } ) => {
 
   const { theme } = useTheme()
   const pictures = photoAlbum
