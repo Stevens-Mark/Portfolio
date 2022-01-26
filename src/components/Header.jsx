@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
+import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
@@ -71,6 +72,8 @@ const NAVLINK = styled(NavLink)`
 /**
  * Renders Header on each page
  * @function Header
+ * @param {boolean} language (state)
+ * @param {function} toggleLanguage: to set state
  * @returns {JSX}
  */
 const Header = ( { language, toggleLanguage } ) => {
@@ -90,5 +93,13 @@ const Header = ( { language, toggleLanguage } ) => {
   )
 }
 
-  export default Header
+export default Header
+
+// Prototypes
+Header.propTypes = {
+  language: PropTypes.bool.isRequired,
+  toggleLanguage: PropTypes.func.isRequired,
+}
+
+
 

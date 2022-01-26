@@ -17,7 +17,7 @@ const TechImg = styled.img`
 /**
  * Renders Individual "techIcons" for the projects
  * @function TechTags
- * @param {array} icons: icons (react, JavaScript, etc...)
+ * @param {array} icons: (react, JavaScript, etc...)
  * @returns {JSX}
  */
 const TechTags = ( { icons } ) => {

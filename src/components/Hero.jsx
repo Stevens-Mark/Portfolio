@@ -73,7 +73,8 @@ const HeroText = styled.p`
 /**
  * Renders Hero Banner on Homepage
  * @function Hero
- * @package {string} image: path to image for the background
+ * @param {string} image: path to image for the background
+ * @param {object} heroText: text for banner in FR/EN language
  * @returns {JSX}
  */
 const Hero = ( { image, heroText } ) => {
