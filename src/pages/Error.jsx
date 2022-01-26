@@ -3,16 +3,20 @@ import { Link } from 'react-router-dom'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+// import fade-in keyframe
+import { fadeIn } from '../utils/style/keyframes'
 
 /**
  * CSS for component using styled.components
  */
 const ErrorWrapper = styled.main`
-  align-items: center;
-  color: ${colors.styledText};
+  animation: ${fadeIn} 1s both ease-in-out;
+  color: ${colors.primary};
   display: flex;
   flex-direction: column;
- 
+  align-items: center;
+  justify-content: center;
+
   h1 {
     font-family: Vladimir script;
     font-size: clamp(6rem, 10vw, 17rem);
@@ -30,10 +34,11 @@ const ErrorWrapper = styled.main`
 `;
 
 const ReturnLink = styled(Link)`
- color: ${colors.styledText};
- font-size: clamp(0.875rem, 1.5vw, 1.375rem);
- font-weight: 500;
- margin-bottom: 2rem;
+  color: ${colors.primary};
+  font-size: clamp(0.875rem, 1.5vw, 1.375rem);
+  text-decoration: underline;
+  font-weight: 500;
+  margin-bottom: 2rem;
 `;
 
 /**
@@ -45,14 +50,15 @@ const Error = () => {
   
   useEffect(() => {
     document.title = 'Mark Stevens - Page not found'
+    window.scrollTo(0, 0)
   }, [])
 
   return (
-    <ErrorWrapper>
-      <h1>404</h1>
-      <p>Oups! La page que vous demandez n'existe pas.</p>
-      <ReturnLink to="/">Retourner sur la page d’accueil</ReturnLink>
-    </ErrorWrapper>
+      <ErrorWrapper>
+        <h1>404</h1>
+        <p>Oups! La page que vous demandez n'existe pas.</p>
+        <ReturnLink to="/">Retourner sur la page d’accueil</ReturnLink>
+      </ErrorWrapper>
   )
 }
 

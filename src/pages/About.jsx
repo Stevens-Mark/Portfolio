@@ -1,40 +1,32 @@
 import { useEffect } from 'react'
+// for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+// import components
 import Banner from '../components/Banner'
-import aboutBanner from '../assets/images/aboutBanner.jpg'
-import { dropDownList} from '../assets/data/aboutDropdownData.js'
-import DropDown from '../components/DropDown'
+import aboutBanner from '../assets/images/banner2.jpg'
+// import DropDown from '../components/DropDown'
+// import data
+// import { dropDownList } from '../assets/data/aboutDropdownData.js'
+// import Hero from '../components/Hero'
 
 /**
  * CSS for component using styled.components
  */
-const AboutWrapper = styled.main`
+const AboutWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  // min-height: calc(100vh - 12.5rem);
+  min-height: 85vh;
 `;
 
 const AboutBanner = styled.div`
-  display: flex;
-  align-items: center;
-  height: 13.938rem;
+  // display: flex;
+  // align-items: center;
+  // height: 13.938rem;
   border-radius: clamp(0.625rem, 1.736vw, 1.563rem);
   box-shadow: 0px 4px 12px 3px ${colors.shadow};
-
-  h1 {
-    border: 0;
-    clip: rect(0, 0, 0, 0);
-    height: 1px;
-    margin: -1px;
-    padding: 0px;
-    border: 0px;
-    white-space: nowrap;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-  }
 `;
 
 /**
@@ -48,18 +40,24 @@ const About = () => {
  
   useEffect(() => {
     document.title = 'Mark Stevens - About'
+    window.scrollTo(0, 0)
   }, [])
 
   return ( 
-    <AboutWrapper>
-      <AboutBanner>
-        <Banner image={aboutBanner} alternate='A Mountain Scene'/>
+      <main>
+          {/* <Hero  image={aboutBanner}/> */}
+        <AboutWrapper>
+        <Banner image={aboutBanner} alternate='The world - techno style'/>
+        
+        <AboutBanner>
         <h1 className='sr-only'>A Propos</h1>
-      </AboutBanner>     
-        {dropDownList.map((data) => (
-        <DropDown key={data.id} dropdownWidth='DropdownAboutPage' dropdownHeight='dropDownListAbout' title={data.title} content={data.content}/>
-        ))}   
-    </AboutWrapper>
+        
+          </AboutBanner>     
+            {/* {dropDownList.map((data) => (
+            <DropDown key={data.id} dropdownWidth='DropdownAboutPage' dropdownHeight='dropDownListAbout' dropdownColor='' title={data.title} content={data.content} />
+            ))}    */}
+        </AboutWrapper>
+      </main>
   )
 }
 

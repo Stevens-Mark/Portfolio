@@ -1,31 +1,19 @@
 import logo from '../assets/logos/react_logo.svg'
-import styled, { keyframes } from 'styled-components'
-
-/**
- * Keyframe for Spinning React Logo component
- */
- const AppLogoSpin = keyframes`
- from {
-   transform: rotate(0deg);
- }
-
- to {
-   transform: rotate(360deg);
- }
-`;
+import styled from 'styled-components'
+// import rotate keyframe
+import { rotate } from '../utils/style/keyframes'
 
 /**
  * CSS for the ReactSpinner component
  */
-
 const SpinnerWrapper = styled.div`
   position: absolute;
 `;
 
 const LogoImg = styled.img`
-height: 30vmin;
-pointer-events: none;
-animation: ${AppLogoSpin} infinite 20s linear;   
+  width: clamp(7.5rem, 24.3vw, 21.875rem);
+  pointer-events: none;
+  animation: ${rotate} infinite 20s linear;   
 `;
 
 /**
@@ -41,4 +29,4 @@ const ReactSpinner = () => {
   )
 }
 
-export default ReactSpinner;
+export default ReactSpinner
