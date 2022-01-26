@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-// import data
-import data from './assets/data/siteData.json'
+// import projects data
+import data from './assets/data/projectsData.json'
 // import components
 import Header from './components/Header'
 import Home from './pages/Home'

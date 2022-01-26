@@ -2,6 +2,8 @@ import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+// import list of icon paths
+import { techIconList } from '../assets/data/additionalData'
 
 const TechImg = styled.img`   
     background: ${colors.Zircon};
@@ -14,25 +16,27 @@ const TechImg = styled.img`
 
 /**
  * Renders Individual "techIcons" for the projects
- * @function Tech
+ * @function TechTags
  * @param {array} icons: icons (react, JavaScript, etc...)
  * @returns {JSX}
  */
-const Tech = ( { icons } ) => {
+const TechTags = ( { icons } ) => {
+
+    const iconToShow = techIconList.filter(icon => icons.includes(icon.id))
 
     return (
         <>
-            {( icons || []).map((icon) => ( 
-                 <TechImg src={icon} alt='' title=""/>
+            {( iconToShow  || []).map((icon) => ( 
+                 <TechImg key={icon.id} src={icon.path} alt='' title={icon.title}/>
             ))}  
         </>
     )
 }
 
-export default Tech
+export default TechTags
 
 // Prototypes
-Tech.propTypes = {
-    techIcons: PropTypes.array,
+TechTags.propTypes = {
+    icons: PropTypes.array,
 }
   

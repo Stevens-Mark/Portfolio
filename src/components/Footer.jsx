@@ -7,11 +7,11 @@ import { useTheme } from '../utils/Functions/theme'
 import { fadeIn } from '../utils/style/keyframes'
 // import logos
 import logoM from '../assets/logos/logoM.png'
-import git from '../assets/icons/tech/github.svg'
+import git from '../assets/icons/github.svg'
 import linkedIn from '../assets/icons/linked_in.svg'
 import contact from '../assets/icons/contact.svg'
-// import links
-import { gitLink, linkedInLink, mail } from '../assets/data/linkData' 
+// import 'other' website & email links
+import { gitLink, linkedInLink, mail } from '../assets/data/additionalData'
 
 /**
  * CSS for component using styled.components

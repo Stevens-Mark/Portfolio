@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 // import link logos
 import preview from '../assets/icons/preview.svg'
-import git from '../assets/icons/tech/github.svg'
+import git from '../assets/icons/github.svg'
 
 /**
  * CSS for component using styled.components
