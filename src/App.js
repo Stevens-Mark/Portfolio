@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { useState } from 'react'
 // import projects data
-import data from './assets/data/projectsData.json'
+import dataFR from './assets/data/projectsData.json'
+import dataEN from './assets/data/projectsDataEN.json'
 // import components
 import Header from './components/Header'
 import Home from './pages/Home'
@@ -18,14 +20,16 @@ import Footer from './components/Footer'
  * @returns {JSX}
  */
 const App = () => {
+  const [language, toggleLanguage] = useState(true)
 
   return (
+    
       <Router>
-        <Header />   
+        <Header language={language} toggleLanguage={toggleLanguage}/>   
           <Switch>
-            <Route path="/" exact component={()=> <Home siteData={data} />}/>
+            <Route path="/" exact component={()=> <Home siteData={language? dataFR : dataEN} />}/>
             <Route path="/about" exact component={Construction} />
-            <Route path="/project/:id" exact component={()=><Project siteData={data} />} />
+            <Route path="/project/:id" exact component={()=><Project siteData={language? dataFR : dataEN} />} />
             <Route component={Error} />
           </Switch> 
           <Footer />

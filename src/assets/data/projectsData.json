@@ -121,7 +121,7 @@
 			"../images/projects/gameon/gameon_4.jpg"
 		],
 		"goal":"Ajouter le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel en utilisant javascript.",
-		"description":"GameOn qui est spécialisée dans les conférences et les concours de jeux vidéo. L'entreprise simplifie la nouvelle page d'accueil et l'inscription aux concours après avoir reçu des commentaires négatifs de certains utilisateurs.\n\n Malheureusement, l'ancien développeur qui travaillait dessus n'a pas eu le temps de terminer avant de partir pour son nouvel emploi dans sa nouvelle entreprise.\n\n La structure HTML et le style CSS, basés sur les maquettes, ont été commencés et la mise en page et le contenu de la page d'accueil et de la modale de formulaire sont terminés, mais le front-end doit être complété. En outre, le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel, en utilisant JavaScript, doit être ajouté et les problèmes décrits sur le repo Git Hub doivent être complétés.",
+		"description":"GameOn qui est spécialisée dans les conférences et les concours de jeux vidéo. L'entreprise simplifie la nouvelle page d'accueil et l'inscription aux concours après avoir reçu des commentaires négatifs de certains utilisateurs.\n \n Malheureusement, l'ancien développeur qui travaillait dessus n'a pas eu le temps de terminer avant de partir pour son nouvel emploi dans sa nouvelle entreprise.\n\n La structure HTML et le style CSS, basés sur les maquettes, ont été commencés et la mise en page et le contenu de la page d'accueil et de la modale de formulaire sont terminés, mais le front-end doit être complété. En outre, le code JavaScript manquant pour rendre le formulaire entièrement fonctionnel, en utilisant JavaScript, doit être ajouté et les problèmes décrits sur le repo Git Hub doivent être complétés.",
 		"functionality": [
 			"Validation du formulaire - Le champ prénom/nom a un minimum de 2 caractères / n'est pas vide.",
 			"L'adresse électronique est valide, le nombre de concours est une valeur numérique et un bouton radio doit être sélectionné.",
@@ -282,7 +282,7 @@
 			"../images/projects/billed/billed_4.jpg"
 		],
 		"goal": "Trouver les bogues indiqués dans le rapport de bogue. Rédiger également les tests unitaires et d'intégration ainsi qu'un plan E2E.",
-		"description":"Billed est une entreprise qui produit des solutions Saas pour les équipes de ressources humaines. La fonctionnalité 'note de frais' est très attendue sur le marché et la direction générale en a fait une priorité. L'objectif est de la lancer officiellement auprès de ses clients dans les deux semaines, les délais sont donc très serrés. L'équipe chargée de la fonctionnalité a travaillé dur au cours des deux dernières semaines.\n\n Malheureusement, après qu'un collègue de l'équipe chargée des rapports de dépenses a quitté l'entreprise avant d'avoir terminé l'application, le développeur principal de l'équipe chargée de la fonctionnalité a demandé de l'aide pour terminer les tests et respecter le délai.\n\n L'application doit être terminée en une semaine, car l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise. Description de la fonctionnalité - Il y a deux chemins d'accès à cette fonctionnalité : un du côté de l'administrateur RH et un du côté de l'employé. Le back-end est prêt (en version alpha). Sur le front-end, le parcours de l'administrateur RH est complet, entièrement testé et débogué.",
+		"description":"Billed est une entreprise qui produit des solutions Saas pour les équipes de ressources humaines. La fonctionnalité 'note de frais' est très attendue sur le marché et la direction générale en a fait une priorité. L'objectif est de la lancer officiellement auprès de ses clients dans les deux semaines, les délais sont donc très serrés. L'équipe chargée de la fonctionnalité a travaillé dur au cours des deux dernières semaines.\n\n Malheureusement, après qu'un collègue de l'équipe chargée des rapports de dépenses a quitté l'entreprise avant d'avoir terminé l'application, le développeur principal de l'équipe chargée de la fonctionnalité a demandé de l'aide pour terminer les tests et respecter le délai. Cette tâche doit être accomplie en une semaine, car l'équipe doit montrer la solution fonctionnelle à l'ensemble de l'entreprise. \n\n Description de la fonctionnalité - Il y a deux chemins d'accès à cette fonctionnalité : un du côté de l'administrateur RH et un du côté de l'employé. Le back-end est prêt (en version alpha). Sur le front-end, le parcours de l'administrateur RH est complet, entièrement testé et débogué.",
 		"functionality": [
 			"Le parcours de l'employé a été fiabilisé et amélioré.",
 			"Les bogues identifiés dans le rapport de bogue fourni par Jest ont été corrigés.",
@@ -462,7 +462,7 @@
 			"Utiliser JsDoc pour documenter les fonctions et les méthodes.",
 			"Toute la documentation doit être faite en anglais."
 		],
-		"notes":"Pour le prototype, il n'y a actuellement que deux utilisateurs : Cecelia et Karl",
+		"notes":"Pour le prototype, il n'y a actuellement que deux utilisateurs : Cecelia et Karl.",
 		"skills": [
 			"Assurer la qualité des données d'une application",
 			"Interagir avec un service Web",

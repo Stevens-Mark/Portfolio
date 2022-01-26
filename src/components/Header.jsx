@@ -61,13 +61,15 @@ const NAVLINK = styled(NavLink)`
  * @function Header
  * @returns {JSX}
  */
-const Header = () => {
+const Header = ( { language, toggleLanguage } ) => {
 
   const { theme } = useTheme()
 
   return (
     <HEADER theme={theme}>
       <Link to="/"><LogoImg src={logoM} alt="logo"/></Link>
+      <h3>Language : {language? 'FR' : 'EN'}</h3>
+            <button onClick={() => toggleLanguage(!language)}>Lang</button>
       <Nav>
         <NAVLINK activeClassName="active" exact to="/">Accueil</NAVLINK>
         <NAVLINK activeClassName="active" to="/about">A Propos</NAVLINK>
