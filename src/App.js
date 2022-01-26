@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { useState } from 'react'
-// import projects data
+// import projects data depending on language
 import dataFR from './assets/data/projectsData.json'
 import dataEN from './assets/data/projectsDataEN.json'
 // import components

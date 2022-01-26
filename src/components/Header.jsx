@@ -7,7 +7,8 @@ import { useTheme } from '../utils/Functions/theme'
 import { fadeIn } from '../utils/style/keyframes'
 // import logo
 import logoM from '../assets/logos/mark_logo.png'
-
+import logoFR from '../assets/icons/frenchflag.png'
+import logoUK from '../assets/icons/ukflag.png'
 /**
  * CSS for component using styled.components
  */
@@ -33,15 +34,26 @@ const LogoImg = styled.img`
   padding-left: 1.5rem;
 `;
 
+const LanguageButton = styled.button`
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  img {
+    animation: ${fadeIn} 3s both ease-in-out;
+    width: clamp(1.5rem, 1.2vw, 1.5rem);
+  }
+`;
+
 const Nav = styled.div`
   display: flex;
   list-style-type: none; 
-  padding-right: 1.5rem;
+  align-items: center;
+  padding-right: 1rem;
 `;
 
 const NAVLINK = styled(NavLink)`
   text-decoration: none;
-  padding-left: 2.5vw;
+  padding: 0vw 1.5vw;
   cursor: pointer;  
   font-family: Vladimir script, 'comfortaa', sans-serif;
   font-weight: 500;
@@ -68,11 +80,11 @@ const Header = ( { language, toggleLanguage } ) => {
   return (
     <HEADER theme={theme}>
       <Link to="/"><LogoImg src={logoM} alt="logo"/></Link>
-      <h3>Language : {language? 'FR' : 'EN'}</h3>
-            <button onClick={() => toggleLanguage(!language)}>Lang</button>
+ 
       <Nav>
-        <NAVLINK activeClassName="active" exact to="/">Accueil</NAVLINK>
-        <NAVLINK activeClassName="active" to="/about">A Propos</NAVLINK>
+        <NAVLINK activeClassName="active" exact to="/">{language? 'Accueil' : ' Home'}</NAVLINK>
+        <NAVLINK activeClassName="active" to="/about">{language? 'A Propos' : ' About'}</NAVLINK>
+        <LanguageButton onClick={() => toggleLanguage(!language)}>{language? <img src={logoUK} alt="Change to English"/> : <img src={logoFR} alt="Changement en Français"/>}</LanguageButton>
       </Nav>
     </HEADER>
   )
