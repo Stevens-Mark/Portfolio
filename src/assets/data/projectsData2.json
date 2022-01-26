@@ -1,32 +1,26 @@
 {
-	"siteText": [
-		{
+
+	"siteText": {
 		"hero": {
 				"title": "Développeur Front-end",
 				"subtitle1": "Fiabilité.",
 				"subtitle2": "Respect.",
 				"subtitle3": "Loyauté.",
 				"slogan": "Toujours prêt à apprendre !"
-				}
 			},
-			{
-				"projectpage": {
-					"subheading1": "Fonctionnalités",
-					"subheading2": "Contraints",
-					"subheading3": "Compétences",
-					"subheading4": "Notes"
-				}
+			"projectPage": {
+				"subheading1": "Fonctionnalités",
+				"subheading2": "Contraints",
+				"subheading3": "Compétences",
+				"subheading4": "Notes"
 			},
-			{
 			"errorMessage": {
 				"title": "404",
 				"message": "Oups! La page que vous demandez n'existe pas.",
 				"linkText": "Retourner sur la page d’accueil"
-				}
 			}
-		],
-	"projects": 
-	[
+	},
+	"projects": [
 		{
 			"id": "reservia",
 			"date": "2021-03-30",

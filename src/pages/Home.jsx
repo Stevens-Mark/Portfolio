@@ -40,8 +40,9 @@ const PortFolioWrapper = styled.section`
  * @returns {JSX}
  */
 const Home = ( { siteData } ) => {
-  
-  const { theme } = useTheme()
+
+    const { theme } = useTheme()
+    const projects = siteData.projects
 
   useEffect(() => {
     document.title = 'Mark Stevens - Home'
@@ -50,11 +51,11 @@ const Home = ( { siteData } ) => {
  
   return (
       <main>
-        <Hero image={heroImg}/>
+        <Hero image={heroImg} heroText={siteData.siteText.hero}/>
         <PortFolioWrapper theme={theme}>
             <h2 className="sr-only">Portfolio</h2>
-            {siteData.map((data) => ( 
-                  <Card key={data.id} data={data}/> 
+            {projects.map((project) => ( 
+                  <Card key={project.id} project={project}/> 
             ))}   
         </PortFolioWrapper>
         <GoToTop />
@@ -66,5 +67,5 @@ export default Home
 
 // Prototypes
 Home.propTypes = {
-  siteData: PropTypes.array.isRequired,
+  siteData: PropTypes.object.isRequired,
 }

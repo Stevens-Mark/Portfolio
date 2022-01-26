@@ -76,9 +76,10 @@ const HeroText = styled.p`
  * @package {string} image: path to image for the background
  * @returns {JSX}
  */
-const Hero = ( { image } ) => {
+const Hero = ( { image, heroText } ) => {
 
   const { theme } = useTheme()
+  const { title, subtitle1, subtitle2, subtitle3, slogan } = heroText
 
   return (
     <HeroContainer backImg={image} theme={theme}>
@@ -87,11 +88,11 @@ const Hero = ( { image } ) => {
         <ReactSpinner />
 
         <HeroContent theme={theme} >
-          <h2>Développeur Front-end</h2>
-          <HeroSubtitle>Fiabilité.</HeroSubtitle>
-          <HeroSubtitle>Respect.</HeroSubtitle>
-          <HeroSubtitle>Loyauté.</HeroSubtitle>
-          <HeroText>Toujours prêt à apprendre !</HeroText>
+          <h2>{title}</h2>
+          <HeroSubtitle>{subtitle1}</HeroSubtitle>
+          <HeroSubtitle>{subtitle2}</HeroSubtitle>
+          <HeroSubtitle>{subtitle3}</HeroSubtitle>
+          <HeroText>{slogan}</HeroText>
         </HeroContent>
 
     </HeroContainer>
@@ -102,5 +103,6 @@ export default Hero
 
 // Prototypes
 Hero.propTypes = {
-  image: PropTypes.string,
+  image: PropTypes.string.isRequired,
+  heroText: PropTypes.object.isRequired,
 }

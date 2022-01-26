@@ -77,14 +77,13 @@ const SummaryText = styled.p`
 /**
  * Individual announcement card for each project on Home page
  * @function Card
- * @param {object} data: for an individual project
+ * @param {object} project data for an individual project
  * @returns {JSX}
  */
-const Card = ( { data } ) => {
+const Card = ( { project } ) => {
 
   const { theme } = useTheme()
-
-  const { id, title, cover, objective, summary, tags, website, github} = data
+  const { id, title, cover, objective, summary, tags, website, github} = project
 
   return (
     <ProjectCard theme={theme}>
@@ -112,5 +111,5 @@ export default Card
 
 // Prototypes
 Card.propTypes = {
-  data: PropTypes.object.isRequired,
+  project: PropTypes.object.isRequired,
 }

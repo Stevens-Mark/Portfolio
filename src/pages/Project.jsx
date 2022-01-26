@@ -110,6 +110,7 @@ const Details = styled.div`
  */
 const Project = ( { siteData } ) => {
 
+  const projects = siteData.projects
   const { theme } = useTheme()
 
   const [data, setData] = useState('')
@@ -124,7 +125,7 @@ const Project = ( { siteData } ) => {
   }, [])
 
    useEffect(() => {
-    const projectToShow = siteData.find((room) => room.id === idUrl)
+    const projectToShow = projects.find((room) => room.id === idUrl)
     if (projectToShow) {
           setData(projectToShow)
           setLoading(false)
@@ -134,11 +135,13 @@ const Project = ( { siteData } ) => {
         setLoading(false)
         setIsError(true)
       }
-  }, [idUrl, siteData])
+  }, [idUrl, projects])
 
-  const { title, pictures, description, functionality, constraints, notes, skills, techIcons, website, github} = data
+  // extract project data & headings
+  const { title, pictures, description, functionality, constraints, notes, skills, techIcons, website, github } = data
+  const { subheading1, subheading2, subheading3, subheading4 } = siteData.siteText.projectPage
 
-  return (
+   return (
     <>
       {isLoading ? <LoadingWrapper><LoadingIcon /></LoadingWrapper> : 
       <>
@@ -166,7 +169,7 @@ const Project = ( { siteData } ) => {
                     </Texte>
 
                     <Texte theme={theme}>
-                      <h2>Fonctionnalités</h2>
+                      <h2>{subheading1}</h2>
                       <ListCreate group='functionality' data={functionality}/>
                     </Texte>
                   </LeftSide>
@@ -175,19 +178,19 @@ const Project = ( { siteData } ) => {
 
                 <Details>
                     <Texte theme={theme}>
-                      <h2>Contraints</h2>
+                      <h2>{subheading2}</h2>
                       <ListCreate group='constraints' data={constraints}/>
                     </Texte>
 
                     <Texte theme={theme}>
-                      <h2>Compétences</h2>
+                      <h2>{subheading3}</h2>
                       <ListCreate group='skills' data={skills}/>
                   </Texte>
                 </Details>
 
                   {notes?  
                     <Texte theme={theme}>
-                      <h2>Notes</h2>
+                      <h2>{subheading4}</h2>
                       <p>{notes}</p>
                     </Texte>
                   : null 
@@ -207,7 +210,7 @@ export default Project
 
 // Prototypes
 Project.propTypes = {
-  siteData: PropTypes.array.isRequired,
+  siteData: PropTypes.object.isRequired,
 }
 
 
