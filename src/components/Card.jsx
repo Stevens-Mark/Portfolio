@@ -6,11 +6,7 @@ import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
-<<<<<<< HEAD
-// import link components
-=======
 // import github, website links components
->>>>>>> multi
 import Links from './Links'
 
 /**
@@ -81,16 +77,6 @@ const SummaryText = styled.p`
 /**
  * Individual announcement card for each project on Home page
  * @function Card
-<<<<<<< HEAD
- * @param {object} data: for an individual project
- * @returns {JSX}
- */
-const Card = ( { data } ) => {
-
-  const { theme } = useTheme()
-
-  const { id, title, cover, objective, summary, tags, website, github} = data
-=======
  * @param {object} project: data for an individual project
  * @returns {JSX}
  */
@@ -98,7 +84,6 @@ const Card = ( { project } ) => {
 
   const { theme } = useTheme()
   const { id, title, cover, objective, summary, tags, website, github} = project
->>>>>>> multi
 
   return (
     <ProjectCard theme={theme}>
@@ -126,9 +111,5 @@ export default Card
 
 // Prototypes
 Card.propTypes = {
-<<<<<<< HEAD
-  data: PropTypes.object.isRequired,
-=======
   project: PropTypes.object.isRequired,
->>>>>>> multi
 }

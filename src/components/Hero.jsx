@@ -73,14 +73,6 @@ const HeroText = styled.p`
 /**
  * Renders Hero Banner on Homepage
  * @function Hero
-<<<<<<< HEAD
- * @package {string} image: path to image for the background
- * @returns {JSX}
- */
-const Hero = ( { image } ) => {
-
-  const { theme } = useTheme()
-=======
  * @param {string} image: path to image for the background
  * @param {object} siteText: site text in FR/EN language
  * @returns {JSX}
@@ -89,7 +81,6 @@ const Hero = ( { image, siteText } ) => {
 
   const { theme } = useTheme()
   const { title, subtitle1, subtitle2, subtitle3, slogan } = siteText.hero
->>>>>>> multi
 
   return (
     <HeroContainer backImg={image} theme={theme}>
@@ -98,19 +89,11 @@ const Hero = ( { image, siteText } ) => {
         <ReactSpinner />
 
         <HeroContent theme={theme} >
-<<<<<<< HEAD
-          <h2>Développeur Front-end</h2>
-          <HeroSubtitle>Fiabilité.</HeroSubtitle>
-          <HeroSubtitle>Respect.</HeroSubtitle>
-          <HeroSubtitle>Loyauté.</HeroSubtitle>
-          <HeroText>Toujours prêt à apprendre !</HeroText>
-=======
           <h2>{title}</h2>
           <HeroSubtitle>{subtitle1}</HeroSubtitle>
           <HeroSubtitle>{subtitle2}</HeroSubtitle>
           <HeroSubtitle>{subtitle3}</HeroSubtitle>
           <HeroText>{slogan}</HeroText>
->>>>>>> multi
         </HeroContent>
 
     </HeroContainer>
@@ -121,10 +104,6 @@ export default Hero
 
 // Prototypes
 Hero.propTypes = {
-<<<<<<< HEAD
-  image: PropTypes.string,
-=======
   image: PropTypes.string.isRequired,
   siteText: PropTypes.object.isRequired,
->>>>>>> multi
 }

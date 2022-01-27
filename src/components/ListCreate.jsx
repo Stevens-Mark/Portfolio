@@ -9,11 +9,7 @@ const Ulist = styled.ul`
   padding-inline-start: 0px;
 
   @media screen and (min-width: 475px) {
-<<<<<<< HEAD
-    padding-inline-start: 20px;
-=======
     padding-inline-start: 1.25rem;
->>>>>>> multi
   }
 }
 `;
@@ -30,11 +26,7 @@ const ListCreate = ( { group, data } ) => {
     <Ulist>{data.map((item, index) => (
       <li key={`${group}-${index}`}>{item}</li> ))}
     </Ulist>
-<<<<<<< HEAD
-    )
-=======
   )
->>>>>>> multi
 }
 
 export default ListCreate

@@ -49,20 +49,12 @@ const GoToTop = () => {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > 300) {
-<<<<<<< HEAD
-        setShowButton(true);
-      } else {
-        setShowButton(false);
-      }
-    });
-=======
         setShowButton(true)
       } else {
         setShowButton(false)
       }
     })
     return () => setShowButton(false)
->>>>>>> multi
   }, [])
     
   // This function will scroll the window to the top 

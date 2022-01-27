@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ![Mark Stevens](/src/assets/logos/mark_logo.png)
 
 
@@ -116,4 +114,3 @@ Enfin, il y a un bouton mode nuit (en bas de l'écran) pour passer à un réglag
  `yarn start`
 
 L'application tourne sur http://localhost:3000/
->>>>>>> multi
