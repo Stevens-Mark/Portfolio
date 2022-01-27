@@ -16,7 +16,7 @@ const TagWrapper = styled.div`
         color: ${colors.tertiary};
         // background: ${colors.primary};
         background: ${props => props.color ? props.color : `${colors.primary}`};
-        padding: 5px;
+        padding: 0.313rem;
         width: clamp(6rem, 9.8vw, 11rem);
         border-radius: 0.625rem;
         margin-right: 0.625rem;

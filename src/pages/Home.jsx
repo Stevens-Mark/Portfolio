@@ -41,8 +41,8 @@ const PortFolioWrapper = styled.section`
  */
 const Home = ( { siteData } ) => {
 
-    const { theme } = useTheme()
-    const projects = siteData.projects
+  const { theme } = useTheme()
+  const projects = siteData.projects
 
   useEffect(() => {
     document.title = 'Mark Stevens - Home'
@@ -50,16 +50,18 @@ const Home = ( { siteData } ) => {
   }, [])
  
   return (
-      <main>
-        <Hero image={heroImg} heroText={siteData.siteText.hero}/>
-        <PortFolioWrapper theme={theme}>
-            <h2 className="sr-only">Portfolio</h2>
+    <main>
+      <Hero image={heroImg} siteText={siteData.siteText}/>
+
+      <PortFolioWrapper theme={theme}>
+          <h2 className="sr-only">Portfolio</h2>
             {projects.map((project) => ( 
                   <Card key={project.id} project={project}/> 
             ))}   
-        </PortFolioWrapper>
-        <GoToTop />
-      </main>
+      </PortFolioWrapper>
+
+      <GoToTop />     {/* button to scroll go back to top */}
+    </main>
   )
 }
 

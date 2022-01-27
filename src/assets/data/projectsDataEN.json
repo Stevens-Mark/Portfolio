@@ -1,24 +1,28 @@
-
 {
 	"siteText": {
 		"hero": {
-				"title": "Frontend Developer",
-				"subtitle1": "Reliability.",
-				"subtitle2": "Respect.",
-				"subtitle3": "Loyalty.",
-				"slogan": "Always ready to learn!"
-			},
-			"projectPage": {
-				"subheading1": "Features",
-				"subheading2": "Constraints",
-				"subheading3": "Skills",
-				"subheading4": "Notes"
-			},
-			"errorMessage": {
-				"title": "404",
-				"message": "Oops, the page you requested does not exist.",
-				"linkText": "Return to the home page"
-			}
+			"title": "Frontend Developer",
+			"subtitle1": "Reliability.",
+			"subtitle2": "Respect.",
+			"subtitle3": "Loyalty.",
+			"slogan": "Always ready to learn!"
+		},
+		"projectPage": {
+			"subheading1": "Features",
+			"subheading2": "Constraints",
+			"subheading3": "Skills",
+			"subheading4": "Notes"
+		},
+		"error": {
+			"code": "404",
+			"message": "Oops, the page you requested does not exist.",
+			"linkText": "Return back to the home page"
+		},
+		"construction": {
+			"title": "Oops",
+			"message": "Under Construction, please try again in the future...",
+			"linkText": "Return back to the home page"
+		}
 	},
 	"projects": 
 	[

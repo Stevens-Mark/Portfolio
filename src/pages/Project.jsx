@@ -23,8 +23,6 @@ const LoadingWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  // min-height: 85vh;
-  // min-height: calc(100vh - 12.5rem);
 `;
 
 const ProjectWrapper = styled.div`
@@ -82,15 +80,14 @@ const Texte = styled.div`
     font-size: clamp(1rem, 1.6vw, 1.5rem);
   }
   p, li {
-    margin: 10px 0px;
+    margin: 0.625rem 0rem;
     color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
     text-align: justify;
     text-justify: inter-word;
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
-    white-space: pre-line; 
+    white-space: pre-line;              // used with \n\n in JSON to format text on the page.
   }
 `;
-// white-space: pre-line used with \n to format text on the page.
 
 const Details = styled.div`
   display: flex;
@@ -105,7 +102,7 @@ const Details = styled.div`
 * Individual Project page template
 * relevant project displayed based on ID extracted from Url params
  * @function Project
- * @param {array} siteData: all the site data
+ * @param {array} siteData: all the site data FR/EN
  * @returns {JSX}
  */
 const Project = ( { siteData } ) => {
@@ -141,7 +138,7 @@ const Project = ( { siteData } ) => {
   const { title, pictures, description, functionality, constraints, notes, skills, techIcons, website, github } = data
   const { subheading1, subheading2, subheading3, subheading4 } = siteData.siteText.projectPage
 
-   return (
+  return (
     <>
       {isLoading ? <LoadingWrapper><LoadingIcon /></LoadingWrapper> : 
       <>
@@ -149,12 +146,14 @@ const Project = ( { siteData } ) => {
           <>     
             <main>
               <ProjectWrapper theme={theme}>  
+
                   <Heading>
                     <h1>{title}</h1>
                     <NightDayFilter theme={theme}>
                       <Links website={website} github={github} />
                     </NightDayFilter>
                   </Heading>
+
                 <Overview>
                   
                   <RightSide>
@@ -187,8 +186,8 @@ const Project = ( { siteData } ) => {
                       <ListCreate group='skills' data={skills}/>
                   </Texte>
                 </Details>
-
-                  {notes?  
+                      {/* If no notes added then don't show heading */}
+                  {notes?       
                     <Texte theme={theme}>
                       <h2>{subheading4}</h2>
                       <p>{notes}</p>

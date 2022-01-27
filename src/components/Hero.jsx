@@ -74,13 +74,13 @@ const HeroText = styled.p`
  * Renders Hero Banner on Homepage
  * @function Hero
  * @param {string} image: path to image for the background
- * @param {object} heroText: text for banner in FR/EN language
+ * @param {object} siteText: site text in FR/EN language
  * @returns {JSX}
  */
-const Hero = ( { image, heroText } ) => {
+const Hero = ( { image, siteText } ) => {
 
   const { theme } = useTheme()
-  const { title, subtitle1, subtitle2, subtitle3, slogan } = heroText
+  const { title, subtitle1, subtitle2, subtitle3, slogan } = siteText.hero
 
   return (
     <HeroContainer backImg={image} theme={theme}>
@@ -105,5 +105,5 @@ export default Hero
 // Prototypes
 Hero.propTypes = {
   image: PropTypes.string.isRequired,
-  heroText: PropTypes.object.isRequired,
+  siteText: PropTypes.object.isRequired,
 }

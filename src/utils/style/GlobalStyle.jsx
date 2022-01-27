@@ -7,14 +7,12 @@ import colors from './colors'
  */
  const StyledGlobalStyle = createGlobalStyle`
 body {  
-  font-family: 'comfortaa', 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'comfortaa', 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: #FFFFFF;
+  color: ${colors.tertiary};
   margin: auto;
   box-sizing: border-box;
   background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
-  // color: ${({ isDarkMode }) => (isDarkMode ? `${colors.tertiary}` : `${colors.secondary}`)};
   max-width: 1920px;
 } 
 
@@ -24,8 +22,6 @@ code {
 
 main {
   padding-top: 110px;
-  min-height: calc(100vh - 12.5rem);
-  //  height: 100%; 
   min-height: 85vh;
 }
 

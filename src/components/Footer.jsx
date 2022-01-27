@@ -1,4 +1,5 @@
 import { Link} from 'react-router-dom'
+import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
@@ -64,10 +65,11 @@ const NightModeButton = styled.button`
 
 /**
  * Renders Footer on each page
- * @function Banner
+ * @function Footer
+ * @param  {boolen} language: state FR/EN
  * @returns {JSX}
  */
-const Footer = () => {
+const Footer = ( { language } ) => {
   
   const { toggleTheme, theme } = useTheme()
 
@@ -82,14 +84,19 @@ const Footer = () => {
           <a href={mail} rel="noreferrer" target="_blank"><LinkImg src={contact} alt="" title="Contact Me"/></a>
         </LogosWrapper>
 
-        <p>© 2022 All rights reserved</p>
+        <p>{language? '© 2022 Tous droits réservés' : '© 2022 All rights reserved'}</p>
 
         <NightModeButton theme={theme} onClick={() => toggleTheme()}>
                 Change mode :  {theme === 'light' ? '☀️' : '🌙'}
         </NightModeButton>
-
     </FOOTER>
   )
 }
 
 export default Footer
+
+// Prototypes
+Footer.propTypes = {
+  language: PropTypes.bool.isRequired,
+
+}

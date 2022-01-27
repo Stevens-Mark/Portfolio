@@ -1,24 +1,28 @@
 {
-
 	"siteText": {
 		"hero": {
-				"title": "Développeur Front-end",
-				"subtitle1": "Fiabilité.",
-				"subtitle2": "Respect.",
-				"subtitle3": "Loyauté.",
-				"slogan": "Toujours prêt à apprendre !"
-			},
-			"projectPage": {
-				"subheading1": "Fonctionnalités",
-				"subheading2": "Contraints",
-				"subheading3": "Compétences",
-				"subheading4": "Notes"
-			},
-			"errorMessage": {
-				"title": "404",
-				"message": "Oups! La page que vous demandez n'existe pas.",
-				"linkText": "Retourner sur la page d’accueil"
-			}
+			"title": "Développeur Front-end",
+			"subtitle1": "Fiabilité.",
+			"subtitle2": "Respect.",
+			"subtitle3": "Loyauté.",
+			"slogan": "Toujours prêt à apprendre !"
+		},
+		"projectPage": {
+			"subheading1": "Fonctionnalités",
+			"subheading2": "Contraints",
+			"subheading3": "Compétences",
+			"subheading4": "Notes"
+		},
+		"error": {
+			"code": "404",
+			"message": "Oups! La page que vous demandez n'existe pas.",
+			"linkText": "Retourner sur la page d’accueil"
+		},
+		"construction": {
+			"title": "Oups!",
+			"message": "En construction, veuillez réessayer à l'avenir...",
+			"linkText": "Retourner sur la page d’accueil"
+		}
 	},
 	"projects": [
 		{

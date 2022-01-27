@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
@@ -44,10 +45,13 @@ const ReturnLink = styled(Link)`
 /**
  * Renders Error message  (if necessary)
  * @function Error
+ * @param {object} siteText: either FR/EN
  * @returns {JSX}
  */
-const Error = () => {
+const Error = ( { siteText } ) => {
   
+  const { code, message, linkText } = siteText.error
+
   useEffect(() => {
     document.title = 'Mark Stevens - Page not found'
     window.scrollTo(0, 0)
@@ -55,12 +59,16 @@ const Error = () => {
 
   return (
       <ErrorWrapper>
-        <h1>404</h1>
-        <p>Oups! La page que vous demandez n'existe pas.</p>
-        <ReturnLink to="/">Retourner sur la page d’accueil</ReturnLink>
+        <h1>{code}</h1>
+        <p>{message}</p>
+        <ReturnLink to="/">{linkText}</ReturnLink>
       </ErrorWrapper>
   )
 }
 
 export default Error
 
+// Prototypes
+Error.propTypes = {
+  siteText: PropTypes.object.isRequired,
+}

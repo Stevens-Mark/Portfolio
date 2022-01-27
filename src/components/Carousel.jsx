@@ -29,9 +29,9 @@ const CarouselWrapper = styled.article`
 const CarouselImages = styled.img`
   width: 85%;
   max-width: 600px;
-  border-radius: clamp(0.625rem, 1.736vw, 1.563rem);
+  border-radius: clamp(0.313rem, 1.1vw, 1rem);
   object-fit: contain;
-  // background:${colors.tertiary};
+  background:${colors.tertiary};
   box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
 `;
 
@@ -80,11 +80,13 @@ const Carousel = ( { photoAlbum } ) => {
   return (   
     <CarouselWrapper theme={theme}>
 
-      {length >1 ? 
-      <CarouselControls>
-        <CarouselControlArrows theme={theme} src={previousArrow} alt='previous' onClick={prevSlide} />
-        <CarouselControlArrows theme={theme} src={nextArrow} alt='next' onClick={nextSlide} />
-      </CarouselControls> : null}
+      { length >1 ?              // only show control arrrow if more than one photo
+        <CarouselControls>
+          <CarouselControlArrows theme={theme} src={previousArrow} alt='previous' onClick={prevSlide} />
+          <CarouselControlArrows theme={theme} src={nextArrow} alt='next' onClick={nextSlide} />
+        </CarouselControls> 
+        : null
+      }
 
         <CarouselImages src={length>0? pictures[current] : Blank} alt='Project Gallery' />
         <Counter>{current+1}/{length || 0 }</Counter>

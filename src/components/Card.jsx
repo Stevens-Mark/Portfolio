@@ -6,7 +6,7 @@ import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
-// import link components
+// import github, website links components
 import Links from './Links'
 
 /**
@@ -77,7 +77,7 @@ const SummaryText = styled.p`
 /**
  * Individual announcement card for each project on Home page
  * @function Card
- * @param {object} project data for an individual project
+ * @param {object} project: data for an individual project
  * @returns {JSX}
  */
 const Card = ( { project } ) => {
