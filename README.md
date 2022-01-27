@@ -1,5 +1,6 @@
 ![Mark Stevens](/src/assets/logos/mark_logo.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8be1ceee-ac7a-4537-ba57-b17d041696ba/deploy-status)](https://app.netlify.com/sites/stevensmarkportfolio/deploys)
 
 # Portfolio *(English)*
 
@@ -58,9 +59,10 @@ And finally, there is a night mode button (bottom of the screen) to change to a 
 The App runs on http://localhost:3000/
 
 
+
 # Portfolio *(Français)*
 
-# Mark Stevens
+![Mark Stevens](/src/assets/logos/mark_logo.png)
 
 Ouvrir le site web à [Portfolio]()
 
