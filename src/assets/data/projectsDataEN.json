@@ -1,0 +1,575 @@
+{
+	"siteText": {
+		"hero": {
+			"title": "Frontend Developer",
+			"subtitle1": "Reliability.",
+			"subtitle2": "Respect.",
+			"subtitle3": "Loyalty.",
+			"slogan": "Always ready to learn!"
+		},
+		"projectPage": {
+			"subheading1": "Features",
+			"subheading2": "Constraints",
+			"subheading3": "Skills",
+			"subheading4": "Notes"
+		},
+		"error": {
+			"code": "404",
+			"message": "Oops, the page you requested does not exist.",
+			"linkText": "Return back to the home page"
+		},
+		"construction": {
+			"title": "Oops",
+			"message": "Under Construction, please try again in the future...",
+			"linkText": "Return back to the home page"
+		}
+	},
+	"projects": 
+	[
+		{
+			"id": "reservia",
+			"date": "2021-03-30",
+			"title": "Reservia",
+			"cover": "images/projects/reservia/project_reservia.jpg",
+			"objective": "Transforming a model into a website",
+			"summary": "A small company offering a vacation planning tool. Their site allows users to find accommodations and activities in the city of their choice.",
+			"pictures": [
+				"../images/projects/reservia/ReserviaLogo.jpg",
+				"../images/projects/reservia/reservia1.jpg",
+				"../images/projects/reservia/project_reservia.jpg",
+				"../images/projects/reservia/reservia2.jpg",
+				"../images/projects/reservia/reservia3.jpg"
+			],
+			"goal": "Translate a mock-up into a web page using HTML and CSS.",
+			"description": "Reservia, a small company offering a vacation planning tool. Their site allows users to find accommodation and activities in the city of their choice. The accommodation can also be filtered by theme, for example their budget or their ambiance.\n\n A new design based on Material Design principles has just been proposed by the UI designer.  Before definitively validating this design, the company has decided to make a prototype. The first step is to integrate the responsive model in HTML and CSS.",
+			"functionality": [
+				"The search field is an input field, however, at this point the search button will not be functional.", 
+				"Each accommodation or activity card will need to be clickable in its entirety. For now the links will be empty.", 
+				"Filters will not be functional for this version, however, they should change appearance on hover.",
+				"In the menu, the Accommodation and Activities links are anchors that should lead to sections of the page."
+			],
+			"constraints": [
+				"There are provided two mockups: one desktop and one mobile.", 
+				"No elements should be cut and the text is of sufficient size.", 
+				"Choose the appropriate breakpoints.",
+				"Don't use any CSS Framework or pre-compiler for this project (like SASS for example).",
+				"Using Visual studio is recommended.",
+				"Integrate Font Awesome icons in HTML or CSS.",
+				"Use Flexbox or CSS Grid.",
+				"Use semantic tags and pass the W3C HTML and CSS validator.",
+				"The site must be compatible with the latest versions of Chrome and Firefox.",
+				"Version the code with Git."
+			],
+			"notes":"",
+			"skills": [
+				"Use a version control system for project tracking and hosting,",
+				"Setting up a front-end environment",
+				"Integrate content according to a model.",
+				"Implement a responsive interface."
+			],
+			"tags": [
+				"HTML",
+				"CSS"
+			],
+			"techIcons": [
+				"html",
+				"css"
+			],
+			"website": "https://reservia2021.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
+		},
+		{
+			"id": "ohmyfood",
+			"date": "2021-04-21",
+			"title": "Ohmyfood",
+			"cover": "images/projects/ohmyfood/project_ohmyfood.jpg",
+			"objective": "Creation of a dynamic website",
+			"summary": "Ohmyfood! is a young startup that would like to impose itself on the restaurant market. The objective is to develop a 100% mobile site that lists the menus of gourmet restaurants.",
+			"pictures": [
+				"../images/projects/ohmyfood/ohmyfoodLogo.jpg",
+				"../images/projects/ohmyfood/project_ohmyfood.jpg",
+				"../images/projects/ohmyfood/menu_1.jpg",
+				"../images/projects/ohmyfood/menu_2.jpg",
+				"../images/projects/ohmyfood/menu_3.jpg",
+				"../images/projects/ohmyfood/menu_4.jpg"
+			],
+			"goal": "Translate the models and make the site more dynamic with animations made with Sass.",
+			"description":"Ohmyfood is an online meal ordering company. Their concept allows users to compose their own menu and reduce their waiting time in restaurants, as their menu is prepared in advance. No more time wasted looking at the menu.\n\n They want to offer their customers the menus of gourmet restaurants. Initially developed in New York, they now wish to extend their concept to the capital of gastronomy : Paris. They position themselves on a niche market, with the luxury restaurants of the cities in which they are established. They want to be identified as a company offering high-end services to the middle and upper classes, connected and often in a hurry, who want to taste quality products.",
+			"functionality": [
+				"A loading spinner for when the application has more menus.",
+				"A section containing 4 menus in the form of a map. Clicking on it redirects the user to the menu.",
+				"When arriving on a menu page, the dishes appear progressively with a slight delay.",
+				"On hover, a small check mark appears on the right to simulate the visitor's choice of a dish.", 
+				"On hover, the color of the check mark appears on the right",
+				"On hover, the background color of the main buttons lights up slightly and the drop shadow becomes more visible.",
+				"A heart-shaped 'Like' button, on hover, gradually fills up. (simulates a visitor saving his favourite menus)."
+			],
+			"constraints": [
+				"Mockups provided.",
+				"Development done in CSS, no JavaScript.",
+				"No Framework to be used, however the use of SASS would be a plus.",
+				"No CSS code to be applied via a style attribute in an HTML tag.",
+				"The entire site must be responsive on mobile, tablet and desktop.",
+				"Pages must pass W3C validation in HTML and CSS without error.",
+				"The site must be compatible with the latest versions of Chrome and Firefox."
+			],
+			"notes":"",
+			"skills": [
+				"Ensure the graphic coherence of a web site",
+				"Use a version management system for project tracking and hosting",
+				"Implementing advanced graphic CSS effects",
+				"Setting up a Front-End environment",
+				"Setting up a navigation structure for a web site"
+			],
+			"tags": [
+				"Sass",
+				"Git/Github",
+				"Terminal"
+			],
+			"techIcons": [
+				"html",
+				"sass",
+				"github"
+			],
+			"website": "https://ohmyfood2021.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P3_21042021"
+		},
+		{
+			"id": "gameon",
+			"date": "2021-05-06",
+			"title": "Game On",
+			"cover": "images/projects/gameon/project_gameon.jpg",
+			"objective": "Creation of the registration form",
+			"summary": "GameOn, which specializes in gaming conferences and competitions. The company is simplifying the new homepage and contest registration after receiving negative feedback from some users.",
+			"pictures": [
+				"../images/projects/gameon/gameOnLogo.jpg",
+				"../images/projects/gameon/gameon_1.jpg",
+				"../images/projects/gameon/gameon_2.jpg",
+				"../images/projects/gameon/gameon_3.jpg",
+				"../images/projects/gameon/gameon_4.jpg"
+			],
+			"goal":"Add the missing JavaScript code to make the form fully functional using javascript.",
+			"description":"GameOn specializes in video game conferences and contests. The company is simplifying the new homepage and contest registration after receiving negative feedback from some users. \n \n Unfortunately, the former developer, who was working on it, didn't have time to finish before leaving for his new job at his new company. \n\nThe HTML structure and CSS styling, based on the mockups, have been started and the layout and content of the homepage and form modal are complete, but the front-end needs to be completed. In addition, the missing JavaScript code to make the form fully functional, using JavaScript, needs to be added and the issues described on the Git Hub repo need to be completed.",
+			"functionality": [
+				"Form validation - First name/first name field have a minimum of 2 characters / are not empty.",
+				"The email address is valid, the number of contests is a numeric value and a radio button must be selected.",
+				"Terms and conditions box is checked, the other box is optional.",
+				"The form data is not deleted when it does not pass validation.",
+				"Either the form is validated or there is an error message.",
+				"There is a confirmation message when the submission is successful."
+			],
+			"constraints": [
+				"Use pure JavaScript (not jQuery) to finish the form.",
+				"Work on a forked GitHub repo.",
+				"Use separate files for HTML, CSS and JavaScript.",
+				"Comments describing each function and class.",
+				"Manually test functionality and responsive display.",
+				"The site should be compatible with the latest versions of Chrome and Firefox.",
+				"Review the code and make sure it's ready for production."
+			],
+			"notes":"I did not create the user interface. \n\nThe brief was to write the form validation code in JavaScript and solve the problems ('break of design') with the responsive design only.",
+			"skills": [
+				"Programmer en JavaScript"
+			],
+			"tags": [
+				"JavaScript",
+				"HTML",
+				"CSS"
+			],
+			"techIcons": [
+				"javascript",
+				"css"
+			],
+			"website": "https://stevens-mark.github.io/StevensMark_P4_06052021/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
+		},
+		{
+			"id": "fisheye",
+			"date": "2021-06-09",
+			"title": "Fisheye",
+			"cover": "images/projects/fisheye/project_fisheye.jpg",
+			"objective": "Creation of an accessible website",
+			"summary": "FishEye is a website that allows independent photographers to showcase their best work. They have recently raised funds and would like to update their website.",
+			"pictures": [
+				"../images/projects/fisheye/fisheyeLogo.jpg",
+				"../images/projects/fisheye/fisheye_1.jpg",
+				"../images/projects/fisheye/fisheye_2.jpg",
+				"../images/projects/fisheye/fisheye_3.jpg",
+				"../images/projects/fisheye/fisheye_4.jpg"
+			],
+			"goal": "Build a dynamic website prototype with a focus on accessibility (aria). Other features: filters, sorting, lightbox, photo gallery and forms.",
+			"description":"FishEye is a website that allows freelance photographers to showcase their best work. The freelance photographers' website reads, “Our clients take great photos, but they know nothing about web development. That's why we offer a unique platform to show their photos on a beautiful page and contact them for events or prints. We are one of the biggest freelance photography sites, with a huge network of photographers.”\n\n For them, accessibility is essential ! So it's very important that the site is accessible to visually impaired users, with text descriptions for all photos and keyboard commands to navigate the site. Since the site is outdated, it needs to be redesigned from a static site to a dynamic one with an emphasis on accessibility (aria).",
+			"functionality": [
+				"Home page - List of all photographers.",
+				"The list of photographers can be filtered by tag.",
+				"Clicking on a photographer's thumbnail redirects to their page.",
+				"Photographer's pages - Displays a gallery of the photographer's work.",
+				"Clicking on the 'Like' icon increments the number of likes displayed.",
+				"Media can be sorted by popularity, date or title.",
+				"Clicking on a media item opens it in a lightbox.",
+				"A button to contact the photographer opens a contact form.",
+				"The site is mobile friendly and responsive."
+			],
+			"constraints": [
+				"Add ARIA attributes to create a custom element and describe what it does.",
+				"Pass AChecker tests without a 'known issue' (WCAG compliant).",
+				"All event handling (keyboard presses) must be configured.",
+				"Use 'semantic' HTML elements that describe their intent.",
+				"The website must match the mockups and work correctly (no errors).",
+				"The code is separated into different files (HTML with accessibility tags, CSS, JavaScript).",
+				"A modern version (ES6 or higher) of JavaScript is used.",
+				"Use the Factory Method pattern.",
+				"Object-oriented programming is used."
+			],
+			"notes":"I used a free screen reader to get an idea of what the site would be like for a visually impaired person.",
+			"skills": [
+				"Managing site events with JavaScript",
+				"Developing a modular web application with design patterns",
+				"Writing maintainable JavaScript code",
+				"Ensuring the accessibility of a web site"
+			],
+			"tags": [
+				"JavaScript",
+				"Sass",
+				"Accessibility"
+			],
+			"techIcons": [
+				"accessibility",
+				"javascript",
+				"sass"
+				],
+			"website": "https://fisheye2021.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
+		},
+		{
+			"id": "lespetitsplats",
+			"date": "2021-07-12",
+			"title": "Les Petits Plats",
+			"cover": "images/projects/petitsplats/project_lespetitsplats.jpg",
+			"objective": "Develop a search algorithm",
+			"summary": "Les Petits plats have decided to launch their own cooking recipes website. As there are many sites offering cooking recipes, the fluidity and efficiency of the search engine will make the difference.",
+			"pictures": [
+				"../images/projects/petitsplats/petitsLogo.jpg",
+				"../images/projects/petitsplats/project_lespetitsplats.jpg",
+				"../images/projects/petitsplats/petits_2.jpg",
+				"../images/projects/petitsplats/petits_3.jpg",
+				"../images/projects/petitsplats/petits_4.jpg"
+			],
+			"goal": "Develop two search algorithms for the search functionality (primary and secondary searches). Test and implement the most effective algorithms.",
+			"description":"After publishing cookbooks for several years, the company has decided to embark on a new project : to create its own recipe site like Marmiton or 750g.\n\nAs there are many sites offering cooking recipes, one of the elements that can make the difference on their site is the fluidity of the search engine. Moreover, the company wants, above all, something efficient because it's users want a fast, almost instantaneous, search!\n\n A JavaScript JSON file containing an array of 50 recipes is provided to develop the project. The first mission is to implement the search functionality.",
+			"functionality": [
+				"The search must be possible via the main field or via tags (ingredients, utensils or appliance).",
+				"The main search is launched after 3 characters are entered by the user in the search bar.",
+				"The search updates for each new character entered.",
+				"The main search displays the first results as quickly as possible.",
+				"Advanced search fields only suggest items remaining in the page's recipes.",
+				"Search returns should be an intersection of results. \n Adding the tags “coconut” and “chocolate” will only return recipes that contain both."
+			],
+			"constraints": [
+				"Mockups provided.",
+				"The HTML and CSS code for the interface must pass the W3C validator.", 
+				"No libraries must be used for the search engine JavaScript",
+				"Using Bootstrap 4 is recommended.",
+				"Write two search algorithms for the main search field.",
+				"Fill out a feature investigation document describing the two algorithms.",
+				"Make a diagram for each algorithm so that the steps in each algorithm are clear.",
+				"Test their performance using a benchmarking tool (Jsben.ch?).",
+				"Only test the main search (no need to use advanced filters)."
+			],
+			"notes":"",
+			"skills": [
+				"Analyze a computer problem",
+				"Develop an algorithm to solve a problem"
+			],
+			"tags": [
+				"JavaScript",
+				"Bootstrap",
+				"Sass"
+			],
+			"techIcons": [
+				"javascript",
+				"html",
+				"bootstrap",
+				"sass"
+				],
+			"website": "https://stevens-mark.github.io/StevensMark_P7_12072021/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
+		},
+		{
+			"id": "billed",
+			"date": "2021-08-09",
+			"title": "Billed",
+			"cover": "images/projects/billed/project_billed.jpg",
+			"objective": "Debugging and testing an HR SaaS",
+			"summary": "Billed is a company that produces SaaS solutions for human resources teams. In two weeks, the team must show the functional solution to the whole company.",
+			"pictures": [
+				"../images/projects/billed/billedLogo.jpg",
+				"../images/projects/billed/billed_1.jpg",
+				"../images/projects/billed/billed_2.jpg",
+				"../images/projects/billed/billed_3.jpg",
+				"../images/projects/billed/billed_4.jpg"
+			],
+			"goal": "Find the bugs indicated in the bug report. Also write unit and integration tests and an E2E plan.",
+			"description":"Billed is a company that produces SaaS solutions for human resources teams. The 'expense report' functionality is highly anticipated in the market and the general management has made it a priority. The goal is to officially launch it to it's customers within two weeks, so the timeline is very tight. The feature team has been working hard over the past two weeks.\n\n Unfortunately, after a colleague on the expense reporting team left the company before completing the application, the lead developer on the feature team asked for help to complete the testing and meet the deadline. This must be completed in one week, as the team needs to show the working solution to the entire company. \n\n Feature Description - There are two paths to this feature: one on the HR administrator side and one on the employee side. The back-end is ready (in alpha version). On the front end, the HR administrator path is complete, fully tested and debugged.",
+			"functionality": [
+				"The employee journey has been made more reliable and improved.",
+				"The bugs identified in the bug report provided by Jest have been fixed.",
+				"Bugs identified on the employee journey by the QA team have been fixed.",
+				"Unit and integration tests for Bills and NewBill files have been added.",
+				"100% branch coverage (outside of firebase backend calls).",
+				"E2E testing - An E2E test plan has been included to complete the testing process."
+			],
+			"constraints": [
+				"The E2E test must be performed manually by the QA team (not automated).",
+				"No other constraints are mentioned."
+			],
+			"notes":"I didn't create the user interface because the brief was to debug the code, write unit and integration tests and an E2E report (to eliminate bugs and avoid regression in the next evolution). \n\n The bug reports and the E2E plan can be found in the Github repo of this project. \n\n The link to the website gives access to the administrator and employee accounts but without functionality. To see the project with functionality, please go to the project repo and follow the installation instructions carefully.",
+			"skills": [
+				"Writing unit tests with JavaScript",
+				"Debugging a web application with the Chrome Debugger",
+				"Writing a manual end-to-end test plan",
+				"Writing integration tests with JavaScript"
+			],
+			"tags": [
+				"Jest",
+				"JavaScript",
+				"Debugging"
+			],
+			"techIcons": [
+				"jest",
+				"javascript"
+				],
+			"website": "https://billed.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
+		},
+		{
+			"id": "learnathome",
+			"date": "2021-09-20",
+			"title": "Learn At Home",
+			"cover": "images/projects/learnathome/learn_2.jpg",
+			"objective": "Define the needs of a tutoring app",
+			"summary": "Learn@Home is an association that connects children with academic difficulties with volunteer tutors. Basically, their goal is to allow any student, anywhere, to have access to remote tutoring.",
+			"pictures": [
+				"../images/projects/learnathome/learnathomeLogo.jpg",
+				"../images/projects/learnathome/learn_1.jpg",
+				"../images/projects/learnathome/learn_2.jpg",
+				"../images/projects/learnathome/learn_3.jpg",
+				"../images/projects/learnathome/learn_4.jpg",
+				"../images/projects/learnathome/learn_5.jpg",
+				"../images/projects/learnathome/learn_6.jpg"
+			],
+			"goal": "Clearly define the customer's needs. Create use case diagrams and user stories with acceptance criteria for each feature. Mock-up the site (Figma or Sketch) with a Kanban breaking down the project.",
+			"description":"Learn@Home is an association that connects children with learning difficulties with volunteers, online. Their goal is to allow any student, wherever they are, to access distance learning support. Each student registered on the site is assigned a volunteer tutor. The goal of the volunteer is to support the student in their learning through short appointments scheduled each week. During these appointments, the volunteer help the student with their homework and organization. \n\n  To facilitate interaction and communication, Learn@Home would like to create a new website. Before starting the development of the pure software, the first step is to clearly define it's needs, providing use case diagrams for each of the main features of each page, user stories with acceptance criteria for each feature and mock-ups of the site (Figma or Sketch).",
+			"functionality": [
+				"A login page to allow a student or volunteer to log in.",
+				"A system to retrieve a forgotten password.",
+				"A link to an account creation page.",
+				"A dashboard containing a summary of all the recent and important information from other pages.",
+				"A classic chat page.",
+				"A classic calendar page.",
+				"A task management page."
+			],
+			"constraints": [
+				"There should be a history of conversations.",
+				"The user can add or delete a contact.",
+				"There should be a picture of the sender, next to each message in the chat interface.",
+				"There should be an indicator to see if a message has been read or not.",
+				"There should be a timestamp on the messages.",
+				"The calendar displays the different events and appointments of the user.",
+				"A user can create tasks for himself or for another user.",
+				"A student can only create tasks for himself.", 
+				"A volunteer can create tasks for the students of his choice."
+			],
+			"notes":"",
+			"skills": [
+				"Contributing to a project using an agile methodology.",
+				"Create a model for a client",
+				"Identify the needs of the application from a specification",
+				"Model a technical solution for a customer"
+			],
+			"tags": [
+				"User Stories",
+				"Use Case",
+				"Figma"
+			],
+			"techIcons": [
+				"figma",
+				"notion",
+				"usecase"
+				],
+			"website": "https://www.figma.com/file/K8QF42xb6EzUyqDOvKHAXW/Learn-at-home",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P10_20092021"
+		},
+		{
+			"id": "kasa",
+			"date": "2021-10-18",
+			"title": "Kasa",
+			"cover": "images/projects/kasa/kasa_1.jpg",
+			"objective": "Development of an SPA",
+			"summary": "Kasa is in the business of renting apartments between individuals. With more than 500 ads posted every day, Kasa is one of the leaders in the rental of apartments between individuals in France.",
+			"pictures": [
+				"../images/projects/kasa/kasaLogo.jpg",
+				"../images/projects/kasa/kasa_1.jpg",
+				"../images/projects/kasa/kasa_2.jpg",
+				"../images/projects/kasa/kasa_3.jpg",
+				"../images/projects/kasa/kasa_4.jpg"
+			],
+			"goal": "Start the React project and develop the whole application, the React components, the React Router routes, following the Figma mockups (responsive!)",
+			"description":"Kasa has been in the apartment rental business for almost 10 years now. With more than 500 ads posted every day, Kasa is one of the leaders in apartment rentals between individuals in France. \n\n Kasa's website was coded more than 10 years ago in ASP.NET with a lot of legacy code. The technical director therefore decided to completely redesign it and move to a full JavaScript stack with NodeJS on the back-end and React on the front-end. \n\nThe developer must start the React project and develop the whole application, the React components, the React Router routes, while following the Figma mockups (responsive!). Moreover, as the Back-End team and the data are not in place, 20 housing ads (in a JSON file) have been provided in order to build the corresponding Front-End.",
+			"functionality": [
+				"A home page with a section containing all the housing in the form of a map.",
+				"Clicking on a map takes the user to the corresponding accomodation page.",
+				"An About page with 4 drop-down menus describing the company's values.",
+				"A carousel of photos presenting the accommodation.",
+				"A host's star rating.",
+				"Two drop-down menus describing the accommodation and providing a list of available amenities.",
+				"Classification tags."
+			],
+			"constraints": [
+				"Class-based components, no functional components.",
+				"Code broken down into modular, reusable components, with one component per file.",
+				"No external React library.",
+				"Use of props between components.",
+				"Use of state in components when needed.", "Event management.",
+				"No external React library",
+				"Event management.",
+				"Route parameters are handled by React Router in the URL.",
+				"There is one page per route.",
+				"The 404 page is returned for each non-existent route.",
+				"The 404 page is returned if a value in the URL is not part of the input.",
+				"The code must not produce an error or warning in the console."
+			],
+			"notes":"",
+			"skills": [
+				"Developing the routes of a web application with React Router",
+				"Initialize a web application with a framework",
+				"Creating components with React"
+			],
+			"tags": [
+				"React",
+				"React-Router"
+			],
+			"techIcons": [
+				"react",
+				"css"
+				],
+			"website": "https://kasa2021.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P11_18102021"
+		},
+		{
+			"id": "sportsee",
+			"date": "2021-11-08",
+			"title": "Sports See",
+			"cover": "images/projects/sportsee/project_sportsee.jpg",
+			"objective":"Develop an analytical dashboard",
+			"summary": "SportSee is a startup dedicated to sports coaching. The company will launch a new version of the user's profile page, which will track the number of sessions completed as well as the calories burned.",
+			"pictures": [
+				"../images/projects/sportsee/sportseeLogo.jpg",
+				"../images/projects/sportsee/sportsee_1.jpg",
+				"../images/projects/sportsee/sportsee_2.jpg",
+				"../images/projects/sportsee/sportsee_3.jpg"
+			],
+			"goal": "Redesign the profile page with React, using either D3 or Recharts for the user's sports activity graphics. Create a separate service that will handle HTTP calls to the backend (NodeJS) using Fetch or Axios. It is important that you make the calls outside of the React components. Finally, all the documentation must be done in English.",
+			"description":"SportSee is a startup dedicated to sports coaching. In full growth, the company will launch a new version of the user profile page. This page allows the user to track the number of sessions performed as well as the number of calories burned. Thus, the new user profile page is to be redesigned with React, integrating graphs on the user's sports activity using either D3 or Recharts.",
+			"functionality": [
+				"A horizontal navigation menu to allow navigation between the different screens (in the future).",
+				"A vertical navigation menu to allow navigation between future navigation blocks.",
+				"The display of daily activity (weight and calories burned), in the form of a Barchart. A tooltip appears on hover.",
+				"The display of the average duration of sessions in the form of a LineChart. A tooltip appears when hovering.",
+				"The display of information about the completion of the daily goal (average score) in the form of a RadialBarChart.",
+				"The display of the types of activities performed in the form of a RadarChart.",
+				"The display of the information concerning the daily calories, proteins, carbohydrates and fats consumed in the form of a card."
+			],
+			"constraints": [
+				"Use Figma mockups and Kanban with User Stories.",
+				"The minimum screen resolution is at least 1024 by 780 pixels.",
+				"A backend (NodeJS) is provided that allows HTTP calls and data retrieval.",
+				"Use either Fetch or Axios to handle the calls themselves.",
+				"Calls should be made outside of the React components.",
+				"Create a separate service that will handle making these calls.",
+				"Start the project with the simulated data. Once the project is functional, integrate the API.",
+				"Include proptypes for each of the components.",
+				"Use JsDoc to document functions and methods.",
+				"All documentation should be done in English."
+			],
+			"notes":"For the prototype, there are currently only two users: Cecelia and Karl.",
+			"skills": [
+				"Ensuring data quality of an application",
+				"Interacting with a Web service",
+				"Develop advanced graphical elements using JavaScript libraries",
+				"Produce technical documentation for an application"
+			],
+			"tags": [
+				"React",
+				"Recharts",
+				"JSDoc"
+			],
+			"techIcons": [
+				"react",
+				"styledcomponents",
+				"recharts",
+				"jsdoc"
+				],
+			"website": "https://sportsee2021.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P12_08112021"
+		},
+		{
+			"id": "argentbank",
+			"title": "Argent Bank",
+			"date": "2021-12-02",
+			"cover": "images/projects/argentbank/project_argentbank.jpg",
+			"objective": "Using an API for a bank account",
+			"summary": "Argent Bank is a new bank trying to break into the industry and needs help setting up their application. The two-part contract is broken down into several phases.",
+			"pictures": [
+				"../images/projects/argentbank/bankLogo.jpg",
+				"../images/projects/argentbank/project_argentbank.jpg",
+				"../images/projects/argentbank/argent_1.jpg",
+				"../images/projects/argentbank/argent_2.jpg",
+				"../images/projects/argentbank/argent_3.jpg",
+				"../images/projects/argentbank/argent_4.jpg"
+			],
+			"goal": "Create a fully responsive web application with React using Redux to manage the state of the entire application. Users should be able to visit the homepage, log in, see their profile information and edit it. Also provide a document describing the proposed transaction APIs, following the Swagger guidelines.",
+			"description":"Argent Bank is a new start-up bank trying to break into the industry. The company wants to create a web application for its customers to log in and manage their accounts and profiles. \n\nThe project consists of several phases: phase one is the creation of a fully responsive web application with user authentication. This is followed by phase two, which consists of specifying the API endpoints needed for a possible second mission once phase one is complete.",
+			"functionality": [
+				"The user can visit the home page.",
+				"The user can log in to the system.",
+				"User can log out of the system.",
+				"The user can see his own profile information only after successful login.",
+				"The user can modify his profile and keep the data in the database.",
+				"See all his transactions for the current month (in design phase).",
+				"See the details of a transaction in another view (in design phase).",
+				"Add, modify or delete transaction information (in design phase)."
+			],
+			"constraints": [
+				"Develop the application in React.",
+				"Use static HTML and CSS provided.",
+				"Use Redux to manage the state of the whole application.",
+				"Do not implement the transactions page.",
+				"Back-end engineers have already created all the necessary APIs.",
+				"Provide a Swagger document describing the proposed transaction APIs.",
+				"Follow the Swagger guidelines.",
+				"Specify the API Endpoints (HTTP method, route, description, parameters, ...)."
+			],
+			"notes":"The transactions are still in the design phase. The link to the website gives access to the home and login pages only. To see the whole project, please go to the project repo and follow the installation instructions carefully.",
+			"skills": [
+				"Implementing a state manager in a React application.",
+				"Interacting with an API",
+				"Modeling an API",
+				"Authenticating to an API"
+			],
+			"tags": [
+				"React",
+				"Redux",
+				"Swagger"
+			],
+			"techIcons": [
+				"react",
+				"redux",
+				"styledcomponents",
+				"swagger"
+				],
+			"website": "https://stevens-mark.github.io/StevensMark_P13_02122021/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
+		}
+	]
+}

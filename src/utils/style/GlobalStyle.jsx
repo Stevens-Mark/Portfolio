@@ -7,6 +7,7 @@ import colors from './colors'
  */
  const StyledGlobalStyle = createGlobalStyle`
 body {  
+<<<<<<< HEAD
   font-family: 'comfortaa', 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -15,6 +16,14 @@ body {
   box-sizing: border-box;
   background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
   // color: ${({ isDarkMode }) => (isDarkMode ? `${colors.tertiary}` : `${colors.secondary}`)};
+=======
+  font-family: 'comfortaa', 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: ${colors.tertiary};
+  margin: auto;
+  box-sizing: border-box;
+  background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
+>>>>>>> multi
   max-width: 1920px;
 } 
 
@@ -24,8 +33,11 @@ code {
 
 main {
   padding-top: 110px;
+<<<<<<< HEAD
   min-height: calc(100vh - 12.5rem);
   //  height: 100%; 
+=======
+>>>>>>> multi
   min-height: 85vh;
 }
 

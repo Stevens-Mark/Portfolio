@@ -23,8 +23,11 @@ const LoadingWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   // min-height: 85vh;
   // min-height: calc(100vh - 12.5rem);
+=======
+>>>>>>> multi
 `;
 
 const ProjectWrapper = styled.div`
@@ -82,12 +85,20 @@ const Texte = styled.div`
     font-size: clamp(1rem, 1.6vw, 1.5rem);
   }
   p, li {
+<<<<<<< HEAD
     margin: 10px 0px;
+=======
+    margin: 0.625rem 0rem;
+>>>>>>> multi
     color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
     text-align: justify;
     text-justify: inter-word;
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
+<<<<<<< HEAD
     white-space: pre-line; 
+=======
+    white-space: pre-line;              // used with \n\n in JSON to format text on the page.
+>>>>>>> multi
   }
 `;
 // white-space: pre-line used with \n to format text on the page.
@@ -105,11 +116,15 @@ const Details = styled.div`
 * Individual Project page template
 * relevant project displayed based on ID extracted from Url params
  * @function Project
- * @param {array} siteData: all the site data
+ * @param {array} siteData: all the site data FR/EN
  * @returns {JSX}
  */
 const Project = ( { siteData } ) => {
 
+<<<<<<< HEAD
+=======
+  const projects = siteData.projects
+>>>>>>> multi
   const { theme } = useTheme()
 
   const [data, setData] = useState('')
@@ -124,7 +139,11 @@ const Project = ( { siteData } ) => {
   }, [])
 
    useEffect(() => {
+<<<<<<< HEAD
     const projectToShow = siteData.find((room) => room.id === idUrl)
+=======
+    const projectToShow = projects.find((room) => room.id === idUrl)
+>>>>>>> multi
     if (projectToShow) {
           setData(projectToShow)
           setLoading(false)
@@ -134,9 +153,17 @@ const Project = ( { siteData } ) => {
         setLoading(false)
         setIsError(true)
       }
+<<<<<<< HEAD
   }, [idUrl, siteData])
 
   const { title, pictures, description, functionality, constraints, notes, skills, techIcons, website, github} = data
+=======
+  }, [idUrl, projects])
+
+  // extract project data & headings
+  const { title, pictures, description, functionality, constraints, notes, skills, techIcons, website, github } = data
+  const { subheading1, subheading2, subheading3, subheading4 } = siteData.siteText.projectPage
+>>>>>>> multi
 
   return (
     <>
@@ -146,12 +173,20 @@ const Project = ( { siteData } ) => {
           <>     
             <main>
               <ProjectWrapper theme={theme}>  
+<<<<<<< HEAD
+=======
+
+>>>>>>> multi
                   <Heading>
                     <h1>{title}</h1>
                     <NightDayFilter theme={theme}>
                       <Links website={website} github={github} />
                     </NightDayFilter>
                   </Heading>
+<<<<<<< HEAD
+=======
+
+>>>>>>> multi
                 <Overview>
                   
                   <RightSide>
@@ -166,7 +201,11 @@ const Project = ( { siteData } ) => {
                     </Texte>
 
                     <Texte theme={theme}>
+<<<<<<< HEAD
                       <h2>Fonctionnalités</h2>
+=======
+                      <h2>{subheading1}</h2>
+>>>>>>> multi
                       <ListCreate group='functionality' data={functionality}/>
                     </Texte>
                   </LeftSide>
@@ -175,11 +214,16 @@ const Project = ( { siteData } ) => {
 
                 <Details>
                     <Texte theme={theme}>
+<<<<<<< HEAD
                       <h2>Contraints</h2>
+=======
+                      <h2>{subheading2}</h2>
+>>>>>>> multi
                       <ListCreate group='constraints' data={constraints}/>
                     </Texte>
 
                     <Texte theme={theme}>
+<<<<<<< HEAD
                       <h2>Compétences</h2>
                       <ListCreate group='skills' data={skills}/>
                   </Texte>
@@ -188,6 +232,16 @@ const Project = ( { siteData } ) => {
                   {notes?  
                     <Texte theme={theme}>
                       <h2>Notes</h2>
+=======
+                      <h2>{subheading3}</h2>
+                      <ListCreate group='skills' data={skills}/>
+                  </Texte>
+                </Details>
+                      {/* If no notes added then don't show heading */}
+                  {notes?       
+                    <Texte theme={theme}>
+                      <h2>{subheading4}</h2>
+>>>>>>> multi
                       <p>{notes}</p>
                     </Texte>
                   : null 
@@ -207,7 +261,7 @@ export default Project
 
 // Prototypes
 Project.propTypes = {
-  siteData: PropTypes.array.isRequired,
+  siteData: PropTypes.object.isRequired,
 }
 
 

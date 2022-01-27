@@ -1,4 +1,5 @@
 import { Link} from 'react-router-dom'
+import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
@@ -32,6 +33,7 @@ const FOOTER = styled.footer`
     font-size: clamp(0.75rem, 1.5vw, 2rem);
     margin: 0.2rem;
     color: ${colors.primary};
+<<<<<<< HEAD
   }
 `;
 
@@ -42,6 +44,18 @@ const LogosWrapper = styled.span`
   }
 `;
 
+=======
+  }
+`;
+
+const LogosWrapper = styled.span`
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    right: 1.25rem;
+  }
+`;
+
+>>>>>>> multi
 const LogoMark = styled.img`
   width: clamp(1.2rem, 2.2vw, 2rem);
   margin-bottom: 0.1rem;
@@ -64,10 +78,15 @@ const NightModeButton = styled.button`
 
 /**
  * Renders Footer on each page
- * @function Banner
+ * @function Footer
+ * @param  {boolen} language: state FR/EN
  * @returns {JSX}
  */
+<<<<<<< HEAD
 const Footer = () => {
+=======
+const Footer = ( { language } ) => {
+>>>>>>> multi
   
   const { toggleTheme, theme } = useTheme()
 
@@ -82,14 +101,27 @@ const Footer = () => {
           <a href={mail} rel="noreferrer" target="_blank"><LinkImg src={contact} alt="" title="Contact Me"/></a>
         </LogosWrapper>
 
+<<<<<<< HEAD
         <p>© 2022 All rights reserved</p>
+=======
+        <p>{language? '© 2022 Tous droits réservés' : '© 2022 All rights reserved'}</p>
+>>>>>>> multi
 
         <NightModeButton theme={theme} onClick={() => toggleTheme()}>
                 Change mode :  {theme === 'light' ? '☀️' : '🌙'}
         </NightModeButton>
+<<<<<<< HEAD
 
+=======
+>>>>>>> multi
     </FOOTER>
   )
 }
 
 export default Footer
+
+// Prototypes
+Footer.propTypes = {
+  language: PropTypes.bool.isRequired,
+
+}

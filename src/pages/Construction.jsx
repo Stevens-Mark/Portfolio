@@ -44,9 +44,18 @@ const ReturnLink = styled(Link)`
 /**
  * Renders Under Construction message 
  * @function Construction
+<<<<<<< HEAD
  * @returns {JSX}
  */
 const Construction = () => {
+=======
+ * @param {object} siteText: either FR/EN
+ * @returns {JSX}
+ */
+const Construction = ( { siteText } ) => {
+
+  const { title, message, linkText } = siteText.construction
+>>>>>>> multi
   
   useEffect(() => {
     document.title = 'Mark Stevens - Under Construction'
@@ -55,9 +64,15 @@ const Construction = () => {
 
   return (
       <ConstructionWrapper>
+<<<<<<< HEAD
         <h1>Oups!</h1>
         <p>En construction : il apparaîtra dans le futur...</p>
         <ReturnLink to="/">Retourner sur la page d’accueil</ReturnLink>
+=======
+        <h1>{title}</h1>
+        <p>{message}</p>
+        <ReturnLink to="/">{linkText}</ReturnLink>
+>>>>>>> multi
       </ConstructionWrapper>
   )
 }
