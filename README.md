@@ -1,11 +1,12 @@
 ![Mark Stevens](/src/assets/logos/mark_logo.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8be1ceee-ac7a-4537-ba57-b17d041696ba/deploy-status)](https://app.netlify.com/sites/stevensmarkportfolio/deploys)
 
 # Portfolio *(English)*
 
 # Mark Stevens
 
-Open website at [Portfolio]()
+Open website at [Portfolio](https://stevensmarkportfolio.netlify.app/)
 
 ## Objective
 To develop a web application in React using the skills learnt to date. This site also documents some of my technical knowledge, starting from a simple translation of a mockup using HTML5 & CSS3 and also includes the following: creating a dynamic website with animation using Sass; form validation using JavaScript; building a dynamic website using data from a JSON file; building a site accessible for peaople who are visually impaired; developing search algorithms; testing and debugging using Jest; identifying the needs and designing the UI for a client using user stories, use case diagrams and Figma; developing advanced graphical elements using JavaScript libraries; writing documentation; interacting with a Web service; interacting with, modeling and authenticating to an API as well as implementing a state manager in a React application.
@@ -45,7 +46,7 @@ And finally, there is a night mode button (bottom of the screen) to change to a 
 
 - Clone the repository onto your computer :
 
-  `git clone https://github.com/Stevens-Mark/StevensMark_P11_18102021.git`
+  `git clone https://github.com/Stevens-Mark/Portfolio.git`
 
 - Inside this repository, install the packages/dependencies :
 
@@ -58,11 +59,12 @@ And finally, there is a night mode button (bottom of the screen) to change to a 
 The App runs on http://localhost:3000/
 
 
+
 # Portfolio *(Français)*
 
-# Mark Stevens
+![Mark Stevens](/src/assets/logos/mark_logo.png)
 
-Ouvrir le site web à [Portfolio]()
+Ouvrir le site web à [Portfolio](https://stevensmarkportfolio.netlify.app/)
 
 ## Objectif
 Développer une application web en React en utilisant les compétences acquises à ce jour. Ce site documente également certaines de mes connaissances techniques, à partir d'une simple traduction d'une maquette en utilisant HTML5 & CSS3 et comprend également les éléments suivants: création d'un site Web dynamique avec animation à l'aide de Sass; validation de formulaires à l'aide de JavaScript; création d'un site Web dynamique à l'aide de données provenant d'un fichier JSON; création d'un site accessible aux personnes malvoyantes; développement d'algorithmes de recherche; test et débogage à l'aide de Jest; identification des besoins et conception de l'interface utilisateur pour un client à l'aide de récits d'utilisateurs, de diagrammes de cas d'utilisation et de Figma; développement d'éléments graphiques avancés à l'aide de bibliothèques JavaScript; rédaction de documentation; interaction avec un service Web; interaction avec une API, modélisation et authentification, ainsi que mise en œuvre d'un gestionnaire d'état dans une application React.
@@ -103,7 +105,7 @@ Enfin, il y a un bouton mode nuit (en bas de l'écran) pour passer à un réglag
 
 - Clonez le référentiel sur votre ordinateur :
 
-  `git clone https://github.com/Stevens-Mark/StevensMark_P11_18102021.git`
+  `git clone https://github.com/Stevens-Mark/Portfolio.git`
 
 - A l'intérieur de ce dépôt, installez les paquets/dépendances :
 
