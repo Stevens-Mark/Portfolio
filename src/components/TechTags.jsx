@@ -7,13 +7,8 @@ import { techIconList } from '../assets/data/additionalData'
 
 const TechImg = styled.img`   
     background: ${colors.Zircon};
-<<<<<<< HEAD
-    padding: 5px;
-    border-radius: 5px;
-=======
     padding: 0.313rem;
     border-radius: 0.313rem;
->>>>>>> multi
     width: 2rem;
     height:  2rem;
     margin: 0.5rem;
@@ -22,11 +17,7 @@ const TechImg = styled.img`
 /**
  * Renders Individual "techIcons" for the projects
  * @function TechTags
-<<<<<<< HEAD
- * @param {array} icons: icons (react, JavaScript, etc...)
-=======
  * @param {array} icons: (react, JavaScript, etc...)
->>>>>>> multi
  * @returns {JSX}
  */
 const TechTags = ( { icons } ) => {

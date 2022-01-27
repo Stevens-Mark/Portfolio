@@ -23,11 +23,6 @@ const LoadingWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-  // min-height: 85vh;
-  // min-height: calc(100vh - 12.5rem);
-=======
->>>>>>> multi
 `;
 
 const ProjectWrapper = styled.div`
