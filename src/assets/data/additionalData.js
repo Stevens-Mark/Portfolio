@@ -1,6 +1,6 @@
 // links for 'other' websites & email
   export const gitLink = 'https://github.com/Stevens-Mark'
-  export const linkedInLink ='http://localhost:3000/'
+  export const linkedInLink ='https://stevensmarkportfolio.netlify.app/'
   export const mail ='mailto: dummy@dummy.com'
 
 // list of 'tech' icons with their paths where the png, svg, jpg is stored

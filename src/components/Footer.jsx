@@ -26,12 +26,12 @@ const FOOTER = styled.footer`
   align-items: center;
   position: relative;
   margin-top: 1rem;
-  padding: 0.5rem 0rem;
+  padding: 1rem 0rem;
 
   p {
-    font-family: Vladimir script;
-    font-size: clamp(0.75rem, 1.5vw, 2rem);
-    margin: 0.2rem;
+    font-family: 'Vladimir', 'comfortaa';
+    font-size: clamp(1.5rem, 1.6vw, 2rem);
+    margin: 0.5rem;
     color: ${colors.primary};
   }
 `;
@@ -44,20 +44,23 @@ const LogosWrapper = styled.span`
 `;
 
 const LogoMark = styled.img`
-  width: clamp(1.2rem, 2.2vw, 2rem);
-  margin-bottom: 0.1rem;
+  width: 4.2rem;
 `;
 
 const LinkImg = styled.img`
-  width: clamp(1.2rem, 2vw, 2rem);
-  margin: 0rem 0.625rem;
+  width: 2rem;
+  margin: 1rem 1.9rem;
   filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(342deg) brightness(105%) contrast(101%);
+
+  @media screen and (min-width: 768px) {
+    margin: 1rem;
+  }
 `;
 
 const NightModeButton = styled.button`
     background-color: transparent;
     font-family: 'comfortaa';
-    font-size: clamp(0.6rem, 0.9vw, 0.9rem);
+    font-size: 1.2rem;
     border: none;
     cursor: pointer;
     color: ${({ theme }) => (theme === 'light' ? `${colors.tertiary}` : `${colors.primary}`)};  

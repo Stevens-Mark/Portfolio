@@ -20,7 +20,7 @@ const HamburgerWrapper = styled.div`
 const StyledMenu = styled.nav`
   display: flex;
   justify-content: space-between;
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
   width: 100%;
   opacity: ${({ open }) => open ? '1' : '0'};
   transition: opacity 0.6s ease-in-out;
@@ -30,7 +30,7 @@ const LINK = styled(NavLink)`
   color:  ${colors.tertiary};
   font-size: clamp(1rem, 1.667vw, 1.5rem);
   font-weight: 500;
-  padding: 0.313rem;
+  padding: 0.5rem;
   &.${(props) => props.activeClassName} {
     color: ${colors.primary};
   transition: color 0.3s linear;

@@ -21,7 +21,7 @@ code {
 }
 
 main {
-  padding-top: 110px;
+  padding-top: 120px;
   min-height: 85vh;
 }
 
@@ -42,6 +42,20 @@ a {
   position: absolute !important;
   width: 1px !important;
   white-space: nowrap !important; /* 3 */
+}
+
+@font-face {
+  font-family: "Vladimir";
+  src: url("../fonts/Vladimir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "comfortaa";
+  src: url("../fonts/Comfortaa.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 `;
 

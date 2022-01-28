@@ -17,27 +17,30 @@ import BurgerNav from './BurgerNav'
 /**
  * CSS for the component using styled.components
  */
- const HEADER = styled.header`
- max-width: 1920px;
- display: flex;
- justify-content: space-between;
- align-items: center;
- position: fixed;
- top: 0;
- left: 0;
- right: 0;
- margin: 0 auto;
- z-index: 1;
- background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
- padding-top: 1.5rem;
- box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
- @media screen and (min-width: 600px) {
-  padding: 1.5rem 0rem;
+const HEADER = styled.header`
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+  background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
+  padding-top: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
+
+  @media screen and (min-width: 600px) {
+    padding: 1rem 0rem;
+    height: 5rem;
   }
 `;
 
 const Image = styled.img`
-  width: clamp(7rem, 12vw, 10rem);
+  animation: ${fadeIn} 3s both ease-in-out;
+  width: clamp(10rem, 13vw, 14rem);
 `;
 
 const NavGroup = styled.nav`
@@ -48,7 +51,7 @@ const NavGroup = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 1.563rem;
+    // padding: 0rem 1.563rem;
     }
 `;
 
@@ -67,7 +70,7 @@ const LanguageButton = styled.button`
   cursor: pointer;
   img {
     animation: ${fadeIn} 3s both ease-in-out;
-    width: clamp(1.5rem, 1.2vw, 1.5rem);
+    width: 1.5rem;
   }
 `;
 
@@ -75,10 +78,10 @@ const LINK = styled(NavLink)`
   text-decoration: none;
   padding: 0vw 1.5vw;
   cursor: pointer;  
-  font-family: Vladimir script, 'comfortaa', sans-serif;
+  font-family: 'Vladimir', 'comfortaa';
   font-weight: 500;
   color: ${colors.tertiary};
-  font-size: clamp(1.3rem, 2vw, 2.5rem);
+  font-size: clamp(2rem, 2vw, 2.5rem);
     &.${(props) => props.activeClassName} {
       color: ${colors.primary};
         }

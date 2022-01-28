@@ -52,6 +52,7 @@ const TagForm = styled.span`
   border-radius: 5px;
   margin: 2px;
   padding: 3px 8px;
+  line-height: 1.5rem;
 `;
 
 const ObjectiveText = styled.h3`    
