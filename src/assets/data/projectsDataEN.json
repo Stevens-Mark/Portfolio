@@ -1,5 +1,12 @@
 {
 	"siteText": {
+		"header": {
+			"home": "Home",
+			"about": "About"
+		},
+		"footer": {
+			"rights": "© 2022 All rights reserved"
+		},
 		"hero": {
 			"title": "Frontend Developer",
 			"subtitle1": "Reliability.",

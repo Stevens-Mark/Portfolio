@@ -25,14 +25,14 @@ const App = () => {
   
   return (
     <Router>
-      <Header language={language} toggleLanguage={toggleLanguage}/>   
+      <Header language={language} toggleLanguage={toggleLanguage} siteText={dataToLoad.siteText}/>   
         <Switch>
           <Route path="/" exact component={()=> <Home siteData={dataToLoad} />}/>
           <Route path="/about" exact component={()=> <Construction siteText={dataToLoad.siteText} />} />
           <Route path="/project/:id" exact component={()=><Project siteData={dataToLoad} />} />
           <Route path="*" component={()=> <Error siteText={dataToLoad.siteText} />} />
         </Switch> 
-      <Footer language={language} />
+      <Footer siteText={dataToLoad.siteText} />
     </Router>  
     )
   }

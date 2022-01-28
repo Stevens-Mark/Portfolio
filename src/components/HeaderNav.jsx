@@ -18,6 +18,7 @@ import BurgerNav from './BurgerNav'
  * CSS for the component using styled.components
  */
 const HEADER = styled.header`
+  animation: ${fadeIn} 1s both ease-in-out;
   max-width: 1920px;
   display: flex;
   justify-content: space-between;
@@ -95,18 +96,21 @@ const LINK = styled(NavLink)`
  * @function Header
  * @param {boolean} language (state)
  * @param {function} toggleLanguage: to set state
+ * @param {object} siteText: either FR/EN
  * @returns {JSX}
  */
-const Header = ( { language, toggleLanguage }) => {
+const Header = ( { language, toggleLanguage, siteText }) => {
 
+  const { home, about } = siteText.header
   const { theme } = useTheme()
+
   return (
     <HEADER theme={theme}>
       <NavGroup>
           <LINK to="/"><Image src={logo} alt="logo"></Image></LINK>
           <LinkGroup>
-            <LINK activeClassName="active" exact to="/">{language? 'Accueil' : 'Home'}</LINK>
-            <LINK activeClassName="active" to="/about">{language? 'A Propos' : ' About'}</LINK>
+            <LINK activeClassName="active" exact to="/">{home}</LINK>
+            <LINK activeClassName="active" to="/about">{about}</LINK>
             <LanguageButton onClick={() => toggleLanguage(!language)}>{language? <img src={logoUK} alt="Change to English"/> : <img src={logoFR} alt="Changement en Français"/>}</LanguageButton> 
           </LinkGroup>
             <BurgerNav language={language} toggleLanguage={toggleLanguage} />

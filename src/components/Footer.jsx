@@ -69,11 +69,12 @@ const NightModeButton = styled.button`
 /**
  * Renders Footer on each page
  * @function Footer
- * @param  {boolen} language: state FR/EN
+ * @param {object} siteText: either FR/EN
  * @returns {JSX}
  */
-const Footer = ( { language } ) => {
-  
+const Footer = ( { siteText } ) => {
+
+  const { rights } = siteText.footer
   const { toggleTheme, theme } = useTheme()
 
   return (
@@ -87,7 +88,7 @@ const Footer = ( { language } ) => {
           <a href={mail} rel="noreferrer" target="_blank"><LinkImg src={contact} alt="" title="Contact Me"/></a>
         </LogosWrapper>
 
-        <p>{language? '© 2022 Tous droits réservés' : '© 2022 All rights reserved'}</p>
+        <p>{rights}</p>
 
         <NightModeButton theme={theme} onClick={() => toggleTheme()}>
                 Change mode :  {theme === 'light' ? '☀️' : '🌙'}
@@ -100,6 +101,6 @@ export default Footer
 
 // Prototypes
 Footer.propTypes = {
-  language: PropTypes.bool.isRequired,
+  siteText: PropTypes.object.isRequired,
 
 }

@@ -41,6 +41,10 @@ const Heading = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  h1 {
+    font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  }
+
   img {
     width: clamp(1.5rem, 2.1vw, 2rem);
   }
@@ -73,12 +77,10 @@ const Texte = styled.div`
   margin: 1rem;
   flex: 1;
 
-  h1 {
-    font-size: clamp(1.125rem, 2.5vw, 2.25rem);
-  }
   h2 {
     font-size: clamp(1rem, 1.6vw, 1.5rem);
   }
+
   p, li {
     margin: 0.625rem 0rem;
     color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
@@ -88,7 +90,6 @@ const Texte = styled.div`
     white-space: pre-line;              // used with \n\n in JSON to format text on the page.
   }
 `;
-// white-space: pre-line used with \n to format text on the page.
 
 const Details = styled.div`
   display: flex;
@@ -162,7 +163,6 @@ const Project = ( { siteData } ) => {
 
                   <LeftSide> 
                     <Texte theme={theme}>
-
                       <p>{description}</p>
                     </Texte>
 
