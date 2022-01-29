@@ -7,11 +7,6 @@ import styled from 'styled-components'
 const Ulist = styled.ul`
   list-style: none;
   padding-inline-start: 0px;
-
-  @media screen and (min-width: 475px) {
-    padding-inline-start: 1.25rem;
-  }
-}
 `;
 
 /**

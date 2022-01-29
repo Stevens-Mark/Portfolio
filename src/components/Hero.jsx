@@ -13,14 +13,14 @@ import ReactSpinner from'../components/ReactSpinner'
  * CSS for the component using styled.components
  */
 const HeroContainer = styled.section`
-  animation: ${fadeIn} 1s forwards ease-in-out;
   // background-image: url(${heroImg});
+  // background-repeat: no-repeat;
+  animation: ${fadeIn} 1s forwards ease-in-out;
   background-image: url(${({ backImg }) => backImg});
   background-size: cover;
-  background-repeat: no-repeat;
+  filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
   height: 18.75rem;
   position: relative;
-  filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
 
   @media (min-width: 920px) {
     height: 25rem;
@@ -28,33 +28,33 @@ const HeroContainer = styled.section`
 `;
 
 const HeroContent = styled.article`
+  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
+  border-radius: 0.313rem;
+  margin: 0 auto;
+  padding: 0.5rem;
   position: relative;
   top: 3rem;
-  z-index: 1;
   width: 13rem;
-  border-radius: 0.313rem;
-  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
-  padding: 0.5rem;
-  margin: 0 auto;
+  z-index: 1;
 
   @media (min-width: 500px) {
     padding: 1rem;
     width: 18.5rem;
   }
   @media (min-width: 920px) {
+    margin: 2rem;
     padding: 1.5rem;
     position: absolute;
-    top: 2rem;
     right: 3.125rem;
+    top: 2rem;
     width: 18.75rem;
-    margin: 2rem;
   }
 `;
 
 const HeroSubtitle = styled.p`
+  font-size: 1.2rem;
   font-weight: bold;
-  font-size: 1rem;
-  margin: 0;
+  margin: 0.1rem;
 
   @media (min-width: 920px) {
     font-size: 1.5rem;
@@ -62,8 +62,8 @@ const HeroSubtitle = styled.p`
 `;
 
 const HeroText = styled.p`
-  margin-bottom: 0;
   font-size: 0.9rem;
+  margin-bottom: 0;
 
   @media (min-width: 920px) {
     font-size: 1.2rem;

@@ -18,24 +18,24 @@ import BurgerNav from './BurgerNav'
  * CSS for the component using styled.components
  */
 const HEADER = styled.header`
+  align-items: center;
   animation: ${fadeIn} 1s both ease-in-out;
-  max-width: 1920px;
+  background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
   left: 0;
-  right: 0;
   margin: 0 auto;
+  max-width: 1920px;
+  padding-top: 0.4rem;
+  position: fixed;
+  right: 0;
+  top: 0;
   z-index: 1;
-  background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
-  padding-top: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
 
   @media screen and (min-width: 600px) {
-    padding: 1rem 0rem;
     height: 5rem;
+    padding: 1rem 0rem;
   }
 `;
 
@@ -45,14 +45,14 @@ const Image = styled.img`
 `;
 
 const NavGroup = styled.nav`
-  width: 100%;
   padding: 0rem 1.563rem;
+  width: 100%;
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 601px) {
+    // padding: 0rem 1.563rem;
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    // padding: 0rem 1.563rem;
     }
 `;
 
@@ -60,8 +60,8 @@ const LinkGroup = styled.div`
   display: none;
 
   @media screen and (min-width: 601px) {
-    display: flex;
     align-items: center;
+    display: flex;
     }
 `;
 
@@ -76,13 +76,11 @@ const LanguageButton = styled.button`
 `;
 
 const LINK = styled(NavLink)`
-  text-decoration: none;
-  padding: 0vw 1.5vw;
-  cursor: pointer;  
-  font-family: 'Vladimir', 'comfortaa';
-  font-weight: 500;
+  // font-weight: 500;
   color: ${colors.tertiary};
+  font-family: 'Vladimir', 'comfortaa';
   font-size: clamp(2rem, 2vw, 2.5rem);
+  padding: 0vw 1.5vw;
     &.${(props) => props.activeClassName} {
       color: ${colors.primary};
         }

@@ -14,13 +14,13 @@ import Links from './Links'
  */
 const ProjectCard = styled.article`
   animation: ${fadeIn} 2s both ease-in-out;
-  border: 1px solid ${colors.secondary};
   background: ${({ theme }) => (theme === 'light' ? `${colors.tertiary}` : `${colors.tertiary}`)};
-  filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
-  color: ${colors.secondary};
   border-radius: 0.313rem;
-  padding: 0.938rem;
+  border: 1px solid ${colors.secondary};
+  color: ${colors.secondary};
+  filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
   margin: 1rem;
+  padding: 0.938rem;
   transition: 0.4s;
   &:hover {
     filter: brightness(100%);
@@ -33,35 +33,35 @@ const ProjectCard = styled.article`
 `;
 
 const ProjectHeading = styled.div`
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 `;
 
 const CoverImage = styled.img`
   // object-fit: cover;
+  margin-bottom: 5px;
   max-height: 300px;
   width: 100%; 
-  margin-bottom: 5px;
 `;
 
 const TagForm = styled.span`
-  font-size: 0.8rem;
   background: ${colors.primary};
-  color: ${colors.tertiary};
   border-radius: 5px;
+  color: ${colors.tertiary};
+  font-size: 0.8rem;
+  line-height: 1.5rem;
   margin: 2px;
   padding: 3px 8px;
-  line-height: 1.5rem;
 `;
 
 const ObjectiveText = styled.h3`    
-  font-size: clamp(0.9rem, 1vw, 1rem);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;    // text trunacted if needed
   -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;    // text truncated if needed
+  display: -webkit-box;
+  font-size: clamp(0.9rem, 1vw, 1rem);
   overflow: hidden;
+  text-overflow: ellipsis;
   
   @media screen and (min-width: 668px) {
     -webkit-line-clamp: 1;

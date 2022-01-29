@@ -9,14 +9,14 @@ import git from '../assets/icons/github.svg'
  * CSS for component using styled.components
  */
 const LinkImg = styled.img`
-  width: clamp(1rem, 1.6vw, 1.4rem);
   margin: 0px 5px;
+  width: clamp(1rem, 1.6vw, 1.4rem);
 `;
 
 const NoLink = styled.img`
-  width: clamp(1rem, 1.6vw, 1.4rem);
-  margin: 0px 5px;
   filter: invert(57%) sepia(0%) saturate(4%) hue-rotate(266deg) brightness(88%) contrast(89%);
+  margin: 0px 5px;
+  width: clamp(1rem, 1.6vw, 1.4rem);
 `;
 
 /**

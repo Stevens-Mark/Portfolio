@@ -11,11 +11,11 @@ import { fadeIn } from '../utils/style/keyframes'
  * CSS for component using styled.components
  */
 const ErrorWrapper = styled.main`
+  align-items: center;
   animation: ${fadeIn} 1s both ease-in-out;
   color: ${colors.primary};
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 
   h1 {
@@ -37,9 +37,9 @@ const ErrorWrapper = styled.main`
 const ReturnLink = styled(Link)`
   color: ${colors.primary};
   font-size: clamp(0.875rem, 1.5vw, 1.375rem);
-  text-decoration: underline;
   font-weight: 500;
   margin-bottom: 2rem;
+  text-decoration: underline;
 `;
 
 /**
