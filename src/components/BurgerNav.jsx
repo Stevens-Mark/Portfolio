@@ -12,18 +12,25 @@ import logoUK from '../assets/icons/ukflag.png'
  */
 const HamburgerWrapper = styled.div`
   display: fixed;
+
   @media (min-width: 601px){
     display: none;
   }
 `;
 
 const StyledMenu = styled.nav`
+  background: ${colors.secondary};
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
   display: flex;
-  justify-content: space-between;
-  margin-top: 0.6rem;
-  width: 100%;
+  justify-content: space-around;
+  left: 0;
+  margin-top: 1rem;
   opacity: ${({ open }) => open ? '1' : '0'};
+  position: absolute;
+  right: 0;
+  top: 50px;
   transition: opacity 0.6s ease-in-out;
+  width: 100%;
 `;
 
 const LINK = styled(NavLink)`
@@ -34,15 +41,17 @@ const LINK = styled(NavLink)`
   &.${(props) => props.activeClassName} {
     color: ${colors.primary};
   transition: color 0.3s linear;
-    &:hover {
-        color: ${colors.primary};
-        text-decoration: underline;
-      }
+
+  &:hover {
+      color: ${colors.primary};
+      text-decoration: underline;
+    }
 `;
 
 const LanguageButton = styled.button`
   background: transparent;
   border: none;
+  
   img {
     width: 1.5rem;
   }

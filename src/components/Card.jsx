@@ -22,6 +22,7 @@ const ProjectCard = styled.article`
   margin: 1rem;
   padding: 0.938rem;
   transition: 0.4s;
+  
   &:hover {
     filter: brightness(100%);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .8);

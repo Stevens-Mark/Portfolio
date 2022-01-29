@@ -28,7 +28,7 @@ const HEADER = styled.header`
   left: 0;
   margin: 0 auto;
   max-width: 1920px;
-  padding-top: 0.9rem;
+  padding: 1rem 0rem;
   position: fixed;
   right: 0;
   top: ${({ position }) => position};
@@ -36,7 +36,7 @@ const HEADER = styled.header`
   z-index: 1;
 
   @media screen and (min-width: 600px) {
-    height: 5rem;
+    height: 4rem;
     padding: 1rem 0rem;
   }
 `;
@@ -51,7 +51,6 @@ const NavGroup = styled.nav`
   width: 100%;
 
   @media screen and (min-width: 601px) {
-    // padding: 0rem 1.563rem;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -78,10 +77,9 @@ const LanguageButton = styled.button`
 `;
 
 const LINK = styled(NavLink)`
-  // font-weight: 500;
   color: ${colors.tertiary};
   font-family: 'Vladimir', 'comfortaa';
-  font-size: clamp(2rem, 2vw, 2.5rem);
+  font-size: clamp(2rem, 3.125vw, 2.5rem);
   padding: 0vw 1.5vw;
     &.${(props) => props.activeClassName} {
       color: ${colors.primary};

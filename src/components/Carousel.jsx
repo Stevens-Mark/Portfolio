@@ -21,6 +21,7 @@ const CarouselWrapper = styled.article`
   margin: 0.625rem;
   position: relative;
   transition: 0.4s;
+  
   &:hover {
     filter: brightness(100%);
   }

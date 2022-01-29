@@ -14,6 +14,7 @@ body {
   font-family: 'comfortaa', 'Montserrat', sans-serif;
   margin: auto;
   max-width: 1920px;
+
 } 
 
 code {
@@ -22,7 +23,11 @@ code {
 
 main {
   min-height: 85vh;
-  padding-top: 120px;
+  padding-top: 100px;
+
+  @media screen and (min-width: 600px) {
+    padding-top: 110px;
+  }
 }
 
 a {
