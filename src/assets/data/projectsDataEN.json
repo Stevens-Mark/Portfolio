@@ -1,5 +1,12 @@
 {
 	"siteText": {
+		"header": {
+			"home": "Home",
+			"about": "About"
+		},
+		"footer": {
+			"rights": "© 2022 All rights reserved"
+		},
 		"hero": {
 			"title": "Frontend Developer",
 			"subtitle1": "Reliability.",
@@ -30,15 +37,15 @@
 			"id": "reservia",
 			"date": "2021-03-30",
 			"title": "Reservia",
-			"cover": "images/projects/reservia/project_reservia.jpg",
+			"cover": "images/projects/reservia/project_reservia.webp",
 			"objective": "Transforming a model into a website",
 			"summary": "A small company offering a vacation planning tool. Their site allows users to find accommodations and activities in the city of their choice.",
 			"pictures": [
-				"../images/projects/reservia/ReserviaLogo.jpg",
-				"../images/projects/reservia/reservia1.jpg",
-				"../images/projects/reservia/project_reservia.jpg",
-				"../images/projects/reservia/reservia2.jpg",
-				"../images/projects/reservia/reservia3.jpg"
+				"../images/projects/reservia/ReserviaLogo.webp",
+				"../images/projects/reservia/reservia1.webp",
+				"../images/projects/reservia/project_reservia.webp",
+				"../images/projects/reservia/reservia2.webp",
+				"../images/projects/reservia/reservia3.webp"
 			],
 			"goal": "Translate a mock-up into a web page using HTML and CSS.",
 			"description": "Reservia, a small company offering a vacation planning tool. Their site allows users to find accommodation and activities in the city of their choice. The accommodation can also be filtered by theme, for example their budget or their ambiance.\n\n A new design based on Material Design principles has just been proposed by the UI designer.  Before definitively validating this design, the company has decided to make a prototype. The first step is to integrate the responsive model in HTML and CSS.",
@@ -82,16 +89,16 @@
 			"id": "ohmyfood",
 			"date": "2021-04-21",
 			"title": "Ohmyfood",
-			"cover": "images/projects/ohmyfood/project_ohmyfood.jpg",
+			"cover": "images/projects/ohmyfood/project_ohmyfood.webp",
 			"objective": "Creation of a dynamic website",
 			"summary": "Ohmyfood! is a young startup that would like to impose itself on the restaurant market. The objective is to develop a 100% mobile site that lists the menus of gourmet restaurants.",
 			"pictures": [
-				"../images/projects/ohmyfood/ohmyfoodLogo.jpg",
-				"../images/projects/ohmyfood/project_ohmyfood.jpg",
-				"../images/projects/ohmyfood/menu_1.jpg",
-				"../images/projects/ohmyfood/menu_2.jpg",
-				"../images/projects/ohmyfood/menu_3.jpg",
-				"../images/projects/ohmyfood/menu_4.jpg"
+				"../images/projects/ohmyfood/ohmyfoodLogo.webp",
+				"../images/projects/ohmyfood/project_ohmyfood.webp",
+				"../images/projects/ohmyfood/menu_1.webp",
+				"../images/projects/ohmyfood/menu_2.webp",
+				"../images/projects/ohmyfood/menu_3.webp",
+				"../images/projects/ohmyfood/menu_4.webp"
 			],
 			"goal": "Translate the models and make the site more dynamic with animations made with Sass.",
 			"description":"Ohmyfood is an online meal ordering company. Their concept allows users to compose their own menu and reduce their waiting time in restaurants, as their menu is prepared in advance. No more time wasted looking at the menu.\n\n They want to offer their customers the menus of gourmet restaurants. Initially developed in New York, they now wish to extend their concept to the capital of gastronomy : Paris. They position themselves on a niche market, with the luxury restaurants of the cities in which they are established. They want to be identified as a company offering high-end services to the middle and upper classes, connected and often in a hurry, who want to taste quality products.",
@@ -138,15 +145,15 @@
 			"id": "gameon",
 			"date": "2021-05-06",
 			"title": "Game On",
-			"cover": "images/projects/gameon/project_gameon.jpg",
+			"cover": "images/projects/gameon/project_gameon.webp",
 			"objective": "Creation of the registration form",
 			"summary": "GameOn, which specializes in gaming conferences and competitions. The company is simplifying the new homepage and contest registration after receiving negative feedback from some users.",
 			"pictures": [
-				"../images/projects/gameon/gameOnLogo.jpg",
-				"../images/projects/gameon/gameon_1.jpg",
-				"../images/projects/gameon/gameon_2.jpg",
-				"../images/projects/gameon/gameon_3.jpg",
-				"../images/projects/gameon/gameon_4.jpg"
+				"../images/projects/gameon/gameOnLogo.webp",
+				"../images/projects/gameon/gameon_1.webp",
+				"../images/projects/gameon/gameon_2.webp",
+				"../images/projects/gameon/gameon_3.webp",
+				"../images/projects/gameon/gameon_4.webp"
 			],
 			"goal":"Add the missing JavaScript code to make the form fully functional using javascript.",
 			"description":"GameOn specializes in video game conferences and contests. The company is simplifying the new homepage and contest registration after receiving negative feedback from some users. \n \n Unfortunately, the former developer, who was working on it, didn't have time to finish before leaving for his new job at his new company. \n\nThe HTML structure and CSS styling, based on the mockups, have been started and the layout and content of the homepage and form modal are complete, but the front-end needs to be completed. In addition, the missing JavaScript code to make the form fully functional, using JavaScript, needs to be added and the issues described on the Git Hub repo need to be completed.",
@@ -187,15 +194,15 @@
 			"id": "fisheye",
 			"date": "2021-06-09",
 			"title": "Fisheye",
-			"cover": "images/projects/fisheye/project_fisheye.jpg",
+			"cover": "images/projects/fisheye/project_fisheye.webp",
 			"objective": "Creation of an accessible website",
 			"summary": "FishEye is a website that allows independent photographers to showcase their best work. They have recently raised funds and would like to update their website.",
 			"pictures": [
-				"../images/projects/fisheye/fisheyeLogo.jpg",
-				"../images/projects/fisheye/fisheye_1.jpg",
-				"../images/projects/fisheye/fisheye_2.jpg",
-				"../images/projects/fisheye/fisheye_3.jpg",
-				"../images/projects/fisheye/fisheye_4.jpg"
+				"../images/projects/fisheye/fisheyeLogo.webp",
+				"../images/projects/fisheye/fisheye_1.webp",
+				"../images/projects/fisheye/fisheye_2.webp",
+				"../images/projects/fisheye/fisheye_3.webp",
+				"../images/projects/fisheye/fisheye_4.webp"
 			],
 			"goal": "Build a dynamic website prototype with a focus on accessibility (aria). Other features: filters, sorting, lightbox, photo gallery and forms.",
 			"description":"FishEye is a website that allows freelance photographers to showcase their best work. The freelance photographers' website reads, “Our clients take great photos, but they know nothing about web development. That's why we offer a unique platform to show their photos on a beautiful page and contact them for events or prints. We are one of the biggest freelance photography sites, with a huge network of photographers.”\n\n For them, accessibility is essential ! So it's very important that the site is accessible to visually impaired users, with text descriptions for all photos and keyboard commands to navigate the site. Since the site is outdated, it needs to be redesigned from a static site to a dynamic one with an emphasis on accessibility (aria).",
@@ -245,15 +252,15 @@
 			"id": "lespetitsplats",
 			"date": "2021-07-12",
 			"title": "Les Petits Plats",
-			"cover": "images/projects/petitsplats/project_lespetitsplats.jpg",
+			"cover": "images/projects/petitsplats/project_lespetitsplats.webp",
 			"objective": "Develop a search algorithm",
 			"summary": "Les Petits plats have decided to launch their own cooking recipes website. As there are many sites offering cooking recipes, the fluidity and efficiency of the search engine will make the difference.",
 			"pictures": [
-				"../images/projects/petitsplats/petitsLogo.jpg",
-				"../images/projects/petitsplats/project_lespetitsplats.jpg",
-				"../images/projects/petitsplats/petits_2.jpg",
-				"../images/projects/petitsplats/petits_3.jpg",
-				"../images/projects/petitsplats/petits_4.jpg"
+				"../images/projects/petitsplats/petitsLogo.webp",
+				"../images/projects/petitsplats/project_lespetitsplats.webp",
+				"../images/projects/petitsplats/petits_2.webp",
+				"../images/projects/petitsplats/petits_3.webp",
+				"../images/projects/petitsplats/petits_4.webp"
 			],
 			"goal": "Develop two search algorithms for the search functionality (primary and secondary searches). Test and implement the most effective algorithms.",
 			"description":"After publishing cookbooks for several years, the company has decided to embark on a new project : to create its own recipe site like Marmiton or 750g.\n\nAs there are many sites offering cooking recipes, one of the elements that can make the difference on their site is the fluidity of the search engine. Moreover, the company wants, above all, something efficient because it's users want a fast, almost instantaneous, search!\n\n A JavaScript JSON file containing an array of 50 recipes is provided to develop the project. The first mission is to implement the search functionality.",
@@ -299,15 +306,15 @@
 			"id": "billed",
 			"date": "2021-08-09",
 			"title": "Billed",
-			"cover": "images/projects/billed/project_billed.jpg",
+			"cover": "images/projects/billed/project_billed.webp",
 			"objective": "Debugging and testing an HR SaaS",
 			"summary": "Billed is a company that produces SaaS solutions for human resources teams. In two weeks, the team must show the functional solution to the whole company.",
 			"pictures": [
-				"../images/projects/billed/billedLogo.jpg",
-				"../images/projects/billed/billed_1.jpg",
-				"../images/projects/billed/billed_2.jpg",
-				"../images/projects/billed/billed_3.jpg",
-				"../images/projects/billed/billed_4.jpg"
+				"../images/projects/billed/billedLogo.webp",
+				"../images/projects/billed/billed_1.webp",
+				"../images/projects/billed/billed_2.webp",
+				"../images/projects/billed/billed_3.webp",
+				"../images/projects/billed/billed_4.webp"
 			],
 			"goal": "Find the bugs indicated in the bug report. Also write unit and integration tests and an E2E plan.",
 			"description":"Billed is a company that produces SaaS solutions for human resources teams. The 'expense report' functionality is highly anticipated in the market and the general management has made it a priority. The goal is to officially launch it to it's customers within two weeks, so the timeline is very tight. The feature team has been working hard over the past two weeks.\n\n Unfortunately, after a colleague on the expense reporting team left the company before completing the application, the lead developer on the feature team asked for help to complete the testing and meet the deadline. This must be completed in one week, as the team needs to show the working solution to the entire company. \n\n Feature Description - There are two paths to this feature: one on the HR administrator side and one on the employee side. The back-end is ready (in alpha version). On the front end, the HR administrator path is complete, fully tested and debugged.",
@@ -346,17 +353,17 @@
 			"id": "learnathome",
 			"date": "2021-09-20",
 			"title": "Learn At Home",
-			"cover": "images/projects/learnathome/learn_2.jpg",
+			"cover": "images/projects/learnathome/learn_2.webp",
 			"objective": "Define the needs of a tutoring app",
 			"summary": "Learn@Home is an association that connects children with academic difficulties with volunteer tutors. Basically, their goal is to allow any student, anywhere, to have access to remote tutoring.",
 			"pictures": [
-				"../images/projects/learnathome/learnathomeLogo.jpg",
-				"../images/projects/learnathome/learn_1.jpg",
-				"../images/projects/learnathome/learn_2.jpg",
-				"../images/projects/learnathome/learn_3.jpg",
-				"../images/projects/learnathome/learn_4.jpg",
-				"../images/projects/learnathome/learn_5.jpg",
-				"../images/projects/learnathome/learn_6.jpg"
+				"../images/projects/learnathome/learnathomeLogo.webp",
+				"../images/projects/learnathome/learn_1.webp",
+				"../images/projects/learnathome/learn_2.webp",
+				"../images/projects/learnathome/learn_3.webp",
+				"../images/projects/learnathome/learn_4.webp",
+				"../images/projects/learnathome/learn_5.webp",
+				"../images/projects/learnathome/learn_6.webp"
 			],
 			"goal": "Clearly define the customer's needs. Create use case diagrams and user stories with acceptance criteria for each feature. Mock-up the site (Figma or Sketch) with a Kanban breaking down the project.",
 			"description":"Learn@Home is an association that connects children with learning difficulties with volunteers, online. Their goal is to allow any student, wherever they are, to access distance learning support. Each student registered on the site is assigned a volunteer tutor. The goal of the volunteer is to support the student in their learning through short appointments scheduled each week. During these appointments, the volunteer help the student with their homework and organization. \n\n  To facilitate interaction and communication, Learn@Home would like to create a new website. Before starting the development of the pure software, the first step is to clearly define it's needs, providing use case diagrams for each of the main features of each page, user stories with acceptance criteria for each feature and mock-ups of the site (Figma or Sketch).",
@@ -404,15 +411,15 @@
 			"id": "kasa",
 			"date": "2021-10-18",
 			"title": "Kasa",
-			"cover": "images/projects/kasa/kasa_1.jpg",
+			"cover": "images/projects/kasa/kasa_1.webp",
 			"objective": "Development of an SPA",
 			"summary": "Kasa is in the business of renting apartments between individuals. With more than 500 ads posted every day, Kasa is one of the leaders in the rental of apartments between individuals in France.",
 			"pictures": [
-				"../images/projects/kasa/kasaLogo.jpg",
-				"../images/projects/kasa/kasa_1.jpg",
-				"../images/projects/kasa/kasa_2.jpg",
-				"../images/projects/kasa/kasa_3.jpg",
-				"../images/projects/kasa/kasa_4.jpg"
+				"../images/projects/kasa/kasaLogo.webp",
+				"../images/projects/kasa/kasa_1.webp",
+				"../images/projects/kasa/kasa_2.webp",
+				"../images/projects/kasa/kasa_3.webp",
+				"../images/projects/kasa/kasa_4.webp"
 			],
 			"goal": "Start the React project and develop the whole application, the React components, the React Router routes, following the Figma mockups (responsive!)",
 			"description":"Kasa has been in the apartment rental business for almost 10 years now. With more than 500 ads posted every day, Kasa is one of the leaders in apartment rentals between individuals in France. \n\n Kasa's website was coded more than 10 years ago in ASP.NET with a lot of legacy code. The technical director therefore decided to completely redesign it and move to a full JavaScript stack with NodeJS on the back-end and React on the front-end. \n\nThe developer must start the React project and develop the whole application, the React components, the React Router routes, while following the Figma mockups (responsive!). Moreover, as the Back-End team and the data are not in place, 20 housing ads (in a JSON file) have been provided in order to build the corresponding Front-End.",
@@ -460,14 +467,14 @@
 			"id": "sportsee",
 			"date": "2021-11-08",
 			"title": "Sports See",
-			"cover": "images/projects/sportsee/project_sportsee.jpg",
+			"cover": "images/projects/sportsee/project_sportsee.webp",
 			"objective":"Develop an analytical dashboard",
 			"summary": "SportSee is a startup dedicated to sports coaching. The company will launch a new version of the user's profile page, which will track the number of sessions completed as well as the calories burned.",
 			"pictures": [
-				"../images/projects/sportsee/sportseeLogo.jpg",
-				"../images/projects/sportsee/sportsee_1.jpg",
-				"../images/projects/sportsee/sportsee_2.jpg",
-				"../images/projects/sportsee/sportsee_3.jpg"
+				"../images/projects/sportsee/sportseeLogo.webp",
+				"../images/projects/sportsee/sportsee_1.webp",
+				"../images/projects/sportsee/sportsee_2.webp",
+				"../images/projects/sportsee/sportsee_3.webp"
 			],
 			"goal": "Redesign the profile page with React, using either D3 or Recharts for the user's sports activity graphics. Create a separate service that will handle HTTP calls to the backend (NodeJS) using Fetch or Axios. It is important that you make the calls outside of the React components. Finally, all the documentation must be done in English.",
 			"description":"SportSee is a startup dedicated to sports coaching. In full growth, the company will launch a new version of the user profile page. This page allows the user to track the number of sessions performed as well as the number of calories burned. Thus, the new user profile page is to be redesigned with React, integrating graphs on the user's sports activity using either D3 or Recharts.",
@@ -517,16 +524,16 @@
 			"id": "argentbank",
 			"title": "Argent Bank",
 			"date": "2021-12-02",
-			"cover": "images/projects/argentbank/project_argentbank.jpg",
+			"cover": "images/projects/argentbank/project_argentbank.webp",
 			"objective": "Using an API for a bank account",
 			"summary": "Argent Bank is a new bank trying to break into the industry and needs help setting up their application. The two-part contract is broken down into several phases.",
 			"pictures": [
-				"../images/projects/argentbank/bankLogo.jpg",
-				"../images/projects/argentbank/project_argentbank.jpg",
-				"../images/projects/argentbank/argent_1.jpg",
-				"../images/projects/argentbank/argent_2.jpg",
-				"../images/projects/argentbank/argent_3.jpg",
-				"../images/projects/argentbank/argent_4.jpg"
+				"../images/projects/argentbank/bankLogo.webp",
+				"../images/projects/argentbank/project_argentbank.webp",
+				"../images/projects/argentbank/argent_1.webp",
+				"../images/projects/argentbank/argent_2.webp",
+				"../images/projects/argentbank/argent_3.webp",
+				"../images/projects/argentbank/argent_4.webp"
 			],
 			"goal": "Create a fully responsive web application with React using Redux to manage the state of the entire application. Users should be able to visit the homepage, log in, see their profile information and edit it. Also provide a document describing the proposed transaction APIs, following the Swagger guidelines.",
 			"description":"Argent Bank is a new start-up bank trying to break into the industry. The company wants to create a web application for its customers to log in and manage their accounts and profiles. \n\nThe project consists of several phases: phase one is the creation of a fully responsive web application with user authentication. This is followed by phase two, which consists of specifying the API endpoints needed for a possible second mission once phase one is complete.",

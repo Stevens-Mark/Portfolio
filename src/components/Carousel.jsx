@@ -13,13 +13,13 @@ import Blank from '../assets/images/blank.jpg'
  * CSS for the component using styled.components
  */
 const CarouselWrapper = styled.article`
+  align-items: center;
+  display: flex;
+  filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
+  flex:1;
+  justify-content: center;
   margin: 0.625rem;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex:1;
-  filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
   transition: 0.4s;
   &:hover {
     filter: brightness(100%);
@@ -27,33 +27,33 @@ const CarouselWrapper = styled.article`
 `;
 
 const CarouselImages = styled.img`
-  width: 85%;
-  max-width: 600px;
-  border-radius: clamp(0.313rem, 1.1vw, 1rem);
-  object-fit: contain;
   background:${colors.tertiary};
+  border-radius: clamp(0.313rem, 1.1vw, 1rem);
   box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
+  max-width: 600px;
+  object-fit: contain;
+  width: 85%;
 `;
 
 const CarouselControls = styled.div`
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
-  width: 95%;
-  cursor: pointer;
   position: absolute;
+  width: 95%;
 `;
 
 const CarouselControlArrows = styled.img`
   filter: ${({ theme }) => (theme === 'light' ? 'invert(68%) sepia(39%) saturate(716%) hue-rotate(131deg) brightness(93%) contrast(89%)' : 'invert(0%) sepia(1%) saturate(1253%) hue-rotate(149deg) brightness(96%) contrast(83%)')};
-  width: clamp(1.5rem, 2.2vw, 2.5rem);
   margin: -8px;
+  width: clamp(1.5rem, 2.2vw, 2.5rem);
 `;
 
 const Counter = styled.p`
-  color: ${colors.primary};
-  position: absolute;
   bottom: -0.5rem;
+  color: ${colors.primary};
   font-size: clamp(0.625rem, 1.3vw, 1.25rem);
+  position: absolute;
 `;
 
 /**

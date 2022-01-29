@@ -7,11 +7,11 @@ import { techIconList } from '../assets/data/additionalData'
 
 const TechImg = styled.img`   
     background: ${colors.Zircon};
-    padding: 0.313rem;
     border-radius: 0.313rem;
-    width: 2rem;
     height:  2rem;
     margin: 0.5rem;
+    padding: 0.313rem;
+    width: 2rem;
 `;
 
 /**

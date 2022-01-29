@@ -27,8 +27,8 @@ const LoadingWrapper = styled.div`
 
 const ProjectWrapper = styled.div`
   animation: ${fadeIn} 1s both ease-in-out;
-  color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
   background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.darkModeHighlights}`)};
+  color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -36,10 +36,14 @@ const ProjectWrapper = styled.div`
 `;
 
 const Heading = styled.div`
-  padding: 0rem 1rem;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
+  padding: 0rem 1rem;
+
+  h1 {
+    font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  }
 
   img {
     width: clamp(1.5rem, 2.1vw, 2rem);
@@ -70,22 +74,20 @@ const RightSide = styled.div`
 `;
 
 const Texte = styled.div`
-  margin: 1rem;
   flex: 1;
+  margin: 1rem;
 
-  h1 {
-    font-size: clamp(1.125rem, 2.5vw, 2.25rem);
-  }
   h2 {
     font-size: clamp(1rem, 1.6vw, 1.5rem);
   }
+
   p, li {
-    margin: 0.625rem 0rem;
     color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
+    font-size: clamp(0.875rem, 1.2vw, 1.125rem);
+    margin: 0.625rem 0rem;
     text-align: justify;
     text-justify: inter-word;
-    font-size: clamp(0.875rem, 1.2vw, 1.125rem);
-    white-space: pre-line;              // used with \n\n in JSON to format text on the page.
+    white-space: pre-line;             // used with \n\n in JSON to format text on the page.
   }
 `;
 
@@ -146,14 +148,12 @@ const Project = ( { siteData } ) => {
           <>     
             <main>
               <ProjectWrapper theme={theme}>  
-
                   <Heading>
                     <h1>{title}</h1>
                     <NightDayFilter theme={theme}>
                       <Links website={website} github={github} />
                     </NightDayFilter>
                   </Heading>
-
                 <Overview>
                   
                   <RightSide>
@@ -163,7 +163,6 @@ const Project = ( { siteData } ) => {
 
                   <LeftSide> 
                     <Texte theme={theme}>
-
                       <p>{description}</p>
                     </Texte>
 

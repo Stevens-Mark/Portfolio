@@ -18,21 +18,21 @@ import { gitLink, linkedInLink, mail } from '../assets/data/additionalData'
  * CSS for component using styled.components
  */
 const FOOTER = styled.footer`
+  align-items: center;
   animation: ${fadeIn} 1s 200ms both ease-in-out;
   background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  position: relative;
   margin-top: 1rem;
-  padding: 0.5rem 0rem;
+  padding: 1rem 0rem;
+  position: relative;
 
   p {
-    font-family: Vladimir script;
-    font-size: clamp(0.75rem, 1.5vw, 2rem);
-    margin: 0.2rem;
     color: ${colors.primary};
+    font-family: 'Vladimir', 'comfortaa';
+    font-size: clamp(1.5rem, 1.6vw, 2rem);
+    margin: 0 0 0.5rem;
   }
 `;
 
@@ -44,33 +44,37 @@ const LogosWrapper = styled.span`
 `;
 
 const LogoMark = styled.img`
-  width: clamp(1.2rem, 2.2vw, 2rem);
-  margin-bottom: 0.1rem;
+  width: 3.2rem;
 `;
 
 const LinkImg = styled.img`
-  width: clamp(1.2rem, 2vw, 2rem);
-  margin: 0rem 0.625rem;
   filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(342deg) brightness(105%) contrast(101%);
+  margin: 1rem 1.9rem;
+  width: 2rem;
+
+  @media screen and (min-width: 768px) {
+    margin: 1rem;
+  }
 `;
 
 const NightModeButton = styled.button`
     background-color: transparent;
-    font-family: 'comfortaa';
-    font-size: clamp(0.6rem, 0.9vw, 0.9rem);
     border: none;
-    cursor: pointer;
     color: ${({ theme }) => (theme === 'light' ? `${colors.tertiary}` : `${colors.primary}`)};  
+    cursor: pointer;
+    font-family: 'comfortaa';
+    font-size: 1.2rem;
 `;
 
 /**
  * Renders Footer on each page
  * @function Footer
- * @param  {boolen} language: state FR/EN
+ * @param {object} siteText: either FR/EN
  * @returns {JSX}
  */
-const Footer = ( { language } ) => {
-  
+const Footer = ( { siteText } ) => {
+
+  const { rights } = siteText.footer
   const { toggleTheme, theme } = useTheme()
 
   return (
@@ -84,7 +88,7 @@ const Footer = ( { language } ) => {
           <a href={mail} rel="noreferrer" target="_blank"><LinkImg src={contact} alt="" title="Contact Me"/></a>
         </LogosWrapper>
 
-        <p>{language? '© 2022 Tous droits réservés' : '© 2022 All rights reserved'}</p>
+        <p>{rights}</p>
 
         <NightModeButton theme={theme} onClick={() => toggleTheme()}>
                 Change mode :  {theme === 'light' ? '☀️' : '🌙'}
@@ -97,6 +101,6 @@ export default Footer
 
 // Prototypes
 Footer.propTypes = {
-  language: PropTypes.bool.isRequired,
+  siteText: PropTypes.object.isRequired,
 
 }

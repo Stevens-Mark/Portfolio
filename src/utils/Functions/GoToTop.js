@@ -12,7 +12,7 @@ const ToTopButton = styled.img`
   position: fixed;
   z-index: 9999;
   top:auto;
-  bottom: 1.563rem;
+  bottom: 1rem;
   right: 1.25rem;
   width: clamp(1.5rem, 3.2vw, 2.5rem);
   padding: 3px;
@@ -26,13 +26,11 @@ const ToTopButton = styled.img`
   &:hover {
     background: ${colors.topButtonHover};
   }
-  @media screen and (min-width: 768px) {
-    bottom: 6.5rem;
-  }
+
   @media screen and (min-width: 1950px) {
     left: 50%;
     transform: translate(-50%, 0); 
-    bottom: 7rem;
+    bottom: 10rem;
   }
 `;
 
@@ -42,9 +40,9 @@ const ToTopButton = styled.img`
  * @returns {JSX} back to top button
  */
 const GoToTop = () => {
+
   const { theme } = useTheme()
-  // The back-to-top button is hidden at the beginning
-  const [showButton, setShowButton] = useState(false)
+  const [showButton, setShowButton] = useState(false)   // The back-to-top button is hidden at the beginning
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -57,8 +55,7 @@ const GoToTop = () => {
     return () => setShowButton(false)
   }, [])
     
-  // This function will scroll the window to the top 
-  const scrollToTop = () => {
+  const scrollToTop = () => {   // This function will scroll the window to the top 
     window.scrollTo({
       top: 0,
       behavior: 'smooth' // for smoothly scrolling

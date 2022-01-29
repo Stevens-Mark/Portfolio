@@ -11,9 +11,9 @@ const SpinnerWrapper = styled.div`
 `;
 
 const LogoImg = styled.img`
-  width: clamp(7.5rem, 24.3vw, 21.875rem);
-  pointer-events: none;
   animation: ${rotate} infinite 20s linear;   
+  pointer-events: none;
+  width: clamp(7.5rem, 24.3vw, 21.875rem);
 `;
 
 /**

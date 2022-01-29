@@ -4,8 +4,6 @@
 
 # Portfolio *(English)*
 
-# Mark Stevens
-
 Open website at [Portfolio](https://stevensmarkportfolio.netlify.app/)
 
 ## Objective
@@ -15,7 +13,7 @@ To develop a web application in React using the skills learnt to date. This site
 The main page is laid out in a grid, with individual cards giving a summary of each project. For further information, click on a card to read more. This includes the features, constraints, additional notes (if any) and skills gained during the project. There is also a carousel to interact with to see images from the project. If preferred, the working version of a project can be accessed by clicking on the eye icon. This will open the website in a new window. The code can be found by clicking on the GitHub icon for the project.
 
 ## Additional
-The site can be viewed in either French or English. As I am an English native speaker, with only a reasonable level of French, I realise that there will be errors in my French grammar (although every French person tells me that even the French have this problem...)
+The site can be viewed in either French or English. As I am an English native speaker, with only a reasonable level of French, I realise that there will be errors in my French grammar (although every French person tells me that even the French have this problem...). I know I could have used a framework like `I18next` to build the multi language support, but I wanted to find a solution myself without using a framework. 
 And finally, there is a night mode button (bottom of the screen) to change to a night settting if preferred.  
 
 ## Skills
@@ -73,7 +71,7 @@ Développer une application web en React en utilisant les compétences acquises 
 La page principale est présentée sous forme de grille, avec des cartes individuelles donnant un résumé de chaque projet. Pour plus d'informations, cliquez sur une carte pour en savoir plus. Cela inclut les fonctionnalités, les contraintes, les notes supplémentaires (le cas échéant) et les compétences acquises au cours du projet. Il y a également un carrousel avec lequel vous pouvez interagir pour voir des images du projet. Si vous le souhaitez, vous pouvez accéder à la version de travail d'un projet en cliquant sur l'icône représentant un œil. Cela ouvrira le site Web dans une nouvelle fenêtre. Le code peut être trouvé en cliquant sur l'icône GitHub du projet.
 
 ## Supplémentaire
-Le site peut être consulté en français ou en anglais. Comme je suis de langue maternelle anglaise, avec seulement un niveau raisonnable de français, je réalise qu'il y aura des erreurs dans ma grammaire française (bien que chaque personne française me dise que même les Français ont ce problème...).
+Le site peut être consulté en français ou en anglais. Comme je suis de langue maternelle anglaise, avec seulement un niveau raisonnable de français, je réalise qu'il y aura des erreurs dans ma grammaire française (bien que chaque personne française me dise que même les Français ont ce problème...). Je sais que j'aurais pu utiliser un framework comme `I18next` pour construire le support multi-langue, mais je voulais trouver une solution moi-même sans utiliser un framework. 
 Enfin, il y a un bouton mode nuit (en bas de l'écran) pour passer à un réglage de nuit si vous préférez. 
 
 

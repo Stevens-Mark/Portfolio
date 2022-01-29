@@ -11,16 +11,16 @@ import logoUK from '../assets/icons/ukflag.png'
  * CSS for the component using styled.components
  */
 const HamburgerWrapper = styled.div`
-  display: none;
-  @media (max-width: 600px){
-    display: fixed;
+  display: fixed;
+  @media (min-width: 601px){
+    display: none;
   }
 `;
 
 const StyledMenu = styled.nav`
   display: flex;
   justify-content: space-between;
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
   width: 100%;
   opacity: ${({ open }) => open ? '1' : '0'};
   transition: opacity 0.6s ease-in-out;
@@ -30,7 +30,7 @@ const LINK = styled(NavLink)`
   color:  ${colors.tertiary};
   font-size: clamp(1rem, 1.667vw, 1.5rem);
   font-weight: 500;
-  padding: 0.313rem;
+  padding: 0.5rem;
   &.${(props) => props.activeClassName} {
     color: ${colors.primary};
   transition: color 0.3s linear;
@@ -67,7 +67,7 @@ const StyledBurger = styled.button`
     background: ${colors.primary};
     border-radius: 0.625rem;
     height: 0.2rem;
-    // position: relative;
+    position: relative;
     transform-origin: 1px;
     transition: all 0.3s linear;
     width: 1.5rem;
@@ -110,7 +110,6 @@ const BurgerNav = ( { language, toggleLanguage } ) => {
             <LINK activeClassName="active" exact to="/">{language? 'Accueil' : 'Home'}</LINK>
             <LINK activeClassName="active" to="/about">{language? 'A Propos' : ' About'}</LINK>
             <LanguageButton onClick={() => toggleLanguage(!language)}>{language? <img src={logoUK} alt="Change to English"/> : <img src={logoFR} alt="Changement en Français"/>}</LanguageButton>
-        
         </StyledMenu>
     </HamburgerWrapper>
   )

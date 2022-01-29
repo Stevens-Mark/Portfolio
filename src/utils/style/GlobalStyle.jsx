@@ -7,41 +7,56 @@ import colors from './colors'
  */
  const StyledGlobalStyle = createGlobalStyle`
 body {  
-  font-family: 'comfortaa', 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: ${colors.tertiary};
-  margin: auto;
-  box-sizing: border-box;
   background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
+  box-sizing: border-box;
+  color: ${colors.tertiary};
+  font-family: 'comfortaa', 'Montserrat', sans-serif;
+  margin: auto;
   max-width: 1920px;
 } 
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  // font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 main {
-  padding-top: 110px;
   min-height: 85vh;
+  padding-top: 120px;
 }
 
 a {
   text-decoration: none;
   color: ${colors.secondary};
+  cursor: pointer;  
 }
  
 .sr-only {
-  border: 0 !important;
-  clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
   -webkit-clip-path: inset(50%) !important;
+  border: 0 !important;
   clip-path: inset(50%) !important; /* 2 */
+  clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
   height: 1px !important;
   margin: -1px !important;
   overflow: hidden !important;
   padding: 0 !important;
   position: absolute !important;
-  width: 1px !important;
   white-space: nowrap !important; /* 3 */
+  width: 1px !important;
+}
+
+@font-face {
+  font-family: "Vladimir";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Vladimir.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "comfortaa";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Comfortaa.ttf") format("truetype");
 }
 `;
 
