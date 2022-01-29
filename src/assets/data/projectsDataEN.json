@@ -31,15 +31,66 @@
 			"linkText": "Return back to the home page"
 		}
 	},
-	"projects": 
-	[
+	"projects": [
+		{
+			"id": "portfolio",
+			"date": "2022-01-30",
+			"title": "Portfolio",
+			"cover": "images/projects/portfolio/project_portfolio.webp",
+			"objective": "Creation of a portfolio website",
+			"summary": "For further information, click on a card to read more about features, constraints, additional notes and skills gained during the project. Click on the eye icon to see the working version of a project.",
+			"pictures": [
+				"../images/projects/portfolio/portfolioLogo.webp"
+			],
+			"goal": "Build a website to showcase some of my technical knowledge",
+			"description": "Portfolio is a personal project to develop a web application in React using the skills learnt to date. \n\n This site also documents some of my technical knowledge, starting from a simple translation of a mockup using HTML5 & CSS3 and also includes the following : \n\n Creating a dynamic website with animation using Sass; form validation using JavaScript; building a dynamic website using data from a JSON file; building a site accessible for people who are visually impaired; developing search algorithms; testing and debugging using Jest; identifying the needs and designing the UI for a client using user stories, use case diagrams and Figma; developing advanced graphical elements using JavaScript libraries; writing documentation; interacting with a Web service; interacting with, modeling and authenticating to an API as well as implementing a state manager in a React application.",
+			"functionality": [
+				"A section containing individual cards giving a summary of each project.",
+				"Links to preview the project website & github code.",
+				"Clicking on a card redirects to additional information.", 
+				"Carousel, to interact with, showing images from the project.", 
+				"Tags highlighting tech stacks used.",
+				"List of the features, constraints and skills gained.",
+				"A Night/Day mode",
+				"Scroll to top button."
+			],
+			"constraints": [
+				"The user should be able to read the site in either French or English.", 
+				"Don't use any Framework (such as I18next) for multi language support.",
+				"Code the site using React.",
+				"Use styled-components.",
+				"Make sure the code is documented correctly.", 		
+				"The site must be compatible with the latest versions of Chrome and Firefox.",
+				"Version the code with Git."
+			],
+			"notes":"There is no project website preview as you are already on the site.",
+			"skills": [
+				"Developing web application routes with React Router",
+				"Initialize a web application with a framework",
+				"Creating components with React",
+				"Ensure a quality application",
+				"Build a web application from scratch without the aid of mockups",
+				"Design"
+			],
+			"tags": [
+				"React",
+				"Styled-components"
+			],
+			"techIcons": [
+				"react",
+				"styledcomponents",
+				"jsdoc"
+			],
+			"website": "",
+			"github": "https://github.com/Stevens-Mark/Portfolio"
+		},
 		{
 			"id": "reservia",
 			"date": "2021-03-30",
 			"title": "Reservia",
 			"cover": "images/projects/reservia/project_reservia.webp",
 			"objective": "Transforming a model into a website",
-			"summary": "A small company offering a vacation planning tool. Their site allows users to find accommodations and activities in the city of their choice.",
+			"summary": "Reservia is a small company offering a vacation planning tool. Their site allows users to find accommodations and activities in the city of their choice.",
 			"pictures": [
 				"../images/projects/reservia/ReserviaLogo.webp",
 				"../images/projects/reservia/reservia1.webp",
@@ -48,7 +99,7 @@
 				"../images/projects/reservia/reservia3.webp"
 			],
 			"goal": "Translate a mock-up into a web page using HTML and CSS.",
-			"description": "Reservia, a small company offering a vacation planning tool. Their site allows users to find accommodation and activities in the city of their choice. The accommodation can also be filtered by theme, for example their budget or their ambiance.\n\n A new design based on Material Design principles has just been proposed by the UI designer.  Before definitively validating this design, the company has decided to make a prototype. The first step is to integrate the responsive model in HTML and CSS.",
+			"description": "Reservia is a small company offering a vacation planning tool. Their site allows users to find accommodation and activities in the city of their choice. The accommodation can also be filtered by theme, for example their budget or their ambiance.\n\n A new design based on Material Design principles has just been proposed by the UI designer.  Before definitively validating this design, the company has decided to make a prototype. The first step is to integrate the responsive model in HTML and CSS.",
 			"functionality": [
 				"The search field is an input field, however, at this point the search button will not be functional.", 
 				"Each accommodation or activity card will need to be clickable in its entirety. For now the links will be empty.", 

@@ -1,4 +1,5 @@
 
+import React, { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import PropTypes from 'prop-types'
 // for styling
@@ -27,10 +28,11 @@ const HEADER = styled.header`
   left: 0;
   margin: 0 auto;
   max-width: 1920px;
-  padding-top: 0.4rem;
+  padding-top: 0.9rem;
   position: fixed;
   right: 0;
-  top: 0;
+  top: ${({ position }) => position};
+  transition: top 0.6s;
   z-index: 1;
 
   @media screen and (min-width: 600px) {
@@ -102,8 +104,22 @@ const Header = ( { language, toggleLanguage, siteText }) => {
   const { home, about } = siteText.header
   const { theme } = useTheme()
 
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+   useEffect(() => {
+    const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset        // find current scroll position
+    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 0) || currentScrollPos < 10)   // set state based on location info
+    setPrevScrollPos(currentScrollPos)      // set state to new scroll position
+    }
+    window.addEventListener('scroll', handleScroll)
+    
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [prevScrollPos])
+
   return (
-    <HEADER theme={theme}>
+    <HEADER theme={theme} position={visible ? '0' : '-115px' }>
       <NavGroup>
           <LINK to="/"><Image src={logo} alt="logo"></Image></LINK>
           <LinkGroup>

@@ -144,7 +144,7 @@ const Project = ( { siteData } ) => {
     <>
       {isLoading ? <LoadingWrapper><LoadingIcon /></LoadingWrapper> : 
       <>
-        {isError ? <Error /> :  
+        {isError ? <Error siteText={siteData.siteText} /> :  
           <>     
             <main>
               <ProjectWrapper theme={theme}>  

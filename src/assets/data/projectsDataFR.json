@@ -33,12 +33,64 @@
 	},
 	"projects": [
 		{
+			"id": "portfolio",
+			"date": "2022-01-30",
+			"title": "Portfolio",
+			"cover": "images/projects/portfolio/project_portfolio.webp",
+			"objective": "Création d'un site web de portfolio",
+			"summary": "Pour plus d'informations, cliquez sur une carte pour en savoir plus sur les caractéristiques, les contraintes, les notes supplémentaires et les compétences acquises au cours du projet. Cliquez sur l'icône de l'œil pour voir le site web du projet.",
+			"pictures": [
+				"../images/projects/portfolio/portfolioLogo.webp"
+			],
+			"goal": "Créer un site web pour présenter certaines de mes connaissances techniques. ",
+			"description": "Portfolio est un projet personnel visant à développer une application web en React en utilisant les compétences acquises à ce jour. \n\n Ce site documente également certaines de mes connaissances techniques, à partir d'une simple traduction d'une maquette en utilisant HTML5 & CSS3 et comprend également les éléments suivants : \n\n Création d'un site Web dynamique avec animation à l'aide de Sass ; validation de formulaires à l'aide de JavaScript ; création d'un site Web dynamique à l'aide de données provenant d'un fichier JSON ; création d'un site accessible aux personnes malvoyantes ; développement d'algorithmes de recherche ; test et débogage à l'aide de Jest ; identification des besoins et conception de l'interface utilisateur pour un client à l'aide de récits d'utilisateurs, de diagrammes de cas d'utilisation et de Figma ; développement d'éléments graphiques avancés à l'aide de bibliothèques JavaScript ; rédaction de documentation ; interaction avec un service Web ; interaction avec une API, modélisation et authentification auprès de celle-ci ainsi que mise en œuvre d'un gestionnaire d'état dans une application React.",
+			"functionality": [
+				"Une section contenant des cartes individuelles donnant un résumé de chaque projet.",
+				"Des liens pour prévisualiser le site web du projet et le code github.",
+				"Cliquer sur une carte redirige vers des informations supplémentaires.", 
+				"Carrousel, pour interagir avec, montrant des images du projet.", 
+				"Tags mettant en évidence les tech stacks utilisés.",
+				"Liste des fonctionnalités, contraintes et compétences acquises.",
+				"Un mode Jour/Nuit.",
+				"Bouton de défilement vers le haut."
+			],
+			"constraints": [
+				"L'utilisateur doit pouvoir lire le site en français ou en anglais.", 
+				"N'utilisez pas de Framework (tel que I18next) pour le support multi-langue.",
+				"Coder le site en utilisant React.",
+				"Utilisez des styled-components.",
+				"Assurez-vous que le code est documenté correctement.", 		
+				"Le site doit être compatible avec les dernières versions de Chrome et Firefox.",
+				"Versionner le code avec Git."
+			],
+			"notes":"Il n'y a pas d'aperçu du site web du projet puisque vous êtes déjà sur le site.",
+			"skills": [
+				"Développer des routes d'application web avec React Router",
+				"Initialiser une application web avec un framework",
+				"Créer des composants avec React",
+				"Assurer une application de qualité",
+				"Construire une application web à partir de zéro sans l'aide de maquettes",
+				"Design"
+			],
+			"tags": [
+				"React",
+				"Styled-components"
+			],
+			"techIcons": [
+				"react",
+				"styledcomponents",
+				"jsdoc"
+			],
+			"website": "",
+			"github": "https://github.com/Stevens-Mark/Portfolio"
+		},
+		{
 			"id": "reservia",
 			"date": "2021-03-30",
 			"title": "Reservia",
 			"cover": "images/projects/reservia/project_reservia.webp",
 			"objective": "Transformer une maquette en site web",
-			"summary": "Une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+			"summary": "Reservia est une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
 			"pictures": [
 				"../images/projects/reservia/ReserviaLogo.webp",
 				"../images/projects/reservia/reservia1.webp",
@@ -47,7 +99,7 @@
 				"../images/projects/reservia/reservia3.webp"
 			],
 			"goal": "Traduire une maquette en une page Web à l'aide de HTML et de CSS.",
-			"description": "Reservia, une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.\n \n Un nouveau design basé sur les principes du Material Design vient d’être proposé par le designer UI.  Avant de valider définitivement ce design, l’entreprise décide de réaliser un prototype. La première étape consiste à intégrer la maquette responsive en HTML et CSS.",
+			"description": "Reservia est une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.\n \n Un nouveau design basé sur les principes du Material Design vient d’être proposé par le designer UI.  Avant de valider définitivement ce design, l’entreprise décide de réaliser un prototype. La première étape consiste à intégrer la maquette responsive en HTML et CSS.",
 			"functionality": [
 				"Le champ de recherche est un champ de saisie, cependant, à ce stade, le bouton de recherche ne sera pas fonctionnel.", 
 				"Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.", 
