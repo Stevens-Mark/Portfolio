@@ -97,7 +97,7 @@ const Card = ( { project } ) => {
         </span>
       </ProjectHeading>
 
-        <Link aria-label="Link to project page" to={`/project/${id}`}>
+        <Link to={`/project/${id}`}>
           <CoverImage src={cover} alt='Website screen shot'/>
           <div>
             {(tags).map((tag) => ( 
