@@ -27,7 +27,7 @@ const LoadingWrapper = styled.div`
 
 const ProjectWrapper = styled.div`
   animation: ${fadeIn} 1s both ease-in-out;
-  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.darkModeHighlights}`)};
+  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
   color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
   display: flex;
   flex-direction: column;

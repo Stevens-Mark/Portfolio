@@ -20,7 +20,7 @@ import { gitLink, linkedInLink, mail } from '../assets/data/additionalData'
 const FOOTER = styled.footer`
   align-items: center;
   animation: ${fadeIn} 1s 200ms both ease-in-out;
-  background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
+  background: ${colors.secondary};
   display: flex;
   flex-direction: column;
   justify-content: center;

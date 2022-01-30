@@ -16,7 +16,7 @@ import heroImg from '../assets/images/banner4.jpg'
 const PortFolioWrapper = styled.section`
   margin-top: .25rem;
   padding: 1rem 0rem;
-  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.darkModeHighlights}`)};
+  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
     @media screen and (min-width: 668px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);

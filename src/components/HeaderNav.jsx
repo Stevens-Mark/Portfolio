@@ -21,7 +21,7 @@ import BurgerNav from './BurgerNav'
 const HEADER = styled.header`
   align-items: center;
   animation: ${fadeIn} 1s both ease-in-out;
-  background: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.mainBackgroundDarkMode}`)};
+  background: ${colors.secondary};
   box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
   display: flex;
   justify-content: space-between;
