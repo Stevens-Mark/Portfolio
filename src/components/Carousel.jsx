@@ -41,14 +41,32 @@ const CarouselControls = styled.div`
   display: flex;
   justify-content: space-between;
   position: absolute;
-  width: 95%;
+  width: 92%;
+  max-width: 650px;
+  @media (min-width: 900px) {
+    max-width: unset;
+  }
 `;
 
-const CarouselControlArrows = styled.img`
-  filter: ${({ theme }) => (theme === 'light' ? 'invert(68%) sepia(39%) saturate(716%) hue-rotate(131deg) brightness(93%) contrast(89%)' : 'invert(0%) sepia(1%) saturate(1253%) hue-rotate(149deg) brightness(96%) contrast(83%)')};
-  margin: -8px;
-  width: clamp(1.5rem, 2.2vw, 2.5rem);
+const Controls = styled.button`
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin: -22px;
+  filter: ${({ theme }) => (theme === 'light' ? '' : 'invert(100%) sepia(1%) saturate(1533%) hue-rotate(99deg) brightness(95%) contrast(86%);')};
+  ;
+  img {
+    width: clamp(1.8rem, 2.2vw, 2.5rem);
+  }
+
 `;
+
+// const CarouselControlArrows = styled.img`
+//   filter: ${({ theme }) => (theme === 'light' ? 'invert(68%) sepia(39%) saturate(716%) hue-rotate(131deg) brightness(93%) contrast(89%)' : 'invert(0%) sepia(1%) saturate(1253%) hue-rotate(149deg) brightness(96%) contrast(83%)')};
+//   margin: -8px;
+//   width: clamp(1.5rem, 2.5vw, 2.8rem);
+// `;
 
 const Counter = styled.p`
   bottom: -0.5rem;
@@ -83,8 +101,8 @@ const Carousel = ( { photoAlbum } ) => {
 
       { length >1 ?              // only show control arrrow if more than one photo
         <CarouselControls>
-          <CarouselControlArrows theme={theme} src={previousArrow} alt='previous' onClick={prevSlide} />
-          <CarouselControlArrows theme={theme} src={nextArrow} alt='next' onClick={nextSlide} />
+          <Controls theme={theme} onClick={() => prevSlide()}><img src={previousArrow} alt='previous'/></Controls>
+          <Controls theme={theme} onClick={() => nextSlide()}><img src={nextArrow} alt='next'/></Controls>
         </CarouselControls> 
         : null
       }
