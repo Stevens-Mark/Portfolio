@@ -39,6 +39,7 @@ const ReturnLink = styled(Link)`
   font-size: clamp(0.875rem, 1.5vw, 1.375rem);
   font-weight: 500;
   margin-bottom: 2rem;
+  text-align: center;
   text-decoration: underline;
 `;
 
