@@ -30,7 +30,7 @@ const ToTopButton = styled.img`
   @media screen and (min-width: 1950px) {
     left: 50%;
     transform: translate(-50%, 0); 
-    bottom: 10rem;
+    bottom: 9rem;
   }
 `;
 
