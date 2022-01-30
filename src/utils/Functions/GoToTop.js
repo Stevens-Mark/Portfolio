@@ -65,7 +65,7 @@ const GoToTop = () => {
   return (
     <>       
       {showButton && (
-        <ToTopButton theme={theme} onClick={scrollToTop} src={upArrow} alt="" title="Back To Top"/>
+        <ToTopButton theme={theme} onClick={scrollToTop} src={upArrow} alt="Back to top arrow" title="Back To Top"/>
       )}
   </>
   )

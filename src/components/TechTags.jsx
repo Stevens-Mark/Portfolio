@@ -27,7 +27,7 @@ const TechTags = ( { icons } ) => {
     return (
         <>
             {( iconToShow  || []).map((icon) => ( 
-                 <TechImg key={icon.id} src={icon.path} alt='' title={icon.title}/>
+                 <TechImg key={icon.id} src={icon.path} alt={icon.alt} title={icon.alt}/>
             ))}  
         </>
     )

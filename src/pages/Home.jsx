@@ -50,7 +50,7 @@ const Home = ( { siteData } ) => {
   }, [])
  
   return (
-    <main>
+    <main role="main">
       <Hero image={heroImg} siteText={siteData.siteText}/>
 
       <PortFolioWrapper theme={theme}>

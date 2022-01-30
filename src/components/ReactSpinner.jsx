@@ -24,7 +24,7 @@ const LogoImg = styled.img`
 const ReactSpinner = () => {
   return (
       <SpinnerWrapper>
-        <LogoImg src={logo} alt="Spinning react logo" />
+        <LogoImg src={logo} alt="" />
       </SpinnerWrapper>
   )
 }

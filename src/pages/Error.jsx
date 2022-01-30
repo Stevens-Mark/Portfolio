@@ -25,7 +25,7 @@ const ErrorWrapper = styled.main`
     margin: 5.2rem 0rem;
   }
 
-  p {
+  h2 {
     font-family: 'Vladimir', 'comfortaa';
     font-size: clamp(2rem, 4vw, 4rem);
     font-weight: 500;
@@ -61,7 +61,7 @@ const Error = ( { siteText } ) => {
   return (
       <ErrorWrapper>
         <h1>{code}</h1>
-        <p>{message}</p>
+        <h2>{message}</h2>
         <ReturnLink to="/">{linkText}</ReturnLink>
       </ErrorWrapper>
   )

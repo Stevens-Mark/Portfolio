@@ -51,7 +51,7 @@ const HeroContent = styled.article`
   }
 `;
 
-const HeroSubtitle = styled.p`
+const HeroSubtitle = styled.h3`
   font-size: 1.2rem;
   font-weight: bold;
   margin: 0.1rem;

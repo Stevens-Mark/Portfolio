@@ -30,14 +30,14 @@ const Links = ({ website, github }) => {
   return (
     <>
       {website ?
-        ( <a href={website} rel="noreferrer" target="_blank"><LinkImg src={preview} alt="Link to website" title="Visit Website"/></a>
+        ( <a href={website} aria-label="Link to project website" rel="noreferrer" target="_blank"><LinkImg src={preview} alt="Link to website" title="Visit Website"/></a>
         ) : 
-        ( <NoLink src={preview} alt="" title="No Preview"/> )}
+        ( <NoLink src={preview} alt="No website" title="No Preview"/> )}
 
       {github ?
-        ( <a href={github} rel="noreferrer" target="_blank"><LinkImg src={git} alt="Link to project repo" title="Project Git Repo" /></a> 
+        ( <a href={github} aria-label="Link to project Repo" rel="noreferrer" target="_blank"><LinkImg src={git} alt="Link to project repo" title="Project Git Repo" /></a> 
         ) : 
-        ( <NoLink src={git} alt="" title="No Project Repo"/> )} 
+        ( <NoLink src={git} alt="No Repo" title="No Project Repo"/> )} 
     </>   
   )
 }

@@ -28,7 +28,8 @@ const FOOTER = styled.footer`
   padding: 1rem 0rem;
   position: relative;
 
-  p {
+  h2 {
+    font-weight: 500;
     color: ${colors.primary};
     font-family: 'Vladimir', 'comfortaa';
     font-size: clamp(1.5rem, 1.6vw, 2rem);
@@ -83,12 +84,12 @@ const Footer = ( { siteText } ) => {
         <Link to="/"><LogoMark src={logoM} alt="Link to home page" /></Link>
 
         <LogosWrapper>
-          <a href={gitLink} rel="noreferrer" target="_blank"><LinkImg src={git} alt="" title="Git Repo" /></a>
-          <a href={linkedInLink} rel="noreferrer" target="_blank"><LinkImg src={linkedIn} alt="" title="Linked In"/></a>
-          <a href={mail} rel="noreferrer" target="_blank"><LinkImg src={contact} alt="" title="Contact Me"/></a>
+          <a href={gitLink} aria-label="Link to Github Repository" rel="noreferrer" target="_blank"><LinkImg src={git} alt="Link to Github" title="Git Repo" /></a>
+          <a href={linkedInLink} aria-label="Link to LinkedIn" rel="noreferrer" target="_blank"><LinkImg src={linkedIn} alt="Link to Linked in" title="Linked In"/></a>
+          <a href={mail} aria-label="Link to contact email" rel="noreferrer" target="_blank"><LinkImg src={contact} alt="Contact Email" title="Contact Me"/></a>
         </LogosWrapper>
 
-        <p>{rights}</p>
+        <h2>{rights}</h2>
 
         <NightModeButton theme={theme} onClick={() => toggleTheme()}>
                 Change mode :  {theme === 'light' ? '☀️' : '🌙'}

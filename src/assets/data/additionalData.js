@@ -8,69 +8,70 @@ export const techIconList =
 		[ 
 			{	"id": "accessibility", 
 				"path": "../images/techIcons/accessibility.svg",
-				"title": "Accessibility" },
+				"alt": "Accessibilty" },
 
 			{ "id": "bootstrap", 
 				"path": "../images/techIcons/bootstrap.svg",
-				"title": "Bootstrap" },
+				"alt": "Bootsrap" },
 
 			{ "id": "css", 
 				"path": "../images/techIcons/css.svg",
-				"title": "CSS 3" },
+				"alt": "CSS" },
 
 			{ "id": "figma", 
 				"path": "../images/techIcons/figma.svg",
-				"title": "Figma" },
+				"alt": "Figma" },
 
 			{ "id": "github", 
 				"path": "../images/techIcons/github.svg",
-				"title": "Github" },
+				"alt": "Github" },
 
 			{ "id": "html", 
 				"path":	"../images/techIcons/html5.svg",
-				"title": "HTML 5" },
+				"alt": "HTML" },
 
 			{ "id": "jest", 
 				"path": "../images/techIcons/jest.svg",
-				"title": "Jest" },
+				"alt": "Jest" },
 
 			{ "id":"javascript", 
 				"path": "../images/techIcons/javascript.svg",
-				"title": "JavaScript" },
+				"alt": "Java Script" },
 
 			{ "id": "jsdoc", 
 				"path": "../images/techIcons/JSDoc.jpg",
-				"title": "JSDoc" },
+				"alt": "JSDoc" },
 			
 			{ "id": "notion", 
 				"path": "../images/techIcons/notion.svg",
-				"title": "Notion" },
+				"alt": "Notion" },
 
 			{ "id": "react", 
 				"path": "../images/techIcons/react.svg",
-				"title": "React" },
+				"alt": "React" },
 
 			{ "id": "recharts", 
 				"path":  "../images/techIcons/recharts.jpg",
-				"title": "Recharts" },
+				"alt": "Recharts" },
 
 			{ "id": "redux", 
 				"path": "../images/techIcons/redux.svg",
+				"alt": "Redux",
 				"title": "Redux" },
 
 			{ "id": "sass", 
 				"path": "../images/techIcons/sass.svg",
-				"title": "SaSS" },
+				"alt": "SaSS" },
 
 			{ "id": "styledcomponents", 
 				"path": "../images/techIcons/styled.png",
-				"title": "Styled Components" },
+				"alt": "Styled Components" },
 
 			{ "id": "swagger", 
 				"path": "../images/techIcons/swagger-green.svg",
-				"title": "Swagger" },
+				"alt": "Swagger" },
 
 			{ "id": "usecase", 
 				"path": "../images/techIcons/usecase.svg",
-				"title": "Use Case Diagrams" }
+				"alt": "Use Case Diagram" }
 	]

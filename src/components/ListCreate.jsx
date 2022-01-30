@@ -18,7 +18,7 @@ const Ulist = styled.ul`
  */
 const ListCreate = ( { group, data } ) => {
   return (
-    <Ulist>{data.map((item, index) => (
+    <Ulist aria-label={group}>{data.map((item, index) => (
       <li key={`${group}-${index}`}>{item}</li> ))}
     </Ulist>
   )

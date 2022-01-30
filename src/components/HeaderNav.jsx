@@ -119,11 +119,11 @@ const Header = ( { language, toggleLanguage, siteText }) => {
   return (
     <HEADER theme={theme} position={visible ? '0' : '-115px' }>
       <NavGroup>
-          <LINK to="/"><Image src={logo} alt="logo"></Image></LINK>
+          <LINK to="/"><Image src={logo} alt="Link to Home"></Image></LINK>
           <LinkGroup>
             <LINK activeClassName="active" exact to="/">{home}</LINK>
             <LINK activeClassName="active" to="/about">{about}</LINK>
-            <LanguageButton onClick={() => toggleLanguage(!language)}>{language? <img src={logoUK} alt="Change to English"/> : <img src={logoFR} alt="Changement en Français"/>}</LanguageButton> 
+            <LanguageButton onClick={() => toggleLanguage(!language)}>{language? <img src={logoUK} alt="Change to English"/> : <img src={logoFR} alt="Change to French"/>}</LanguageButton> 
           </LinkGroup>
             <BurgerNav language={language} toggleLanguage={toggleLanguage} />
       </NavGroup>

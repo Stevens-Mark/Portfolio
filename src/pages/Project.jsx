@@ -85,11 +85,15 @@ const Texte = styled.div`
     color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
     margin: 0.625rem 0rem;
-    text-align: justify;
-    text-justify: inter-word;
+
     white-space: pre-line;             // used with \n\n in JSON to format text on the page.
   }
+  p {
+    // text-align: justify;
+    // text-justify: inter-word;
+  }
 `;
+
 
 const Details = styled.div`
   display: flex;

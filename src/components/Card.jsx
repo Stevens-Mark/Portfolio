@@ -72,8 +72,8 @@ const ObjectiveText = styled.h3`
 const SummaryText = styled.p`
   color: ${colors.darkGrey};
   font-size: clamp(0.8rem, 1vw, 0.9rem);
-  text-align: justify;
-  text-justify: inter-word;
+  // text-align: justify;
+  // text-justify: inter-word;
 `;
 
 /**
@@ -97,8 +97,8 @@ const Card = ( { project } ) => {
         </span>
       </ProjectHeading>
 
-        <Link to={`/project/${id}`}>
-          <CoverImage src={cover} alt='Cover'/>
+        <Link aria-label="Link to project page" to={`/project/${id}`}>
+          <CoverImage src={cover} alt='Website screen shot'/>
           <div>
             {(tags).map((tag) => ( 
                 <TagForm key={tag}>{tag} </TagForm> ))}
