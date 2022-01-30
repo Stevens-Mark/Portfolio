@@ -16,16 +16,15 @@ const ConstructionWrapper = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Vladimir', 'comfortaa';
 
   h1 {
-    font-family: Vladimir script;
     font-size: clamp(6rem, 10vw, 17rem);
     font-weight: 700;
     margin: 5.2rem 0rem;
   }
 
   p {
-    font-family: Vladimir script;
     font-size: clamp(2rem, 4vw, 4rem);
     font-weight: 500;
     margin-bottom: 5rem;
