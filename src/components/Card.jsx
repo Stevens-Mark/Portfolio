@@ -99,8 +99,10 @@ const Card = ( { project } ) => {
 
         <Link to={`/project/${id}`}>
           <CoverImage src={cover} alt='Cover'/>
-          {(tags).map((tag) => ( 
-              <TagForm key={tag}>{tag} </TagForm> ))}
+          <div>
+            {(tags).map((tag) => ( 
+                <TagForm key={tag}>{tag} </TagForm> ))}
+          </div>
           <ObjectiveText>{objective}</ObjectiveText>
           <SummaryText>{summary}</SummaryText>
         </Link> 

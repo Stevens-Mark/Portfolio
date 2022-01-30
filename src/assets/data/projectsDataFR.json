@@ -38,7 +38,7 @@
 			"title": "Portfolio",
 			"cover": "images/projects/portfolio/project_portfolio.webp",
 			"objective": "Création d'un site web de portfolio",
-			"summary": "Pour plus d'informations, cliquez sur une carte pour en savoir plus sur les caractéristiques, les contraintes, les notes supplémentaires et les compétences acquises au cours du projet. Cliquez sur l'icône de l'œil pour voir le site web du projet.",
+			"summary": "Cliquez sur une carte pour obtenir plus d'informations sur les caractéristiques du projet, ses contraintes, des notes supplémentaires et les compétences acquises. Pour voir le site web du projet, utilisez l'icône de l'œil.",
 			"pictures": [
 				"../images/projects/portfolio/portfolioLogo.webp"
 			],
