@@ -381,7 +381,7 @@
 				"The E2E test must be performed manually by the QA team (not automated).",
 				"No other constraints are mentioned."
 			],
-			"notes":"I didn't create the user interface because the brief was to debug the code, write unit and integration tests and an E2E report (to eliminate bugs and avoid regression in the next evolution). \n\n The bug reports and the E2E plan can be found in the Github repo of this project. \n\n The link to the website gives access to the administrator and employee accounts but without functionality. To see the project with functionality, please go to the project repo and follow the installation instructions carefully.",
+			"notes":"I didn't create the user interface because the brief was to debug the code, write unit and integration tests and an E2E report (to eliminate bugs and avoid regression in the next evolution). \n\n The bug reports and the E2E plan can be found in the Github repo of this project.",
 			"skills": [
 				"Writing unit tests with JavaScript",
 				"Debugging a web application with the Chrome Debugger",
