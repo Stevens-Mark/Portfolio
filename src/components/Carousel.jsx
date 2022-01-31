@@ -62,12 +62,6 @@ const Controls = styled.button`
 
 `;
 
-// const CarouselControlArrows = styled.img`
-//   filter: ${({ theme }) => (theme === 'light' ? 'invert(68%) sepia(39%) saturate(716%) hue-rotate(131deg) brightness(93%) contrast(89%)' : 'invert(0%) sepia(1%) saturate(1253%) hue-rotate(149deg) brightness(96%) contrast(83%)')};
-//   margin: -8px;
-//   width: clamp(1.5rem, 2.5vw, 2.8rem);
-// `;
-
 const Counter = styled.p`
   bottom: -0.5rem;
   color: ${colors.primary};

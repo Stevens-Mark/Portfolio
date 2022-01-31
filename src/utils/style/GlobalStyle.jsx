@@ -1,6 +1,10 @@
 import { createGlobalStyle } from 'styled-components'
 import { useTheme } from '../Functions/theme'
 import colors from './colors'
+// import fonts from  local folder
+import vladimir from '../../assets/fonts/Vladimir.ttf'
+import comfortaa from '../../assets/fonts/Comfortaa.ttf'
+
 
 /**
  * CSS Global styles for the site using styled.components
@@ -54,14 +58,14 @@ a {
   font-family: "Vladimir";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Vladimir.ttf") format("truetype");
+  src: url(${vladimir}) format("truetype");
 }
 
 @font-face {
   font-family: "comfortaa";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Comfortaa.ttf") format("truetype");
+  src: url(${comfortaa}) format("truetype");
 }
 `;
 
