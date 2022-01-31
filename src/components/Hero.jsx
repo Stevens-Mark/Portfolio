@@ -8,6 +8,7 @@ import { fadeIn } from '../utils/style/keyframes'
 // hero banner background
 import heroImg from '../assets/images/banner4.jpg'
 import ReactSpinner from'../components/ReactSpinner'
+import mark from '../assets/images/mark.jpg'
 
 /**
  * CSS for the component using styled.components
@@ -21,8 +22,8 @@ const HeroContainer = styled.section`
   filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
   height: 18.75rem;
   position: relative;
-
-  @media (min-width: 920px) {
+  
+  @media (min-width: 1440px) {
     height: 25rem;
   }
 `;
@@ -41,13 +42,15 @@ const HeroContent = styled.article`
     padding: 1rem;
     width: 18.5rem;
   }
-  @media (min-width: 920px) {
-    margin: 2rem;
+  @media (min-width: 1024px) {
     padding: 1.5rem;
     position: absolute;
     right: 3.125rem;
     top: 2rem;
     width: 18.75rem;
+  }
+  @media (min-width: 1440px) {
+    top: 4.5rem;
   }
 `;
 
@@ -56,7 +59,7 @@ const HeroSubtitle = styled.h3`
   font-weight: bold;
   margin: 0.1rem;
 
-  @media (min-width: 920px) {
+  @media (min-width: 1024px) {
     font-size: 1.5rem;
   }
 `;
@@ -65,38 +68,92 @@ const HeroText = styled.p`
   font-size: 0.9rem;
   margin-bottom: 0;
 
-  @media (min-width: 920px) {
+  @media (min-width: 1024px) {
     font-size: 1.2rem;
   }
 `;
 
+
+const ImgContent = styled.div`
+  background: black;
+  border-radius: 0.313rem;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+  top: 3.5rem;
+  width: 10rem;
+  z-index: 1;
+
+  @media (min-width: 425px) {
+    top: 2rem;
+    width: 14rem;
+  }
+  @media (min-width: 1024px) {
+    position: absolute;
+    right: 5.125rem;
+  }
+  @media (min-width: 1440px) {
+    padding: 1.5rem;
+    top: 3rem;
+    width: 17rem;
+  }
+`;
+
+const Author = styled.img`
+  animation: ${fadeIn} 1.5s forwards ease-in-out;
+  
+  border-radius: 50%;
+  height: 9.375rem;
+  width: 9.375rem;
+
+  @media (min-width: 425px) {
+    height: 12.5rem;
+    width:  12.5rem;
+  }
+  @media (min-width: 1440px) {
+    height: 15.625rem;
+    width: 15.625rem;
+  }
+`;
+
 /**
- * Renders Hero Banner on Homepage
+ * Renders Hero Banner on Home & About pages
  * @function Hero
  * @param {string} image: path to image for the background
- * @param {object} siteText: site text in FR/EN language
+ * @param {object} siteText(optional): site text in FR/EN language
  * @returns {JSX}
  */
-const Hero = ( { image, siteText } ) => {
+const Hero = ( { image, siteText={} } ) => {
 
   const { theme } = useTheme()
-  const { title, subtitle1, subtitle2, subtitle3, slogan } = siteText.hero
+
+  const { title, subtitle1, subtitle2, subtitle3, slogan } = siteText.hero || []
 
   return (
-    <HeroContainer backImg={image} theme={theme}>
-      
-        <h1 className="sr-only">Mark Stevens - Welcome</h1>
-        <ReactSpinner />
-
-        <HeroContent theme={theme} >
-          <h2>{title}</h2>
-          <HeroSubtitle>{subtitle1}</HeroSubtitle>
-          <HeroSubtitle>{subtitle2}</HeroSubtitle>
-          <HeroSubtitle>{subtitle3}</HeroSubtitle>
-          <HeroText>{slogan}</HeroText>
-        </HeroContent>
-
-    </HeroContainer>
+    <>
+      {window.location.pathname !=='/about'? 
+        (
+          <HeroContainer backImg={image} theme={theme}>   
+            <ReactSpinner />
+              <HeroContent theme={theme} >
+                  <h2>{title}</h2>
+                  <HeroSubtitle>{subtitle1}</HeroSubtitle>
+                  <HeroSubtitle>{subtitle2}</HeroSubtitle>
+                  <HeroSubtitle>{subtitle3}</HeroSubtitle>
+                  <HeroText>{slogan}</HeroText> 
+              </HeroContent>
+          </HeroContainer> 
+        ) : 
+        (
+          <HeroContainer backImg={image} theme={theme}> 
+            <ImgContent theme={theme} >
+              <Author src={mark} alt="Mark stevens"/>
+            </ImgContent>
+          </HeroContainer>
+        )
+      }
+    </>
     )
 }
 
@@ -105,5 +162,7 @@ export default Hero
 // Prototypes
 Hero.propTypes = {
   image: PropTypes.string.isRequired,
-  siteText: PropTypes.object.isRequired,
+  siteText: PropTypes.object,
 }
+
+

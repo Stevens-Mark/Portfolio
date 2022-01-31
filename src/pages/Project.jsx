@@ -150,7 +150,7 @@ const Project = ( { siteData } ) => {
       <>
         {isError ? <Error siteText={siteData.siteText} /> :  
           <>     
-            <main>
+            <main role="main">
               <ProjectWrapper theme={theme}>  
                   <Heading>
                     <h1>{title}</h1>

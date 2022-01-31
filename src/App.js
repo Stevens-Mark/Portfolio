@@ -6,8 +6,8 @@ import dataEN from './assets/data/projectsDataEN.json'
 // import components
 import Header from './components/HeaderNav'
 import Home from './pages/Home'
-// import About from './pages/About'
-import Construction from './pages/Construction'
+import About from './pages/About'
+// import Construction from './pages/Construction'
 import Project from './pages/Project'
 import Error from './pages/Error'
 import Footer from './components/Footer'
@@ -28,7 +28,7 @@ const App = () => {
       <Header language={language} toggleLanguage={toggleLanguage} siteText={dataToLoad.siteText}/>   
         <Switch>
           <Route path="/" exact component={()=> <Home siteData={dataToLoad} />}/>
-          <Route path="/about" exact component={()=> <Construction siteText={dataToLoad.siteText} />} />
+          <Route path="/about" exact component={()=> <About siteText={dataToLoad.siteText} />} />
           <Route path="/project/:id" exact component={()=><Project siteData={dataToLoad} />} />
           <Route path="*" component={()=> <Error siteText={dataToLoad.siteText} />} />
         </Switch> 

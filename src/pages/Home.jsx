@@ -51,6 +51,7 @@ const Home = ( { siteData } ) => {
  
   return (
     <main role="main">
+      <h1 className="sr-only">Mark Stevens - Welcome</h1>
       <Hero image={heroImg} siteText={siteData.siteText}/>
 
       <PortFolioWrapper theme={theme}>
