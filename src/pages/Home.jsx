@@ -8,15 +8,17 @@ import { useTheme } from '../utils/Functions/theme'
 import Hero from '../components/Hero'
 import Card from '../components/Card'
 import GoToTop from '../utils/Functions/GoToTop'
-import heroImg from '../assets/images/banner4.jpg'
+import heroImg from '../assets/images/banner4.webp'
 
 /**
  * CSS for component using styled.components
  */
 const PortFolioWrapper = styled.section`
-  margin-top: .25rem;
+  // background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
+  background: ${({ theme }) => (theme === 'light' ? 'linear-gradient(45deg, rgba(19,154,154,1) 21%, rgba(51,204,204,1) 79%)' : 'linear-gradient(0deg, rgba(79,76,107,1) 0%, rgba(47,46,65,1) 48%)')};
+  margin-top: 0.25rem;
   padding: 1rem 0rem;
-  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
+
     @media screen and (min-width: 668px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);

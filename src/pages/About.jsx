@@ -5,11 +5,11 @@ import colors from '../utils/style/colors'
 // import fade-in keyframe
 // import { fadeIn } from '../utils/style/keyframes'
 // import components
-
-import aboutHero from '../assets/images/banner5.jpg'
+import Hero from '../components/Hero'
+import aboutHero from '../assets/images/banner5.webp'
 import DropDown from '../components/DropDown'
 import { dropDownList } from '../assets/data/aboutDropdownData.js'
-import Hero from '../components/Hero'
+
 
 /**
  * CSS for component using styled.components
@@ -56,9 +56,9 @@ const About = ( { siteText } ) => {
         
         
           </AboutBanner>     
-            {/* {dropDownList.map((data) => (
+            {dropDownList.map((data) => (
             <DropDown key={data.id} dropdownWidth='DropdownAboutPage' dropdownHeight='dropDownListAbout' dropdownColor='' title={data.title} content={data.content} />
-            ))}    */}
+            ))}   
       
       </main>
   )

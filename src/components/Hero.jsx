@@ -8,7 +8,7 @@ import { fadeIn, scaleRotate, yTranslate } from '../utils/style/keyframes'
 // import components
 import ReactSpinner from'../components/ReactSpinner'
 // import author's photograph
-import author from '../assets/images/mark.jpg'
+import author from '../assets/images/mark.webp'
 
 /**
  * CSS for the component using styled.components
@@ -31,7 +31,10 @@ const HeroContainer = styled.section`
 `;
 
 const HeroContent = styled.article`
-  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
+  // background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
+
+  background: ${({ theme }) => (theme === 'light' ? 'linear-gradient(200deg, rgba(19,154,154,1) 21%, rgba(51,204,204,1) 79%)' : 'linear-gradient(45deg, rgba(79,76,107,1) 0%, rgba(47,46,65,1) 48%)')};
+
   border-radius: 0.313rem;
   padding: 0.5rem;
   width: 13rem;
@@ -102,15 +105,18 @@ const AboutTitleWrappper = styled.div`
 
 const ImgWrapper = styled.div`
   background: ${colors.mainBackgroundDarkMode};
+  background: linear-gradient(-45deg, rgba(0,51,153,1) 0%, rgba(0,0,51,1) 70%);
   border-radius: 0.313rem;
   display: none;
   padding: 1rem;
   width: 10rem;
   z-index: 1;
+  
 
   @media (min-width: 500px) {
     animation: ${fadeIn} 1.5s forwards ease-in-out;
     display: block;
+    text-align: center;
     width: 14rem;
   }
   @media (min-width: 1024px) {
