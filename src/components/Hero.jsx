@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
-// import fade-in keyframe
-import { fadeIn } from '../utils/style/keyframes'
+// import keyframes for component animations
+import { fadeIn, scaleRotate, yTranslate } from '../utils/style/keyframes'
 // import components
 import ReactSpinner from'../components/ReactSpinner'
 // import author's photograph
@@ -68,8 +68,9 @@ const HeroText = styled.p`
   }
 `;
 
-// About Hero
+// About Hero Banner
 const AboutTitleWrappper = styled.div`
+  display: block;
   background: ${colors.mainBackgroundDarkMode};
   border-radius: 0.313rem;
   height: 6.25rem;;
@@ -78,11 +79,13 @@ const AboutTitleWrappper = styled.div`
   transform: scale(1) rotate(0deg);
   transition: transform 330ms ease-in-out;
   width: 6.25rem;
+  animation: ${scaleRotate} 380ms backwards ease-in-out 500ms;
 
   h2 {
+    animation: ${yTranslate} 330ms both ease-out 550ms;
     font-size: 2.5rem;
     text-align: center;
-    transform: translateY(0);
+    transform: translateY(-4px);
     transition: transform 280ms ease-out 50ms;
   }
 
@@ -91,6 +94,9 @@ const AboutTitleWrappper = styled.div`
     h2 {
       transform: translateY(250%);
     }
+  }
+  @media (min-width: 600px) {
+    display: none;
   }
 `;
 

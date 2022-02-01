@@ -1,7 +1,7 @@
 import { keyframes } from 'styled-components'
 
 /**
- * fade in component
+ * fade in components
  */
  export const fadeIn = keyframes`
    from { opacity: 0; }
@@ -14,6 +14,21 @@ import { keyframes } from 'styled-components'
 export const rotate = keyframes`
  from { transform: rotate(0deg); }
  to { transform: rotate(360deg); }
+`;
+
+/**
+ * Keyframes for about mobile heading
+ */
+export const scaleRotate = keyframes`
+  from { transform: scale(0) rotate(-90deg); }
+  to { transform: scale(1) rotate(0deg); }
+}
+`;
+
+export const yTranslate = keyframes`
+  from { transform: translateY(250%); }
+  to { transform: translateY(-4px); }
+}
 `;
 
 
@@ -78,22 +93,5 @@ export const roll = keyframes`
 `;
 
 
-export const scaleRotate = keyframes`
-  0% {
-    transform: scale(1) rotate(0deg);
-  }
-  100% {
-    transform: scale(0) rotate(-90deg);
-  }
-}
-`;
 
-export const yTranslate = keyframes`
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(250%);
-  }
-}
-`;
+
