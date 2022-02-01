@@ -1,5 +1,6 @@
 {
-	"siteText": {
+	"siteText": 
+	{
 		"header": {
 			"home": "Accueil",
 			"about": "A Propos"
@@ -14,6 +15,7 @@
 			"subtitle3": "Loyauté.",
 			"slogan": "Toujours prêt à apprendre !"
 		},
+		"about": "Moi",
 		"projectPage": {
 			"subheading1": "Fonctionnalités",
 			"subheading2": "Contraints",

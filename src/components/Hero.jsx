@@ -5,22 +5,24 @@ import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
-// hero banner background
-import heroImg from '../assets/images/banner4.jpg'
+// import components
 import ReactSpinner from'../components/ReactSpinner'
-import mark from '../assets/images/mark.jpg'
+// import author's photograph
+import author from '../assets/images/mark.jpg'
 
 /**
  * CSS for the component using styled.components
  */
 const HeroContainer = styled.section`
-  // background-image: url(${heroImg});
-  // background-repeat: no-repeat;
+  align-items: center;
   animation: ${fadeIn} 1s forwards ease-in-out;
   background-image: url(${({ backImg }) => backImg});
+  background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
   filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};
   height: 18.75rem;
+  justify-content: center;
   position: relative;
   
   @media (min-width: 1440px) {
@@ -31,10 +33,7 @@ const HeroContainer = styled.section`
 const HeroContent = styled.article`
   background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
   border-radius: 0.313rem;
-  margin: 0 auto;
   padding: 0.5rem;
-  position: relative;
-  top: 3rem;
   width: 13rem;
   z-index: 1;
 
@@ -46,11 +45,7 @@ const HeroContent = styled.article`
     padding: 1.5rem;
     position: absolute;
     right: 3.125rem;
-    top: 2rem;
     width: 18.75rem;
-  }
-  @media (min-width: 1440px) {
-    top: 4.5rem;
   }
 `;
 
@@ -73,47 +68,67 @@ const HeroText = styled.p`
   }
 `;
 
-
-const ImgContent = styled.div`
-  background: black;
+// About Hero
+const AboutTitleWrappper = styled.div`
+  background: ${colors.mainBackgroundDarkMode};
   border-radius: 0.313rem;
-  margin: 0 auto;
+  height: 6.25rem;;
+  overflow: hidden;
+  position: absolute;
+  transform: scale(1) rotate(0deg);
+  transition: transform 330ms ease-in-out;
+  width: 6.25rem;
+
+  h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 280ms ease-out 50ms;
+  }
+
+  @media (min-width: 500px) {
+    transform: scale(0) rotate(-90deg);
+    h2 {
+      transform: translateY(250%);
+    }
+  }
+`;
+
+const ImgWrapper = styled.div`
+  background: ${colors.mainBackgroundDarkMode};
+  border-radius: 0.313rem;
+  display: none;
   padding: 1rem;
-  position: relative;
-  text-align: center;
-  top: 3.5rem;
   width: 10rem;
   z-index: 1;
 
-  @media (min-width: 425px) {
-    top: 2rem;
+  @media (min-width: 500px) {
+    animation: ${fadeIn} 1.5s forwards ease-in-out;
+    display: block;
     width: 14rem;
   }
   @media (min-width: 1024px) {
     position: absolute;
-    right: 5.125rem;
+    right: 3.125rem;
   }
   @media (min-width: 1440px) {
     padding: 1.5rem;
-    top: 3rem;
-    width: 17rem;
+    width: 15rem;
   }
 `;
 
 const Author = styled.img`
-  animation: ${fadeIn} 1.5s forwards ease-in-out;
-  
   border-radius: 50%;
   height: 9.375rem;
   width: 9.375rem;
 
-  @media (min-width: 425px) {
+  @media (min-width: 500px) {
     height: 12.5rem;
     width:  12.5rem;
   }
   @media (min-width: 1440px) {
-    height: 15.625rem;
-    width: 15.625rem;
+    height: 13.75rem;
+    width: 13.75rem;
   }
 `;
 
@@ -121,13 +136,13 @@ const Author = styled.img`
  * Renders Hero Banner on Home & About pages
  * @function Hero
  * @param {string} image: path to image for the background
- * @param {object} siteText(optional): site text in FR/EN language
+ * @param {object} siteText(optional): site text for Home page Hero FR/EN 
+ * @param {string} about: text for About page hero 'mobile'  version heading FR/EN
  * @returns {JSX}
  */
-const Hero = ( { image, siteText={} } ) => {
+const Hero = ( { image, siteText={}, about={} } ) => {
 
   const { theme } = useTheme()
-
   const { title, subtitle1, subtitle2, subtitle3, slogan } = siteText.hero || []
 
   return (
@@ -147,9 +162,13 @@ const Hero = ( { image, siteText={} } ) => {
         ) : 
         (
           <HeroContainer backImg={image} theme={theme}> 
-            <ImgContent theme={theme} >
-              <Author src={mark} alt="Mark stevens"/>
-            </ImgContent>
+
+          <AboutTitleWrappper>
+            <h2>{about}</h2>
+            </AboutTitleWrappper>
+              <ImgWrapper theme={theme} >  
+                <Author src={author} alt="Author's photograph"/> 
+              </ImgWrapper>
           </HeroContainer>
         )
       }
@@ -163,6 +182,7 @@ export default Hero
 Hero.propTypes = {
   image: PropTypes.string.isRequired,
   siteText: PropTypes.object,
+  about: PropTypes.string,
 }
 
 

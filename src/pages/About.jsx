@@ -6,7 +6,7 @@ import colors from '../utils/style/colors'
 // import { fadeIn } from '../utils/style/keyframes'
 // import components
 
-import aboutHero from '../assets/images/banner2.jpg'
+import aboutHero from '../assets/images/banner5.jpg'
 import DropDown from '../components/DropDown'
 import { dropDownList } from '../assets/data/aboutDropdownData.js'
 import Hero from '../components/Hero'
@@ -49,7 +49,7 @@ const About = ( { siteText } ) => {
   return ( 
       <main role="main">
           <h1 className="sr-only">Mark Stevens - About</h1>
-          <Hero image={aboutHero} />
+          <Hero image={aboutHero} about={siteText.about}/>
        
                 
         <AboutBanner>

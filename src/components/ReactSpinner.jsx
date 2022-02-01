@@ -8,6 +8,8 @@ import { rotate } from '../utils/style/keyframes'
  */
 const SpinnerWrapper = styled.div`
   position: absolute;
+  top: 0;
+  left: 2.5rem;
 `;
 
 const LogoImg = styled.img`
