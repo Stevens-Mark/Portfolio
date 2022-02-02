@@ -9,6 +9,7 @@ import { fadeIn } from '../utils/style/keyframes'
 // import components
 import Hero from '../components/Hero'
 import ListCreate from '../components/ListCreate'
+import GoToTop from '../utils/Functions/GoToTop'
 import aboutHero from '../assets/images/banner5.webp'
 
 /**
@@ -109,6 +110,7 @@ const About = ( { aboutText } ) => {
 
         </Overview> 
     </AboutWrapper>  
+    <GoToTop />     {/* button to scroll go back to top */}
     </main>
   )
 }
