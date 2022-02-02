@@ -13,7 +13,7 @@ import author from '../assets/images/mark.webp'
 /**
  * CSS for the component using styled.components
  */
-const HeroContainer = styled.section`
+const HeroContainer = styled.div`
   align-items: center;
   animation: ${fadeIn} 1s forwards ease-in-out;
   background-image: url(${({ backImg }) => backImg});
@@ -158,7 +158,7 @@ const Hero = ( { image, siteText={}, about={} } ) => {
     <>
       {window.location.pathname !=='/about'? 
         (
-          <HeroContainer backImg={image} theme={theme}>   
+          <HeroContainer role="banner" backImg={image} theme={theme}>   
             <ReactSpinner />
               <HeroContent theme={theme} >
                   <h2>{title}</h2>
@@ -170,8 +170,7 @@ const Hero = ( { image, siteText={}, about={} } ) => {
           </HeroContainer> 
         ) : 
         (
-          <HeroContainer backImg={image} theme={theme}> 
-
+          <HeroContainer role="banner" backImg={image} theme={theme} > 
           <AboutTitleWrappper>
             <h2>{about}</h2>
             </AboutTitleWrappper>

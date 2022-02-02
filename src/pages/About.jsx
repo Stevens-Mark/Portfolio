@@ -22,7 +22,7 @@ const AboutWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin: auto;
-  min-height: 85vh;
+  min-height: calc(85vh - 27rem);
   margin-top: 0.25rem;
   padding: 1rem;
 `;
