@@ -137,4 +137,5 @@ export default Header
 Header.propTypes = {
   language: PropTypes.bool.isRequired,
   toggleLanguage: PropTypes.func.isRequired,
+  siteText: PropTypes.object.isRequired,
 }

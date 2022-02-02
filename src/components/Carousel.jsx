@@ -7,7 +7,7 @@ import { useTheme } from '../utils/Functions/theme'
 // import icons
 import previousArrow from '../assets/icons/chevron_back.svg'
 import nextArrow from '../assets/icons/chevron_forward.svg'
-import Blank from '../assets/images/blank.jpg'
+import Blank from '../assets/images/blank.webp'
 
 /**
  * CSS for the component using styled.components

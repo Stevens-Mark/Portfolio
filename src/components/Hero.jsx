@@ -175,7 +175,7 @@ const Hero = ( { image, siteText={}, about={} } ) => {
           <AboutTitleWrappper>
             <h2>{about}</h2>
             </AboutTitleWrappper>
-              <ImgWrapper theme={theme} >  
+              <ImgWrapper>  
                 <Author src={author} alt="Author's photograph"/> 
               </ImgWrapper>
           </HeroContainer>
