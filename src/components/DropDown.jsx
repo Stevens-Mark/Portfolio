@@ -4,21 +4,29 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
 // import icons
-import upArrow from '../assets/icons/up_arrow_white.svg'
-import downArrow from '../assets/icons/down_arrow_white.svg'
-// import Css as passed as parameters
-import '../utils/style/DropDown.css'
+import arrow from '../assets/icons/up_arrow_white.svg'
+// import keyframes for component animations
+import { slideIn } from '../utils/style/keyframes'
+import { css } from 'styled-components'
 
 /**
  * CSS for component using styled.components
  */
-const DropDownTitleBar = styled.div`
+
+const ListWrapper = styled.div`
+  max-width: 1023px;
+  width: 100%;
+`;
+
+const TitleBar = styled.div`
+  position: relative;
+  z-index: 2;
   margin-top: 1.25rem;
   display: flex;
   max-width: 1023px;
   justify-content: space-between;
   align-items: center;
-  background: ${props => props.color ? props.color : `${colors.primary}`};
+  background: ${colors.primary};
   height: 1.875rem;
   border-radius: 5px;
   cursor: pointer;
@@ -31,14 +39,15 @@ const DropDownTitleBar = styled.div`
     }
 `;
 
-const DropDownTitleBarText = styled.h2`
+const BarText = styled.h2`
   font-size: clamp(0.813rem, 1.6vw, 1.5rem);
   font-weight: 500;
 `;
 
-const DropdownArrow = styled.img`
+const Arrow = styled.img`
   width: 1rem;
-
+  transition: all 0.5s linear;
+  transform: ${({ open }) => open ? 'rotate(180deg)' : 'rotate(0)'};
   @media screen and (min-width: 660px) {
      width: 1.2rem;
   }
@@ -47,40 +56,75 @@ const DropdownArrow = styled.img`
     }
 `;
 
+const ContentWrapper = styled.div`
+  position: relative;
+  z-index: 1;
+  background: #F6F6F6;
+  color: #FF6060;
+  font-size: clamp(0.75rem, 1.6vw, 1.5rem);
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 0.75rem;
+  box-shadow: 0px 7px 12px 3px #d9d9d9;
+  margin: unset;
+  // opacity:0;
+  animation: ${({ open }) => open ? css`${slideIn} .7s both ease-in-out` : ''};
+`;
+
+const Text = styled.p`
+  animation: ${({ open }) => open ? css`${slideIn} .9s both ease-in-out` : ''};
+`;
+
 /**
 * Renders Dropdown lists on about page
 * @function DropDown
-* @param {string} dropdownWidth: sets width of dropdown depending on page
-* @param {string} dropdownHeight: sets height of dropdown depending on page
-* @param {string} barColor: sets color of dropdown 
 * @param {string} title: dropdown heading
 * @param {string/array} content: either text or list rendered in dropdown
 * @returns {JSX}
 */
-const DropDown = ( {dropdownWidth, dropdownHeight, dropdownColor, title, content } ) => {
+const DropDown = ( {  title, content } ) => {
 
   const [open, setOpen] = useState(false)
   const handleButtonClick = () => { setOpen(!open) }
   
   return (
-      <div className={dropdownWidth} /* ref={this.container} */>
-          <DropDownTitleBar color={dropdownColor} onClick={() =>handleButtonClick()}>
+      <ListWrapper>
 
-              <DropDownTitleBarText>{title}</DropDownTitleBarText>
+        <TitleBar onClick={() =>handleButtonClick()}>
+            <BarText>{title}</BarText>
+            <Arrow open={open} src={arrow} alt="" />
+        </TitleBar>
 
-              <span>{open ? (<DropdownArrow src={upArrow} alt="" />) : 
-                  (<DropdownArrow src={downArrow} alt="" />)}
-              </span>
-          </DropDownTitleBar>
+          { open && (typeof(content) === 'string' ? 
+            (
+              <ContentWrapper open={open}>
+                <Text open={open}>{content}</Text>
+              </ContentWrapper>
+            ) :
+            ( <ContentWrapper open={open}>
+                <ul>
+                  {content.map((equipment, index) => (
+                    <li key={`${equipment}-${index}`}>{equipment}</li> ))}
+                </ul>
+              </ContentWrapper>
+            ))
+          }     
 
-          {open && (typeof(content) === 'string' ? (
-          <p className={dropdownHeight}>{content}</p>) :  
-          ( <ul className={dropdownHeight}>
-              {content.map((equipment, index) => (
-                <li key={`${equipment}-${index}`}>{equipment}</li> ))}
-            </ul>
-          ))}                     
-      </div>
+                {/* { open && (typeof(content) === 'string' ? 
+            (
+              <ContentWrapper open={open}>
+                <Text>{content}</Text>
+              </ContentWrapper>
+            ) :
+            ( <ContentWrapper open={open}>
+                <ul>
+                  {content.map((equipment, index) => (
+                    <li key={`${equipment}-${index}`}>{equipment}</li> ))}
+                </ul>
+              </ContentWrapper>
+            ))
+          }                     */}
+      </ListWrapper>
   )
 }
 
@@ -88,9 +132,6 @@ export default DropDown
 
 // Prototypes
 DropDown.propTypes = {
-  dropdownWidth: PropTypes.string.isRequired,
-  dropdownHeight: PropTypes.string.isRequired,
-  barColor: PropTypes.string,
   title: PropTypes.string.isRequired,
   content: PropTypes.oneOfType([
     PropTypes.string,

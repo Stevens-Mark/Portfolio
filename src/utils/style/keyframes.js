@@ -1,13 +1,18 @@
 import { keyframes } from 'styled-components'
 
 /**
- * fade in components
+ * fadein/out 
  */
  export const fadeIn = keyframes`
    from { opacity: 0; }
    to   { opacity: 1; }
  `;
  
+ export const fadeOut = keyframes`
+ from { opacity: 1; }
+ to   { opacity: 0; }
+`;
+
 /**
  * Keyframe for spinning components
  */
@@ -31,15 +36,17 @@ export const yTranslate = keyframes`
 }
 `;
 
+export const slideIn = keyframes`
+  0% { opacity: 0; transform: translateY(-100px);}
+  60% { opacity: 0; }
+  100%  { opacity: 1; transform: translateY(-10px); } 
+`;
 
-
-// export const slideIn = keyframes`
-//   10% { opacity: 0; transform: translateY(-100px); }
-
-//   // 75% { opacity: 0; }
-
-//   100%  { opacity: 1; transform: translateY(0px); } 
-// `;
+export const slideOut = keyframes`
+  0% { opacity: 1; transform: translateY(-10px); }
+  // 60% { opacity: 0; }
+  100%  { opacity: 0; transform: translateY(-100px); } 
+`;
 
 // .element {
 //   display: inline-block;

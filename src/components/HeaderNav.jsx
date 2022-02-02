@@ -33,7 +33,7 @@ const HEADER = styled.header`
   right: 0;
   top: ${({ position }) => position};
   transition: top 0.6s;
-  z-index: 1;
+  z-index: 999;
 
   @media screen and (min-width: 600px) {
     height: 4rem;

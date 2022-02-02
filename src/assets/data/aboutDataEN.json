@@ -1,0 +1,27 @@
+{
+	"about": "Me",
+	"subheading1": "Who am I ?",
+	"description": "If you haven't guessed already, My name is Mark and I am English.\n\n In 2017, my wife and I returned to France after many years in Asia. Since then, I have done different training courses to learn French and now I am ready for something new.\n\n Although it has been many years, I studied system analysis and design, interface design and programming as part of my degree. Thus, I already have some programming experience and can easily learn new software. I also like the visual and functional aspects of frontend development.\n\n Also, in my free time and for my work, I can easily stay in front of the computer for several hours (without any problem).\n\n For this reason, automatically I thought of a new career in the domain of web development.\n\n It was during my research that I found Openclassrooms who offer online courses in web development. Since then I have spent several months, following their frontend development course learing HTML, CSS , JavaScript and React for example. \n\n Thus, I can see that I have the skills and motivation for this domain and would very much like to develop this into a career.\n\n “What did I do previously?” you might ask…\n\n Well…\n\n For sixteen years I was a Dive Centre and Nautical Base Manager in various four and five star hotels in the Maldives.\n\n I was responsible for all logistics, human resources, planning of team activities and maintenance of equipment. I was also responsible for the creation and distribution of the different advertising for the activities that were offered. \n\n Previously, I also taught people to dive, applying my passion for the sport, reacting quickly to ever changing circumstances, whilst providing safety as well as fun. \n\nI can deal with people from all different backgrounds and ages, which means that I am sensitive to peoples’ needs and worries, whilst listening and finding solutions…",
+	"subheading2": "My Motivations",
+	"motivations": [
+		"I like learn new skills, working alone, leading a team or being a part of a team.",
+		"I like solving problems and overcoming challenges.",
+		"I get great satisfaction when I meet the deadline, the goals or targets, especially when the project is difficult.",
+		"I also enjoy helping others."
+	],
+	"subheading3": "The Future",
+	"future": [
+		"I would like to find a company where I can develop my frontend development skills.",
+		"I would like to put into practice what I’ve already learnt, as can be seen from the ‘real world’ projects I have already completed during my training.",
+		"As there are so many areas in the development field, who knows, I want to learn new programming languages, frameworks and technologies.",
+		"“The world is my oyster” as the saying goes…"
+	],
+	"subheading4": "Skills",
+	"skills": [
+		"Good interpersonal skills, ability to listen, autonomous.",
+		"Ease of adaptability to new environments and to a variety of audiences.",
+		"Respect for ethics and hierarchy.",
+		"Ability to work in a team.",
+		"Loyal, reliable, flexible and always ready to learn are some of my qualities."
+	]
+}

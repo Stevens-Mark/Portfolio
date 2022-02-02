@@ -31,10 +31,7 @@ const HeroContainer = styled.section`
 `;
 
 const HeroContent = styled.article`
-  // background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
-
-  background: ${({ theme }) => (theme === 'light' ? 'linear-gradient(200deg, rgba(19,154,154,1) 21%, rgba(51,204,204,1) 79%)' : 'linear-gradient(45deg, rgba(79,76,107,1) 0%, rgba(47,46,65,1) 48%)')};
-
+  background: ${({ theme }) => (theme === 'light' ? 'linear-gradient(200deg, rgba(148,191,224,1) 0%, rgba(51,204,204,1) 42%);' : 'linear-gradient(45deg, rgba(79,76,107,1) 0%, rgba(47,46,65,1) 48%)')};
   border-radius: 0.313rem;
   padding: 0.5rem;
   width: 13rem;

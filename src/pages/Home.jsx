@@ -16,6 +16,8 @@ import heroImg from '../assets/images/banner4.webp'
 const PortFolioWrapper = styled.section`
   // background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
   background: ${({ theme }) => (theme === 'light' ? 'linear-gradient(45deg, rgba(19,154,154,1) 21%, rgba(51,204,204,1) 79%)' : 'linear-gradient(0deg, rgba(79,76,107,1) 0%, rgba(47,46,65,1) 48%)')};
+
+  background: ${({ theme }) => (theme === 'light' ? 'linear-gradient(45deg, rgba(148,191,224,1) 0%, rgba(51,204,204,1) 42%);' : 'linear-gradient(0deg, rgba(79,76,107,1) 0%, rgba(47,46,65,1) 48%)')};
   margin-top: 0.25rem;
   padding: 1rem 0rem;
 

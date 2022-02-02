@@ -3,6 +3,8 @@ import { useState } from 'react'
 // import projects data depending on language
 import dataFR from './assets/data/projectsDataFR.json'
 import dataEN from './assets/data/projectsDataEN.json'
+import aboutDataEN from './assets/data/aboutDataEN.json'
+import aboutDataFR from './assets/data/aboutDataFR.json'
 // import components
 import Header from './components/HeaderNav'
 import Home from './pages/Home'
@@ -22,13 +24,14 @@ const App = () => {
 
   const [language, toggleLanguage] = useState(true)
   const dataToLoad = language? dataFR : dataEN
-  
+  const aboutToLoad = language? aboutDataFR : aboutDataEN
+
   return (
     <Router>
       <Header language={language} toggleLanguage={toggleLanguage} siteText={dataToLoad.siteText}/>   
         <Switch>
           <Route path="/" exact component={()=> <Home siteData={dataToLoad} />}/>
-          <Route path="/about" exact component={()=> <About siteText={dataToLoad.siteText} />} />
+          <Route path="/about" exact component={()=> <About aboutText={aboutToLoad} />} />
           <Route path="/project/:id" exact component={()=><Project siteData={dataToLoad} />} />
           <Route path="*" component={()=> <Error siteText={dataToLoad.siteText} />} />
         </Switch> 

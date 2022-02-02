@@ -27,7 +27,7 @@ const LoadingWrapper = styled.div`
 
 const ProjectWrapper = styled.div`
   animation: ${fadeIn} 1s both ease-in-out;
-  background: ${({ theme }) => (theme === 'light' ? `${colors.primary}` : `${colors.mainBackgroundDarkMode}`)};
+  background: ${({ theme }) => (theme === 'light' ? 'linear-gradient(45deg, rgba(148,191,224,1) 0%, rgba(51,204,204,1) 42%);' : 'linear-gradient(0deg, rgba(79,76,107,1) 0%, rgba(47,46,65,1) 48%)')};
   color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
   display: flex;
   flex-direction: column;
@@ -85,7 +85,6 @@ const Texte = styled.div`
     color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
     margin: 0.625rem 0rem;
-
     white-space: pre-line;             // used with \n\n in JSON to format text on the page.
   }
   p {
@@ -93,7 +92,6 @@ const Texte = styled.div`
     // text-justify: inter-word;
   }
 `;
-
 
 const Details = styled.div`
   display: flex;
