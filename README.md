@@ -14,7 +14,7 @@ The main page is laid out in a grid, with individual cards giving a summary of e
 
 ## Additional
 The site can be viewed in either French or English. As I am an English native speaker, with only a reasonable level of French, I realise that there will be errors in my French grammar (although every French person tells me that even the French have this problem...). I know I could have used a framework like `I18next` to build the multi language support, but I wanted to find a solution myself without using a framework. 
-And finally, there is a night mode button (bottom of the screen) to change to a night settting if preferred.  
+And finally, the cards can be sorted by date and there is a night mode button (bottom of the screen) to change to a night settting if preferred.  
 
 ## Skills
 - [x] Developing a web application to showcase my development work
@@ -72,7 +72,7 @@ La page principale est présentée sous forme de grille, avec des cartes individ
 
 ## Supplémentaire
 Le site peut être consulté en français ou en anglais. Comme je suis de langue maternelle anglaise, avec seulement un niveau raisonnable de français, je réalise qu'il y aura des erreurs dans ma grammaire française (bien que chaque personne française me dise que même les Français ont ce problème...). Je sais que j'aurais pu utiliser un framework comme `I18next` pour construire le support multi-langue, mais je voulais trouver une solution moi-même sans utiliser un framework. 
-Enfin, il y a un bouton mode nuit (en bas de l'écran) pour passer à un réglage de nuit si vous préférez. 
+Enfin, les cartes peuvent être triées par date et il y a un bouton mode nuit (en bas de l'écran) pour passer à un réglage de nuit si vous préférez. 
 
 
 ## Compétences

@@ -39,15 +39,15 @@ const PortFolioWrapper = styled.section`
 const Sort = styled.button`
   background: transparent;
   border: none;
-  margin-top: 0.5rem;
   cursor: pointer;
+  margin-top: 0.5rem;
   position: absolute;
   right: 1rem;
   top: 0;
 
   img {
-    width: 25px;
     filter: ${({ theme }) => (theme === 'light' ? '' : 'invert(65%) sepia(100%) saturate(341%) hue-rotate(127deg) brightness(91%) contrast(83%);')};
+    width: 1.563rem;
   }
 `;
 
@@ -81,8 +81,8 @@ const Home = ( { siteData } ) => {
       <Hero image={heroImg} siteText={siteData.siteText}/>
 
       <PortFolioWrapper theme={theme}>                    {/* ascending/descending order button */}
-        <Sort theme={theme} aria-label="Filter by date"
-              onClick={() => HandleSort()}>{  desc? <img src={DESC} alt=''/> : <img src={ASC} alt=''/> }</Sort>
+        <Sort theme={theme} aria-label="Sort by date"
+              onClick={() => HandleSort()}>{desc? <img src={DESC} alt='descending'/> : <img src={ASC} alt='ascending'/>}</Sort>
 
           <h2 className="sr-only">Portfolio</h2>
             {data.map((project) => ( 
