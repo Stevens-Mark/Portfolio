@@ -111,7 +111,7 @@
 				"Il y a fournis deux maquettes : l’un desktop et l’autre mobile.", 
 				"Aucun élément ne doit être coupé et le texte est de taille suffisante.", 
 				"Choisir les breakpoints appropriés.",
-				"N’utilise pas de Framework ou pré-compilateur CSS pour ce projet (comme SASS par exemple).",
+				"N’utiliser pas de Framework ou pré-compilateur CSS pour ce projet (comme SASS par exemple).",
 				"L'utilisation de Visual studio est recommandé.",
 				"Intégrer les icônes Font Awesome en HTML ou CSS.",
 				"Utiliser Flexbox ou  CSS Grid.",
@@ -314,14 +314,14 @@
 				"../images/projects/petitsplats/petits_4.webp"
 			],
 			"goal": "Développer deux algorithmes de recherche pour la fonctionnalité de recherche (recherches primaires et secondaires). Tester et mettre en œuvre les algorithmes les plus efficaces.",
-			"description":"Après avoir édité des livres de cuisine pendant plusieurs années, l’entreprise a décidé de se lancer dans un nouveau projet : réaliser son propre site de recettes de cuisine à l’instar de Marmiton ou 750g.\n\n Comme il existe de nombreux sites proposant des recettes de cuisine, on pense qu'un des éléments qui peut faire la différence sur leur site est la fluidité du moteur de recherche. De plus, l'entreprise veut avant tout quelque chose d'efficace, car ses utilisateurs veulent une recherche rapide, presque instantanée !\n\n Un fichier JavaScript contenant un tableau JSON de 50 recettes a été fourni pour développer le projet et la première mission est d'implémenter la fonctionnalité de recherche.",
+			"description":"Après avoir édité des livres de cuisine pendant plusieurs années, l’entreprise a décidé de se lancer dans un nouveau projet : réaliser son propre site de recettes de cuisine à l’instar de Marmiton ou 750g.\n\n Comme il existe de nombreux sites proposant des recettes de cuisine, on pense qu'un des éléments qui peut faire la différence sur leur site est la fluidité du moteur de recherche. De plus, l'entreprise veut avant tout quelque chose d'efficace, car ses utilisateurs veulent une recherche rapide, presque instantanée !\n\n Un fichier JavaScript contenant un tableau JSON de 50 recettes a été fourni pour développer le projet et la première tâche consiste à mettre en œuvre la fonctionnalité de recherche.",
 			"functionality": [
 				"La recherche doit pouvoir se faire via le champ principal ou via les tags (ingrédients, ustensiles ou appareil).",
 				"La recherche principale se lance à partir de 3 caractères entrés par l’utilisateur dans la barre de recherche.",
 				"La recherche s’actualise pour chaque nouveau caractère entré.",
 				"La recherche principale affiche les premiers résultats le plus rapidement possible.",
 				"Les champs de la recherche avancée ne suggèrent que les éléments restant dans les recettes de la page.",
-				"Les retours de recherche doivent être une intersection des résultats.\n (L'ajoute les tags “coco” et “chocolat” ne permet de retrouver que les recettes qui contiennent les deux)."
+				"Les retours de recherche doivent être une intersection des résultats.\n (l'ajoute les tags “coco” et “chocolat” ne permet de retrouver que les recettes qui contiennent les deux)."
 			],
 			"constraints": [
 				"Maquettes fournies.",
@@ -330,9 +330,9 @@
 				"Utiliser Bootstrap 4 est recommandée.",
 				"Rédiger deux algorithmes de recherche pour le champ de recherche principal.",
 				"Remplir un document d'investigation des fonctionnalités décrivant les deux algorithmes.",
-				"Faites un diagramme pour chaque algorithme afin que les étapes de chaque algorithme soient claires.",
+				"Faire un diagramme pour chaque algorithme afin que les étapes de chaque algorithme soient claires.",
 				"Tester leurs performances à l'aide d'un outil d'évaluation comparative (Jsben.ch?).",
-				"Ne teste que la recherche principale (pas besoin d'utiliser de filtres)."
+				"Ne tester que la recherche principale (pas besoin d'utiliser de filtres)."
 			],
 			"notes":"",
 			"skills": [
@@ -417,7 +417,7 @@
 				"../images/projects/learnathome/learn_6.webp"
 			],
 			"goal": "Définir clairement les besoins du client. Créez les diagrammes de cas d'utilisation et les user stories avec les critères d'acceptation pour chaque fonctionnalité. Maquettes du site (Figma ou Sketch) avec un Kanban décomposant le projet.",
-			"description":"Learn@Home est une association qui met en relation des enfants ayant des difficultés d'apprentissage et des bénévoles, en ligne. Leur objectif est de permettre à tout élève, où qu'il se trouve, d'accéder à un soutien scolaire à distance. Chaque élève inscrit sur le site a un tuteur bénévole qui lui est attribué. L'objectif du bénévole est de soutenir l'étudiant dans son apprentissage grâce à courts rendez-vous programmés chaque semaine. Au cours de ces rendez-vous, le bénévole aide l'élève à faire ses devoirs et à s'organiser.\n\n Pour faciliter l'interaction et la communication, Learn@Home souhaite créer un nouveau site web. Avant de commencer le développement du logiciel pur, la première étape consiste à définir clairement ses besoins, en fournissant des diagrammes de cas d'utilisation pour chacune des principales fonctionnalités de chaque page, des histoires d'utilisateurs avec des critères d'acceptation pour chaque fonctionnalité et des maquettes du site (Figma ou Sketch).",
+			"description":"Learn@Home est une association qui met en relation des enfants ayant des difficultés d'apprentissage et des bénévoles, en ligne. Leur objectif est de permettre à tout élève, où qu'il se trouve, d'accéder à un soutien scolaire à distance. Chaque élève inscrit sur le site a un tuteur bénévole qui lui est attribué.  L'objectif du volontaire est de soutenir l'apprentissage de l'élève par le biais de courts rendez-vous programmés chaque semaine. Au cours de ces rendez-vous, le bénévole aide l'élève à faire ses devoirs et à s'organiser.\n\n Pour faciliter l'interaction et la communication, Learn@Home souhaite créer un nouveau site web. Avant de commencer le développement du logiciel pur, la première étape consiste à définir clairement ses besoins, en fournissant des diagrammes de cas d'utilisation pour chacune des principales fonctionnalités de chaque page, des histoires d'utilisateurs avec des critères d'acceptation pour chaque fonctionnalité et des maquettes du site (Figma ou Sketch).",
 			"functionality": [
 				"Une page de connexion pour permettre à un étudiant ou à un volontaire de se connecter.",
 				"Un système permettant de récupérer un mot de passe oublié.",
@@ -476,7 +476,7 @@
 			"functionality": [
 				"Une page d’accueil avec une section contenant tous les logements sous forme de carte.",
 				"En cliquant sur une carte, l'utilisateur est redirigé vers le logement.",
-				"Une page À propos avec 4 menus déroulants décrivant les valeurs de l'entreprise.",
+				"Une page “À propos” avec 4 menus déroulants décrivant les valeurs de l'entreprise.",
 				"Un carrousel de photos présentant le logement.",
 				"Le classement par étoiles d'un hôte.",
 				"Deux menus déroulants décrivant le logement et fournissant une liste d'équipements disponibles.",
@@ -532,7 +532,7 @@
 				"Un menu de navigation vertical pour permettre la navigation entre les futurs blocs de navigation.",
 				"L'affichage de l'activité quotidienne (poids et calories brûlées), sous la forme d'un Barchart. Un tooltip apparaît au survol.",
 				"L'affichage de la durée moyenne des sessions sous la forme d'un LineChart. Un tooltip apparaît au survol.",
-				"L'affichage des informations concernant la complétion de l'objectif journalier (score moyen) sous la forme d'un RadialBarChart.",
+				"L'affichage des informations concernant la réalisation de l'objectif journalier (score moyen) sous la forme d'un RadialBarChart.",
 				"L'affichage des types d’activités réalisées sous la forme d'un RadarChart.",
 				"L'affichage des informations concernant les calories, protéines, glucides et lipides de la journée sous forme de card."
 			],
@@ -599,11 +599,11 @@
 			"constraints": [
 				"Développer l'application en React.",
 				"Utiliser le HTML statique et le CSS fournis.",
-				"Utilisez Redux pour gérer l'état de l'ensemble de l'application.",
+				"Utiliser Redux pour gérer l'état de l'ensemble de l'application.",
 				"Ne pas implémenter la page des transactions.",
 				"Les ingénieurs Back-end ont déjà créé toutes les APIs nécessaires.",
 				"Fournir un document Swagger décrivant les API de transaction proposées.",
-				"Suivez les directives Swagger.",
+				"Suivre les directives Swagger.",
 				"Spécifier les Endpoints de l'API (méthode HTTP, route, description, paramètres, ...)."
 			],
 			"notes":"Les transactions sont encore en phase de conception.\n\nLe lien vers le site web donne accès aux pages d'accueil et de connexion uniquement. Pour voir le projet dans son intégralité, veuillez-vous rendre sur le repo du projet et suivre attentivement les instructions d'installation.",
