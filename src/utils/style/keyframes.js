@@ -8,7 +8,7 @@ import { keyframes } from 'styled-components'
    to   { opacity: 1; }
  `;
  
- export const fadeOut = keyframes`
+export const fadeOut = keyframes`
  from { opacity: 1; }
  to   { opacity: 0; }
 `;
@@ -27,13 +27,11 @@ export const rotate = keyframes`
 export const scaleRotate = keyframes`
   from { transform: scale(0) rotate(-90deg); }
   to { transform: scale(1) rotate(0deg); }
-}
 `;
 
 export const yTranslate = keyframes`
   from { transform: translateY(250%); }
   to { transform: translateY(-4px); }
-}
 `;
 
 
