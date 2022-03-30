@@ -105,7 +105,7 @@
 				"The search field is an input field, however, at this point the search button will not be functional.", 
 				"Each accommodation or activity card will need to be clickable in its entirety. For now the links will be empty.", 
 				"Filters will not be functional for this version, however, they should change appearance on hover.",
-				"In the menu, the Accommodation and Activities links are anchors that should lead to sections of the page."
+				"In the menu, the “Accommodation”  and “Activités” links are anchors that should lead to sections of the page."
 			],
 			"constraints": [
 				"There are provided two mockups: one desktop and one mobile.", 
@@ -629,6 +629,66 @@
 				],
 			"website": "https://stevens-mark.github.io/StevensMark_P13_02122021/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
+		},
+		{
+			"id": "wealthhealth",
+			"title": "Wealth Health",
+			"date": "2022-03-29",
+			"cover": "images/projects/wealthhealth/003_current.webp",
+			"objective": "Switch a jQuery library into React",
+			"summary": "Wealth Health is a large financial company who uses an internal web application, called HRnet that manages employee records. The application is old and uses jQuery on the front end, which leads to considerable bugs and increased internal complaints.",
+			"pictures": [
+				"../images/projects/wealthhealth/001_create.webp",
+				"../images/projects/wealthhealth/002_createnight.webp",
+				"../images/projects/wealthhealth/003_current.webp",
+				"../images/projects/wealthhealth/004_currentnight.webp",
+				"../images/projects/wealthhealth/005_modal.webp",
+				"../images/projects/wealthhealth/006_report_one.webp",
+				"../images/projects/wealthhealth/007_report_two.webp"
+			],
+			"goal": "Convert the entire HRNet project to React. Convert one of the four current jQuery plugins to React. Replace the 3 remaining jQuery plugins with React components. Perform Lighthouse performance tests comparing the old and new application.",
+			"description":"Wealth Health is a large financial company who uses an internal web application, called HRnet, that manages employee records. The application is old and uses jQuery on the front end, which leads to considerable bugs and increased internal complaints. The biggest issues being the date pickers, modal windows, drop down menus and tables. Several complaints that the jQuery plugins are very slow have been received. \n\n The company wants to create their own React components instead of these third-party jQuery plugins that are used in the user interface and hope that converting these jQuery plugins into React components will improve the performance and stability. For the first part of the conversion process, the developer must pick ONE of the four jQuery plugins and convert it to a React component.",
+			"functionality": [
+				"New version of the “Create Employee” and  “Employee List” pages using React.",
+				"The application UI has been redesigned with a consistent style.",
+				"Better UI experience following accessibility guidelines.",
+				"Basic user input validation with warning messages.",
+				"Input control to avoid user input errors.",
+				"Table search, pagnation, navigation & sort features included (as before).",
+				"Keyboard navigation possible.",
+				"Night mode."
+			],
+			"constraints": [
+				"Convert the entire HRNet project to React.",
+				"Follow a functional programming paradigm when writing these libraries in React.",
+				"Avoid using classes when converting the old application.",
+				"Write smaller, modular pieces of code and standalone functions for optimal modularity and maintainability.",
+				"Convert 1 of the 4 jQuery plugins into React, replacing the 3 remaining jQuery plugins with React components.",
+				"Document the converted React component with a general description of what the component does and comments explaining what each accessory is for and how it is used.",
+				"Once the React version of HRnet works, publish the React component to npm as a package.",
+				"Perform Lighthouse performance tests comparing the old and new application.",
+				"If time, test the React code with a unit test suite. Otherwise, only manual tests are needed."
+			],
+			"notes":"I have made multiple versions of this project, using either localstorage, FireBase or MongoDB as the backend for the data storage. These are all available in the Git Repo under the branch names: main, db, firebase & usversion. The demo version uses localstorage.",
+			"skills": [
+				"Redesign an application to reduce technical debt.",
+				"Analyze the performance of a web application.",
+				"Deploy a front-end application.",
+				"Programming in JavaScript with functional programming."
+			],
+			"tags": [
+				"React",
+				"FireBase",
+				"MongoDB"
+			],
+			"techIcons": [
+				"react",
+				"firebase",
+				"mongodb",
+				"tables"
+				],
+			"website": "https://wealthhealth.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/StevensMark_P14_04022022"
 		}
 	]
 }

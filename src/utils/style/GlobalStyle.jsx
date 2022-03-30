@@ -14,7 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: ${({ isDarkMode }) => (isDarkMode ? `${colors.darkModeHighlights}` : `${colors.tertiary}`)};
   box-sizing: border-box;
-  color: ${colors.tertiary};
+  color: ${colors.secondary};
   font-family: 'comfortaa', 'Montserrat', sans-serif;
   margin: auto;
   max-width: 1920px;

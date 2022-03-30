@@ -73,5 +73,17 @@ export const techIconList =
 
 			{ "id": "usecase", 
 				"path": "../images/techIcons/usecase.svg",
-				"alt": "Use Case Diagram" }
+				"alt": "Use Case Diagram" },
+
+			{ "id": "firebase", 
+				"path": "../images/techIcons/firebase.svg",
+				"alt": "FireBase" },
+			
+			{ "id": "mongodb", 
+				"path": "../images/techIcons/mongodb.svg",
+				"alt": "MongoDB" },
+
+			{ "id": "tables", 
+				"path": "../images/techIcons/tables.svg",
+				"alt": "React Tables" }	
 	]

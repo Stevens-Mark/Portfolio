@@ -12,7 +12,6 @@ import LoadingIcon from '../utils/Loaders/MiniLoadingIcon'
 import Links from '../components/Links'
 import Carousel from '../components/Carousel'
 import TechIcons from '../components/TechTags'
-import GoToTop from '../utils/Functions/GoToTop'
 import ListCreate from '../components/ListCreate'
 import Error from './Error'
 
@@ -195,8 +194,7 @@ const Project = ( { siteData } ) => {
                     </Texte>
                   : null 
                   }            
-              </ProjectWrapper>  
-              <GoToTop />                 
+              </ProjectWrapper>                
             </main>   
           </>
           }
