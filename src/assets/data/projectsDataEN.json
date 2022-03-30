@@ -638,6 +638,7 @@
 			"objective": "Switch a jQuery library into React",
 			"summary": "Wealth Health is a large financial company who uses an internal web application, called HRnet that manages employee records. The application is old and uses jQuery on the front end, which leads to considerable bugs and increased internal complaints.",
 			"pictures": [
+				"../images/projects/wealthhealth/wealth.webp",
 				"../images/projects/wealthhealth/001_create.webp",
 				"../images/projects/wealthhealth/002_createnight.webp",
 				"../images/projects/wealthhealth/003_current.webp",
