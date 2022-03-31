@@ -35,7 +35,7 @@
 	"projects": [
 		{
 			"id": "portfolio",
-			"date": "2022-01-30",
+			"date": "2022-03-31",
 			"title": "Portfolio",
 			"cover": "images/projects/portfolio/project_portfolio.webp",
 			"objective": "Création d'un site web de portfolio",
@@ -575,7 +575,7 @@
 			"date": "2021-12-02",
 			"cover": "images/projects/argentbank/project_argentbank.webp",
 			"objective": "Utilisation d'une API pour un compte bancaire",
-			"summary": "Argent Bank est une nouvelle banque qui tente de percer dans le secteur et a besoin d'aide pour mettre en place son application. Le contrat en deux parties est décomposé en plusieurs phases.",
+			"summary": "Argent Bank est une nouvelle banque qui tente de percer dans le secteur et a besoin d'aide pour mettre en place son application. Le contrat en deux parties est décomposé en plusieurs phases...",
 			"pictures": [
 				"../images/projects/argentbank/bankLogo.webp",
 				"../images/projects/argentbank/project_argentbank.webp",
@@ -628,12 +628,12 @@
 			"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
 		},
 		{
-			"id": "wealthhealth",
-			"title": "Wealth Health",
+			"id": "wealthhealthhrnet",
+			"title": "Wealth Health (HRnet)",
 			"date": "2022-03-29",
 			"cover": "images/projects/wealthhealth/003_current.webp",
 			"objective": "Faites passer une librairie jQuery vers React",
-			"summary": "Wealth Health est une grande société financière qui utilise une application web interne, appelée HRnet, pour gérer les dossiers des employés. L'application est ancienne et utilise jQuery sur le front-end, ce qui entraîne des bogues considérables et une augmentation des plaintes internes.",
+			"summary": "Wealth Health est une grande société financière qui utilise une application web interne, appelée HRnet, pour gérer les dossiers des employés. L'application est ancienne et utilise jQuery sur le front-end, ce qui entraîne des bogues considérables.",
 			"pictures": [
 				"../images/projects/wealthhealth/wealth.webp",
 				"../images/projects/wealthhealth/001_create.webp",
@@ -687,6 +687,63 @@
 				],
 			"website": "https://wealthhealth.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P14_04022022"
+		},
+		{
+			"id": "wealthhealthplug",
+			"title": "Wealth Health (Plug-in)",
+			"date": "2022-03-29",
+			"cover": "images/projects/wealthplugin/002_modal_userdefined.webp",
+			"objective": "Créer un package NPM",
+			"summary": "La direction de Wealth Health espère que la conversion des plugins jQuery de tiers en composants React améliorera les performances et la stabilité.",
+			"pictures": [
+				"../images/projects/wealthplugin/wealth.webp",
+				"../images/projects/wealthplugin/005_npm_package.webp",
+				"../images/projects/wealthplugin/004_npm package code.webp",
+				"../images/projects/wealthplugin/001_modal_default.webp",
+				"../images/projects/wealthplugin/002_modal_userdefined.webp",
+				"../images/projects/wealthplugin/003_modal_userdefined_night.webp"
+
+			],
+			"goal": "Créer un composant React modal auquel vous pouvez appliquer un style personnalisé, puis publier le composant React sur npm en tant que paquet.",
+			"description":"Comme indiqué dans le brief de la direction de Wealth Health, il est prévu que la conversion des plugins jQuery tiers en composants React améliorera les performances et la stabilité. \n\n Les plus gros problèmes pour les utilisateurs de HRnet sont les sélecteurs de date, les fenêtres modales, les menus déroulants et les tableaux. Tous les appels réseau et les manipulations DOM, nécessaires pour les plugins jQuery, se combinent pour ralentir le système. Plusieurs plaintes concernant ces plugins jQuery ont été reçues et la direction pense qu'il sera préférable d'avoir ses propres composants React pour avoir plus de contrôle sur l'application. \n\n Par exemple, la boîte de dialogue modale utilisée à présent pour confirmer la création de nouveaux enregistrements d'employés ne correspond pas au design que les concepteurs souhaitent utiliser. De plus, le plugin est très incompatible avec l'application de styles personnalisés, il faut donc créer un composant React auquel un style personnalisé peut être appliqué, puis publier le composant React sur npm en tant que package",
+			"functionality": [
+				"Peut changer la couleur de fond de la page de la modale.",
+				"Peut changer la couleur du corps de la modale.",
+				"Peut changer le contour de la bordure de la modale.",
+				"Peut changer la couleur du bouton de fermeture de la modale.",
+				"Peut ajouter, supprimer ou modifier l'ombre de la boîte de la modale.",
+				"Peut ajouter ou supprimer le rayon de bordure par défaut de la modale.",
+				"Peut ajouter ou supprimer le logo de la modale.",
+				"Peut changer le titre de la modale.",
+				"Peut ajouter, supprimer ou modifier un message secondaire.",
+				"Peut ajouter ou supprimer l'animation par défaut de la modale (animation : la modale descend dans la vue)."
+			],
+			"constraints": [
+				"Suivre un paradigme de programmation fonctionnelle.",
+				"Éviter d'utiliser des classes.",
+				"Convertir 1 des 4 plugins jQuery en React.",
+				"Publier le composant React sur npm comme un paquet.",
+				"Si possible, tester le code React avec une suite de tests unitaires."
+			],
+			"notes":"La modale personnalisable est livrée avec des couleurs par défaut déjà installées, mais vous pouvez les modifier si vous le souhaitez. Il est également possible de définir des thèmes pour les modes nuit et jour (tel que montré par le demo) et de choisir d'utiliser ou non l'animation prédéfinie. En outre, le piège du focus est déjà appliqué à la modale pour les utilisateurs de clavier. \n\n Si vous souhaitez essayer de modifier l'apparence de la modale, vous trouverez le paquet npm à l'adresse https://www.npmjs.com/package/react-custom-modal-by-msparkystevens.",
+			"skills": [
+				"Re-concevoir une application pour réduire la dette technique.",
+				"Analyser les performances d'une application web.",
+				"Programmer en JavaScript avec la programmation fonctionnelle.",
+				"Publier un composant React sur npm sous forme de package."
+			],
+			"tags": [
+				"React",
+				"NPM-package"
+			],
+			"techIcons": [
+				"react",
+				"styledcomponents",
+				"jsdoc",
+				"npm"
+				],
+			"website": "https://reactcustommodal.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
 		}
 	]
 }

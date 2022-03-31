@@ -85,5 +85,9 @@ export const techIconList =
 
 			{ "id": "tables", 
 				"path": "../images/techIcons/tables.svg",
-				"alt": "React Tables" }	
+				"alt": "React Tables" },
+				
+			{ "id": "npm", 
+			"path": "../images/techIcons/npm.svg",
+			"alt": "NPM" }	
 	]

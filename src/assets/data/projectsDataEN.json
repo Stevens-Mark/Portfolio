@@ -35,7 +35,7 @@
 	"projects": [
 		{
 			"id": "portfolio",
-			"date": "2022-01-30",
+			"date": "2022-03-31",
 			"title": "Portfolio",
 			"cover": "images/projects/portfolio/project_portfolio.webp",
 			"objective": "Creation of a portfolio website",
@@ -578,7 +578,7 @@
 			"date": "2021-12-02",
 			"cover": "images/projects/argentbank/project_argentbank.webp",
 			"objective": "Using an API for a bank account",
-			"summary": "Argent Bank is a new bank trying to break into the industry and needs help setting up their application. The two-part contract is broken down into several phases.",
+			"summary": "Argent Bank is a new bank trying to break into the industry and needs help setting up their application. The two-part contract is broken down into several phases. Web application creation and API endpoints specification.",
 			"pictures": [
 				"../images/projects/argentbank/bankLogo.webp",
 				"../images/projects/argentbank/project_argentbank.webp",
@@ -631,12 +631,12 @@
 			"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
 		},
 		{
-			"id": "wealthhealth",
-			"title": "Wealth Health",
+			"id": "wealthhealthhrnet",
+			"title": "Wealth Health (HRnet)",
 			"date": "2022-03-29",
 			"cover": "images/projects/wealthhealth/003_current.webp",
 			"objective": "Switch a jQuery library into React",
-			"summary": "Wealth Health is a large financial company who uses an internal web application, called HRnet that manages employee records. The application is old and uses jQuery on the front end, which leads to considerable bugs and increased internal complaints.",
+			"summary": "Wealth Health is a large financial company who uses an internal web application, called HRnet that manages employee records. The application is old and uses jQuery on the front end, leading to considerable bugs.",
 			"pictures": [
 				"../images/projects/wealthhealth/wealth.webp",
 				"../images/projects/wealthhealth/001_create.webp",
@@ -690,6 +690,65 @@
 				],
 			"website": "https://wealthhealth.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P14_04022022"
+		},
+		{
+			"id": "wealthhealthplug",
+			"title": "Wealth Health (Plug-in)",
+			"date": "2022-03-29",
+			"cover": "images/projects/wealthplugin/002_modal_userdefined.webp",
+			"objective": "Create an NPM package",
+			"summary": "Wealth Health’s Management expect that converting the third party jQuery plugins into React components will improve the performance and stability.",
+			"pictures": [
+				"../images/projects/wealthplugin/wealth.webp",
+				"../images/projects/wealthplugin/005_npm_package.webp",
+				"../images/projects/wealthplugin/004_npm package code.webp",
+				"../images/projects/wealthplugin/001_modal_default.webp",
+				"../images/projects/wealthplugin/002_modal_userdefined.webp",
+				"../images/projects/wealthplugin/003_modal_userdefined_night.webp"
+
+			],
+			"goal": "Create a Modal React component to which custom styling can be applied then publish the React component to npm as a package.",
+			"description":"As stated in the brief from Wealth Health's Management, it is expected that converting the third party jQuery plugins into React components will improve the performance and stability. \n\n The biggest issues for HRnet users being the date pickers, modal windows, drop down menus, and tables, with all the network calls and DOM manipulations required for jQuery plugins adding up and slowing things down. Several complaints about these jQuery plugins have been received and the management think it will be better to have their own React components to have more control over the application. \n\n For example, the modal dialog currently being used to confirm when new employee records are created does not match the design system that the designers want to use. Also, the plugin is very incompatible with applying custom styles, so create a React component to which custom styling can be applied then publish the React component to npm as a package.",
+			"functionality": [
+				"Can change the modal's page background colour.",
+				"Can change the modal's page background colour.",
+				"Can change the modal's body colour.",
+				"Can change the modal's text colour.",
+				"Can change the modal's border outline.",
+				"Can change the modal's close button colour.",
+				"Can add, remove or change the modal's box shadow.",
+				"Can add or remove the modal's default border-radius.",
+				"Can add or remove a modal logo.",
+				"Can change modal's heading.",
+				"Can add, remove or change a secondary message.",
+				"Can add or remove the default modal animation (animation: modal descends into view)."
+			],
+			"constraints": [
+				"Follow a functional programming paradigm.",
+				"Avoid using classes.",
+				"Convert 1 of the 4 jQuery plugins into React.",
+				"Publish the React component to npm as a package.",
+				"If time, test the React code with a unit test suite."
+			],
+			"notes":"The customisable modal comes with default colours already installed, but can be changed if preferred. It is also possible to set themes for both light & dark modes (as shown in the demo) as well as choose whether to use the preset animation. Also, Focus trap is already applied to the modal for keyboard users. \n\n If you want to trying changing the modal's appearance then the npm package can be found at https://www.npmjs.com/package/react-custom-modal-by-msparkystevens",
+			"skills": [
+				"Redesign an application to reduce technical debt.",
+				"Analyze the performance of a web application.",
+				"Programming in JavaScript with functional programming.",
+				"Publish a React component to npm as a package."
+			],
+			"tags": [
+				"React",
+				"NPM-package"
+			],
+			"techIcons": [
+				"react",
+				"styledcomponents",
+				"jsdoc",
+				"npm"
+				],
+			"website": "https://reactcustommodal.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
 		}
 	]
 }

@@ -6,7 +6,6 @@ import { useTheme } from '../utils/Functions/theme'
 // import components
 import Hero from '../components/Hero'
 import Card from '../components/Card'
-import GoToTop from '../utils/Functions/GoToTop'
 import heroImg from '../assets/images/banner4.webp'
 import ASC from '../assets/icons/ascending.svg'
 import DESC from '../assets/icons/descending.svg'
@@ -89,8 +88,6 @@ const Home = ( { siteData } ) => {
                   <Card key={project.id} project={project}/> 
             ))}   
       </PortFolioWrapper>
-
-      <GoToTop />     {/* button to scroll go back to top */}
     </main>
   )
 }
