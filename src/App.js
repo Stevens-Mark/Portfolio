@@ -10,12 +10,12 @@ import aboutDataFR from './assets/data/aboutDataFR.json'
 import Header from './components/HeaderNav'
 import Footer from './components/Footer'
 // import Construction from './pages/Construction'
-import Error from './pages/Error'
+
 // import components when needed using lazy loading
 const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About'))
 const Project = lazy(() => import('./pages/Project'))
-// const Error = lazy(() => import('./pages/Error'))
+const Error = lazy(() => import('./pages/Error'))
 const GoToTop = lazy(() => import('./utils/Functions/GoToTop'))
 const renderLoader = () => <p>Loading...</p>
 
