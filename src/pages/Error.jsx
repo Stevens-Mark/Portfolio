@@ -37,7 +37,7 @@ const ErrorWrapper = styled.main`
 `;
 
 const ReturnLink = styled(Link)`
-  color: ${colors.primary};
+  color:  ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
   font-size: clamp(0.875rem, 1.5vw, 1.375rem);
   font-weight: 500;
   margin-bottom: 2rem;
@@ -65,7 +65,7 @@ const Error = ( { siteText } ) => {
       <ErrorWrapper theme={theme}>
         <h1>{code}</h1>
         <h2>{message}</h2>
-        <ReturnLink to="/">{linkText}</ReturnLink>
+        <ReturnLink theme={theme} to="/">{linkText}</ReturnLink>
       </ErrorWrapper>
   )
 }
