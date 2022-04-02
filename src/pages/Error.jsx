@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
 
@@ -13,7 +14,8 @@ import { fadeIn } from '../utils/style/keyframes'
 const ErrorWrapper = styled.main`
   align-items: center;
   animation: ${fadeIn} 1s both ease-in-out;
-  color: ${colors.primary};
+  background: ${({ theme }) => (theme === 'light' ? 'linear-gradient(45deg, rgba(148,191,224,1) 0%, rgba(51,204,204,1) 42%);' : 'linear-gradient(0deg, rgba(79,76,107,1) 0%, rgba(47,46,65,1) 48%)')};
+  color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,6 +54,7 @@ const ReturnLink = styled(Link)`
 const Error = ( { siteText } ) => {
   
   const { code, message, linkText } = siteText.error
+  const { theme } = useTheme()
 
   useEffect(() => {
     document.title = 'Mark Stevens - Page not found'
@@ -59,7 +62,7 @@ const Error = ( { siteText } ) => {
   }, [])
 
   return (
-      <ErrorWrapper>
+      <ErrorWrapper theme={theme}>
         <h1>{code}</h1>
         <h2>{message}</h2>
         <ReturnLink to="/">{linkText}</ReturnLink>
