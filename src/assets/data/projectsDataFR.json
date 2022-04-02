@@ -667,7 +667,7 @@
 				"Effectuer les tests de performance (Lighthouse) en comparant l'ancienne et la nouvelle application.",
 				"Si le temps le permet, tester le code React avec une suite de tests unitaires. Sinon, seuls des tests manuels sont nécessaires."
 			],
-			"notes":"J'ai fait plusieurs versions de ce projet, en utilisant soit localstorage, FireBase ou MongoDB comme backend pour le stockage des données. Elles sont toutes disponibles dans le Repo Git sous les noms de branches : main, db, firebase, usversion & full (version CRUD). La version de démonstration utilise localstorage.",
+			"notes":"J'ai fait plusieurs versions de ce projet, en utilisant soit localstorage, FireBase ou MongoDB comme backend pour le stockage des données. Elles sont toutes disponibles dans le Repo Git sous les noms de branches : main, db, firebase, usversion & full (version CRUD). La version de démonstration utilise localstorage. \n\n IMPORTANT: Si vous créez directement de nouveaux enregistrements d'employés à partir de la page d'accueil, SEULS ces enregistrements seront affichés dans la table. MAIS si vous passez d'abord à la VUE des enregistrements actuels des employés, alors des données factices seront chargées dans le tableau pour démontrer la fonctionnalité du site (ces données seront placées dans votre stockage local, donc vous voudrez peut-être les supprimer par la suite).",
 			"skills": [
 				"Refondre une application pour réduire la dette technique.",
 				"Analyser la performance d'une application web.",
