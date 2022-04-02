@@ -84,6 +84,7 @@ const AboutTitleWrappper = styled.div`
 
   h2 {
     animation: ${yTranslate} 330ms both ease-out 550ms;
+    color: white;
     font-size: 2.5rem;
     text-align: center;
     transform: translateY(-4px);
