@@ -382,7 +382,7 @@
 				"The E2E test must be performed manually by the QA team (not automated).",
 				"No other constraints are mentioned."
 			],
-			"notes":"I didn't create the user interface because the brief was to debug the code, write unit and integration tests and an E2E report (to eliminate bugs and avoid regression in the next evolution). \n\n The bug reports and the E2E plan can be found in the Github repo of this project.",
+			"notes":"I didn't create the user interface because the brief was to debug the code, write unit and integration tests and an E2E report (to eliminate bugs and avoid regression in the next evolution).\n\n Unfortunately, as the Firebase is no longer connected to the companies frontend dats is no longer stored in the database. \n\n The bug reports and the E2E plan can be found in the Github repo of this project.",
 			"skills": [
 				"Writing unit tests with JavaScript",
 				"Debugging a web application with the Chrome Debugger",
@@ -670,7 +670,7 @@
 				"Perform Lighthouse performance tests comparing the old and new application.",
 				"If time, test the React code with a unit test suite. Otherwise, only manual tests are needed."
 			],
-			"notes":"I have made multiple versions of this project, using either localstorage, FireBase or MongoDB as the backend for the data storage. These are all available in the Git Repo under the branch names: main, db, firebase & usversion. The demo version uses localstorage.",
+			"notes":"I have made multiple versions of this project, using either localstorage, FireBase or MongoDB as the backend for the data storage. These are all available in the Git Repo under the branch names: main, db, firebase, usversion & full (CRUD version). The demo version uses localstorage.",
 			"skills": [
 				"Redesign an application to reduce technical debt.",
 				"Analyze the performance of a web application.",
@@ -730,7 +730,7 @@
 				"Publish the React component to npm as a package.",
 				"If time, test the React code with a unit test suite."
 			],
-			"notes":"The customisable modal comes with default colours already installed, but can be changed if preferred. It is also possible to set themes for both light & dark modes (as shown in the demo) as well as choose whether to use the preset animation. Also, Focus trap is already applied to the modal for keyboard users. \n\n If you want to trying changing the modal's appearance then the npm package can be found at https://www.npmjs.com/package/react-custom-modal-by-msparkystevens",
+			"notes":"The customisable modal comes with default colours already installed, but can be changed if preferred. It is also possible to set themes for both light & dark modes (as shown in the demo) as well as choose whether to use the preset animation. Also, Focus trap is already applied to the modal for keyboard users. \n\n If you want to try changing the modal's appearance then the npm package can be found at https://www.npmjs.com/package/react-custom-modal-by-msparkystevens",
 			"skills": [
 				"Redesign an application to reduce technical debt.",
 				"Analyze the performance of a web application.",

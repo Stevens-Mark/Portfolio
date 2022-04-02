@@ -381,7 +381,7 @@
 				"Le test E2E doit être effectué manuellement par l'équipe AQ (non automatisé).",
 				"Aucune autre contrainte n'est mentionnée."
 			],
-			"notes":"Je n'ai pas créé l'interface utilisateur car le brief était de déboguer le code, d'écrire des tests unitaires et d'intégration ainsi qu'un rapport E2E (pour éliminer les bugs et éviter la régression dans la prochaine évolution).\n\n Les rapports de bugs et le plan E2E se trouvent dans le repo Github de ce projet.",
+			"notes":"Je n'ai pas créé l'interface utilisateur car le brief était de déboguer le code, d'écrire des tests unitaires et d'intégration ainsi qu'un rapport E2E (pour éliminer les bugs et éviter la régression dans la prochaine évolution).\n\n Malheureusement, comme la Firebase n'est plus connectée au frontend de la société, les données ne sont plus stockées dans la base de données. \n\n Les rapports de bugs et le plan E2E se trouvent dans le repo Github de ce projet.",
 			"skills": [
 				"Ecrire des tests unitaires avec JavaScript",
 				"Débugger une application web avec le Chrome Debugger",
@@ -667,7 +667,7 @@
 				"Effectuer les tests de performance (Lighthouse) en comparant l'ancienne et la nouvelle application.",
 				"Si le temps le permet, tester le code React avec une suite de tests unitaires. Sinon, seuls des tests manuels sont nécessaires."
 			],
-			"notes":"J'ai fait plusieurs versions de ce projet, en utilisant soit localstorage, FireBase ou MongoDB comme backend pour le stockage des données. Elles sont toutes disponibles dans le Repo Git sous les noms de branches : main, db, firebase & usversion. La version de démonstration utilise localstorage.",
+			"notes":"J'ai fait plusieurs versions de ce projet, en utilisant soit localstorage, FireBase ou MongoDB comme backend pour le stockage des données. Elles sont toutes disponibles dans le Repo Git sous les noms de branches : main, db, firebase, usversion & full (version CRUD). La version de démonstration utilise localstorage.",
 			"skills": [
 				"Refondre une application pour réduire la dette technique.",
 				"Analyser la performance d'une application web.",
@@ -725,7 +725,7 @@
 				"Publier le composant React sur npm comme un paquet.",
 				"Si possible, tester le code React avec une suite de tests unitaires."
 			],
-			"notes":"La modale personnalisable est livrée avec des couleurs par défaut déjà installées, mais vous pouvez les modifier si vous le souhaitez. Il est également possible de définir des thèmes pour les modes nuit et jour (tel que montré par le demo) et de choisir d'utiliser ou non l'animation prédéfinie. En outre, le piège du focus est déjà appliqué à la modale pour les utilisateurs de clavier. \n\n Si vous souhaitez essayer de modifier l'apparence de la modale, vous trouverez le paquet npm à l'adresse https://www.npmjs.com/package/react-custom-modal-by-msparkystevens.",
+			"notes":"La modale personnalisable est livrée avec des couleurs par défaut déjà installées, mais vous pouvez les modifier si vous le souhaitez. Il est également possible de définir des thèmes pour les modes nuit et jour (tel que montré par le demo) et de choisir d'utiliser ou non l'animation prédéfinie. En outre, le piège du focus est déjà appliqué à la modale pour les utilisateurs de clavier. \n\n Si vous voulez essayer de modifier l'apparence de la modale, vous trouverez le paquet npm à l'adresse https://www.npmjs.com/package/react-custom-modal-by-msparkystevens.",
 			"skills": [
 				"Re-concevoir une application pour réduire la dette technique.",
 				"Analyser les performances d'une application web.",
