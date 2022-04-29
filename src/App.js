@@ -16,7 +16,7 @@ const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About'))
 const Project = lazy(() => import('./pages/Project'))
 const Error = lazy(() => import('./pages/Error'))
-const GoToTop = lazy(() => import('./utils/Functions/GoToTop'))
+const GoToTop = lazy(() => import('./components/GoToTop'))
 const renderLoader = () => <p>Loading...</p>
 
 /**

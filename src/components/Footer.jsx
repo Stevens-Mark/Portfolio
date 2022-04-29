@@ -7,7 +7,7 @@ import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
 // import Tooltip component
-import Tooltip from './ToolsTips/ToolTips'
+import Tooltip from './ToolsTips/ToolTip'
 // import logos
 import logoM from '../assets/logos/logoM.png'
 import git from '../assets/icons/github.svg'

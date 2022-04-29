@@ -2,11 +2,10 @@ import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 // import Tooltip component
-import Tooltip from './ToolsTips/ToolTips'
+import Tooltip from './ToolsTips/ToolTip'
 // import link logos
 import preview from '../assets/icons/preview.svg'
 import git from '../assets/icons/github.svg'
-
 
 /**
  * CSS for component using styled.components

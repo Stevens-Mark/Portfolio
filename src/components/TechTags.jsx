@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
 // import Tooltip component
-import Tooltip from './ToolsTips/ToolTips'
+import Tooltip from './ToolsTips/ToolTip'
 // import list of icon paths
 import { techIconList } from '../assets/data/additionalData'
 
@@ -29,8 +29,8 @@ const TechTags = ( { icons } ) => {
     return (
         <>
             {( iconToShow  || []).map((icon) => ( 
-                <Tooltip content={icon.alt}>
-                 <TechImg key={icon.id} src={icon.path} alt={icon.alt}/>
+                <Tooltip key={icon.id} content={icon.alt}>
+                 <TechImg  src={icon.path} alt={icon.alt}/>
                  </Tooltip>
             ))}  
         </>

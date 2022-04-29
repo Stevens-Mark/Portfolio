@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 // for styling
 import styled from 'styled-components'
-import colors from '../style/colors'
-import { useTheme } from './theme'
-import upArrow from '../../assets/icons/arrow_up.svg'
+import colors from '../utils/style/colors'
+import { useTheme } from '../utils/Functions/theme'
+import upArrow from '../assets/icons/arrow_up.svg'
 
 /**
  * CSS for component using styled.components
