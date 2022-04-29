@@ -1,22 +1,22 @@
 // links for 'other' websites & email
   export const gitLink = 'https://github.com/Stevens-Mark'
-  export const linkedInLink ='https://stevensmarkportfolio.netlify.app/'
-  export const mail ='mailto: dummy@dummy.com'
+  export const linkedInLink ='https://www.linkedin.com/in/markspstevens/'
+  export const mail ='mailto:markspstevens@gmail.com'
 
 // list of 'tech' icons with their paths where the png, svg, jpg is stored
 export const techIconList = 
 		[ 
 			{	"id": "accessibility", 
 				"path": "../images/techIcons/accessibility.svg",
-				"alt": "Accessibilty" },
+				"alt": "Accessibility" },
 
 			{ "id": "bootstrap", 
 				"path": "../images/techIcons/bootstrap.svg",
-				"alt": "Bootsrap" },
+				"alt": "Bootstrap" },
 
 			{ "id": "css", 
 				"path": "../images/techIcons/css.svg",
-				"alt": "CSS" },
+				"alt": "CSS3" },
 
 			{ "id": "figma", 
 				"path": "../images/techIcons/figma.svg",
@@ -28,7 +28,7 @@ export const techIconList =
 
 			{ "id": "html", 
 				"path":	"../images/techIcons/html5.svg",
-				"alt": "HTML" },
+				"alt": "HTML5" },
 
 			{ "id": "jest", 
 				"path": "../images/techIcons/jest.svg",
@@ -73,7 +73,7 @@ export const techIconList =
 
 			{ "id": "usecase", 
 				"path": "../images/techIcons/usecase.svg",
-				"alt": "Use Case Diagram" },
+				"alt": "Use Case Diagrams" },
 
 			{ "id": "firebase", 
 				"path": "../images/techIcons/firebase.svg",

@@ -12,7 +12,7 @@ const Ulist = styled.ul`
 /**
  * Creates an unordered list
  * @function ListCreate
- * @param {string} group: list group name (funtionality, constraints, etc)
+ * @param {string} group: list group name (functionality, constraints, etc)
  * @param {array} data: for list
  * @returns 
  */

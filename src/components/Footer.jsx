@@ -6,6 +6,8 @@ import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
+// import Tooltip component
+import Tooltip from './ToolsTips/ToolTips'
 // import logos
 import logoM from '../assets/logos/logoM.png'
 import git from '../assets/icons/github.svg'
@@ -84,9 +86,23 @@ const Footer = ( { siteText } ) => {
         <Link to="/"><LogoMark src={logoM} alt="Link to home page" /></Link>
 
         <LogosWrapper>
-          <a href={gitLink} aria-label="Link to Github Repository" rel="noreferrer" target="_blank"><LinkImg src={git} alt="Link to Github" title="Git Repo" /></a>
-          <a href={linkedInLink} aria-label="Link to LinkedIn" rel="noreferrer" target="_blank"><LinkImg src={linkedIn} alt="Link to Linked in" title="Linked In"/></a>
-          <a href={mail} aria-label="Link to contact email" rel="noreferrer" target="_blank"><LinkImg src={contact} alt="Contact Email" title="Contact Me"/></a>
+          <a href={gitLink} aria-label="Link to Github Repository" rel="noreferrer" target="_blank">
+            <Tooltip content="GitHub">
+              <LinkImg src={git} alt="Link to Github" />
+            </Tooltip>
+          </a>
+
+          <a href={linkedInLink} aria-label="Link to LinkedIn" rel="noreferrer" target="_blank">
+            <Tooltip content="LinkedIn">
+              <LinkImg src={linkedIn} alt="Link to Linked in"/>
+            </Tooltip>
+          </a>
+
+          <a href={mail} aria-label="Link to contact email" rel="noreferrer" target="_blank">
+            <Tooltip content="Email">
+              <LinkImg src={contact} alt="Contact Email"/>
+            </Tooltip>
+          </a>
         </LogosWrapper>
 
         <h2>{rights}</h2>

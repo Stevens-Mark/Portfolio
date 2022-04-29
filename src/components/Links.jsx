@@ -1,9 +1,12 @@
 import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
+// import Tooltip component
+import Tooltip from './ToolsTips/ToolTips'
 // import link logos
 import preview from '../assets/icons/preview.svg'
 import git from '../assets/icons/github.svg'
+
 
 /**
  * CSS for component using styled.components
@@ -27,17 +30,30 @@ const NoLink = styled.img`
   * @returns {JSX}
   */
 const Links = ({ website, github }) => {
+
   return (
     <>
       {website ?
-        ( <a href={website} aria-label="Link to project website" rel="noreferrer" target="_blank"><LinkImg src={preview} alt="Link to website" title="Visit Website"/></a>
+        ( <a href={website} aria-label="Link to project website" rel="noreferrer" target="_blank">
+            <Tooltip content="Website">
+              <LinkImg src={preview} alt="Link to website"/>
+            </Tooltip>
+          </a>
         ) : 
-        ( <NoLink src={preview} alt="No website" title="No Preview"/> )}
+        ( <Tooltip content="No Website">
+            <NoLink src={preview} alt="No website"/></Tooltip>
+          )} 
 
       {github ?
-        ( <a href={github} aria-label="Link to project Repo" rel="noreferrer" target="_blank"><LinkImg src={git} alt="Link to project repo" title="Project Git Repo" /></a> 
+        ( <a href={github} aria-label="Link to project Repo" rel="noreferrer" target="_blank">
+            <Tooltip content="GitHub Repo">
+              <LinkImg src={git} alt="Link to project repo"/>
+            </Tooltip>
+          </a> 
         ) : 
-        ( <NoLink src={git} alt="No Repo" title="No Project Repo"/> )} 
+        ( <Tooltip content="No GitHub Repo">
+            <NoLink src={git} alt="No Repo"/></Tooltip>
+          )} 
     </>   
   )
 }
@@ -49,3 +65,4 @@ Links.propTypes = {
   website: PropTypes.string,
   github: PropTypes.string,
 }
+
