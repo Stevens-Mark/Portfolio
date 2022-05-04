@@ -6,6 +6,8 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
+// import Tooltip component
+import Tooltip from './ToolsTips/ToolTip'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
 // import logo & language flags
@@ -123,7 +125,21 @@ const Header = ( { language, toggleLanguage, siteText }) => {
           <LinkGroup>
             <LINK activeClassName="active" exact to="/">{home}</LINK>
             <LINK activeClassName="active" to="/about">{about}</LINK>
-            <LanguageButton onClick={() => toggleLanguage(!language)}>{language? <img src={logoUK} alt="Change to English"/> : <img src={logoFR} alt="Change to French"/>}</LanguageButton> 
+            <LanguageButton onClick={() => toggleLanguage(!language)}>
+              {language? 
+                (
+                <Tooltip content="English">
+                  <img src={logoUK} alt="Change to English"/>
+                </Tooltip>
+                )
+              : 
+                (
+                <Tooltip content="Français">
+                  <img src={logoFR} alt="Change to French"/>
+                </Tooltip>
+                )
+              }
+            </LanguageButton> 
           </LinkGroup>
             <BurgerNav language={language} toggleLanguage={toggleLanguage} />
       </NavGroup>
