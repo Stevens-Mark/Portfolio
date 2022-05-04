@@ -9,7 +9,7 @@ import { fadeIn } from '../utils/style/keyframes'
 // import Tooltip component
 import Tooltip from './ToolsTips/ToolTip'
 // import logos
-import logoM from '../assets/logos/logoM.png'
+import logoM from '../assets/logos/logoM.webp'
 import git from '../assets/icons/github.svg'
 import linkedIn from '../assets/icons/linked_in.svg'
 import contact from '../assets/icons/contact.svg'

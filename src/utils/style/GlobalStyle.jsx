@@ -4,6 +4,7 @@ import colors from './colors'
 // import fonts from  local folder
 import vladimir from '../../assets/fonts/Vladimir.ttf'
 import comfortaa from '../../assets/fonts/Comfortaa.ttf'
+import montserrat from '../../assets/fonts/Montserrat.ttf'
 
 
 /**
@@ -66,6 +67,13 @@ a {
   font-style: normal;
   font-weight: normal;
   src: url(${comfortaa}) format("truetype");
+}
+
+@font-face {
+  font-family: "montserrat";
+  font-style: normal;
+  font-weight: normal;
+  src: url(${montserrat}) format("truetype");
 }
 `;
 

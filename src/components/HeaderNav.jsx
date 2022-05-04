@@ -9,9 +9,9 @@ import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
 import { fadeIn } from '../utils/style/keyframes'
 // import logo & language flags
-import logo from '../assets/logos/mark_logo.png'
-import logoFR from '../assets/icons/frenchflag.png'
-import logoUK from '../assets/icons/ukflag.png'
+import logo from '../assets/logos/mark_logo.webp'
+import logoFR from '../assets/icons/frenchflag.webp'
+import logoUK from '../assets/icons/ukflag.webp'
 // import Hamburger Navigation component
 import BurgerNav from './BurgerNav'
 

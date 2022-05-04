@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import colors from '../utils/style/colors'
 import { useState } from 'react'
 // import language flags
-import logoFR from '../assets/icons/frenchflag.png'
-import logoUK from '../assets/icons/ukflag.png'
+import logoFR from '../assets/icons/frenchflag.webp'
+import logoUK from '../assets/icons/ukflag.webp'
 
 /**
  * CSS for the component using styled.components

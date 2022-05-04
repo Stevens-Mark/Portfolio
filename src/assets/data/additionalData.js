@@ -39,7 +39,7 @@ export const techIconList =
 				"alt": "Java Script" },
 
 			{ "id": "jsdoc", 
-				"path": "../images/techIcons/JSDoc.jpg",
+				"path": "../images/techIcons/JSDoc.webp",
 				"alt": "JSDoc" },
 			
 			{ "id": "notion", 
@@ -51,7 +51,7 @@ export const techIconList =
 				"alt": "React" },
 
 			{ "id": "recharts", 
-				"path":  "../images/techIcons/recharts.jpg",
+				"path":  "../images/techIcons/recharts.webp",
 				"alt": "Recharts" },
 
 			{ "id": "redux", 
@@ -64,7 +64,7 @@ export const techIconList =
 				"alt": "SaSS" },
 
 			{ "id": "styledcomponents", 
-				"path": "../images/techIcons/styled.png",
+				"path": "../images/techIcons/styled.webp",
 				"alt": "Styled Components" },
 
 			{ "id": "swagger", 
