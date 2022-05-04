@@ -160,7 +160,7 @@ const Hero = ( { image, siteText={}, about={} } ) => {
     <>
       {window.location.pathname !=='/about'? 
         (
-          <HeroContainer role="banner" backImg={image} theme={theme}>   
+          <HeroContainer backImg={image} theme={theme}>   
             <ReactSpinner />
               <HeroContent theme={theme} >
                   <h2>{title}</h2>
@@ -172,7 +172,7 @@ const Hero = ( { image, siteText={}, about={} } ) => {
           </HeroContainer> 
         ) : 
         (
-          <HeroContainer role="banner" backImg={image} theme={theme} > 
+          <HeroContainer backImg={image} theme={theme} > 
           <AboutTitleWrappper>
             <h2>{about}</h2>
             </AboutTitleWrappper>
