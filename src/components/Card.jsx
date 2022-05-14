@@ -47,7 +47,7 @@ const CoverImage = styled.img`
 `;
 
 const TagForm = styled.span`
-  background: ${colors.secondary};
+  background: ${colors.darkGrey};
   border-radius: 5px;
   color: ${colors.tertiary};
   font-size: 0.8rem;
