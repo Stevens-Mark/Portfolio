@@ -60,6 +60,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: url(${vladimir}) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -67,6 +68,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: url(${comfortaa}) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -74,6 +76,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: url(${montserrat}) format("truetype");
+  font-display: swap;
 }
 `;
 
