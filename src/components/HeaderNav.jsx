@@ -79,16 +79,33 @@ const LanguageButton = styled.button`
 `;
 
 const LINK = styled(NavLink)`
+  position:relative;
   color: ${colors.tertiary};
   font-family: 'Vladimir', 'comfortaa';
   font-size: clamp(2rem, 3.125vw, 2.5rem);
   padding: 0vw 1.5vw;
+  transition: 300ms ease-in-out;
     &.${(props) => props.activeClassName} {
       color: ${colors.primary};
         }
     &:hover {
       color: ${colors.primary};
-      text-decoration: underline;
+    }
+  
+    &:after {
+      display:block;
+      margin: -0.5rem;
+      content: "";
+      border-bottom: solid 4px ${colors.primary};  
+      border-radius: 3rem;
+      transform: scaleX(0);  
+      transition: transform 300ms ease-in-out;
+      transform-origin:100% 50%
+    }
+    &:hover:after { 
+      transform: scaleX(1);
+      transform-origin:0 50%;
+    }
 `;
 
 /**
@@ -123,7 +140,7 @@ const Header = ( { language, toggleLanguage, siteText }) => {
       <NavGroup>
           <LINK to="/"><Image src={logo} alt="Link to Home"></Image></LINK>
           <LinkGroup>
-            <LINK activeClassName="active" exact to="/">{home}</LINK>
+            <LINK className="expand" activeClassName="active" exact to="/">{home}</LINK>
             <LINK activeClassName="active" to="/about">{about}</LINK>
             <LanguageButton onClick={() => toggleLanguage(!language)}>
               {language? 
