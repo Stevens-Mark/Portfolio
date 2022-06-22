@@ -67,6 +67,7 @@ const ObjectiveText = styled.h3`
   @media screen and (min-width: 668px) {
     -webkit-line-clamp: 1;
   }
+
 `;
 
 const SummaryText = styled.p`
