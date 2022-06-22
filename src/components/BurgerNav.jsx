@@ -24,7 +24,7 @@ const StyledMenu = styled.nav`
   display: flex;
   justify-content: space-around;
   left: 0;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   opacity: ${({ open }) => open ? '1' : '0'};
   position: absolute;
   right: 0;

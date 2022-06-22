@@ -30,7 +30,7 @@ const HEADER = styled.header`
   left: 0;
   margin: 0 auto;
   max-width: 1920px;
-  padding: 1rem 0rem;
+  padding: 1rem 0rem 0.2rem 0rem;
   position: fixed;
   right: 0;
   top: ${({ position }) => position};

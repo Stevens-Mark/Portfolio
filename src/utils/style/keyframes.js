@@ -14,7 +14,7 @@ export const fadeOut = keyframes`
 `;
 
 export const slideIn = keyframes`
-  from { opacity: 0; transform: translateY(-100%);}
+  from { opacity: 0; transform: translateY(-15px);}
   to   { opacity: 1;  transform: translateY(0);}
 `;
 
@@ -24,7 +24,7 @@ export const slideInUp = keyframes`
 `;
 
 export const slideInRight = keyframes`
-  from { opacity: 0; transform: translateX(-50%);}
+  from { opacity: 0; transform: translateX(-10%);}
   to   { opacity: 1;  transform: translateX(0);}
 `;
 
