@@ -4,6 +4,8 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
+// import fade-in keyframe
+import { fadeIn } from '../utils/style/keyframes'
 // import icons
 import previousArrow from '../assets/icons/chevron_back.svg'
 import nextArrow from '../assets/icons/chevron_forward.svg'
@@ -13,6 +15,7 @@ import Blank from '../assets/images/blank.webp'
  * CSS for the component using styled.components
  */
 const CarouselWrapper = styled.article`
+  animation: ${fadeIn} 1.4s both ease-in-out 0.8s;
   align-items: center;
   display: flex;
   filter: ${({ theme }) => (theme === 'light' ? 'brightness(100%)' : 'brightness(85%)')};

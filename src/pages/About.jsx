@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
-import { fadeIn } from '../utils/style/keyframes'
+import { fadeIn, slideIn, slideInRight } from '../utils/style/keyframes'
 // import components
 import Hero from '../components/Hero'
 import ListCreate from '../components/ListCreate'
@@ -24,12 +24,14 @@ const AboutWrapper = styled.div`
   min-height: calc(85vh - 27rem);
   margin-top: 0.25rem;
   padding: 1rem;
+  overflow: hidden;
 `;
 
 const Overview = styled.div`
   @media screen and (min-width: 900px) {
     display: flex;
     flex-direction: row;
+    
   }
 `;
 
@@ -37,6 +39,7 @@ const InfoWrapper = styled.div`
   animation: ${fadeIn} 1.5s 300ms both ease-in-out;
   flex: 1;
   padding 0 0.5rem;
+  overflow: hidden;
 `;
 
 const Texte = styled.div`
@@ -44,9 +47,11 @@ const Texte = styled.div`
 
   h2 {
     font-size: clamp(1rem, 1.6vw, 1.5rem);
+    animation: ${slideIn} 1s both ease-in-out 0.7s; 
   }
 
   p, li {
+    animation: ${slideInRight} 1.5s both ease-in-out; 
     color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
     margin: 0.625rem 0rem;

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
-import { fadeIn } from '../utils/style/keyframes'
+import { fadeIn, slideInUp } from '../utils/style/keyframes'
 // import github, website links components
 import Links from './Links'
 
@@ -22,6 +22,7 @@ const ProjectCard = styled.article`
   margin: 1rem;
   padding: 0.938rem;
   transition: 0.4s;
+  overflow: hidden;
   
   &:hover {
     filter: brightness(100%);
@@ -47,6 +48,7 @@ const CoverImage = styled.img`
 `;
 
 const TagForm = styled.span`
+animation: ${fadeIn} 1.4s both ease-in-out 0.5s;
   background: ${colors.darkGrey};
   border-radius: 5px;
   color: ${colors.tertiary};
@@ -63,6 +65,7 @@ const ObjectiveText = styled.h3`
   font-size: clamp(0.9rem, 1vw, 1rem);
   overflow: hidden;
   text-overflow: ellipsis;
+  animation: ${slideInUp} 1s both ease-in-out 0.7s; 
   
   @media screen and (min-width: 668px) {
     -webkit-line-clamp: 1;
@@ -73,6 +76,7 @@ const ObjectiveText = styled.h3`
 const SummaryText = styled.p`
   color: ${colors.darkGrey};
   font-size: clamp(0.8rem, 1vw, 0.9rem);
+  animation: ${slideInUp} 1s both ease-in-out 0.7s;
   // text-align: justify;
   // text-justify: inter-word;
 `;

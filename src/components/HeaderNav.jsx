@@ -75,6 +75,7 @@ const LanguageButton = styled.button`
   img {
     animation: ${fadeIn} 3s both ease-in-out;
     width: 1.5rem;
+    padding-top: 10px;
   }
 `;
 

@@ -2,6 +2,8 @@ import PropTypes from 'prop-types'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+// import fade-in keyframe
+import { fadeIn } from '../utils/style/keyframes'
 // import Tooltip component
 import Tooltip from './ToolsTips/ToolTip'
 // import list of icon paths
@@ -14,6 +16,7 @@ const TechImg = styled.img`
     margin: 0.5rem;
     padding: 0.313rem;
     width: 2rem;
+    animation: ${fadeIn} 1.5s both ease-in-out 1s;
 `;
 
 /**

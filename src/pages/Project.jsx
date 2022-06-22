@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
 // import fade-in keyframe
-import { fadeIn } from '../utils/style/keyframes'
+import { fadeIn, slideIn, slideInRight } from '../utils/style/keyframes'
 // import components
 import LoadingIcon from '../utils/Loaders/MiniLoadingIcon'
 import Links from '../components/Links'
@@ -39,9 +39,11 @@ const Heading = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 0rem 1rem;
+  overflow: hidden;
 
   h1 {
     font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+    animation: ${slideIn} 1s both ease-in-out 0.7s; 
   }
 
   img {
@@ -51,6 +53,7 @@ const Heading = styled.div`
 
 const NightDayFilter = styled.span`
   filter: ${({ theme }) => (theme === 'light' ? '' : 'invert(65%) sepia(100%) saturate(341%) hue-rotate(127deg) brightness(91%) contrast(83%);')};
+  animation: ${slideIn} 1s both ease-in-out 0.7s;
 `;
 
 const Overview = styled.div`
@@ -67,7 +70,6 @@ const LeftSide = styled.div`
 `;
 
 const RightSide = styled.div`
-  animation: ${fadeIn} 1.5s 300ms both ease-in-out;
   flex: 1.3;
   text-align: center;
 `;
@@ -75,16 +77,21 @@ const RightSide = styled.div`
 const Texte = styled.div`
   flex: 1;
   margin: 1rem;
+  overflow: hidden;
+  
 
   h2 {
     font-size: clamp(1rem, 1.6vw, 1.5rem);
+    animation: ${slideIn} 1s both ease-in-out 0.7s; 
   }
 
   p, li {
+    animation: ${slideInRight} 1.5s both ease-in-out; 
     color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
     font-size: clamp(0.875rem, 1.2vw, 1.125rem);
     margin: 0.625rem 0rem;
     white-space: pre-line;             // used with \n\n in JSON to format text on the page.
+    
   }
   p {
     // text-align: justify;
@@ -95,7 +102,6 @@ const Texte = styled.div`
 const Details = styled.div`
   display: flex;
   flex-direction: column;
-  
   @media screen and (min-width: 900px) {
     flex-direction: row;
   }
