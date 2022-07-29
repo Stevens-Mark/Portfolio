@@ -228,7 +228,7 @@
 			],
 			"notes":"I did not create the user interface. \n\nThe brief was to write the form validation code in JavaScript and solve the problems ('break of design') with the responsive design only.",
 			"skills": [
-				"Programmer en JavaScript"
+				"Programming in JavaScript"
 			],
 			"tags": [
 				"JavaScript",
@@ -749,6 +749,67 @@
 				],
 			"website": "https://reactcustommodal.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
+		},
+		{
+			"id": "notflix",
+			"title": "NotFlix - A Netflix Clone",
+			"date": "2022-07-29",
+			"cover": "images/projects/notflix/notflix1.webp",
+			"objective": "Create a Netflix Clone",
+			"summary": "This is a personal project to develop a Netflix website clone using the datatbase provided by TMDB, using their REST API.",
+			"pictures": [
+				"../images/projects/notflix/notflixLogo.webp",
+				"../images/projects/notflix/notflix1.webp",
+				"../images/projects/notflix/notflix2.webp",
+				"../images/projects/notflix/notflix3.webp",
+				"../images/projects/notflix/notflix4.webp",
+				"../images/projects/notflix/notflix5.webp",
+				"../images/projects/notflix/notflix6.webp",
+				"../images/projects/notflix/notflix7.webp"
+			],
+			"goal": "Using the REST API from TMDB, create a clone of the Netflix Website",
+			"description":"After seeing numerous NetFlix clones on the internet, I thought I would build my own version. I was inspired by the version done by Davide Mandelli, Th3Wall. \n\n I have tried to avoid using too many libraries, so opted to do the animations with Sass, rather than motion, spring etc... \n\n But, I did use React-slick for the slidder, Focus-trap-react for modal accessibility and although I could have used Redux for the state management, I opted for useContext instead, simply because I thought there was no need to use Redux on this project...",
+			"functionality": [
+				"Display movies, tv shows, popular & watch list",
+				"Search movies and tv shows",
+				"Add/Remove to/from My Wish List",
+				"A detail modal with more information about the movie or TV show selected by the user",
+				"Use of React hooks and custom hooks",
+				"Favourites list persised in local storage for ease of demo",
+				"Responsive layout",
+				"Swipeable movie and tv shows list",
+				"A loading spinner whilst media is loaded",
+				"Database courtesy of TMDB API"
+			],
+			"constraints": [
+				"Code the site using React.",
+				"Make sure the code is documented correctly.", 		
+				"The site must be compatible with the latest versions of Chrome and Firefox.",
+				"Version the code with Git.",
+				"The entire site must be responsive on mobile, tablet and desktop.",
+				"Make the site as accessible as possible.",
+				"Use TMDB datatbase."
+			],
+			"notes":"This is a project that I am still in the process of completing (saying that, I think one could do this project forever, adding new features all the time). \n\n I could have used MongoDB or Firebase to store the user's Wish list, but instead, used local storage for simplicity for the demo (you may want to remove it afterwards and obviously you will loose your list if you clear the storage)",
+			"skills": [
+				"Use a version management system for project tracking and hosting.",
+				"Implementing advanced graphic CSS effects.",
+				"Programming in React.",
+				"Developing the routes of a web application with React Router.",
+				"Building a website using a REST API."
+			],
+			"tags": [
+				"React",
+				"React-Router",
+				"REST API"
+			],
+			"techIcons": [
+				"react",
+				"javascript",
+				"sass"
+				],
+			"website": "https://notflixstevensmark.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/NotFlix"
 		}
 	]
 }
