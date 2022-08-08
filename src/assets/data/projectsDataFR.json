@@ -759,15 +759,18 @@
 				"../images/projects/notflix/notflix4.webp",
 				"../images/projects/notflix/notflix5.webp",
 				"../images/projects/notflix/notflix6.webp",
-				"../images/projects/notflix/notflix7.webp"
+				"../images/projects/notflix/notflix7.webp",
+				"../images/projects/notflix/notflix8.webp"
 			],
 			"goal": "En utilisant l'API REST de TMDB, créez un clone du site Web de Netflix.",
-			"description":"Après avoir vu de nombreux clones de NetFlix sur Internet, j'ai pensé construire ma propre version. J'ai été inspiré par la version réalisée par Davide Mandelli, Th3Wall. \n\n J'ai essayé d'éviter d'utiliser trop de bibliothèques, j'ai donc choisi de faire les animations avec Sass, plutôt qu'avec motion, spring etc... \n\n Mais, j'ai utilisé React-slick pour le slidder, Focus-trap-react pour l'accessibilité modale et bien que j'aurais pu utiliser Redux pour la gestion des états, j'ai opté pour useContext à la place, simplement parce que je pensais qu'il n'y avait pas besoin d'utiliser Redux sur ce projet ...",
+			"description":"Après avoir vu de nombreux clones de NetFlix sur Internet, j'ai pensé construire ma propre version. J'ai été inspiré par la version réalisée par Davide Mandelli, Th3Wall. \n\n J'ai essayé d'éviter d'utiliser trop de bibliothèques, j'ai donc choisi de faire les animations avec Sass, plutôt qu'avec motion, spring etc... \n\n Mais, j'ai utilisé React-slick pour le slidder, Focus-trap-react pour l'accessibilité modale et bien que j'aurais pu utiliser Redux pour la gestion des états, j'ai opté pour useContext à la place, simplement parce que je pensais qu'il n'y avait pas besoin d'utiliser Redux sur ce projet ... \n\n Mais au fur et à mesure que le projet a progressé & j'ai ajouté plus de fonctionnalités, je pense que l'utilisation de Redux aurait été meilleure.",
 			"functionality": [
 				"Afficher les films, les émissions de télévision, la liste des films populaires et des émissions à regarder",
+				"Si l'utilisateur clique sur l'intitulé du genre, un lien apparaît pour lui permettre de visionner d'autres films ou émissions de télévision de ce genre",
 				"Rechercher des films et des séries TV",
 				"Ajouter/supprimer à/de ma liste de souhaits",
 				"Une modale de détail avec plus d'informations sur le film ou la série TV sélectionné par l'utilisateur",
+				"Une modale vidéo montrant une bande-annonce (si disponible) lorsqu'elle est sélectionnée par l'utilisateur",
 				"Utilisation des hooks React et des hooks personnalisés",
 				"Liste de favoris persistée dans un stockage local pour faciliter la démo",
 				"Mise en page réactive",
@@ -784,7 +787,7 @@
 				"Rendre le site aussi accessible que possible.",
 				"Utiliser la base de données TMDB."
 			],
-			"notes":"C'est un projet que je suis toujours en train de terminer (en disant cela, je pense qu'on pourrait faire ce projet pour toujours, en ajoutant de nouvelles fonctionnalités tout le temps). \n\n J'aurais pu utiliser MongoDB ou Firebase pour stocker la liste de souhaits de l'utilisateur, mais j'ai préféré utiliser un stockage local pour des raisons de simplicité pour la démo (vous pouvez le supprimer par la suite et vous perdrez évidemment votre liste si vous effacez le stockage).",
+			"notes":"Je n'ai pas ajouté tous les genres sur le site (par exemple : Romance, Histoire, Mystère, Réalité, Talk, Western...). \n\n Lors de la navigation entre les différentes pages, les données sont rechargées lorsqu'une page est revisitée (nouveaux appels API). Ainsi, les mêmes données sont téléchargées à chaque fois, ce qui n'est pas très efficace. \n\n J'aurais pu utiliser MongoDB ou Firebase pour stocker la liste de souhaits de l'utilisateur, mais j'ai préféré utiliser un stockage local pour des raisons de simplicité pour la démo (vous pouvez le supprimer par la suite et vous perdrez évidemment votre liste si vous effacez le stockage).",
 			"skills": [
 				"Utiliser un système de gestion de versions pour le suivi et l'hébergement de projets.",
 				"Implémenter des effets graphiques CSS avancés.",
