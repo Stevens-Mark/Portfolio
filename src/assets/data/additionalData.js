@@ -89,5 +89,13 @@ export const techIconList =
 				
 			{ "id": "npm", 
 			"path": "../images/techIcons/npm.svg",
-			"alt": "NPM" }	
+			"alt": "NPM" },
+
+			{ "id": "photoshop", 
+			"path": "../images/techIcons/photoshop.svg",
+			"alt": "PhotoShop" },
+
+			{ "id": "wordpress", 
+			"path": "../images/techIcons/wordpress.svg",
+			"alt": "WordPress" }		
 	]

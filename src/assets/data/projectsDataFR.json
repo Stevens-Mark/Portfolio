@@ -763,7 +763,7 @@
 				"../images/projects/notflix/notflix8.webp"
 			],
 			"goal": "En utilisant l'API REST de TMDB, créez un clone du site Web de Netflix.",
-			"description":"Après avoir vu de nombreux clones de NetFlix sur Internet, j'ai pensé construire ma propre version. J'ai été inspiré par la version réalisée par Davide Mandelli, Th3Wall. \n\n J'ai essayé d'éviter d'utiliser trop de bibliothèques, j'ai donc choisi de faire les animations avec Sass, plutôt qu'avec motion, spring etc... \n\n Mais, j'ai utilisé React-slick pour le slidder, Focus-trap-react pour l'accessibilité modale et bien que j'aurais pu utiliser Redux pour la gestion des états, j'ai opté pour useContext à la place, simplement parce que je pensais qu'il n'y avait pas besoin d'utiliser Redux sur ce projet ... \n\n Mais au fur et à mesure que le projet a progressé & j'ai ajouté plus de fonctionnalités, je pense que l'utilisation de Redux aurait été meilleure.",
+			"description":"Après avoir vu de nombreux clones de NetFlix sur Internet, j'ai pensé construire ma propre version. \n\n J'ai essayé d'éviter d'utiliser trop de bibliothèques, j'ai donc choisi de faire les animations avec Sass, plutôt qu'avec motion, spring etc... \n\n Mais, j'ai utilisé React-slick pour le slidder, Focus-trap-react pour l'accessibilité modale et bien que j'aurais pu utiliser Redux pour la gestion des états, j'ai opté pour useContext à la place, simplement parce que je pensais qu'il n'y avait pas besoin d'utiliser Redux sur ce projet ... \n\n Mais au fur et à mesure que le projet a progressé & j'ai ajouté plus de fonctionnalités, je pense que l'utilisation de Redux aurait été meilleure.",
 			"functionality": [
 				"Afficher les films, les émissions de télévision, la liste des films populaires et des émissions à regarder",
 				"Si l'utilisateur clique sur l'intitulé du genre, un lien apparaît pour lui permettre de visionner d'autres films ou émissions de télévision de ce genre",
@@ -807,6 +807,65 @@
 				],
 			"website": "https://notflixstevensmark.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/NotFlix"
+		},
+		{
+			"id": "bananadesigns",
+			"title": "Banana Designs",
+			"date": "2022-09-04",
+			"cover": "images/projects/bananadesigns/banana2.webp",
+			"objective": "Création d'un site Web WordPress",
+			"summary": "Banana Designs fournit des solutions de bout en bout en matière de sites web et de marketing. En raison d'une expansion rapide, ils ont décidé d'externaliser la refonte de leur site web.",
+			"pictures": [
+				"../images/projects/bananadesigns/banana1.webp",
+				"../images/projects/bananadesigns/banana2.webp",
+				"../images/projects/bananadesigns/banana3.webp",
+				"../images/projects/bananadesigns/banana4.webp",
+				"../images/projects/bananadesigns/banana5.webp",
+				"../images/projects/bananadesigns/banana6.webp",
+				"../images/projects/bananadesigns/banana7.webp",
+				"../images/projects/bananadesigns/banana8.webp",
+				"../images/projects/bananadesigns/banana9.webp"
+			],
+			"goal": "Créer un site vitrine à l'aide de WordPress",
+			"description":"Banana Designs fournit des solutions de bout en bout en matière de sites web et de marketing. En raison d'une expansion rapide, ils ont décidé d'externaliser la refonte de leur site web. \n\n Le site ne doit pas contenir plus de six pages, donnant une brève explication des services offerts par la société, des exemples de leur portefeuille, ainsi que les raisons pour lesquelles un client devrait choisir leurs services. \n\n Comme il est important de garder l'attention de l'utilisateur, l'entreprise ne veut pas trop d'informations et de textes. Chaque page ne doit contenir que les points principaux (sous forme de 'bullet-points' par exemple), ce qui rend la lecture rapide et facile.",
+			"functionality": [
+				"Page d'accueil, page 'À propos',pages de création du site, de référence, de portfolio et de contact.",
+				"Portefeuille triable par catégorie.",
+				"Possibilité de visualiser le portefeuille à l'aide d'un LightBox.",
+				"External Links to view previous company projects 'live'.",
+				"Formulaire de contact avec test 'invisible' de CAPTCHA.",
+				"Modèles de règlement général sur la protection des données (RGPD) en place.",
+				"Fichiers html statiques mis en cache afin d'augmenter le temps de chargement des pages.",
+				"Broken Link Checker - Détecte les liens qui ne fonctionnent pas, les images manquantes et les redirections.",
+				"Utilisation d'un fournisseur SMTP approprié pour l'envoi de courriers électroniques.",
+				"Une carte Google indiquant l'emplacement de Banana Designs."
+			],
+			"constraints": [
+				"Créer un site à l'aide de WordPress.",
+				"Utiliser des plugins gratuits.", 		
+				"L'utilisation de modèles est autorisée, mais pas le simple copier/coller.",
+				"Le site ne doit pas ressembler à des modèles.",
+				"Utiliser un service d'hébergement WordPress GRATUIT.",
+				"Mettre en œuvre les pratiques de référencement dans toute la mesure du possible."
+			],
+			"notes":"Comme il s'agissait d'un projet personnel visant à mieux comprendre les CMS tels que WordPress, j'ai utilisé https://pantheon.io/ comme service d'hébergement gratuit. Malheureusement, j'ai lu qu'il y a toujours la possibilité que le site soit supprimé sans raison et que l'utilisation de services et de plugins gratuits signifie que les fonctionnalités peuvent être limitées. Par exemple, je n'ai pas d'accès direct aux fichiers de configuration et ne peux donc pas les modifier (si nécessaire). \n\n Au moment de la rédaction de cet article, je n'ai aucune connaissance en PHP, mais j'ai pu faire des modifications de style CSS personnalisées ... \n\n Comme mentionné précédemment, je n'ai utilisé que des plugins gratuits pour ce projet. Par exemple : Broken Link Checker, Central Color Palette, Duplicate Page, GDPR Cookie Consent, Ocean Extra, Redirection, SEO Press, UpdraftPlus, WP Mail SMTP, WP Super Cache, WP-Optimize.... et Page Builder: Elementor.",
+			"skills": [
+				"Créer un site web en utilisant WordPress.",
+				"Assurer la cohérence graphique d'un site web.",
+				"Mettre en œuvre des techniques de référencement.",
+				"Assurer une interface réactive.",
+				"Utilisation de modèles et de plugins."
+			],
+			"tags": [
+				"WordPress",
+				"PhotoShop"
+			],
+			"techIcons": [
+				"wordpress",
+				"photoshop"
+				],
+			"website": "https://dev-banana-designs.pantheonsite.io/",
+			"github": ""
 		}
 	]
 }
