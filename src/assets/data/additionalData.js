@@ -97,5 +97,13 @@ export const techIconList =
 
 			{ "id": "wordpress", 
 			"path": "../images/techIcons/wordpress.svg",
-			"alt": "WordPress" }		
+			"alt": "WordPress" },
+
+      { "id": "php", 
+			"path": "../images/techIcons/php.svg",
+			"alt": "PHP" },
+
+      { "id": "mysql", 
+			"path": "../images/techIcons/mysql.webp",
+			"alt": "MySQL" },
 	]

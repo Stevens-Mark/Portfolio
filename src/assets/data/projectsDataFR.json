@@ -866,6 +866,64 @@
 				],
 			"website": "https://dev-banana-designs.pantheonsite.io/",
 			"github": ""
+		},
+    {
+			"id": "foodwishes",
+			"title": "Food Wishes",
+			"date": "2022-11-17",
+			"cover": "images/projects/foodwishes/project_foodWishes.webp",
+			"objective": "Créer une solution Full stack",
+			"summary": "Food Wishes est un site web de partage de recettes alimentaires destiné aux chefs amateurs passionnés de cuisine. Avec l'aide de ses utilisateurs, ils souhaitent créer une vaste base de données des plats les plus populaires.",
+			"pictures": [
+				"../images/projects/foodwishes/foodWishesLogo.webp",
+				"../images/projects/foodwishes/foodWishes_1.webp",
+				"../images/projects/foodwishes/foodWishes_2.webp",
+				"../images/projects/foodwishes/foodWishes_3.webp",
+				"../images/projects/foodwishes/foodWishes_4.webp",
+				"../images/projects/foodwishes/foodWishes_5.webp",
+				"../images/projects/foodwishes/foodWishes_6.webp",
+        "../images/projects/foodwishes/foodWishes_7.webp"
+			],
+			"goal": "Créer un site de partage de recettes en utilisant PHP et MySQL",
+			"description":"Food Wishes est un site web de partage de recettes alimentaires destiné aux chefs amateurs passionnés de cuisine. Avec l'aide de ses utilisateurs, Food Wishes souhaite créer une vaste base de données des plats les plus populaires. \n\n Les nouveaux utilisateurs peuvent s'inscrire, puis créer, mettre à jour et poster une photo de leurs dernières découvertes. Avec la possibilité de poster des commentaires sur les recettes qu'ils aiment, le site encourage une communauté inclusive d'amoureux de la nourriture. La recherche de la recette ultime ne pourrait pas être plus simple, car une barre de recherche facile à utiliser permet aux utilisateurs de rechercher par les mots-clés de leur choix. \n\n Et si les choses tournent mal, il y a toujours la possibilité de contacter l'entreprise grâce à un formulaire de contact facile à utiliser.",
+			"functionality": [
+        "Créer et détruire un compte",
+        "Connexion et déconnexion",
+        "Page de consultation des recettes",
+        "Créer, lire, mettre à jour et supprimer une recette",
+        "Télécharger et mettre à jour une image",
+        "Page de contact",
+        "Validation du formulaire : vérification de la validité de la saisie et de la force du mot de passe, vérification de l'utilisateur existant etc...",
+        "Téléchargement de fichiers, vérification et envoi par email en utilisant PHPMailer",
+        "Recherche par mots-clés"
+
+			],
+			"constraints": [
+				"Construire un site en utilisant PHP ;",
+				"Stocker les données dans une base de données MySQL.", 		
+				"Le site doit offrir toutes les fonctionnalités CRUD",
+				"Option d'envoi d'email",
+				"Responsive design"
+			],
+			"notes":"Ce projet est ma première tentative d'utiliser à la fois PHP et MySQL, ce qui m'a permis de mieux comprendre ces deux langages. Mais il est toujours possible de l'améliorer. L'un des points à améliorer est la refactorisation du code, car il y a une certaine répétition du code pour les validations de formulaires en raison des multiples formulaires. De plus, au moment de la rédaction, il n'y avait que 18 recettes dans la base de données, il serait bon d'en ajouter plus... \n\n Vous pouvez vous inscrire ou utiliser les informations d'identification du visiteur ci-dessous : \n\n email : visitor@test.com Mot de passe: Password@321",
+			"skills": [
+        "Configurer l'environnement frontend pertinent",
+        "Développer une application web dynamique en utilisant PHP",
+        "Développer une application web en utilisant la base de données MySQL",
+        "Gérer les événements du site avec PHP"
+			],
+			"tags": [
+				"PHP",
+				"MySQL",
+        "Bootstrap"
+			],
+			"techIcons": [
+				"php",
+				"mysql",
+        "bootstrap"
+				],
+			"website": "http://stevensmark.infinityfreeapp.com/index.php",
+			"github": "https://github.com/Stevens-Mark/FoodWishes"
 		}
 	]
 }

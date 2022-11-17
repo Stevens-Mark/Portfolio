@@ -872,6 +872,64 @@
 				],
 			"website": "https://dev-banana-designs.pantheonsite.io/",
 			"github": ""
+		},
+    {
+			"id": "foodwishes",
+			"title": "Food Wishes",
+			"date": "2022-11-17",
+			"cover": "images/projects/foodwishes/project_foodWishes.webp",
+			"objective": "Create a Full stack solution",
+			"summary": "Food Wishes provides a food recipe sharing website for amateur chefs with a passion for food. With the help of it's users, they want to create an extensive database of the most poular dishes.",
+			"pictures": [
+				"../images/projects/foodwishes/foodWishesLogo.webp",
+				"../images/projects/foodwishes/foodWishes_1.webp",
+				"../images/projects/foodwishes/foodWishes_2.webp",
+				"../images/projects/foodwishes/foodWishes_3.webp",
+				"../images/projects/foodwishes/foodWishes_4.webp",
+				"../images/projects/foodwishes/foodWishes_5.webp",
+				"../images/projects/foodwishes/foodWishes_6.webp",
+        "../images/projects/foodwishes/foodWishes_7.webp"
+			],
+			"goal": "Build a recipe sharing site using PHP & MySQL",
+			"description":"Food Wishes provides a food recipe sharing website for amateur chefs with a passion for food. With the help of it's users, Food Wishes wants to create an extensive database of the most popular dishes. \n\n New users can sign up, then create, update and post a photo of their latest discoveries. With the ability to post comments on recipes they like, the site encourages an inclusive community of food lovers.\n\n Searching for the ultimate recipe couldn't be simpler, as an easy to use search bar allows users to search by keywords of their choice. \n\n And if things go wrong, there's always the possibility to contact the company by an easy to use contact form.",
+			"functionality": [
+        "Create and destroy an account",
+        "Login and logout",
+        "Recipes viewing page",
+        "Create, read, update and delete a recipe",
+        "Upload and update an image",
+        "Contact Us page",
+        "Form validation : valid input & password strength checking, existing user check etc...",
+        "File Uploading, verifying and sending by email using PHPMailer",
+        "Search by keywords"
+
+			],
+			"constraints": [
+				"Build site using PHP;",
+				"Store data in a MySQL database.", 		
+				"Site must offer all CRUD functionalities",
+				"Option to send email",
+				"Responsive design"
+			],
+			"notes":"This project is my first attempt at using both PHP & MySQL, gaining me a better understanding of both languages. But, there is always room for improvement. One area is to refactor the code as there is some code repitition for the form validations due to mutliple forms. Also, at the time of writing there were only 18 recipes in the database, it would be good to add more... \n\n You can sign up or use the visitor's credentials below: \n\n email: visitor@test.com Password: Password@321",
+			"skills": [
+        "Setting up the relevant front-end environment",
+        "Developing a web dynamic application using PHP",
+        "Developing web application using MySQL database",
+        "Managing site events with PHP"
+			],
+			"tags": [
+				"PHP",
+				"MySQL",
+        "Bootstrap"
+			],
+			"techIcons": [
+				"php",
+				"mysql",
+        "bootstrap"
+				],
+			"website": "http://stevensmark.infinityfreeapp.com/index.php",
+			"github": "https://github.com/Stevens-Mark/FoodWishes"
 		}
 	]
 }
