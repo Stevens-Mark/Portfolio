@@ -88,7 +88,7 @@ const Texte = styled.div`
   p, li {
     animation: ${slideInRight} 1.5s both ease-in-out; 
     color: ${({ theme }) => (theme === 'light' ? `${colors.darkGrey}` : `${colors.Zircon}`)};
-    font-size: clamp(0.875rem, 1.2vw, 1.125rem);
+    font-size: 0.875rem;
     margin: 0.625rem 0rem;
     white-space: pre-line;             // used with \n\n in JSON to format text on the page.
     
@@ -96,6 +96,18 @@ const Texte = styled.div`
   p {
     // text-align: justify;
     // text-justify: inter-word;
+  }
+
+  @media screen and (min-width: 768px) {
+    p, li {
+    font-size:  1rem;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    p, li {
+    font-size:  1.125rem;
+    }
   }
 `;
 
