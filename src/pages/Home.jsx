@@ -6,6 +6,7 @@ import { useTheme } from '../utils/Functions/theme'
 // import components
 import Hero from '../components/Hero'
 import Card from '../components/Card'
+import TechIcons from '../components/TechTags'
 import heroImg from '../assets/images/banner4.webp'
 import ASC from '../assets/icons/ascending.svg'
 import DESC from '../assets/icons/descending.svg'
@@ -32,6 +33,17 @@ const PortFolioWrapper = styled.section`
   }
   @media screen and (min-width: 1670px) {
     grid-template-columns: repeat(5, 1fr);
+  }
+`;
+
+const TechWrapper = styled.aside`
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    padding: 0.938rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 `;
 
@@ -79,6 +91,10 @@ const Home = ( { siteData } ) => {
       <h1 className="sr-only">Mark Stevens - Welcome</h1>
       <Hero image={heroImg} siteText={siteData.siteText}/>
 
+      <TechWrapper>
+        <TechIcons icons={siteData.siteText.techIcons} />
+      </TechWrapper>
+      
       <PortFolioWrapper theme={theme}>                    {/* ascending/descending order button */}
         <Sort theme={theme} aria-label="Sort by date"
               onClick={() => HandleSort()}>{desc? <img src={DESC} alt='descending'/> : <img src={ASC} alt='ascending'/>}</Sort>

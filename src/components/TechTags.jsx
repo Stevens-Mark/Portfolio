@@ -25,7 +25,7 @@ const TechImg = styled.img`
  * @param {array} icons: (react, JavaScript, etc...)
  * @returns {JSX}
  */
-const TechTags = ( { icons } ) => {
+const TechTags = ( { icons=[] } ) => {
 
     const iconToShow = techIconList.filter(icon => icons.includes(icon.id))
 

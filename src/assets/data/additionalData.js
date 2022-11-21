@@ -36,7 +36,7 @@ export const techIconList =
 
 			{ "id":"javascript", 
 				"path": "../images/techIcons/javascript.svg",
-				"alt": "Java Script" },
+				"alt": "JavaScript" },
 
 			{ "id": "jsdoc", 
 				"path": "../images/techIcons/JSDoc.webp",
@@ -77,7 +77,7 @@ export const techIconList =
 
 			{ "id": "firebase", 
 				"path": "../images/techIcons/firebase.svg",
-				"alt": "FireBase" },
+				"alt": "Fire Base" },
 			
 			{ "id": "mongodb", 
 				"path": "../images/techIcons/mongodb.svg",
