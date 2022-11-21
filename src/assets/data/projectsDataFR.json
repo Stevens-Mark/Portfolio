@@ -34,7 +34,12 @@
       "jest",
       "figma", 
       "photoshop",
-      "notion"
+      "notion",
+      "accessibility", 
+      "jsdoc",
+      "recharts",
+      "swagger", 
+      "tables"
       ],
 		"projectPage": {
 			"subheading1": "Fonctionnalités",

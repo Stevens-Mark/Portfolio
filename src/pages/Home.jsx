@@ -39,7 +39,7 @@ const PortFolioWrapper = styled.section`
 const TechWrapper = styled.aside`
   display: none;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1440px) {
     padding: 0.938rem;
     display: flex;
     justify-content: center;
