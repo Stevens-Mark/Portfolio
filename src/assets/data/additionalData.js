@@ -22,6 +22,10 @@ export const techIconList =
 				"path": "../images/techIcons/figma.svg",
 				"alt": "Figma" },
 
+      { "id": "firebase", 
+        "path": "../images/techIcons/firebase.svg",
+        "alt": "Fire Base" },
+      
 			{ "id": "github", 
 				"path": "../images/techIcons/github.svg",
 				"alt": "Github" },
@@ -41,10 +45,30 @@ export const techIconList =
 			{ "id": "jsdoc", 
 				"path": "../images/techIcons/JSDoc.webp",
 				"alt": "JSDoc" },
+
+      { "id": "mongodb", 
+        "path": "../images/techIcons/mongodb.svg",
+        "alt": "MongoDB" },
+
+      { "id": "mysql", 
+        "path": "../images/techIcons/mysql.webp",
+        "alt": "MySQL" },
 			
-			{ "id": "notion", 
-				"path": "../images/techIcons/notion.svg",
-				"alt": "Notion" },
+      { "id": "notion", 
+        "path": "../images/techIcons/notion.svg",
+        "alt": "Notion" },
+
+			{ "id": "npm", 
+        "path": "../images/techIcons/npm.svg",
+        "alt": "NPM" },
+
+			{ "id": "photoshop", 
+			"path": "../images/techIcons/photoshop.svg",
+			"alt": "PhotoShop" }, 
+			        
+      { "id": "php", 
+        "path": "../images/techIcons/php.svg",
+        "alt": "PHP" },
 
 			{ "id": "react", 
 				"path": "../images/techIcons/react.svg",
@@ -71,39 +95,15 @@ export const techIconList =
 				"path": "../images/techIcons/swagger-green.svg",
 				"alt": "Swagger" },
 
+      { "id": "tables", 
+        "path": "../images/techIcons/tables.svg",
+        "alt": "React Tables" }, 
+
 			{ "id": "usecase", 
 				"path": "../images/techIcons/usecase.svg",
 				"alt": "Use Case Diagrams" },
 
-			{ "id": "firebase", 
-				"path": "../images/techIcons/firebase.svg",
-				"alt": "Fire Base" },
-			
-			{ "id": "mongodb", 
-				"path": "../images/techIcons/mongodb.svg",
-				"alt": "MongoDB" },
-
-			{ "id": "tables", 
-				"path": "../images/techIcons/tables.svg",
-				"alt": "React Tables" },
-				
-			{ "id": "npm", 
-			"path": "../images/techIcons/npm.svg",
-			"alt": "NPM" },
-
-			{ "id": "photoshop", 
-			"path": "../images/techIcons/photoshop.svg",
-			"alt": "PhotoShop" },
-
 			{ "id": "wordpress", 
 			"path": "../images/techIcons/wordpress.svg",
 			"alt": "WordPress" },
-
-      { "id": "php", 
-			"path": "../images/techIcons/php.svg",
-			"alt": "PHP" },
-
-      { "id": "mysql", 
-			"path": "../images/techIcons/mysql.webp",
-			"alt": "MySQL" },
 	]

@@ -32,13 +32,9 @@
       "mongodb",
       "github", 
       "jest",
-      "recharts",
-      "tables",
-      "jsdoc",
       "figma", 
       "photoshop",
-      "notion",
-      "accessibility"
+      "notion"
       ],
 		"projectPage": {
 			"subheading1": "Features",
