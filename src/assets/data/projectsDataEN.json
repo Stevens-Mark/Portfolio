@@ -408,7 +408,7 @@
 				"The E2E test must be performed manually by the QA team (not automated).",
 				"No other constraints are mentioned."
 			],
-			"notes":"I didn't create the user interface because the brief was to debug the code, write unit and integration tests and an E2E report (to eliminate bugs and avoid regression in the next evolution).\n\n Unfortunately, as the Firebase is no longer connected to the companies frontend dats is no longer stored in the database. \n\n The bug reports and the E2E plan can be found in the Github repo of this project.",
+			"notes":"I didn't create the user interface because the brief was to debug the code, write unit and integration tests and an E2E report (to eliminate bugs and avoid regression in the next evolution).\n\n Unfortunately, as the Firebase is no longer connected to the companies frontend data is no longer stored in the database. \n\n The bug reports and the E2E plan can be found in the Github repo of this project.",
 			"skills": [
 				"Writing unit tests with JavaScript",
 				"Debugging a web application with the Chrome Debugger",
