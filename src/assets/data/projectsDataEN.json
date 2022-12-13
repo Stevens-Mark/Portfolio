@@ -937,7 +937,7 @@
 				"Option to send email",
 				"Responsive design"
 			],
-			"notes":"This project is my first attempt at using both PHP & MySQL, gaining me a better understanding of both languages. But, there is always room for improvement. One area is to refactor the code as there is some code repitition for the form validations due to mutliple forms. Also, at the time of writing there were only 18 recipes in the database, it would be good to add more... \n\n You can sign up or use the visitor's credentials below: \n\n email: guest@foodwishes.com Password: Password@321",
+			"notes":"This project is my first attempt at using both PHP & MySQL, gaining me a better understanding of both languages. But, there is always room for improvement. One area is to refactor the code as there is some code repitition for the form validations due to mutliple form. \n\n It would also be better if the code structure was changed to reflect the MVC model that I had not learned when creating the projects. Also, at the time of writing there were only 18 recipes in the database, it would be good to add more... \n\n You can sign up or use the visitor's credentials below: \n\n email: guest@foodwishes.com Password: Password@321",
 			"skills": [
         "Setting up the relevant front-end environment",
         "Developing a web dynamic application using PHP",
