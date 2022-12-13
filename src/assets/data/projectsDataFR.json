@@ -931,7 +931,7 @@
 				"Option d'envoi d'email",
 				"Responsive design"
 			],
-			"notes":"Ce projet est ma première tentative d'utiliser à la fois PHP et MySQL, ce qui m'a permis de mieux comprendre ces deux langages. Mais il est toujours possible de l'améliorer. L'un des points à améliorer est la refactorisation du code, car il y a une certaine répétition du code pour les validations de formulaires en raison des multiples formulaires.  \n\n Il serait également préférable que la structure du code soit modifiée pour refléter le modèle MVC que je n'avais pas appris lors de la création des projets. De plus, au moment de la rédaction, il n'y avait que 18 recettes dans la base de données, il serait bon d'en ajouter plus... \n\n Vous pouvez vous inscrire ou utiliser les informations d'identification du visiteur ci-dessous : \n\n email : guest@foodwishes.com Mot de passe: Password@321",
+			"notes":"Ce projet est ma première tentative d'utiliser à la fois PHP et MySQL, ce qui m'a permis de mieux comprendre ces deux langages. Mais, il y a toujours place à l'amélioration... Dans le futur, j'aimerais refactoriser le code pour refléter le modèle MVC que je n'avais pas appris lors de la création du projet et il y a quelques répétitions de code pour les validations de formulaires en raison des formulaires multiples. De plus, au moment de la rédaction, il n'y avait que 18 recettes dans la base de données, il serait bon d'en ajouter d'autres... \n\n Vous pouvez vous inscrire ou utiliser les informations d'identification du visiteur ci-dessous : \n\n email : guest@foodwishes.com Mot de passe: Password@321",
 			"skills": [
         "Configurer l'environnement frontend pertinent",
         "Développer une application web dynamique en utilisant PHP",
