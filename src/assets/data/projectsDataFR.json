@@ -956,7 +956,7 @@
 			"title": "Best Dives",
 			"date": "2023-002-22",
 			"cover": "images/projects/bestdives/bd-1.webp",
-			"objective": "Convertir un site web existant en WordPress.",
+			"objective": "Construisez un prototype de site Web.",
 			"summary": "Best Dives Maldives gère un centre de plongée PADI 5 étoiles, un centre de sports nautiques et un large éventail d'excursions à la surface et sous l'eau dans plusieurs complexes de luxe aux Maldives. Il propose également la location de yachts de luxe.",
 			"pictures": [
         "../images/projects/bestdives/bd-logo.webp",
@@ -967,7 +967,7 @@
 				"../images/projects/bestdives/bd-5.webp",
 				"../images/projects/bestdives/bd-6.webp"
 			],
-			"goal": "Build a showcase site using WordPress",
+			"goal": "Build a prototype of existing website using WordPress",
 			"description":"Best Dives Maldives gère un centre de plongée PADI 5 étoiles, un centre de sports nautiques et un large éventail d'excursions à la surface et sous l'eau dans plusieurs complexes de luxe aux Maldives. Elle propose également des services de location de yachts de luxe et de transfert des clients de l'aéroport au lieu de villégiature par l'intermédiaire de notre société sœur Best Yachts Maldives. Ils envisagent de migrer leur site Web existant vers WordPress. Le mandat consistait à cloner la première partie du site pour donner une idée de l'aspect du 'nouveau' site sous WordPress.",
 			"functionality": [
         "Page d'accueil et dix pages d'îles de villégiature où Best Dives opère actuellement (2023).",

@@ -962,7 +962,7 @@
 			"title": "Best Dives",
 			"date": "2023-002-22",
 			"cover": "images/projects/bestdives/bd-1.webp",
-			"objective": "Convert existing website to WordPress.",
+			"objective": "Build a website prototype.",
 			"summary": "Best Dives Maldives operates a PADI 5-star Dive Centre, Watersports Centre and a wide range of Excursions both above and under water in several luxury resorts across the Maldives. They also offer Luxury Yacht Charter.",
 			"pictures": [
         "../images/projects/bestdives/bd-logo.webp",
@@ -973,7 +973,7 @@
 				"../images/projects/bestdives/bd-5.webp",
 				"../images/projects/bestdives/bd-6.webp"
 			],
-			"goal": "Build a showcase site using WordPress",
+			"goal": "Build a prototype of existing website using WordPress",
 			"description":"Best Dives Maldives operates a PADI 5-star Dive Centre, Watersports Centre and a wide range of Excursions both above and under water in several luxury resorts across the Maldives. They also offer Luxury Yacht Charter and Guest Transfer Services from the airport to the resort through our sister company Best Yachts Maldives. They are considering migrating their existing website over to WordPress. The brief was to clone the first part of the site to give an idea of how the 'new' site would look in WordPress.",
 			"functionality": [
 				"Home Page and ten resort island pages where Best Dives operates currently (2023).",
