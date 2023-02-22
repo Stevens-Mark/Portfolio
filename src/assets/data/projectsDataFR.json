@@ -950,6 +950,55 @@
 				],
 			"website": "http://stevensmark.infinityfreeapp.com/index.php",
 			"github": "https://github.com/Stevens-Mark/FoodWishes"
+		},
+    {
+			"id": "bestdives",
+			"title": "Best Dives",
+			"date": "2023-002-22",
+			"cover": "images/projects/bestdives/bd-1.webp",
+			"objective": "Convertir un site web existant en WordPress.",
+			"summary": "Best Dives Maldives gère un centre de plongée PADI 5 étoiles, un centre de sports nautiques et un large éventail d'excursions à la surface et sous l'eau dans plusieurs complexes de luxe aux Maldives. Il propose également la location de yachts de luxe.",
+			"pictures": [
+        "../images/projects/bestdives/bd-logo.webp",
+				"../images/projects/bestdives/bd-1.webp",
+				"../images/projects/bestdives/bd-2.webp",
+				"../images/projects/bestdives/bd-3.webp",
+				"../images/projects/bestdives/bd-4.webp",
+				"../images/projects/bestdives/bd-5.webp",
+				"../images/projects/bestdives/bd-6.webp"
+			],
+			"goal": "Build a showcase site using WordPress",
+			"description":"Best Dives Maldives gère un centre de plongée PADI 5 étoiles, un centre de sports nautiques et un large éventail d'excursions à la surface et sous l'eau dans plusieurs complexes de luxe aux Maldives. Elle propose également des services de location de yachts de luxe et de transfert des clients de l'aéroport au lieu de villégiature par l'intermédiaire de notre société sœur Best Yachts Maldives. Ils envisagent de migrer leur site Web existant vers WordPress. Le mandat consistait à cloner la première partie du site pour donner une idée de l'aspect du 'nouveau' site sous WordPress.",
+			"functionality": [
+        "Page d'accueil et dix pages d'îles de villégiature où Best Dives opère actuellement (2023).",
+				"Liens externes pour voir le site web frère : Best Yachts ainsi que Padi et les îles de villégiature.",
+				"Formulaire de contact avec CAPTCHA 'invisible' (actuellement désactivé).",
+				"Fichiers html statiques mis en cache pour augmenter le temps de chargement des pages.",
+				"Utilisation d'un fournisseur SMTP approprié lors de l'envoi de courriels (actuellement désactivé)."
+			],
+			"constraints": [
+        "Construire le site en utilisant WordPress et utiliser des plugins gratuits.",
+				"Le nouveau site 'prototype' doit suivre le design original.",
+				"Le prototype du site doit UNIQUEMENT contenir les pages de l'île (les autres pages restent 'en construction').",
+				"Utilisez un service d'hébergement WordPress GRATUIT pour le prototype."
+			],
+			"notes":"J'ai de nouveau utilisé https://pantheon.io/ comme service d'hébergement gratuit. Malheureusement, j'ai lu qu'il y a toujours la possibilité que le site soit supprimé sans raison et que l'utilisation d'un service gratuit et de plugins signifie que les fonctionnalités sont peut-être limitées, mais c'était le brief. Cela dit, le site est remarquablement similaire avec les mêmes fonctionnalités. \n\n Comme mentionné précédemment, je n'ai utilisé que des plugins gratuits pour ce projet. Par exemple :  Duplicate Page, Conditional Menus, GDPR Cookie Consent, Ocean Extra, UpdraftPlus, WP Mail SMTP, WP-Optimize, etc.... et Page Builder : Elementor. Vous pouvez voir le site original à partir duquel ce site a été cloné à : https://www.bestdivesmaldives.com/ \n\n",
+			"skills": [
+        "Créer un site web à l'aide de WordPress.",
+				"Assurer la cohérence graphique d'un site web.",
+				"Assurer une interface réactive.",
+				"Utiliser des templates et des plugins."
+			],
+			"tags": [
+				"WordPress",
+				"PhotoShop"
+			],
+			"techIcons": [
+				"wordpress",
+				"photoshop"
+				],
+			"website": "https://live-bestdives.pantheonsite.io/",
+			"github": ""
 		}
 	]
 }
