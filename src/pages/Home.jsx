@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { useTheme } from '../utils/Functions/theme';
 // import data for dropdown menus
-import { stack } from '../assets/data/stack';
+import { filter } from '../assets/data/filterValues';
 // import components
 import Hero from '../components/Hero';
 import Card from '../components/Card';
@@ -138,8 +138,8 @@ const Home = ({ siteData }) => {
 
         <Controls>
           <Select
-            id={'stack'}
-            listItems={stack}
+            id={'filter'}
+            listItems={filter}
             onChange={(e) => HandleFilter(e.target.value)}
           />
 

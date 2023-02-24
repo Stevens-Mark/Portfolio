@@ -1,6 +1,6 @@
 // data for 'filter' dropdown menu
 
-export const stack = [
+export const filter = [
   {
     "name": "HTML",
     "value": "html"

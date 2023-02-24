@@ -15,11 +15,15 @@ const Selected =styled.select`
   font-size: 1rem;
   margin: 0.5rem 0rem 1rem;
   padding: 0.375rem;
-  width: 200px;
+  width: 11.25rem;
  
   >option {
     font-family: Arial; 
   }
+`;
+
+const Label = styled.label`
+  margin-right: 0.625rem;
 `;
 
 /**
@@ -34,14 +38,14 @@ const Selected =styled.select`
 
   return (
     <>
-      <label className="sr-only" htmlFor={id}>{capitalize(id)}</label>
+    <div>
+      <Label className="" htmlFor={id}>{capitalize(id)}</Label>
       <Selected
         name={id}
         id={id}
         required={true}
         onChange={onChange} >
-
-        <option value="">Filter By Tag</option>
+        <option value="">All</option>
         {[...listItems].sort((a, b) => (a.name < b.name ? -1 : 1)).map((item, index) => {
           return (
             <option key={`${item}-${index}`} value={item.value}>
@@ -50,6 +54,7 @@ const Selected =styled.select`
           );
         })}
       </Selected>
+      </div>
     </>
   )
 }
