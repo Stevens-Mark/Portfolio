@@ -39,7 +39,7 @@ const Label = styled.label`
  const Select = ( props ) => {
 
   const { theme } = useTheme()
-  const { id, listItems, onChange } = props
+  const { id, filterDefault, listItems, onChange } = props
 
   return (
     <>
@@ -50,7 +50,7 @@ const Label = styled.label`
         id={id}
         required={true}
         onChange={onChange} >
-        <option value="">All</option>
+        <option value="">{filterDefault}</option>
         {[...listItems].sort((a, b) => (a.name < b.name ? -1 : 1)).map((item, index) => {
           return (
             <option key={`${item}-${index}`} value={item.value}>

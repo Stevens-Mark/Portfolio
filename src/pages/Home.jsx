@@ -138,7 +138,8 @@ const Home = ({ siteData }) => {
 
         <Controls>
           <Select
-            id={'filter'}
+            id={siteData.siteText.filter}
+            filterDefault={siteData.siteText.filterDefault}
             listItems={filter}
             onChange={(e) => HandleFilter(e.target.value)}
           />

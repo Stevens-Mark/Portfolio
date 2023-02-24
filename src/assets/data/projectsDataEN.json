@@ -15,6 +15,8 @@
 			"subtitle3": "Loyalty.",
 			"slogan": "Always ready to learn!"
 		},
+    "filter": "filter",
+    "filterDefault": "All",
     "techIcons": [
       "html",
       "css",

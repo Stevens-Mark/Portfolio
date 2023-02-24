@@ -78,7 +78,7 @@ export const filter = [
     "value": "notion"
   },
   {
-    "name": "Accessibility",
+    "name": "Accessible-WCAG",
     "value": "accessibility"
   },
   {

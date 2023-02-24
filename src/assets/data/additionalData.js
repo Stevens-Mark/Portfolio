@@ -8,7 +8,7 @@ export const techIconList =
 		[ 
 			{	"id": "accessibility", 
 				"path": "../images/techIcons/accessibility.svg",
-				"alt": "Accessibility" },
+				"alt": "W3C-WCAG" },
 
 			{ "id": "bootstrap", 
 				"path": "../images/techIcons/bootstrap.svg",
