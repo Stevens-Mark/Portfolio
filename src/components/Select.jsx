@@ -2,15 +2,19 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 // styling
 import colors from '../utils/style/colors'
+import { useTheme } from '../utils/Functions/theme'
 import { capitalize } from '../utils/Functions/helpers'
 
 /**
  * CSS for component using styled.components
  */
 const Selected =styled.select`
-  background: ${colors.Zircon};
+  // background: ${colors.Zircon};
+  background: ${({ theme }) => (theme === 'light' ? `${colors.Zircon}` : `${colors.darkModeHighlights}`)};
+  color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
   border-radius: 0.2rem;
   border: 1px solid ${colors.secondary};
+  border: 1px solid  ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
   font-family: Arial;
   font-size: 1rem;
   margin: 0.5rem 0rem 1rem;
@@ -24,6 +28,7 @@ const Selected =styled.select`
 
 const Label = styled.label`
   margin-right: 0.625rem;
+  color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
 `;
 
 /**
@@ -34,13 +39,14 @@ const Label = styled.label`
  */
  const Select = ( props ) => {
 
+  const { theme } = useTheme()
   const { id, listItems, onChange } = props
 
   return (
     <>
     <div>
-      <Label className="" htmlFor={id}>{capitalize(id)}</Label>
-      <Selected
+      <Label theme={theme} htmlFor={id}>{capitalize(id)}</Label>
+      <Selected theme={theme}
         name={id}
         id={id}
         required={true}

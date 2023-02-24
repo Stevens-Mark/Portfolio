@@ -41,14 +41,13 @@ const ProjectHeading = styled.div`
 `;
 
 const CoverImage = styled.img`
-  // object-fit: cover;
   margin-bottom: 5px;
   max-height: 300px;
   width: 100%; 
 `;
 
 const TagForm = styled.span`
-animation: ${fadeIn} 1.4s both ease-in-out 0.5s;
+  animation: ${fadeIn} 1.4s both ease-in-out 0.5s;
   background: ${colors.darkGrey};
   border-radius: 5px;
   color: ${colors.tertiary};
