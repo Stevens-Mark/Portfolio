@@ -9,7 +9,6 @@ import { capitalize } from '../utils/Functions/helpers'
  * CSS for component using styled.components
  */
 const Selected =styled.select`
-  // background: ${colors.Zircon};
   background: ${({ theme }) => (theme === 'light' ? `${colors.Zircon}` : `${colors.darkModeHighlights}`)};
   color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
   border-radius: 0.2rem;
