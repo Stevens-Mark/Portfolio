@@ -9,6 +9,7 @@ import aboutDataFR from './assets/data/aboutDataFR.json'
 // import components
 import Header from './components/HeaderNav'
 import Footer from './components/Footer'
+import HiddenBanner from './components/HiddenBanner'
 // import Construction from './pages/Construction'
 
 // import components when needed using lazy loading
@@ -34,7 +35,8 @@ const App = () => {
   return (
     <Suspense fallback={renderLoader()}>
       <Router>
-        <Header language={language} toggleLanguage={toggleLanguage} siteText={dataToLoad.siteText}/>   
+        <Header language={language} toggleLanguage={toggleLanguage} siteText={dataToLoad.siteText}/>
+        <HiddenBanner />  
           <Switch>
             <Route path="/" exact component={()=> <Home siteData={dataToLoad} />}/>
             <Route path="/about" exact component={()=> <About aboutText={aboutToLoad} />} />

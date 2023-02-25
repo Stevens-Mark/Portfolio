@@ -1,7 +1,7 @@
 // links for 'other' websites & email
   export const gitLink = 'https://github.com/Stevens-Mark'
   export const linkedInLink ='https://www.linkedin.com/in/markspstevens/'
-  export const mail ='mailto:markspstevens@gmail.com'
+  export const mail ='mailto:markspstevens@yahoo.co.uk'
 
 // list of 'tech' icons with their paths where the png, svg, jpg is stored
 export const techIconList = 

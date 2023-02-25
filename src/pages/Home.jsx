@@ -96,7 +96,6 @@ const Home = ({ siteData }) => {
     window.scrollTo(0, 0);
   }, []);
 
-
   /**
   * Filters projects based on selected tag from dropdown
   * @function HandleFilter

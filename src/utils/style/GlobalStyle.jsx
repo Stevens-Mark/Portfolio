@@ -28,11 +28,11 @@ code {
 
 main {
   min-height: 85vh;
-  padding-top: 100px;
+  // padding-top: 100px;
 
-  @media screen and (min-width: 600px) {
-    padding-top: 110px;
-  }
+  // @media screen and (min-width: 600px) {
+  //   padding-top: 110px;
+  // }
 }
 
 a {

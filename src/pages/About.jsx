@@ -81,7 +81,6 @@ const About = ( { aboutText } ) => {
 
   return ( 
     <main role="main">
-      
         <h1 className="sr-only">Mark Stevens - About</h1>
         <Hero image={aboutHero} about={about}/>
       

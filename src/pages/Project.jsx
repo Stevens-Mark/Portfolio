@@ -78,7 +78,6 @@ const Texte = styled.div`
   flex: 1;
   margin: 1rem;
   overflow: hidden;
-  
 
   h2 {
     font-size: clamp(1rem, 1.6vw, 1.5rem);
@@ -92,10 +91,6 @@ const Texte = styled.div`
     margin: 0.625rem 0rem;
     white-space: pre-line;             // used with \n\n in JSON to format text on the page.
     
-  }
-  p {
-    // text-align: justify;
-    // text-justify: inter-word;
   }
 
   @media screen and (min-width: 768px) {
