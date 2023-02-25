@@ -108,7 +108,8 @@
 			"techIcons": [
 				"react",
 				"styledcomponents",
-				"jsdoc"
+				"jsdoc",
+        "github"
 			],
 			"website": "",
 			"github": "https://github.com/Stevens-Mark/Portfolio"
@@ -160,7 +161,8 @@
 			],
 			"techIcons": [
 				"html",
-				"css"
+				"css",
+        "github"
 			],
 			"website": "https://reservia2021.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
@@ -264,8 +266,10 @@
 				"CSS"
 			],
 			"techIcons": [
+        "html",
 				"javascript",
-				"css"
+				"css",
+        "github"
 			],
 			"website": "https://stevens-mark.github.io/StevensMark_P4_06052021/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
@@ -323,7 +327,8 @@
 			"techIcons": [
 				"accessibility",
 				"javascript",
-				"sass"
+				"sass",
+        "github"
 				],
 			"website": "https://fisheye2021.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
@@ -377,7 +382,8 @@
 				"javascript",
 				"html",
 				"bootstrap",
-				"sass"
+				"sass",
+        "github"
 				],
 			"website": "https://petitplat.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
@@ -424,7 +430,8 @@
 			],
 			"techIcons": [
 				"jest",
-				"javascript"
+				"javascript",
+        "github"
 				],
 			"website": "https://billed.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
@@ -534,11 +541,14 @@
 			],
 			"tags": [
 				"React",
-				"React-Router"
+				"React-Router",
+        "css"
 			],
 			"techIcons": [
 				"react",
-				"css"
+				"css",
+        "jsdoc",
+        "github"
 				],
 			"website": "https://kasa2021.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P11_18102021"
@@ -595,7 +605,8 @@
 				"react",
 				"styledcomponents",
 				"recharts",
-				"jsdoc"
+				"jsdoc",
+        "github"
 				],
 			"website": "https://sportsee2021.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P12_08112021"
@@ -653,7 +664,9 @@
 				"react",
 				"redux",
 				"styledcomponents",
-				"swagger"
+				"swagger",
+        "jsdoc",
+        "github"
 				],
 			"website": "https://stevens-mark.github.io/StevensMark_P13_02122021/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
@@ -714,7 +727,9 @@
 				"react",
 				"firebase",
 				"mongodb",
-				"tables"
+				"tables",
+        "jsdoc",
+        "github"
 				],
 			"website": "https://wealthhealth.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P14_04022022"
@@ -758,7 +773,7 @@
 				"Publish the React component to npm as a package.",
 				"If time, test the React code with a unit test suite."
 			],
-			"notes":"The customisable modal comes with default colours already installed, but can be changed if preferred. It is also possible to set themes for both light & dark modes (as shown in the demo) as well as choose whether to use the preset animation. Also, Focus trap is already applied to the modal for keyboard users. \n\n If you want to try changing the modal's appearance then the npm package can be found at https://www.npmjs.com/package/react-custom-modal-by-msparkystevens",
+			"notes":"The customisable modal comes with default colours already installed, but can be changed if preferred. It is also possible to set themes for both light & dark modes (as shown in the demo) as well as choose whether to use the preset animation. Also, Focus trap is already applied to the modal for keyboard users. \n\n There is a version including the tests with Jest on branch 'withtests' on github. \n\n If you want to try changing the modal's appearance then the npm package can be found at https://www.npmjs.com/package/react-custom-modal-by-msparkystevens",
 			"skills": [
 				"Redesign an application to reduce technical debt.",
 				"Analyze the performance of a web application.",
@@ -773,7 +788,9 @@
 				"react",
 				"styledcomponents",
 				"jsdoc",
-				"npm"
+				"npm",
+        "jest",
+        "github"
 				],
 			"website": "https://reactcustommodal.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
@@ -837,7 +854,9 @@
 			"techIcons": [
 				"react",
 				"javascript",
-				"sass"
+				"sass",
+        "jsdoc",
+        "github"
 				],
 			"website": "https://notflixstevensmark.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/NotFlix"
@@ -892,10 +911,12 @@
 			],
 			"tags": [
 				"WordPress",
+        "css",
 				"PhotoShop"
 			],
 			"techIcons": [
 				"wordpress",
+        "css",
 				"photoshop"
 				],
 			"website": "https://dev-banana-designs.pantheonsite.io/",
@@ -954,7 +975,8 @@
 			"techIcons": [
 				"php",
 				"mysql",
-        "bootstrap"
+        "bootstrap",
+        "github"
 				],
 			"website": "http://stevensmark.infinityfreeapp.com/index.php",
 			"github": "https://github.com/Stevens-Mark/FoodWishes"
@@ -999,10 +1021,12 @@
 			],
 			"tags": [
 				"WordPress",
+        "css",
 				"PhotoShop"
 			],
 			"techIcons": [
 				"wordpress",
+        "css",
 				"photoshop"
 				],
 			"website": "https://live-bestdives.pantheonsite.io/",

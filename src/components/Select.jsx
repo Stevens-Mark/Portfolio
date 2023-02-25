@@ -18,7 +18,7 @@ const Selected =styled.select`
   font-size: 1rem;
   margin: 0.5rem 0rem 1rem;
   padding: 0.375rem;
-  width: 11.25rem;
+  width: 10.5rem;
  
   >option {
     font-family: Arial; 
@@ -26,7 +26,7 @@ const Selected =styled.select`
 `;
 
 const Label = styled.label`
-  margin-right: 0.625rem;
+  margin-right: 0.5rem;
   color: ${({ theme }) => (theme === 'light' ? `${colors.secondary}` : `${colors.primary}`)};
 `;
 

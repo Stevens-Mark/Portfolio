@@ -108,7 +108,8 @@
 			"techIcons": [
 				"react",
 				"styledcomponents",
-				"jsdoc"
+				"jsdoc",
+        "github"
 			],
 			"website": "",
 			"github": "https://github.com/Stevens-Mark/Portfolio"
@@ -160,7 +161,8 @@
 			],
 			"techIcons": [
 				"html",
-				"css"
+				"css",
+        "github"
 			],
 			"website": "https://reservia2021.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
@@ -263,8 +265,10 @@
 				"CSS"
 			],
 			"techIcons": [
+        "html",
 				"javascript",
-				"css"
+				"css",
+        "github"
 			],
 			"website": "https://stevens-mark.github.io/StevensMark_P4_06052021/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
@@ -322,7 +326,8 @@
 			"techIcons": [
 				"accessibility",
 				"javascript",
-				"sass"
+				"sass",
+        "github"
 				],
 			"website": "https://fisheye2021.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
@@ -376,7 +381,8 @@
 				"javascript",
 				"html",
 				"bootstrap",
-				"sass"
+				"sass",
+        "github"
 				],
 			"website": "https://petitplat.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
@@ -423,7 +429,8 @@
 			],
 			"techIcons": [
 				"jest",
-				"javascript"
+				"javascript",
+        "github"
 				],
 			"website": "https://billed.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
@@ -531,11 +538,14 @@
 			],
 			"tags": [
 				"React",
-				"React-Router"
+				"React-Router",
+        "css"
 			],
 			"techIcons": [
 				"react",
-				"css"
+				"css",
+        "jsdoc",
+        "github"
 				],
 			"website": "https://kasa2021.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P11_18102021"
@@ -592,7 +602,8 @@
 				"react",
 				"styledcomponents",
 				"recharts",
-				"jsdoc"
+				"jsdoc",
+        "github"
 				],
 			"website": "https://sportsee2021.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P12_08112021"
@@ -650,7 +661,9 @@
 				"react",
 				"redux",
 				"styledcomponents",
-				"swagger"
+				"swagger",
+        "jsdoc",
+        "github"
 				],
 			"website": "https://stevens-mark.github.io/StevensMark_P13_02122021/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
@@ -711,7 +724,9 @@
 				"react",
 				"firebase",
 				"mongodb",
-				"tables"
+				"tables",
+        "jsdoc",
+        "github"
 				],
 			"website": "https://wealthhealth.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P14_04022022"
@@ -753,7 +768,7 @@
 				"Publier le composant React sur npm comme un paquet.",
 				"Si possible, tester le code React avec une suite de tests unitaires."
 			],
-			"notes":"La modale personnalisable est livrée avec des couleurs par défaut déjà installées, mais vous pouvez les modifier si vous le souhaitez. Il est également possible de définir des thèmes pour les modes nuit et jour (tel que montré par le demo) et de choisir d'utiliser ou non l'animation prédéfinie. En outre, le piège du focus est déjà appliqué à la modale pour les utilisateurs de clavier. \n\n Si vous voulez essayer de modifier l'apparence de la modale, vous trouverez le paquet npm à l'adresse https://www.npmjs.com/package/react-custom-modal-by-msparkystevens.",
+			"notes":"La modale personnalisable est livrée avec des couleurs par défaut déjà installées, mais vous pouvez les modifier si vous le souhaitez. Il est également possible de définir des thèmes pour les modes nuit et jour (tel que montré par le demo) et de choisir d'utiliser ou non l'animation prédéfinie. En outre, le piège du focus est déjà appliqué à la modale pour les utilisateurs de clavier. \n\n Il existe une version incluant les tests avec Jest sur la branche 'withtests' de github. \n\n Si vous voulez essayer de modifier l'apparence de la modale, vous trouverez le paquet npm à l'adresse https://www.npmjs.com/package/react-custom-modal-by-msparkystevens.",
 			"skills": [
 				"Re-concevoir une application pour réduire la dette technique.",
 				"Analyser les performances d'une application web.",
@@ -768,7 +783,9 @@
 				"react",
 				"styledcomponents",
 				"jsdoc",
-				"npm"
+				"npm",
+        "jest",
+        "github"
 				],
 			"website": "https://reactcustommodal.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
@@ -831,7 +848,9 @@
 			"techIcons": [
 				"react",
 				"javascript",
-				"sass"
+				"sass",
+        "jsdoc",
+        "github"
 				],
 			"website": "https://notflixstevensmark.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/NotFlix"
@@ -886,10 +905,12 @@
 			],
 			"tags": [
 				"WordPress",
+        "css",
 				"PhotoShop"
 			],
 			"techIcons": [
 				"wordpress",
+        "css",
 				"photoshop"
 				],
 			"website": "https://dev-banana-designs.pantheonsite.io/",
@@ -948,7 +969,8 @@
 			"techIcons": [
 				"php",
 				"mysql",
-        "bootstrap"
+        "bootstrap",
+        "github"
 				],
 			"website": "http://stevensmark.infinityfreeapp.com/index.php",
 			"github": "https://github.com/Stevens-Mark/FoodWishes"
@@ -993,10 +1015,12 @@
 			],
 			"tags": [
 				"WordPress",
+        "css",
 				"PhotoShop"
 			],
 			"techIcons": [
 				"wordpress",
+        "css",
 				"photoshop"
 				],
 			"website": "https://live-bestdives.pantheonsite.io/",

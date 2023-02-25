@@ -12,11 +12,17 @@ import { techIconList } from '../assets/data/additionalData'
 const TechImg = styled.img`   
     background: ${colors.Zircon};
     border-radius: 0.313rem;
-    height:  2rem;
-    margin: 0.5rem;
+    height:  1.6rem;
+    margin: 0.2rem;
     padding: 0.313rem;
-    width: 2rem;
+    width: 1.6rem;
     animation: ${fadeIn} 1.5s both ease-in-out 1s;
+
+    @media (min-width: 1050px) {
+      height:  2rem;
+      margin: 0.5rem;
+      width: 2rem;
+    }
 `;
 
 /**
