@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 // for styling
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
+import { fadeIn } from '../utils/style/keyframes'
 // import logo & language flags
 import logo from '../assets/logos/mark_logo.webp'
 import linkedIn from '../assets/icons/linked_in.svg'
@@ -15,6 +16,7 @@ import { linkedInLink, mail } from '../assets/data/additionalData'
  */
 
 const Banner = styled.div`
+  animation: ${fadeIn} 3s forwards ease-in-out;
   background: ${colors.secondary};
   box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
   display: flex;
