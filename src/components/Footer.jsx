@@ -13,9 +13,9 @@ import logoM from '../assets/logos/logoM.webp'
 import git from '../assets/icons/github.svg'
 import linkedIn from '../assets/icons/linked_in.svg'
 import contact from '../assets/icons/contact.svg'
+import resume from '../assets/icons/resume.svg'
 // import 'other' website & email links
 import { gitLink, linkedInLink, mail } from '../assets/data/additionalData'
-
 /**
  * CSS for component using styled.components
  */
@@ -40,7 +40,7 @@ const FOOTER = styled.footer`
 `;
 
 const LogosWrapper = styled.span`
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1024px) {
     position: absolute;
     right: 1.25rem;
   }
@@ -52,15 +52,16 @@ const LogoMark = styled.img`
 
 const LinkImg = styled.img`
   filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(342deg) brightness(105%) contrast(101%);
-  margin: 1rem 1.9rem;
-  width: 2rem;
+  margin: 1rem 0.5rem;
+  width: 1.5rem;
   transition: .8s;
   &:hover {
     filter: invert(88%) sepia(75%) saturate(6293%) hue-rotate(132deg) brightness(84%) contrast(88%);
     }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1024px) {
     margin: 1rem;
+    width: 2rem;
   }
 `;
 
@@ -90,6 +91,7 @@ const Footer = ( { siteText } ) => {
         <Link to="/"><LogoMark src={logoM} alt="Link to home page" /></Link>
 
         <LogosWrapper>
+
           <a href={gitLink} aria-label="Link to Github Repository" rel="noreferrer" target="_blank">
             <Tooltip content="GitHub">
               <LinkImg src={git} alt="Link to Github" />
@@ -99,6 +101,12 @@ const Footer = ( { siteText } ) => {
           <a href={linkedInLink} aria-label="Link to LinkedIn" rel="noreferrer" target="_blank">
             <Tooltip content="LinkedIn">
               <LinkImg src={linkedIn} alt="Link to Linked in"/>
+            </Tooltip>
+          </a>
+
+          <a href="/CV_Stevens_Mark2023.pdf" aria-label="Link to Download CV" download>
+            <Tooltip content="Resume">
+              <LinkImg src={resume} alt="Link to Download CV"/>
             </Tooltip>
           </a>
 
