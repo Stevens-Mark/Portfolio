@@ -54,6 +54,10 @@ const LinkImg = styled.img`
   filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(342deg) brightness(105%) contrast(101%);
   margin: 1rem 1.9rem;
   width: 2rem;
+  transition: .8s;
+  &:hover {
+    filter: invert(88%) sepia(75%) saturate(6293%) hue-rotate(132deg) brightness(84%) contrast(88%);
+    }
 
   @media screen and (min-width: 768px) {
     margin: 1rem;

@@ -23,27 +23,30 @@ const ProjectCard = styled.article`
   padding: 0.938rem;
   transition: 0.4s;
   overflow: hidden;
+  h2 {
+    font-size: 1.1rem;
+  }
   
   &:hover {
     filter: brightness(100%);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
   }
-
-  h2 {
-    font-size: 1.1rem;
-  }
-`;
-
-const ProjectHeading = styled.div`
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
 `;
 
 const CoverImage = styled.img`
   margin-bottom: 5px;
   max-height: 300px;
-  width: 100%; 
+  width: 100%;
+  transition: 0.6s;
+  ${ProjectCard}:hover & {
+    transform: scale(1.02);
+    }
+`;
+
+const ProjectHeading = styled.div`
+  align-items: center;
+  display: flex;
+  justify-content: space-between; 
 `;
 
 const TagForm = styled.span`

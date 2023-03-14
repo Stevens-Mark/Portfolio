@@ -17,6 +17,10 @@ const TechImg = styled.img`
     padding: 0.313rem;
     width: 1.6rem;
     animation: ${fadeIn} 1.5s both ease-in-out 1s;
+    transition: 0.4s;
+    &:hover {
+      transform: scale(1.2);
+    }
 
     @media (min-width: 1050px) {
       height:  2rem;

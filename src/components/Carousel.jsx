@@ -23,10 +23,11 @@ const CarouselWrapper = styled.article`
   justify-content: center;
   margin: 0.625rem;
   position: relative;
-  transition: 0.4s;
+  transition: 0.8s;
   
   &:hover {
     filter: brightness(100%);
+    transform: scale(1.01);
   }
 `;
 

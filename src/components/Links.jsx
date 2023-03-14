@@ -13,6 +13,10 @@ import git from '../assets/icons/github.svg'
 const LinkImg = styled.img`
   margin: 0px 5px;
   width: clamp(1rem, 1.6vw, 1.4rem);
+  transition: 0.4s;
+  &:hover {
+    filter: invert(99%) sepia(1%) saturate(687%) hue-rotate(123deg) brightness(93%) contrast(89%);
+    }
 `;
 
 const NoLink = styled.img`
