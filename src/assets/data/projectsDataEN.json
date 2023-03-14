@@ -1000,19 +1000,19 @@
 			"goal": "Build a prototype of existing website using WordPress",
 			"description":"Best Dives Maldives operates a PADI 5-star Dive Centre, Watersports Centre and a wide range of Excursions both above and under water in several luxury resorts across the Maldives. They also offer Luxury Yacht Charter and Guest Transfer Services from the airport to the resort through our sister company Best Yachts Maldives. They are considering migrating their existing website over to WordPress. The brief was to clone the first part of the site to give an idea of how the 'new' site would look in WordPress.",
 			"functionality": [
-				"Home Page and ten resort island pages where Best Dives operates currently (2023).",
+				"Home Page and all pages where Best Dives operates currently (2023).",
 				"External Links to view sister website : Best Yachts as well as Padi & resort islands.",
 				"Contact form with 'invisible' CAPTCHA (currently disabled).",
-				"Cached static html files served to increase page load times.",
+				"Cached static html files served to increase page load times (restricted by host provider).",
 				"Use of a proper SMTP provider when sending emails (currently disabled)."
 			],
 			"constraints": [
 				"Build site using WordPress and Use free plugins.",
 				"The new 'prototype' website should follow the original design.",
-				"Site prototype ONLY needs to be the island pages (other pages left 'under construction'.",
+				"Site prototype ONLY needs to be the island pages (I have completed the whole site).",
 				"Use a FREE WordPress hosting service for the prototype."
 			],
-			"notes":"I have again used https://pantheon.io/ as the free hosting service. Unfortunately, I have read that there is always the possibility that the site is removed for no reason and using a free service and plugins means that features are possibily limited but this was the brief. Saying that, the site looks remarkable similar with the same functionality. \n\n As mentioned previously, I have only used free plugins for this projects. For example:  Duplicate Page, Conditional Menus, GDPR Cookie Consent, Ocean Extra, UpdraftPlus, WP Mail SMTP, WP-Optimize, etc.... and Page Builder: Elementor. You can see the original website at that this site was cloned from at: https://www.bestdivesmaldives.com/ \n\n",
+			"notes":"I have again used https://pantheon.io/ as the free hosting service. Unfortunately, I have read that there is always the possibility that the site is removed for no reason and using a free service and plugins means that features are possibily limited but this was the brief.\n\n I also found page caching plugins to speed up page loading has mixed results or is blocked by the service provider. Moving from the dev to live environment also removed these plugins so I have used the dev link instead of the live site link as it seems to work better.  Saying that, the site looks remarkable similar with the same functionality. \n\n As mentioned previously, I have only used free plugins for this projects. For example:  Complianz/GDPR Cookie consent,  Conditional Menus, Duplicate Page, Jetpack Boost, Ocen Extra, UpdraftPlus, Wordfence Security, WP Mail SMTP, WP-Optimize, WPForms Lite & Elementor Page Builder. Whilst it's still online, you can see the old website that this site was cloned from at: https://www.bestdivesmaldives.com/ \n\n",
 			"skills": [
 				"Create a website using WordPress.",
 				"Ensure the graphic coherence of a web site.",
@@ -1029,7 +1029,7 @@
         "css",
 				"photoshop"
 				],
-			"website": "https://live-bestdives.pantheonsite.io/",
+			"website": "https://dev-bestdives.pantheonsite.io/",
 			"github": ""
 		}
 	]
