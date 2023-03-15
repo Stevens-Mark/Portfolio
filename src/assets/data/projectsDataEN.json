@@ -1012,7 +1012,7 @@
 				"Site prototype ONLY needs to be the island pages (I have completed the whole site).",
 				"Use a FREE WordPress hosting service for the prototype."
 			],
-			"notes":"I have again used https://pantheon.io/ as the free hosting service. Unfortunately, I have read that there is always the possibility that the site is removed for no reason and using a free service and plugins means that features are possibily limited but this was the brief.\n\n I also found page caching plugins to speed up page loading has mixed results or is blocked by the service provider. Moving from the dev to live environment also removed these plugins so I have used the dev link instead of the live site link as it seems to work better.  Saying that, the site looks remarkable similar with the same functionality. \n\n As mentioned previously, I have only used free plugins for this projects. For example:  Complianz/GDPR Cookie consent,  Conditional Menus, Duplicate Page, Jetpack Boost, Ocen Extra, UpdraftPlus, Wordfence Security, WP Mail SMTP, WP-Optimize, WPForms Lite & Elementor Page Builder. Whilst it's still online, you can see the old website that this site was cloned from at: https://www.bestdivesmaldives.com/ \n\n",
+			"notes":"I have again used https://pantheon.io/ as the free hosting service. Unfortunately, I have read that there is always the possibility that the site is removed for no reason and using a free service and plugins means that features are possibily limited but this was the brief.\n\n I also found page caching plugins to speed up page loading has mixed results or is blocked by the service provider. Moving from the dev to live environment also removed these plugins, but I have still directed the user to the user to the 'live' site...  Saying that, the site looks remarkable similar with the same functionality. \n\n As mentioned previously, I have only used free plugins for this projects. For example:  Complianz/GDPR Cookie consent,  Conditional Menus, Duplicate Page, Jetpack Boost, Ocen Extra, UpdraftPlus, Wordfence Security, WP Mail SMTP, WP-Optimize, WPForms Lite & Elementor Page Builder. Whilst it's still online, you can see the old website that this site was cloned from at: https://www.bestdivesmaldives.com/ \n\n",
 			"skills": [
 				"Create a website using WordPress.",
 				"Ensure the graphic coherence of a web site.",
@@ -1029,7 +1029,7 @@
         "css",
 				"photoshop"
 				],
-			"website": "https://dev-bestdives.pantheonsite.io/",
+			"website": "https://live-bestdives.pantheonsite.io/",
 			"github": ""
 		}
 	]
