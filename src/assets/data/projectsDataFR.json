@@ -789,7 +789,68 @@
 				],
 			"website": "https://reactcustommodal.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
-		}, 		{
+		},
+    {
+			"id": "simpleportfolio",
+			"title": "Portefeuille unique",
+			"date": "2022-07-02",
+			"cover": "images/projects/simpleportfolio/simple01.webp",
+			"objective": "Créer un portefeuille simple",
+			"summary": "Il s'agit d'un projet personnel visant à développer un portfolio simple utilisant les fonctionnalités de Bootstrap5. Il répertorie graphiquement certains des projets que j'ai entrepris jusqu'à présent.",
+			"pictures": [
+				"../images/projects/simpleportfolio/simpleLogo.webp",
+				"../images/projects/simpleportfolio/simple01.webp",
+				"../images/projects/simpleportfolio/simple02.webp",
+				"../images/projects/simpleportfolio/simple03.webp",
+				"../images/projects/simpleportfolio/simple04.webp",
+				"../images/projects/simpleportfolio/simple05.webp",
+				"../images/projects/simpleportfolio/simple06.webp"
+			],
+			"goal": "Develop a simple portfolio whilst following a Bootstrap 5 course.",
+			"description":"J'ai décidé de créer une version 'allégée' de mon portfolio qui ne contient aucune information relative à la fonctionnalité ou aux contraintes. Il s'agit d'une histoire/un voyage graphique des projets que j'ai entrepris à ce jour. \n\n L'idée était également d'apprendre certaines des fonctionnalités de Bootstrap5. J'ai également eu la chance d'expérimenter avec fontawesome, les icônes Bootstrap et les icônes react, ainsi que de stocker les svg localement, pour avoir une idée des différences d'implémentation.",
+			"functionality": [
+        "Mise en page réactive.",
+        "Navigation réactive.",
+        "Composant barre de progression.",
+        "Composants de carte.",
+        "Offcanvas.",
+        "Carrousel.",
+        "Formulaire de contact",
+        "Modal et Tooltips.",
+        "Classes d'utilité.",
+        "Notifications Toast.",
+        "Double langue (français/anglais)."
+			],
+			"constraints": [
+        "Coder le site en utilisant React.",
+				"Utiliser Bootstrap5.", 		
+				"Le site doit être compatible avec les dernières versions de Chrome et Firefox.",
+				"Versionner le code avec Git.",
+				"L'ensemble du site doit être responsive sur mobile, tablette et desktop."
+			],
+			"notes":"",
+			"skills": [
+        "Mise en œuvre de la gestion des versions pour un projet.",
+				"Mettre en œuvre les fonctionnalités de Bootstrap5.",
+				"Programmer en React.",
+				"Responsive design."
+			],
+			"tags": [
+				"React",
+				"BootStrap",
+				"Sass"
+			],
+			"techIcons": [
+				"react",
+				"bootstrap",
+				"sass",
+        "jsdoc",
+        "github"
+				],
+			"website": "https://portfoliostevensmark.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/Simple-Portfolio"
+		},		
+    {
 			"id": "notflix",
 			"title": "Un clône de Netflix",
 			"date": "2022-07-29",

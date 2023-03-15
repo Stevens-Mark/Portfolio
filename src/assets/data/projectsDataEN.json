@@ -795,6 +795,66 @@
 			"website": "https://reactcustommodal.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
 		},
+    {
+			"id": "simpleportfolio",
+			"title": "Simple Portfolio",
+			"date": "2022-07-02",
+			"cover": "images/projects/simpleportfolio/simple01.webp",
+			"objective": "Create a Simple Portfolio",
+			"summary": "This is a personal project to develop a simple portfolio using Bootstrap5 features. Graphically cataloging some of the projects I have undertaken to date.",
+			"pictures": [
+				"../images/projects/simpleportfolio/simpleLogo.webp",
+				"../images/projects/simpleportfolio/simple01.webp",
+				"../images/projects/simpleportfolio/simple02.webp",
+				"../images/projects/simpleportfolio/simple03.webp",
+				"../images/projects/simpleportfolio/simple04.webp",
+				"../images/projects/simpleportfolio/simple05.webp",
+				"../images/projects/simpleportfolio/simple06.webp"
+			],
+			"goal": "Develop a simple portfolio whilst following a Bootstrap 5 course.",
+			"description":"I decided to create a 'light- weight' version of my portfolio that does not include any of the information with regards to the functionality or constraints. It's a graphical story/journey of the projects I have undertaken to date. \n\n The idea was to also learn some of the features of Bootstrap5. I also had the chance to experiment with fontawesome, Bootstrap icons & react icons, as well as storing the svg's locally, to get a feel of the implementation differences.",
+			"functionality": [
+				"Layout Responsive.",
+        "Responsive Navigation.",
+        "Progress Bar Component.",
+        "Card Components.",
+        "Offcanvas.",
+        "Carousel.",
+        "Contact Form.",
+        "Modal and Tooltips",
+        "Utility Classes.",
+        "Toast Notifications.",
+        "Dual Language (French/English)."
+			],
+			"constraints": [
+				"Code the site using React.",
+				"Use Bootstrap5.", 		
+				"The site must be compatible with the latest versions of Chrome and Firefox.",
+				"Version the code with Git.",
+				"The entire site must be responsive on mobile, tablet and desktop."
+			],
+			"notes":"",
+			"skills": [
+				"Implementing version management for a project.",
+				"Implementing Bootstrap5 features.",
+				"Programming in React.",
+				"Responsive design."
+			],
+			"tags": [
+				"React",
+				"BootStrap",
+				"Sass"
+			],
+			"techIcons": [
+				"react",
+				"bootstrap",
+				"sass",
+        "jsdoc",
+        "github"
+				],
+			"website": "https://portfoliostevensmark.netlify.app/",
+			"github": "https://github.com/Stevens-Mark/Simple-Portfolio"
+		},
 		{
 			"id": "notflix",
 			"title": "A Netflix Clone",
@@ -1012,7 +1072,7 @@
 				"Site prototype ONLY needs to be the island pages (I have completed the whole site).",
 				"Use a FREE WordPress hosting service for the prototype."
 			],
-			"notes":"I have again used https://pantheon.io/ as the free hosting service. Unfortunately, I have read that there is always the possibility that the site is removed for no reason and using a free service and plugins means that features are possibily limited but this was the brief.\n\n I also found page caching plugins to speed up page loading has mixed results or is blocked by the service provider. Moving from the dev to live environment also removed these plugins, but I have still directed the user to the user to the 'live' site...  Saying that, the site looks remarkable similar with the same functionality. \n\n As mentioned previously, I have only used free plugins for this projects. For example:  Complianz/GDPR Cookie consent,  Conditional Menus, Duplicate Page, Jetpack Boost, Ocen Extra, UpdraftPlus, Wordfence Security, WP Mail SMTP, WP-Optimize, WPForms Lite & Elementor Page Builder. Whilst it's still online, you can see the old website that this site was cloned from at: https://www.bestdivesmaldives.com/ \n\n",
+			"notes":"I have again used https://pantheon.io/ as the free hosting service. Unfortunately, I have read that there is always the possibility that the site is removed for no reason and using a free service and plugins means that features are possibily limited but this was the brief.\n\n I also found page caching plugins to speed up page loading has mixed results or is blocked by the service provider. Moving from the dev to live environment also removed these plugins, but I have still directed the user to the 'live' site...  Saying that, the site looks remarkable similar with the same functionality. \n\n As mentioned previously, I have only used free plugins for this projects. For example:  Complianz/GDPR Cookie consent,  Conditional Menus, Duplicate Page, Jetpack Boost, Ocen Extra, UpdraftPlus, Wordfence Security, WP Mail SMTP, WP-Optimize, WPForms Lite & Elementor Page Builder. Whilst it's still online, you can see the old website that this site was cloned from at: https://www.bestdivesmaldives.com/ \n\n",
 			"skills": [
 				"Create a website using WordPress.",
 				"Ensure the graphic coherence of a web site.",
