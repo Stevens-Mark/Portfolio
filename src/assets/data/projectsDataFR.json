@@ -695,7 +695,8 @@
 				"Contrôle de la saisie pour éviter les erreurs de saisie de l'utilisateur.",
 				"Fonctions de recherche, de pagination, de navigation et de tri des tableaux incluses (comme auparavant).",	
 				"Navigation au clavier possible.",
-				"Mode nuit."
+				"Mode nuit.",
+        "Version Fullstack disponible avec toutes les fonctionnalités CRUD (voir notes ci-dessous)."
 			],
 			"constraints": [
 				"Convertir l'ensemble du projet HRNet en React.",
@@ -708,7 +709,7 @@
 				"Effectuer les tests de performance (Lighthouse) en comparant l'ancienne et la nouvelle application.",
 				"Si le temps le permet, tester le code React avec une suite de tests unitaires. Sinon, seuls des tests manuels sont nécessaires."
 			],
-			"notes":"J'ai fait plusieurs versions de ce projet, en utilisant soit localstorage, FireBase ou MongoDB comme backend pour le stockage des données. Elles sont toutes disponibles dans le Repo Git sous les noms de branches : main, db, firebase, usversion & full (version CRUD). La version de démonstration utilise localstorage. \n\n IMPORTANT: Si vous créez directement de nouveaux enregistrements d'employés à partir de la page d'accueil, SEULS ces enregistrements seront affichés dans la table. MAIS si vous passez d'abord à la VUE des enregistrements actuels des employés, alors des données factices seront chargées dans le tableau pour démontrer la fonctionnalité du site (ces données seront placées dans votre stockage local, donc vous voudrez peut-être les supprimer par la suite).",
+			"notes":"J'ai fait plusieurs versions de ce projet, en utilisant soit localstorage, FireBase ou MongoDB comme backend pour le stockage des données. Elles sont toutes disponibles dans le Repo Git sous les noms de branches : main, db, firebase, usversion & full (fullstack - version CRUD). La version de démonstration utilise localstorage. \n\n IMPORTANT: Pour la version de démonstration utilisant le localstorage, si vous créez directement de nouveaux enregistrements d'employés à partir de la page d'accueil, SEULS ces enregistrements seront affichés dans la table. MAIS si vous passez d'abord à la VUE des enregistrements actuels des employés, alors des données factices seront chargées dans le tableau pour démontrer la fonctionnalité du site (ces données seront placées dans votre stockage local, donc vous voudrez peut-être les supprimer par la suite). \n\n Pour la version fullstack, le frontend est hébergée en utilisant netlify et le backend  en utilisant Render et peut être vue à https://wealthcrud.netlify.app/",
 			"skills": [
 				"Refondre une application pour réduire la dette technique.",
 				"Analyser la performance d'une application web.",
@@ -725,7 +726,7 @@
 				"firebase",
 				"mongodb",
 				"tables",
-        "jsdoc",
+        "jest",
         "github"
 				],
 			"website": "https://wealthhealth.netlify.app/",
