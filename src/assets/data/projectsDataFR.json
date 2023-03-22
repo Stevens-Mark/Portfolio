@@ -472,7 +472,7 @@
 				"Un utilisateur peut créer des tâches pour lui-même ou pour un autre utilisateur.", "Un étudiant ne peut créer des tâches que pour lui-même.", 
 				"Un volontaire peut créer des tâches pour les étudiants de son choix."
 			],
-			"notes":"",
+			"notes":"Les diagrammes de cas d'utilisation pour chacune des principales fonctionnalités de chaque page (connexion, chat, calendrier, gestionnaire de tâches, tableau de bord), les User stories avec les critères d'acceptation pour chaque fonctionnalité etet le lien vers le kaban, décomposant le projet, peuvent être trouvés sur le lien Github.",
 			"skills": [
 				"Contribuer à un projet en utilisant une méthodologie agile",
 				"Créer une maquette pour un client",
@@ -1068,7 +1068,7 @@
 				"Le prototype du site doit UNIQUEMENT contenir les pages de l'île (j'ai terminé tout le site).",
 				"Utilisez un service d'hébergement WordPress GRATUIT pour le prototype."
 			],
-			"notes":"J'ai de nouveau utilisé https://pantheon.io/ comme service d'hébergement gratuit. Malheureusement, j'ai lu qu'il y a toujours la possibilité que le site soit supprimé sans raison et l'utilisation d'un service et de plugins gratuits signifie que les fonctionnalités sont éventuellement limitées, mais c'était le bref. \n\n J'ai également trouvé des plugins de mise en cache de pages pour accélérer le chargement des pages qui avaient des résultats mitigés ou qui étaient bloquées par le fournisseur de services. Le passage de l'environnement de 'dev' à l'environnement 'live' a également supprimé ces plugins, mais j'ai quand même dirigé l'utilisateur vers le site 'live'... Cela dit, le site semble remarquablement similaire avec les mêmes fonctionnalités. \n\n Comme mentionné précédemment, je n'ai utilisé que des plugins gratuits pour ces projets. Par exemple : consentement aux cookies Complianz/GDPR, menus conditionnels, page dupliquée, Jetpack Boost, Ocen Extra, UpdraftPlus, Wordfence Security, WP Mail SMTP, WP-Optimize, WPForms Lite & Elementor Page Builder. Tant qu'il est encore en ligne, vous pouvez voir l'ancien site Web à partir duquel ce site a été cloné à : https://www.bestdivesmaldives.com/ \n\n",
+			"notes":"J'ai de nouveau utilisé https://pantheon.io/ comme service d'hébergement gratuit. Malheureusement, j'ai lu qu'il y a toujours la possibilité que le site soit supprimé sans raison et l'utilisation d'un service et de plugins gratuits signifie que les fonctionnalités sont éventuellement limitées, mais c'était le bref. \n\n J'ai également trouvé des plugins de mise en cache de pages pour accélérer le chargement des pages qui avaient des résultats mitigés ou qui étaient bloquées par le fournisseur de services. Le passage de l'environnement de 'dev' à l'environnement 'live' a également supprimé ces plugins, mais j'ai quand même dirigé l'utilisateur vers le site 'live'... Cela dit, le site semble remarquablement similaire avec les mêmes fonctionnalités. \n\n Comme mentionné précédemment, je n'ai utilisé que des plugins gratuits pour ces projets. Par exemple : consentement aux cookies Complianz/GDPR, menus conditionnels, page dupliquée, Jetpack Boost, Ocean Extra, UpdraftPlus, Wordfence Security, WP Mail SMTP, WP-Optimize, WPForms Lite & Elementor Page Builder. Tant qu'il est encore en ligne, vous pouvez voir l'ancien site Web à partir duquel ce site a été cloné à : https://www.bestdivesmaldives.com/ \n\n",
 			"skills": [
         "Créer un site web à l'aide de WordPress.",
 				"Assurer la cohérence graphique d'un site web.",
