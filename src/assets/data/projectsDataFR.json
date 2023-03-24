@@ -645,7 +645,7 @@
 				"Suivre les directives Swagger.",
 				"Spécifier les Endpoints de l'API (méthode HTTP, route, description, paramètres, ...)."
 			],
-			"notes":"Les transactions sont encore en phase de conception.\n\nLe lien vers le site web donne accès aux pages d'accueil et de connexion uniquement. Pour voir le projet dans son intégralité, veuillez-vous rendre sur le repo du projet et suivre attentivement les instructions d'installation.",
+			"notes":"Les transactions sont encore en phase de conception. Une fois connecté, des données 'factices' sont affichées pour le moment. J'ai hébergé le backend (précédemment construit en tant que serveur local par les ingénieurs) sur RENDER.",
 			"skills": [
 				"Implémenter un gestionnaire d'état dans une application React",
 				"Intéragir avec une API",
@@ -665,7 +665,7 @@
         "jsdoc",
         "github"
 				],
-			"website": "https://argentbank.netlify.app/",
+			"website": "https://argentbankdeployed.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
 		},
 		{

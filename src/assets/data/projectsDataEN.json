@@ -648,7 +648,7 @@
 				"Follow the Swagger guidelines.",
 				"Specify the API Endpoints (HTTP method, route, description, parameters, ...)."
 			],
-			"notes":"The transactions are still in the design phase. The link to the website gives access to the home and login pages only. To see the whole project, please go to the project repo and follow the installation instructions carefully.",
+			"notes":"The transactions are still in the design phase. Once logged in 'dummy' data is displayed for the moment. I have hosted the backend (previously built as a local server by the engineers) on RENDER",
 			"skills": [
 				"Implementing a state manager in a React application.",
 				"Interacting with an API",
@@ -668,7 +668,7 @@
         "jsdoc",
         "github"
 				],
-			"website": "https://argentbank.netlify.app/",
+			"website": "https://argentbankdeployed.netlify.app/",
 			"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
 		},
 		{
