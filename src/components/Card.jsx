@@ -22,7 +22,7 @@ const ProjectCard = styled.article`
   margin: 1rem;
   padding: 0.938rem;
   transition: 0.4s;
-  overflow: hidden;
+  // overflow: hidden;
   h2 {
     font-size: 1.1rem;
   }

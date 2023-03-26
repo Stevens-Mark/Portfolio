@@ -31,7 +31,6 @@ const Overview = styled.div`
   @media screen and (min-width: 900px) {
     display: flex;
     flex-direction: row;
-    
   }
 `;
 

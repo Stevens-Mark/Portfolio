@@ -17,6 +17,8 @@
 		},
     "filter": "filtre",
     "filterDefault": "Tous",
+    "ascend": "Ascendant",
+    "descend": "Descendant",
     "techIcons": [
       "html",
       "css",

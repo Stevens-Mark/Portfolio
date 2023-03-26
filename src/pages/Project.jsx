@@ -39,7 +39,7 @@ const Heading = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 0rem 1rem;
-  overflow: hidden;
+  // overflow: hidden;
 
   h1 {
     font-size: clamp(1.5rem, 2.5vw, 2.25rem);
@@ -51,8 +51,7 @@ const Heading = styled.div`
   }
 `;
 
-const NightDayFilter = styled.span`
-  filter: ${({ theme }) => (theme === 'light' ? '' : 'invert(65%) sepia(100%) saturate(341%) hue-rotate(127deg) brightness(91%) contrast(83%);')};
+const AnimateIn = styled.span`
   animation: ${slideIn} 1s both ease-in-out 0.7s;
 `;
 
@@ -138,7 +137,7 @@ const Project = ( { siteData } ) => {
   }, [])
 
    useEffect(() => {
-    const projectToShow = projects.find((room) => room.id === idUrl)
+    const projectToShow = projects.find((proj) => proj.id === idUrl)
     if (projectToShow) {
           setData(projectToShow)
           setLoading(false)
@@ -164,9 +163,9 @@ const Project = ( { siteData } ) => {
               <ProjectWrapper theme={theme}>  
                   <Heading>
                     <h1>{title}</h1>
-                    <NightDayFilter theme={theme}>
-                      <Links website={website} github={github} />
-                    </NightDayFilter>
+                    <AnimateIn>
+                      <Links website={website} github={github} linkType="projPageLink"/>
+                    </AnimateIn>
                   </Heading>
                 <Overview>
                   

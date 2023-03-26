@@ -13,6 +13,7 @@ import heroImg from '../assets/images/banner4.webp';
 import ASC from '../assets/icons/ascending.svg';
 import DESC from '../assets/icons/descending.svg';
 import Select from '../components/Select';
+import Tooltip from '../components/ToolsTips/ToolTip';
 
 /**
  * CSS for component using styled.components
@@ -46,7 +47,12 @@ const TechWrapper = styled.aside`
   display: none;
 
   @media screen and (min-width: 1440px) {
-    padding: 0.938rem;
+    background: ${({ theme }) => (
+      theme === 'light' 
+      ? `linear-gradient(180deg, rgb(148, 191, 224) 0%, rgb(51, 204, 204) 15%)`
+      : `linear-gradient(180deg,rgba(79,76,107,1) 0%,rgba(47,46,65,1) 15%)`)};
+    margin-top: 0.25rem;
+    padding: 0.25rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -125,7 +131,7 @@ const Home = ({ siteData }) => {
       <h1 className="sr-only">Mark Stevens - Welcome</h1>
       <Hero image={heroImg} siteText={siteData.siteText} />
 
-      <TechWrapper>
+      <TechWrapper theme={theme}>
         <TechIcons icons={siteData.siteText.techIcons} />
       </TechWrapper>
 
@@ -150,9 +156,17 @@ const Home = ({ siteData }) => {
             onClick={() => HandleSort()}
           >
             {desc ? (
-              <img src={DESC} alt="descending" />
+              <>
+                <Tooltip content={siteData.siteText.descend}>
+                  <img src={DESC} alt="Desc" />
+                </Tooltip>
+              </>
             ) : (
-              <img src={ASC} alt="ascending" />
+              <>
+              <Tooltip content={siteData.siteText.ascend}>
+                <img src={ASC} alt="Asc" />
+              </Tooltip>
+            </>
             )}
           </Sort>
         </Controls>
