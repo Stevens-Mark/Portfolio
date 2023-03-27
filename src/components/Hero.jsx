@@ -3,12 +3,15 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import colors from '../utils/style/colors'
 import { useTheme } from '../utils/Functions/theme'
+// import typewriter effect
+import Typewriter from 'typewriter-effect';
 // import keyframes for component animations
 import { fadeIn, scaleRotate, yTranslate } from '../utils/style/keyframes'
 // import components
 import ReactSpinner from'../components/ReactSpinner'
 // import author's photograph
 import author from '../assets/images/mark.webp'
+
 
 /**
  * CSS for the component using styled.components
@@ -163,11 +166,20 @@ const Hero = ( { image, siteText={}, about={} } ) => {
           <HeroContainer backImg={image} theme={theme}>   
             <ReactSpinner />
               <HeroContent theme={theme} >
-                  <h2>{title}</h2>
-                  <HeroSubtitle>{subtitle1}</HeroSubtitle>
-                  <HeroSubtitle>{subtitle2}</HeroSubtitle>
-                  <HeroSubtitle>{subtitle3}</HeroSubtitle>
-                  <HeroText>{slogan}</HeroText> 
+                {/* <h2>{title}</h2> */}
+                <h2 style={{fontSize: "23px"}}>
+                  <Typewriter
+                    options={{
+                      strings: ['Mark Stevens', `${title}`],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </h2>
+                <HeroSubtitle>{subtitle1}</HeroSubtitle>
+                <HeroSubtitle>{subtitle2}</HeroSubtitle>
+                <HeroSubtitle>{subtitle3}</HeroSubtitle>
+                <HeroText>{slogan}</HeroText> 
               </HeroContent>
           </HeroContainer> 
         ) : 
