@@ -650,7 +650,7 @@
 				"Follow the Swagger guidelines.",
 				"Specify the API Endpoints (HTTP method, route, description, parameters, ...)."
 			],
-			"notes":"The transactions are still in the design phase. Once logged in 'dummy' data is displayed for the moment. I have hosted the backend (previously built as a local server by the engineers) on RENDER",
+			"notes":"The transactions are still in the design phase. Once logged in 'dummy' data is displayed for the moment. I have hosted the backend (previously built as a local server by the engineers) on RENDER. Username: Tony@stark.com, Password: password123",
 			"skills": [
 				"Implementing a state manager in a React application.",
 				"Interacting with an API",

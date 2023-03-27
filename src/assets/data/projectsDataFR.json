@@ -647,7 +647,7 @@
 				"Suivre les directives Swagger.",
 				"Spécifier les Endpoints de l'API (méthode HTTP, route, description, paramètres, ...)."
 			],
-			"notes":"Les transactions sont encore en phase de conception. Une fois connecté, des données 'factices' sont affichées pour le moment. J'ai hébergé le backend (précédemment construit en tant que serveur local par les ingénieurs) sur RENDER.",
+			"notes":"Les transactions sont encore en phase de conception. Une fois connecté, des données 'factices' sont affichées pour le moment. J'ai hébergé le backend (précédemment construit en tant que serveur local par les ingénieurs) sur RENDER. Nom d'utilisateur : Tony@stark.com, Mot de passe : password123",
 			"skills": [
 				"Implémenter un gestionnaire d'état dans une application React",
 				"Intéragir avec une API",
