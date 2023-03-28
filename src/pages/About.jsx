@@ -28,7 +28,7 @@ const AboutWrapper = styled.div`
 `;
 
 const Overview = styled.div`
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1025px) {
     display: flex;
     flex-direction: row;
   }
@@ -57,7 +57,7 @@ const Texte = styled.div`
     white-space: pre-line;             // used with \n\n in JSON to format text on the page.
   }
  
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1025px) {
     margin-bottom: 4rem;
   }
 `;
