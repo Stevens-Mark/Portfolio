@@ -939,11 +939,11 @@
     },
     {
       "id": "musicontrol",
-      "title": "Un clone de Spotify",
+      "title": "Musicontrol",
       "date": "2023-08-02",
       "cover": "images/projects/musicontrol/control_3.webp",
-      "objective": "Créer un clone de Spotify",
-      "summary": "Il s'agit d'un projet personnel visant à développer un clone du site de Spotify en utilisant l'API REST de Spotify. IMPORTANT : Lire les notes AVANT de se connecter au site !",
+      "objective": "Créer un contrôleur de musique Spotify",
+      "summary": "Ceci est un projet personnel pour apprendre Next.js & Tailwind en utilisant l'API REST de Spotify. IMPORTANT : Lire les notes AVANT de se connecter au site !",
       "pictures": [
         "../images/projects/musicontrol/controlLogo.webp",
         "../images/projects/musicontrol/control_1.webp",
@@ -986,7 +986,7 @@
         "Rendre le site le plus accessible possible.",
         "Utiliser l'Api Spotify."
       ],
-      "notes": "Le site Spotify est (faussement) énorme, avec de nombreuses fonctionnalités et caractéristiques. Je n'ai pas essayé de reproduire l'intégralité du site. Par exemple, vous ne pouvez pas ajouter/supprimer/modifier vos listes de lecture/chansons préférées à partir de cette application (peut-être dans le futur). La fonction Épisode ('up next'] n'est pas implémentée sur la page de l'émission. De plus, les algorithmes utilisés par Spotify pour créer les différentes listes ne sont pas tous disponibles, donc je n'ai pas créé de listes comme 'jump back in' ou 'mixes for....' et bien d'autres encore etc.... Mais à d'autres endroits, j'ai amélioré la fonctionnalité, en particulier la possibilité de sauter en avant/en arrière entre les épisodes sur les pages des épisodes (ce qui, au moment où j'écris ces lignes, n'était/est pas possible sur le site Spotify). Il y a actuellement quelques problèmes connus avec mon implémentation, listés dans mon compte github. \n\n NOTE IMPORTANTE : Vous devez avoir un compte Spotify Premium (pour utiliser toutes les fonctionnalités de lecture, sinon vous ne pouvez que naviguer) et, plus important encore, me contacter pour que je puisse vous mettre sur la 'liste blanche' (j'ai besoin de l'adresse email que vous utilisez pour vous connecter à Spotify). Si vous n'êtes pas sur la 'liste blanche', le site ne fonctionnera pas ! C'est actuellement le seul moyen car j'attends toujours des nouvelles de Spotify pour savoir si je peux avoir un accès étendu afin que tout le monde puisse se connecter... Bon appétit",
+      "notes": "Le site Spotify est (faussement) énorme, avec de nombreuses fonctionnalités et caractéristiques. Je n'ai pas essayé de reproduire l'intégralité du site. Par exemple, vous ne pouvez pas ajouter/supprimer/modifier vos listes de lecture/chansons préférées à partir de cette application (peut-être dans le futur). La fonction Épisode ('up next'] n'est pas implémentée sur la page de l'émission. De plus, les algorithmes utilisés par Spotify pour créer les différentes listes ne sont pas tous disponibles, donc je n'ai pas créé de listes comme 'jump back in' ou 'mixes for....' et bien d'autres encore etc.... Mais à d'autres endroits, j'ai amélioré la fonctionnalité, en particulier la possibilité de sauter en avant/en arrière entre les épisodes sur les pages des épisodes (ce qui, au moment où j'écris ces lignes, n'était/est pas possible sur le site Spotify). Il y a actuellement quelques problèmes connus avec mon implémentation, listés dans mon compte github. \n\n NOTE IMPORTANTE : Vous devez avoir un compte Spotify Premium (pour utiliser toutes les fonctionnalités de lecture, sinon vous ne pouvez que naviguer) et, plus important encore, me contacter pour que je puisse vous mettre sur la 'liste blanche' (j'ai besoin de l'adresse email que vous utilisez pour vous connecter à Spotify). Si vous n'êtes pas sur la 'liste blanche', le site ne fonctionnera pas ! C'est actuellement le seul moyen car j'attends toujours des nouvelles de Spotify pour savoir si je peux avoir un accès étendu afin que tout le monde puisse se connecter...",
       "skills": [
         "Utiliser un système de gestion des versions pour le suivi et l'hébergement des projets.",
         "Mettre en œuvre des effets CSS en utilisant Tailwind.",

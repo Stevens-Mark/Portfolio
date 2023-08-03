@@ -43,17 +43,12 @@ const PortFolioWrapper = styled.section`
   }
 `;
 
-const TechWrapper = styled.aside`
+const TechWrapper = styled.div`
   display: none;
-  // overflow-x: auto;
-  // &::-webkit-scrollbar {
-	// 	width: 0px !important; // Hide scroll bar, but while still being able to scroll using CSS
-	// }
-	// overflow: -moz-scrollbars-none;
   cursor: pointer;
-  
+  max-width: 1920px;
 
-  @media screen and (min-width: 1522px) {
+  @media screen and (min-width: 625px) {
     background: ${({ theme }) =>
       theme === 'light'
         ? `linear-gradient(180deg, rgb(148, 191, 224) 0%, rgb(51, 204, 204) 15%)`

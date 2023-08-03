@@ -19,7 +19,7 @@ body {
   font-family: 'comfortaa', 'Montserrat', sans-serif;
   margin: auto;
   max-width: 1920px;
-
+  overflow-x: hidden; // hides horizontal scroll bar on window
 } 
 
 code {

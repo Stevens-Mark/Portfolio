@@ -12,10 +12,12 @@ import { techIconList } from '../assets/data/additionalData'
 const TechImg = styled.img`  
     background: ${colors.Zircon};
     border-radius: 0.313rem;
-    height:  1.6rem;
     margin: 0.2rem;
     padding: 0.313rem;
-    width: 1.6rem;
+    width: 50%;
+    max-width: 2rem;
+    aspect-ratio: 1/1;
+
     animation: ${fadeIn} 1.5s both ease-in-out 1s;
     transition: 0.4s;
     &:hover {
@@ -23,9 +25,7 @@ const TechImg = styled.img`
     }
 
     @media (min-width: 1050px) {
-      height:  2rem;
       margin: 0.5rem;
-      width: 2rem;
     }
 `;
 

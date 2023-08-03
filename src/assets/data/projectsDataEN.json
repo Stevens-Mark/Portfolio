@@ -944,11 +944,11 @@
     },
     {
       "id": "musicontrol",
-      "title": "A Spotify Clone",
+      "title": "Musicontrol",
       "date": "2023-08-02",
       "cover": "images/projects/musicontrol/control_3.webp",
-      "objective": "Create a Spotify Clone",
-      "summary": "This is a personal project to develop a Spotify website clone using Spotify's REST API. IMPORTANT: Read notes BEFORE connecting to site!!",
+      "objective": "Create a Spotify music controller",
+      "summary": "This is a personal project to learn Next.js & Tailwind using Spotify's REST API. IMPORTANT: Read notes BEFORE connecting to site!!",
       "pictures": [
         "../images/projects/musicontrol/controlLogo.webp",
         "../images/projects/musicontrol/control_1.webp",
