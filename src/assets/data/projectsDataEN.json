@@ -1,20 +1,19 @@
 {
-	"siteText": 
-	{
-		"header": {
-			"home": "Home",
-			"about": "About"
-		},
-		"footer": {
-			"rights": "© 2022 All rights reserved"
-		},
-		"hero": {
-			"title": "Frontend Developer",
-			"subtitle1": "Reliability.",
-			"subtitle2": "Respect.",
-			"subtitle3": "Loyalty.",
-			"slogan": "Always ready to learn!"
-		},
+  "siteText": {
+    "header": {
+      "home": "Home",
+      "about": "About"
+    },
+    "footer": {
+      "rights": "© 2022 All rights reserved"
+    },
+    "hero": {
+      "title": "Frontend Developer",
+      "subtitle1": "Reliability.",
+      "subtitle2": "Respect.",
+      "subtitle3": "Loyalty.",
+      "slogan": "Always ready to learn!"
+    },
     "filter": "filter",
     "filterDefault": "All",
     "ascend": "Ascending",
@@ -23,801 +22,695 @@
       "html",
       "css",
       "sass",
-      "bootstrap", 
+      "bootstrap",
       "styledcomponents",
-      "javascript", 
+      "javascript",
       "npm",
       "react",
-      "redux", 
-      "php", 
+      "redux",
+      "php",
       "wordpress",
       "mysql",
       "firebase",
       "mongodb",
-      "github", 
+      "next",
+      "github",
       "jest",
-      "figma", 
+      "figma",
       "photoshop",
       "notion",
-      "accessibility", 
+      "accessibility",
       "jsdoc",
       "recharts",
-      "swagger", 
-      "tables"
-      ],
-		"projectPage": {
-			"subheading1": "Features",
-			"subheading2": "Constraints",
-			"subheading3": "Skills",
-			"subheading4": "Notes"
-		},
-		"error": {
-			"code": "404",
-			"message": "Oops, the page you requested does not exist.",
-			"linkText": "Return back to the home page"
-		},
-		"construction": {
-			"title": "Oops",
-			"message": "Under Construction, please try again in the future...",
-			"linkText": "Return back to the home page"
-		}
-	},
-	"projects": [
-		{
-			"id": "portfolio",
-			"date": "2022-03-31",
-			"title": "Portfolio",
-			"cover": "images/projects/portfolio/project_portfolio.webp",
-			"objective": "Creation of a portfolio website",
-			"summary": "For further information, click on a card to read more about features, constraints, additional notes and skills gained during the project. Click on the eye icon to see the working version of a project.",
-			"pictures": [
-				"../images/projects/portfolio/portfolioLogo.webp"
-			],
-			"goal": "Build a website to showcase some of my technical knowledge",
-			"description": "Portfolio is a personal project to develop a web application in React using the skills learnt to date. \n\n This site also documents some of my technical knowledge, starting from a simple translation of a mockup using HTML5 & CSS3 and also includes the following : \n\n Creating a dynamic website with animation using Sass; form validation using JavaScript; building a dynamic website using data from a JSON file; building a site accessible for people who are visually impaired; developing search algorithms; testing and debugging using Jest; identifying the needs and designing the UI for a client using user stories, use case diagrams and Figma; developing advanced graphical elements using JavaScript libraries; writing documentation; interacting with a Web service; interacting with, modeling and authenticating to an API as well as implementing a state manager in a React application.",
-			"functionality": [
-				"A section containing individual cards giving a summary of each project.",
-				"Links to preview the project website & github code.",
-				"Clicking on a card redirects to additional information.", 
-				"Carousel, to interact with, showing images from the project.", 
-				"Tags highlighting tech stacks used.",
-				"List of the features, constraints and skills gained.",
-				"A Night/Day mode",
-				"Scroll to top button."
-			],
-			"constraints": [
-				"The user should be able to read the site in either French or English.", 
-				"Don't use any Framework (such as I18next) for multi language support.",
-				"Code the site using React.",
-				"Use styled-components.",
-				"Make sure the code is documented correctly.", 		
-				"The site must be compatible with the latest versions of Chrome and Firefox.",
-				"Version the code with Git."
-			],
-			"notes":"There is no project website preview as you are already on the site.",
-			"skills": [
-				"Developing web application routes with React Router",
-				"Initialize a web application with a framework",
-				"Creating components with React",
-				"Ensure a quality application",
-				"Build a web application from scratch without the aid of mockups",
-				"Design"
-			],
-			"tags": [
-				"React",
-				"Styled-components"
-			],
-			"techIcons": [
-				"react",
-				"styledcomponents",
-				"jsdoc",
-        "github"
-			],
-			"website": "",
-			"github": "https://github.com/Stevens-Mark/Portfolio"
-		},
-		{
-			"id": "reservia",
-			"date": "2021-03-30",
-			"title": "Reservia",
-			"cover": "images/projects/reservia/project_reservia.webp",
-			"objective": "Transforming a model into a website",
-			"summary": "Reservia is a small company offering a vacation planning tool. Their site allows users to find accommodations and activities in the city of their choice.",
-			"pictures": [
-				"../images/projects/reservia/ReserviaLogo.webp",
-				"../images/projects/reservia/reservia1.webp",
-				"../images/projects/reservia/project_reservia.webp",
-				"../images/projects/reservia/reservia2.webp",
-				"../images/projects/reservia/reservia3.webp"
-			],
-			"goal": "Translate a mock-up into a web page using HTML and CSS.",
-			"description": "Reservia is a small company offering a vacation planning tool. Their site allows users to find accommodation and activities in the city of their choice. The accommodation can also be filtered by theme, for example their budget or their ambiance.\n\n A new design based on Material Design principles has just been proposed by the UI designer.  Before definitively validating this design, the company has decided to make a prototype. The first step is to integrate the responsive model in HTML and CSS.",
-			"functionality": [
-				"The search field is an input field, however, at this point the search button will not be functional.", 
-				"Each accommodation or activity card will need to be clickable in its entirety. For now the links will be empty.", 
-				"Filters will not be functional for this version, however, they should change appearance on hover.",
-				"In the menu, the “Accommodation”  and “Activités” links are anchors that should lead to sections of the page."
-			],
-			"constraints": [
-				"There are provided two mockups: one desktop and one mobile.", 
-				"No elements should be cut and the text is of sufficient size.", 
-				"Choose the appropriate breakpoints.",
-				"Don't use any CSS Framework or pre-compiler for this project (like SASS for example).",
-				"Using Visual studio is recommended.",
-				"Integrate Font Awesome icons in HTML or CSS.",
-				"Use Flexbox or CSS Grid.",
-				"Use semantic tags and pass the W3C HTML and CSS validator.",
-				"The site must be compatible with the latest versions of Chrome and Firefox.",
-				"Version the code with Git."
-			],
-			"notes":"",
-			"skills": [
-				"Use a version control system for project tracking and hosting,",
-				"Setting up a front-end environment",
-				"Integrate content according to a model.",
-				"Implement a responsive interface."
-			],
-			"tags": [
-				"HTML",
-				"CSS"
-			],
-			"techIcons": [
-				"html",
-				"css",
-        "github"
-			],
-			"website": "https://reservia2021.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
-		},
-		{
-			"id": "ohmyfood",
-			"date": "2021-04-21",
-			"title": "Ohmyfood",
-			"cover": "images/projects/ohmyfood/project_ohmyfood.webp",
-			"objective": "Creation of a dynamic website",
-			"summary": "Ohmyfood! is a young startup that would like to impose itself on the restaurant market. The objective is to develop a 100% mobile site that lists the menus of gourmet restaurants.",
-			"pictures": [
-				"../images/projects/ohmyfood/ohmyfoodLogo.webp",
-				"../images/projects/ohmyfood/project_ohmyfood.webp",
-				"../images/projects/ohmyfood/menu_1.webp",
-				"../images/projects/ohmyfood/menu_2.webp",
-				"../images/projects/ohmyfood/menu_3.webp",
-				"../images/projects/ohmyfood/menu_4.webp"
-			],
-			"goal": "Translate the models and make the site more dynamic with animations made with Sass.",
-			"description":"Ohmyfood is an online meal ordering company. Their concept allows users to compose their own menu and reduce their waiting time in restaurants, as their menu is prepared in advance. No more time wasted looking at the menu.\n\n They want to offer their customers the menus of gourmet restaurants. Initially developed in New York, they now wish to extend their concept to the capital of gastronomy : Paris. They position themselves on a niche market, with the luxury restaurants of the cities in which they are established. They want to be identified as a company offering high-end services to the middle and upper classes, connected and often in a hurry, who want to taste quality products.",
-			"functionality": [
-				"A loading spinner for when the application has more menus.",
-				"A section containing 4 menus in the form of a map. Clicking on it redirects the user to the menu.",
-				"When arriving on a menu page, the dishes appear progressively with a slight delay.",
-				"On hover, a small check mark appears on the right to simulate the visitor's choice of a dish.", 
-				"On hover, the color of the check mark appears on the right",
-				"On hover, the background color of the main buttons lights up slightly and the drop shadow becomes more visible.",
-				"A heart-shaped 'Like' button, on hover, gradually fills up. (simulates a visitor saving his favourite menus)."
-			],
-			"constraints": [
-				"Mockups provided.",
-				"Development done in CSS, no JavaScript.",
-				"No Framework to be used, however the use of SASS would be a plus.",
-				"No CSS code to be applied via a style attribute in an HTML tag.",
-				"The entire site must be responsive on mobile, tablet and desktop.",
-				"Pages must pass W3C validation in HTML and CSS without error.",
-				"The site must be compatible with the latest versions of Chrome and Firefox."
-			],
-			"notes":"",
-			"skills": [
-				"Ensure the graphic coherence of a web site",
-				"Use a version management system for project tracking and hosting",
-				"Implementing advanced graphic CSS effects",
-				"Setting up a Front-End environment",
-				"Setting up a navigation structure for a web site"
-			],
-			"tags": [
-				"Sass",
-				"Git/Github",
-				"Terminal"
-			],
-			"techIcons": [
-				"html",
-				"sass",
-				"github"
-			],
-			"website": "https://ohmyfood2021.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P3_21042021"
-		},
-		{
-			"id": "gameon",
-			"date": "2021-05-06",
-			"title": "Game On",
-			"cover": "images/projects/gameon/project_gameon.webp",
-			"objective": "Creation of the registration form",
-			"summary": "GameOn, which specializes in gaming conferences and competitions. The company is simplifying the new homepage and contest registration after receiving negative feedback from some users.",
-			"pictures": [
-				"../images/projects/gameon/gameOnLogo.webp",
-				"../images/projects/gameon/gameon_1.webp",
-				"../images/projects/gameon/gameon_2.webp",
-				"../images/projects/gameon/gameon_3.webp",
-				"../images/projects/gameon/gameon_4.webp"
-			],
-			"goal":"Add the missing JavaScript code to make the form fully functional using javascript.",
-			"description":"GameOn specializes in video game conferences and contests. The company is simplifying the new homepage and contest registration after receiving negative feedback from some users. \n \n Unfortunately, the former developer, who was working on it, didn't have time to finish before leaving for his new job at his new company. \n\nThe HTML structure and CSS styling, based on the mockups, have been started and the layout and content of the homepage and form modal are complete, but the front-end needs to be completed. In addition, the missing JavaScript code to make the form fully functional, using JavaScript, needs to be added and the issues described on the Git Hub repo need to be completed.",
-			"functionality": [
-				"Form validation - First name/first name field have a minimum of 2 characters / are not empty.",
-				"The email address is valid, the number of contests is a numeric value and a radio button must be selected.",
-				"Terms and conditions box is checked, the other box is optional.",
-				"The form data is not deleted when it does not pass validation.",
-				"Either the form is validated or there is an error message.",
-				"There is a confirmation message when the submission is successful."
-			],
-			"constraints": [
-				"Use pure JavaScript (not jQuery) to finish the form.",
-				"Work on a forked GitHub repo.",
-				"Use separate files for HTML, CSS and JavaScript.",
-				"Comments describing each function and class.",
-				"Manually test functionality and responsive display.",
-				"The site should be compatible with the latest versions of Chrome and Firefox.",
-				"Review the code and make sure it's ready for production."
-			],
-			"notes":"I did not create the user interface. \n\nThe brief was to write the form validation code in JavaScript and solve the problems ('break of design') with the responsive design only.",
-			"skills": [
-				"Programming in JavaScript"
-			],
-			"tags": [
-				"JavaScript",
-				"HTML",
-				"CSS"
-			],
-			"techIcons": [
-        "html",
-				"javascript",
-				"css",
-        "github"
-			],
-			"website": "https://stevens-mark.github.io/GameOn/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
-		},
-		{
-			"id": "fisheye",
-			"date": "2021-06-09",
-			"title": "Fisheye",
-			"cover": "images/projects/fisheye/project_fisheye.webp",
-			"objective": "Creation of an accessible website",
-			"summary": "FishEye is a website that allows independent photographers to showcase their best work. They have recently raised funds and would like to update their website.",
-			"pictures": [
-				"../images/projects/fisheye/fisheyeLogo.webp",
-				"../images/projects/fisheye/fisheye_1.webp",
-				"../images/projects/fisheye/fisheye_2.webp",
-				"../images/projects/fisheye/fisheye_3.webp",
-				"../images/projects/fisheye/fisheye_4.webp"
-			],
-			"goal": "Build a dynamic website prototype with a focus on accessibility (aria). Other features: filters, sorting, lightbox, photo gallery and forms.",
-			"description":"FishEye is a website that allows freelance photographers to showcase their best work. The freelance photographers' website reads, “Our clients take great photos, but they know nothing about web development. That's why we offer a unique platform to show their photos on a beautiful page and contact them for events or prints. We are one of the biggest freelance photography sites, with a huge network of photographers.”\n\n For them, accessibility is essential ! So it's very important that the site is accessible to visually impaired users, with text descriptions for all photos and keyboard commands to navigate the site. Since the site is outdated, it needs to be redesigned from a static site to a dynamic one with an emphasis on accessibility (aria).",
-			"functionality": [
-				"Home page - List of all photographers.",
-				"The list of photographers can be filtered by tag.",
-				"Clicking on a photographer's thumbnail redirects to their page.",
-				"Photographer's pages - Displays a gallery of the photographer's work.",
-				"Clicking on the 'Like' icon increments the number of likes displayed.",
-				"Media can be sorted by popularity, date or title.",
-				"Clicking on a media item opens it in a lightbox.",
-				"A button to contact the photographer opens a contact form.",
-				"The site is mobile friendly and responsive."
-			],
-			"constraints": [
-				"Add ARIA attributes to create a custom element and describe what it does.",
-				"Pass AChecker tests without a 'known issue' (WCAG compliant).",
-				"All event handling (keyboard presses) must be configured.",
-				"Use 'semantic' HTML elements that describe their intent.",
-				"The website must match the mockups and work correctly (no errors).",
-				"The code is separated into different files (HTML with accessibility tags, CSS, JavaScript).",
-				"A modern version (ES6 or higher) of JavaScript is used.",
-				"Use the Factory Method pattern.",
-				"Object-oriented programming is used."
-			],
-			"notes":"I used a free screen reader to get an idea of what the site would be like for a visually impaired person.",
-			"skills": [
-				"Managing site events with JavaScript",
-				"Developing a modular web application with design patterns",
-				"Writing maintainable JavaScript code",
-				"Ensuring the accessibility of a web site"
-			],
-			"tags": [
-				"JavaScript",
-				"Sass",
-				"Accessibility"
-			],
-			"techIcons": [
-				"accessibility",
-				"javascript",
-				"sass",
-        "github"
-				],
-			"website": "https://fisheye2021.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
-		},
-		{
-			"id": "lespetitsplats",
-			"date": "2021-07-12",
-			"title": "Les Petits Plats",
-			"cover": "images/projects/petitsplats/project_lespetitsplats.webp",
-			"objective": "Develop a search algorithm",
-			"summary": "Les Petits plats have decided to launch their own cooking recipes website. As there are many sites offering cooking recipes, the fluidity and efficiency of the search engine will make the difference.",
-			"pictures": [
-				"../images/projects/petitsplats/petitsLogo.webp",
-				"../images/projects/petitsplats/project_lespetitsplats.webp",
-				"../images/projects/petitsplats/petits_2.webp",
-				"../images/projects/petitsplats/petits_3.webp",
-				"../images/projects/petitsplats/petits_4.webp"
-			],
-			"goal": "Develop two search algorithms for the search functionality (primary and secondary searches). Test and implement the most effective algorithms.",
-			"description":"After publishing cookbooks for several years, the company has decided to embark on a new project : to create its own recipe site like Marmiton or 750g.\n\nAs there are many sites offering cooking recipes, one of the elements that can make the difference on their site is the fluidity of the search engine. Moreover, the company wants, above all, something efficient because it's users want a fast, almost instantaneous, search!\n\n A JavaScript JSON file containing an array of 50 recipes is provided to develop the project. The first mission is to implement the search functionality.",
-			"functionality": [
-				"The search must be possible via the main field or via tags (ingredients, utensils or appliance).",
-				"The main search is launched after 3 characters are entered by the user in the search bar.",
-				"The search updates for each new character entered.",
-				"The main search displays the first results as quickly as possible.",
-				"Advanced search fields only suggest items remaining in the page's recipes.",
-				"Search returns should be an intersection of results. \n Adding the tags “coconut” and “chocolate” will only return recipes that contain both."
-			],
-			"constraints": [
-				"Mockups provided.",
-				"The HTML and CSS code for the interface must pass the W3C validator.", 
-				"No libraries must be used for the search engine JavaScript",
-				"Using Bootstrap 4 is recommended.",
-				"Write two search algorithms for the main search field.",
-				"Fill out a feature investigation document describing the two algorithms.",
-				"Make a diagram for each algorithm so that the steps in each algorithm are clear.",
-				"Test their performance using a benchmarking tool (Jsben.ch?).",
-				"Only test the main search (no need to use advanced filters)."
-			],
-			"notes":"",
-			"skills": [
-				"Analyze a computer problem",
-				"Develop an algorithm to solve a problem"
-			],
-			"tags": [
-				"JavaScript",
-				"Bootstrap",
-				"Sass"
-			],
-			"techIcons": [
-				"javascript",
-				"html",
-				"bootstrap",
-				"sass",
-        "github"
-				],
-			"website": "https://petitplat.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
-		},
-		{
-			"id": "billed",
-			"date": "2021-08-09",
-			"title": "Billed",
-			"cover": "images/projects/billed/project_billed.webp",
-			"objective": "Debugging and testing an HR SaaS",
-			"summary": "Billed is a company that produces SaaS solutions for human resources teams. In two weeks, the team must show the functional solution to the whole company.",
-			"pictures": [
-				"../images/projects/billed/billedLogo.webp",
-				"../images/projects/billed/billed_1.webp",
-				"../images/projects/billed/billed_2.webp",
-				"../images/projects/billed/billed_3.webp",
-				"../images/projects/billed/billed_4.webp"
-			],
-			"goal": "Find the bugs indicated in the bug report. Also write unit and integration tests and an E2E plan.",
-			"description":"Billed is a company that produces SaaS solutions for human resources teams. The 'expense report' functionality is highly anticipated in the market and the general management has made it a priority. The goal is to officially launch it to it's customers within two weeks, so the timeline is very tight. The feature team has been working hard over the past two weeks.\n\n Unfortunately, after a colleague on the expense reporting team left the company before completing the application, the lead developer on the feature team asked for help to complete the testing and meet the deadline. This must be completed in one week, as the team needs to show the working solution to the entire company. \n\n Feature Description - There are two paths to this feature: one on the HR administrator side and one on the employee side. The back-end is ready (in alpha version). On the front end, the HR administrator path is complete, fully tested and debugged.",
-			"functionality": [
-				"The employee journey has been made more reliable and improved.",
-				"The bugs identified in the bug report provided by Jest have been fixed.",
-				"Bugs identified on the employee journey by the QA team have been fixed.",
-				"Unit and integration tests for Bills and NewBill files have been added.",
-				"100% branch coverage (outside of firebase backend calls).",
-				"E2E testing - An E2E test plan has been included to complete the testing process."
-			],
-			"constraints": [
-				"The E2E test must be performed manually by the QA team (not automated).",
-				"No other constraints are mentioned."
-			],
-			"notes":"I didn't create the user interface because the brief was to debug the code, write unit and integration tests and an E2E report (to eliminate bugs and avoid regression in the next evolution).\n\n Unfortunately, as the Firebase is no longer connected to the companies frontend data is no longer stored in the database. \n\n The bug reports and the E2E plan can be found in the Github repo of this project.",
-			"skills": [
-				"Writing unit tests with JavaScript",
-				"Debugging a web application with the Chrome Debugger",
-				"Writing a manual end-to-end test plan",
-				"Writing integration tests with JavaScript"
-			],
-			"tags": [
-				"Jest",
-				"JavaScript",
-				"Debugging"
-			],
-			"techIcons": [
-				"jest",
-				"javascript",
-        "github"
-				],
-			"website": "https://billed.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
-		},
-		{
-			"id": "learnathome",
-			"date": "2021-09-20",
-			"title": "Learn At Home",
-			"cover": "images/projects/learnathome/learn_2.webp",
-			"objective": "Define the needs of a tutoring app",
-			"summary": "Learn@Home is an association that connects children with academic difficulties with volunteer tutors. Basically, their goal is to allow any student, anywhere, to have access to remote tutoring.",
-			"pictures": [
-				"../images/projects/learnathome/learnathomeLogo.webp",
-				"../images/projects/learnathome/learn_1.webp",
-				"../images/projects/learnathome/learn_2.webp",
-				"../images/projects/learnathome/learn_3.webp",
-				"../images/projects/learnathome/learn_4.webp",
-				"../images/projects/learnathome/learn_5.webp",
-				"../images/projects/learnathome/learn_6.webp"
-			],
-			"goal": "Clearly define the customer's needs. Create use case diagrams and user stories with acceptance criteria for each feature. Mock-up the site (Figma or Sketch) with a Kanban breaking down the project.",
-			"description":"Learn@Home is an association that connects children with learning difficulties with volunteers, online. Their goal is to allow any student, wherever they are, to access distance learning support. Each student registered on the site is assigned a volunteer tutor. The goal of the volunteer is to support the student in their learning through short appointments scheduled each week. During these appointments, the volunteer help the student with their homework and organization. \n\n  To facilitate interaction and communication, Learn@Home would like to create a new website. Before starting the development of the pure software, the first step is to clearly define it's needs, providing use case diagrams for each of the main features of each page, user stories with acceptance criteria for each feature and mock-ups of the site (Figma or Sketch).",
-			"functionality": [
-				"A login page to allow a student or volunteer to log in.",
-				"A system to retrieve a forgotten password.",
-				"A link to an account creation page.",
-				"A dashboard containing a summary of all the recent and important information from other pages.",
-				"A classic chat page.",
-				"A classic calendar page.",
-				"A task management page."
-			],
-			"constraints": [
-				"There should be a history of conversations.",
-				"The user can add or delete a contact.",
-				"There should be a picture of the sender, next to each message in the chat interface.",
-				"There should be an indicator to see if a message has been read or not.",
-				"There should be a timestamp on the messages.",
-				"The calendar displays the different events and appointments of the user.",
-				"A user can create tasks for himself or for another user.",
-				"A student can only create tasks for himself.", 
-				"A volunteer can create tasks for the students of his choice."
-			],
-			"notes":" The Use case diagrams for each of the major functionalities of each page (login, chat, calendar, task manager, dashboard), the User stories with acceptance criteria for each feature and the link to the Kanban, breaking down the project, can be found in the Github repository.",
-			"skills": [
-				"Contributing to a project using an agile methodology.",
-				"Create a model for a client",
-				"Identify the needs of the application from a specification",
-				"Model a technical solution for a customer"
-			],
-			"tags": [
-				"User Stories",
-				"Use Case",
-				"Figma"
-			],
-			"techIcons": [
-				"figma",
-				"notion",
-				"usecase"
-				],
-			"website": "https://www.figma.com/file/K8QF42xb6EzUyqDOvKHAXW/Learn-at-home",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P10_20092021"
-		},
-		{
-			"id": "kasa",
-			"date": "2021-10-18",
-			"title": "Kasa",
-			"cover": "images/projects/kasa/kasa_1.webp",
-			"objective": "Development of an SPA",
-			"summary": "Kasa is in the business of renting apartments between individuals. With more than 500 ads posted every day, Kasa is one of the leaders in the rental of apartments between individuals in France.",
-			"pictures": [
-				"../images/projects/kasa/kasaLogo.webp",
-				"../images/projects/kasa/kasa_1.webp",
-				"../images/projects/kasa/kasa_2.webp",
-				"../images/projects/kasa/kasa_3.webp",
-				"../images/projects/kasa/kasa_4.webp"
-			],
-			"goal": "Start the React project and develop the whole application, the React components, the React Router routes, following the Figma mockups (responsive!)",
-			"description":"Kasa has been in the apartment rental business for almost 10 years now. With more than 500 ads posted every day, Kasa is one of the leaders in apartment rentals between individuals in France. \n\n Kasa's website was coded more than 10 years ago in ASP.NET with a lot of legacy code. The technical director therefore decided to completely redesign it and move to a full JavaScript stack with NodeJS on the back-end and React on the front-end. \n\nThe developer must start the React project and develop the whole application, the React components, the React Router routes, while following the Figma mockups (responsive!). Moreover, as the Back-End team and the data are not in place, 20 housing ads (in a JSON file) have been provided in order to build the corresponding Front-End.",
-			"functionality": [
-				"A home page with a section containing all the housing in the form of a map.",
-				"Clicking on a map takes the user to the corresponding accomodation page.",
-				"An About page with 4 drop-down menus describing the company's values.",
-				"A carousel of photos presenting the accommodation.",
-				"A host's star rating.",
-				"Two drop-down menus describing the accommodation and providing a list of available amenities.",
-				"Classification tags."
-			],
-			"constraints": [
-				"Class-based components, no functional components.",
-				"Code broken down into modular, reusable components, with one component per file.",
-				"No external React library.",
-				"Use of props between components.",
-				"Use of state in components when needed.", "Event management.",
-				"No external React library",
-				"Event management.",
-				"Route parameters are handled by React Router in the URL.",
-				"There is one page per route.",
-				"The 404 page is returned for each non-existent route.",
-				"The 404 page is returned if a value in the URL is not part of the input.",
-				"The code must not produce an error or warning in the console."
-			],
-			"notes":"",
-			"skills": [
-				"Developing the routes of a web application with React Router",
-				"Initialize a web application with a framework",
-				"Creating components with React"
-			],
-			"tags": [
-				"React",
-				"React-Router",
-        "css"
-			],
-			"techIcons": [
-				"react",
-				"css",
-        "jsdoc",
-        "github"
-				],
-			"website": "https://kasa2021.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P11_18102021"
-		},
-		{
-			"id": "sportsee",
-			"date": "2021-11-08",
-			"title": "Sports See",
-			"cover": "images/projects/sportsee/project_sportsee.webp",
-			"objective":"Develop an analytical dashboard",
-			"summary": "SportSee is a startup dedicated to sports coaching. The company will launch a new version of the user's profile page, which will track the number of sessions completed as well as the calories burned.",
-			"pictures": [
-				"../images/projects/sportsee/sportseeLogo.webp",
-				"../images/projects/sportsee/sportsee_1.webp",
-				"../images/projects/sportsee/sportsee_2.webp",
-				"../images/projects/sportsee/sportsee_3.webp"
-			],
-			"goal": "Redesign the profile page with React, using either D3 or Recharts for the user's sports activity graphics. Create a separate service that will handle HTTP calls to the backend (NodeJS) using Fetch or Axios. It is important that you make the calls outside of the React components. Finally, all the documentation must be done in English.",
-			"description":"SportSee is a startup dedicated to sports coaching. In full growth, the company will launch a new version of the user profile page. This page allows the user to track the number of sessions performed as well as the number of calories burned. Thus, the new user profile page is to be redesigned with React, integrating graphs on the user's sports activity using either D3 or Recharts.",
-			"functionality": [
-				"A horizontal navigation menu to allow navigation between the different screens (in the future).",
-				"A vertical navigation menu to allow navigation between future navigation blocks.",
-				"The display of daily activity (weight and calories burned), in the form of a Barchart. A tooltip appears on hover.",
-				"The display of the average duration of sessions in the form of a LineChart. A tooltip appears when hovering.",
-				"The display of information about the completion of the daily goal (average score) in the form of a RadialBarChart.",
-				"The display of the types of activities performed in the form of a RadarChart.",
-				"The display of the information concerning the daily calories, proteins, carbohydrates and fats consumed in the form of a card."
-			],
-			"constraints": [
-				"Use Figma mockups and Kanban with User Stories.",
-				"The minimum screen resolution is at least 1024 by 780 pixels.",
-				"A backend (NodeJS) is provided that allows HTTP calls and data retrieval.",
-				"Use either Fetch or Axios to handle the calls themselves.",
-				"Calls should be made outside of the React components.",
-				"Create a separate service that will handle making these calls.",
-				"Start the project with the simulated data. Once the project is functional, integrate the API.",
-				"Include proptypes for each of the components.",
-				"Use JsDoc to document functions and methods.",
-				"All documentation should be done in English."
-			],
-			"notes":"For the prototype, there are currently only two users: Cecelia and Karl.",
-			"skills": [
-				"Ensuring data quality of an application",
-				"Interacting with a Web service",
-				"Develop advanced graphical elements using JavaScript libraries",
-				"Produce technical documentation for an application"
-			],
-			"tags": [
-				"React",
-				"Recharts",
-				"JSDoc"
-			],
-			"techIcons": [
-				"react",
-				"styledcomponents",
-				"recharts",
-				"jsdoc",
-        "github"
-				],
-			"website": "https://sportsee2021.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P12_08112021"
-		},
-		{
-			"id": "argentbank",
-			"title": "Argent Bank",
-			"date": "2021-12-02",
-			"cover": "images/projects/argentbank/project_argentbank.webp",
-			"objective": "Using an API for a bank account",
-			"summary": "Argent Bank is a new bank trying to break into the industry and needs help setting up their application. The two-part contract is broken down into several phases. Web application creation and API endpoints specification.",
-			"pictures": [
-				"../images/projects/argentbank/bankLogo.webp",
-				"../images/projects/argentbank/project_argentbank.webp",
-				"../images/projects/argentbank/argent_1.webp",
-				"../images/projects/argentbank/argent_2.webp",
-				"../images/projects/argentbank/argent_3.webp",
-				"../images/projects/argentbank/argent_4.webp"
-			],
-			"goal": "Create a fully responsive web application with React using Redux to manage the state of the entire application. Users should be able to visit the homepage, log in, see their profile information and edit it. Also provide a document describing the proposed transaction APIs, following the Swagger guidelines.",
-			"description":"Argent Bank is a new start-up bank trying to break into the industry. The company wants to create a web application for its customers to log in and manage their accounts and profiles. \n\nThe project consists of several phases: phase one is the creation of a fully responsive web application with user authentication. This is followed by phase two, which consists of specifying the API endpoints needed for a possible second mission once phase one is complete.",
-			"functionality": [
-				"The user can visit the home page.",
-				"The user can log in to the system.",
-				"User can log out of the system.",
-				"The user can see his own profile information only after successful login.",
-				"The user can modify his profile and keep the data in the database.",
-				"See all his transactions for the current month (in design phase).",
-				"See the details of a transaction in another view (in design phase).",
-				"Add, modify or delete transaction information (in design phase)."
-			],
-			"constraints": [
-				"Develop the application in React.",
-				"Use static HTML and CSS provided.",
-				"Use Redux to manage the state of the whole application.",
-				"Do not implement the transactions page.",
-				"Back-end engineers have already created all the necessary APIs.",
-				"Provide a Swagger document describing the proposed transaction APIs.",
-				"Follow the Swagger guidelines.",
-				"Specify the API Endpoints (HTTP method, route, description, parameters, ...)."
-			],
-			"notes":"The transactions are still in the design phase. Once logged in 'dummy' data is displayed for the moment. I have hosted the backend (previously built as a local server by the engineers) on RENDER. Username: Tony@stark.com, Password: password123",
-			"skills": [
-				"Implementing a state manager in a React application.",
-				"Interacting with an API",
-				"Modeling an API",
-				"Authenticating to an API"
-			],
-			"tags": [
-				"React",
-				"Redux",
-				"Swagger"
-			],
-			"techIcons": [
-				"react",
-				"redux",
-				"styledcomponents",
-				"swagger",
-        "jsdoc",
-        "github"
-				],
-			"website": "https://argentbankdeployed.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
-		},
-		{
-			"id": "wealthhealthhrnet",
-			"title": "HRNet",
-			"date": "2022-03-29",
-			"cover": "images/projects/wealthhealth/003_current.webp",
-			"objective": "Switch a jQuery library into React",
-			"summary": "Wealth Health is a large financial company who uses an internal web application, called HRnet that manages employee records. The application is old and uses jQuery on the front end, leading to considerable bugs.",
-			"pictures": [
-				"../images/projects/wealthhealth/wealth.webp",
-				"../images/projects/wealthhealth/001_create.webp",
-				"../images/projects/wealthhealth/002_createnight.webp",
-				"../images/projects/wealthhealth/003_current.webp",
-				"../images/projects/wealthhealth/004_currentnight.webp",
-				"../images/projects/wealthhealth/005_modal.webp",
-				"../images/projects/wealthhealth/006_report_one.webp",
-				"../images/projects/wealthhealth/007_report_two.webp"
-			],
-			"goal": "Convert the entire HRNet project to React. Convert one of the four current jQuery plugins to React. Replace the 3 remaining jQuery plugins with React components. Perform Lighthouse performance tests comparing the old and new application.",
-			"description":"Wealth Health is a large financial company who uses an internal web application, called HRnet, that manages employee records. The application is old and uses jQuery on the front end, which leads to considerable bugs and increased internal complaints. The biggest issues being the date pickers, modal windows, drop down menus and tables. Several complaints that the jQuery plugins are very slow have been received. \n\n The company wants to create their own React components instead of these third-party jQuery plugins that are used in the user interface and hope that converting these jQuery plugins into React components will improve the performance and stability. For the first part of the conversion process, the developer must pick ONE of the four jQuery plugins and convert it to a React component.",
-			"functionality": [
-				"New version of the “Create Employee” and  “Employee List” pages using React.",
-				"The application UI has been redesigned with a consistent style.",
-				"Better UI experience following accessibility guidelines.",
-				"Basic user input validation with warning messages.",
-				"Input control to avoid user input errors.",
-				"Table search, pagnation, navigation & sort features included (as before).",
-				"Keyboard navigation possible.",
-				"Night mode.",
-        "Fullstack version available with all CRUD features (see notes below)."
-			],
-			"constraints": [
-				"Convert the entire HRNet project to React.",
-				"Follow a functional programming paradigm when writing these libraries in React.",
-				"Avoid using classes when converting the old application.",
-				"Write smaller, modular pieces of code and standalone functions for optimal modularity and maintainability.",
-				"Convert 1 of the 4 jQuery plugins into React, replacing the 3 remaining jQuery plugins with React components.",
-				"Document the converted React component with a general description of what the component does and comments explaining what each accessory is for and how it is used.",
-				"Once the React version of HRNet works, publish the React component to npm as a package.",
-				"Perform Lighthouse performance tests comparing the old and new application.",
-				"If time, test the React code with a unit test suite. Otherwise, only manual tests are needed."
-			],
-			"notes":"I have made multiple versions of this project, using either localstorage, FireBase or MongoDB as the backend for the data storage. These are all available in the Git Repo under the branch names: main, db, firebase, usversion & full (fullstack - CRUD version). The demo version uses localstorage. \n\n IMPORTANT: For the  demo version using localstorage, if you DIRECTLY create new employee records from the home page, then ONLY these records will be displayed in the table. BUT if you pass to the VIEW of the current employee records FIRST, then mock data will be loaded into the table to demonstrate the site functionality (this data will be put into your local storage, so you may want to remove it afterwards). \n\n For the full stack version, the frontend is hosted using netlify & the backend using Render. You may need to reload the page a couple of times before a connection is established with the mongoDB database. link: https://wealthcrud.netlify.app/ ",
-			"skills": [
-				"Redesign an application to reduce technical debt.",
-				"Analyze the performance of a web application.",
-				"Deploy a front-end application.",
-				"Programming in JavaScript with functional programming."
-			],
-			"tags": [
-				"React",
-				"FireBase",
-				"MongoDB"
-			],
-			"techIcons": [
-				"react",
-				"firebase",
-				"mongodb",
-				"tables",
-        "jest",
-        "github"
-				],
-			"website": "https://wealthhealth.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/StevensMark_P14_04022022"
-		},
-		{
-			"id": "wealthhealthplug",
-			"title": "HRNet (Plug-in)",
-			"date": "2022-03-29",
-			"cover": "images/projects/wealthplugin/002_modal_userdefined.webp",
-			"objective": "Create an NPM package",
-			"summary": "Wealth Health’s (HRNet) Management expect that converting the third party jQuery plugins into React components will improve the performance and stability.",
-			"pictures": [
-				"../images/projects/wealthplugin/wealth.webp",
-				"../images/projects/wealthplugin/005_npm_package.webp",
-				"../images/projects/wealthplugin/004_npm package code.webp",
-				"../images/projects/wealthplugin/001_modal_default.webp",
-				"../images/projects/wealthplugin/002_modal_userdefined.webp",
-				"../images/projects/wealthplugin/003_modal_userdefined_night.webp"
-
-			],
-			"goal": "Create a Modal React component to which custom styling can be applied then publish the React component to npm as a package.",
-			"description":"As stated in the brief from Wealth Health's Management, it is expected that converting the third party jQuery plugins into React components will improve the performance and stability. \n\n The biggest issues for HRNet users being the date pickers, modal windows, drop down menus, and tables, with all the network calls and DOM manipulations required for jQuery plugins adding up and slowing things down. Several complaints about these jQuery plugins have been received and the management think it will be better to have their own React components to have more control over the application. \n\n For example, the modal dialog currently being used to confirm when new employee records are created does not match the design system that the designers want to use. Also, the plugin is very incompatible with applying custom styles, so create a React component to which custom styling can be applied then publish the React component to npm as a package.",
-			"functionality": [
-				"Can change the modal's page background colour.",
-				"Can change the modal's page background colour.",
-				"Can change the modal's body colour.",
-				"Can change the modal's text colour.",
-				"Can change the modal's border outline.",
-				"Can change the modal's close button colour.",
-				"Can add, remove or change the modal's box shadow.",
-				"Can add or remove the modal's default border-radius.",
-				"Can add or remove a modal logo.",
-				"Can change modal's heading.",
-				"Can add, remove or change a secondary message.",
-				"Can add or remove the default modal animation (animation: modal descends into view)."
-			],
-			"constraints": [
-				"Follow a functional programming paradigm.",
-				"Avoid using classes.",
-				"Convert 1 of the 4 jQuery plugins into React.",
-				"Publish the React component to npm as a package.",
-				"If time, test the React code with a unit test suite."
-			],
-			"notes":"The customisable modal comes with default colours already installed, but can be changed if preferred. It is also possible to set themes for both light & dark modes (as shown in the demo) as well as choose whether to use the preset animation. Also, Focus trap is already applied to the modal for keyboard users. \n\n There is a version including the tests with Jest on branch 'withtests' on github. \n\n If you want to try changing the modal's appearance then the npm package can be found at https://www.npmjs.com/package/react-custom-modal-by-msparkystevens",
-			"skills": [
-				"Redesign an application to reduce technical debt.",
-				"Analyze the performance of a web application.",
-				"Programming in JavaScript with functional programming.",
-				"Publish a React component to npm as a package."
-			],
-			"tags": [
-				"React",
-				"NPM-package"
-			],
-			"techIcons": [
-				"react",
-				"styledcomponents",
-				"jsdoc",
-				"npm",
-        "jest",
-        "github"
-				],
-			"website": "https://reactcustommodal.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
-		},
+      "swagger",
+      "tables",
+      "tailwind"
+    ],
+    "projectPage": {
+      "subheading1": "Features",
+      "subheading2": "Constraints",
+      "subheading3": "Skills",
+      "subheading4": "Notes"
+    },
+    "error": {
+      "code": "404",
+      "message": "Oops, the page you requested does not exist.",
+      "linkText": "Return back to the home page"
+    },
+    "construction": {
+      "title": "Oops",
+      "message": "Under Construction, please try again in the future...",
+      "linkText": "Return back to the home page"
+    }
+  },
+  "projects": [
     {
-			"id": "simpleportfolio",
-			"title": "Simple Portfolio",
-			"date": "2022-07-02",
-			"cover": "images/projects/simpleportfolio/simple01.webp",
-			"objective": "Create a Simple Portfolio",
-			"summary": "This is a personal project to develop a simple portfolio using Bootstrap5 features. Graphically cataloging some of the projects I have undertaken to date.",
-			"pictures": [
-				"../images/projects/simpleportfolio/simpleLogo.webp",
-				"../images/projects/simpleportfolio/simple01.webp",
-				"../images/projects/simpleportfolio/simple02.webp",
-				"../images/projects/simpleportfolio/simple03.webp",
-				"../images/projects/simpleportfolio/simple04.webp",
-				"../images/projects/simpleportfolio/simple05.webp",
-				"../images/projects/simpleportfolio/simple06.webp"
-			],
-			"goal": "Develop a simple portfolio whilst following a Bootstrap 5 course.",
-			"description":"I decided to create a 'light- weight' version of my portfolio that does not include any of the information with regards to the functionality or constraints. It's a graphical story/journey of the projects I have undertaken to date. \n\n The idea was to also learn some of the features of Bootstrap5. I also had the chance to experiment with fontawesome, Bootstrap icons & react icons, as well as storing the svg's locally, to get a feel of the implementation differences.",
-			"functionality": [
-				"Layout Responsive.",
+      "id": "portfolio",
+      "date": "2022-03-31",
+      "title": "Portfolio",
+      "cover": "images/projects/portfolio/project_portfolio.webp",
+      "objective": "Creation of a portfolio website",
+      "summary": "For further information, click on a card to read more about features, constraints, additional notes and skills gained during the project. Click on the eye icon to see the working version of a project.",
+      "pictures": ["../images/projects/portfolio/portfolioLogo.webp"],
+      "goal": "Build a website to showcase some of my technical knowledge",
+      "description": "Portfolio is a personal project to develop a web application in React using the skills learnt to date. \n\n This site also documents some of my technical knowledge, starting from a simple translation of a mockup using HTML5 & CSS3 and also includes the following : \n\n Creating a dynamic website with animation using Sass; form validation using JavaScript; building a dynamic website using data from a JSON file; building a site accessible for people who are visually impaired; developing search algorithms; testing and debugging using Jest; identifying the needs and designing the UI for a client using user stories, use case diagrams and Figma; developing advanced graphical elements using JavaScript libraries; writing documentation; interacting with a Web service; interacting with, modeling and authenticating to an API as well as implementing a state manager in a React application.",
+      "functionality": [
+        "A section containing individual cards giving a summary of each project.",
+        "Links to preview the project website & github code.",
+        "Clicking on a card redirects to additional information.",
+        "Carousel, to interact with, showing images from the project.",
+        "Tags highlighting tech stacks used.",
+        "List of the features, constraints and skills gained.",
+        "A Night/Day mode",
+        "Scroll to top button."
+      ],
+      "constraints": [
+        "The user should be able to read the site in either French or English.",
+        "Don't use any Framework (such as I18next) for multi language support.",
+        "Code the site using React.",
+        "Use styled-components.",
+        "Make sure the code is documented correctly.",
+        "The site must be compatible with the latest versions of Chrome and Firefox.",
+        "Version the code with Git."
+      ],
+      "notes": "There is no project website preview as you are already on the site.",
+      "skills": [
+        "Developing web application routes with React Router",
+        "Initialize a web application with a framework",
+        "Creating components with React",
+        "Ensure a quality application",
+        "Build a web application from scratch without the aid of mockups",
+        "Design"
+      ],
+      "tags": ["React", "Styled-components"],
+      "techIcons": ["react", "styledcomponents", "jsdoc", "github"],
+      "website": "",
+      "github": "https://github.com/Stevens-Mark/Portfolio"
+    },
+    {
+      "id": "reservia",
+      "date": "2021-03-30",
+      "title": "Reservia",
+      "cover": "images/projects/reservia/project_reservia.webp",
+      "objective": "Transforming a model into a website",
+      "summary": "Reservia is a small company offering a vacation planning tool. Their site allows users to find accommodations and activities in the city of their choice.",
+      "pictures": [
+        "../images/projects/reservia/ReserviaLogo.webp",
+        "../images/projects/reservia/reservia1.webp",
+        "../images/projects/reservia/project_reservia.webp",
+        "../images/projects/reservia/reservia2.webp",
+        "../images/projects/reservia/reservia3.webp"
+      ],
+      "goal": "Translate a mock-up into a web page using HTML and CSS.",
+      "description": "Reservia is a small company offering a vacation planning tool. Their site allows users to find accommodation and activities in the city of their choice. The accommodation can also be filtered by theme, for example their budget or their ambiance.\n\n A new design based on Material Design principles has just been proposed by the UI designer.  Before definitively validating this design, the company has decided to make a prototype. The first step is to integrate the responsive model in HTML and CSS.",
+      "functionality": [
+        "The search field is an input field, however, at this point the search button will not be functional.",
+        "Each accommodation or activity card will need to be clickable in its entirety. For now the links will be empty.",
+        "Filters will not be functional for this version, however, they should change appearance on hover.",
+        "In the menu, the “Accommodation”  and “Activités” links are anchors that should lead to sections of the page."
+      ],
+      "constraints": [
+        "There are provided two mockups: one desktop and one mobile.",
+        "No elements should be cut and the text is of sufficient size.",
+        "Choose the appropriate breakpoints.",
+        "Don't use any CSS Framework or pre-compiler for this project (like SASS for example).",
+        "Using Visual studio is recommended.",
+        "Integrate Font Awesome icons in HTML or CSS.",
+        "Use Flexbox or CSS Grid.",
+        "Use semantic tags and pass the W3C HTML and CSS validator.",
+        "The site must be compatible with the latest versions of Chrome and Firefox.",
+        "Version the code with Git."
+      ],
+      "notes": "",
+      "skills": [
+        "Use a version control system for project tracking and hosting,",
+        "Setting up a front-end environment",
+        "Integrate content according to a model.",
+        "Implement a responsive interface."
+      ],
+      "tags": ["HTML", "CSS"],
+      "techIcons": ["html", "css", "github"],
+      "website": "https://reservia2021.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P2_30032021"
+    },
+    {
+      "id": "ohmyfood",
+      "date": "2021-04-21",
+      "title": "Ohmyfood",
+      "cover": "images/projects/ohmyfood/project_ohmyfood.webp",
+      "objective": "Creation of a dynamic website",
+      "summary": "Ohmyfood! is a young startup that would like to impose itself on the restaurant market. The objective is to develop a 100% mobile site that lists the menus of gourmet restaurants.",
+      "pictures": [
+        "../images/projects/ohmyfood/ohmyfoodLogo.webp",
+        "../images/projects/ohmyfood/project_ohmyfood.webp",
+        "../images/projects/ohmyfood/menu_1.webp",
+        "../images/projects/ohmyfood/menu_2.webp",
+        "../images/projects/ohmyfood/menu_3.webp",
+        "../images/projects/ohmyfood/menu_4.webp"
+      ],
+      "goal": "Translate the models and make the site more dynamic with animations made with Sass.",
+      "description": "Ohmyfood is an online meal ordering company. Their concept allows users to compose their own menu and reduce their waiting time in restaurants, as their menu is prepared in advance. No more time wasted looking at the menu.\n\n They want to offer their customers the menus of gourmet restaurants. Initially developed in New York, they now wish to extend their concept to the capital of gastronomy : Paris. They position themselves on a niche market, with the luxury restaurants of the cities in which they are established. They want to be identified as a company offering high-end services to the middle and upper classes, connected and often in a hurry, who want to taste quality products.",
+      "functionality": [
+        "A loading spinner for when the application has more menus.",
+        "A section containing 4 menus in the form of a map. Clicking on it redirects the user to the menu.",
+        "When arriving on a menu page, the dishes appear progressively with a slight delay.",
+        "On hover, a small check mark appears on the right to simulate the visitor's choice of a dish.",
+        "On hover, the color of the check mark appears on the right",
+        "On hover, the background color of the main buttons lights up slightly and the drop shadow becomes more visible.",
+        "A heart-shaped 'Like' button, on hover, gradually fills up. (simulates a visitor saving his favourite menus)."
+      ],
+      "constraints": [
+        "Mockups provided.",
+        "Development done in CSS, no JavaScript.",
+        "No Framework to be used, however the use of SASS would be a plus.",
+        "No CSS code to be applied via a style attribute in an HTML tag.",
+        "The entire site must be responsive on mobile, tablet and desktop.",
+        "Pages must pass W3C validation in HTML and CSS without error.",
+        "The site must be compatible with the latest versions of Chrome and Firefox."
+      ],
+      "notes": "",
+      "skills": [
+        "Ensure the graphic coherence of a web site",
+        "Use a version management system for project tracking and hosting",
+        "Implementing advanced graphic CSS effects",
+        "Setting up a Front-End environment",
+        "Setting up a navigation structure for a web site"
+      ],
+      "tags": ["Sass", "Git/Github", "Terminal"],
+      "techIcons": ["html", "sass", "github"],
+      "website": "https://ohmyfood2021.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P3_21042021"
+    },
+    {
+      "id": "gameon",
+      "date": "2021-05-06",
+      "title": "Game On",
+      "cover": "images/projects/gameon/project_gameon.webp",
+      "objective": "Creation of the registration form",
+      "summary": "GameOn, which specializes in gaming conferences and competitions. The company is simplifying the new homepage and contest registration after receiving negative feedback from some users.",
+      "pictures": [
+        "../images/projects/gameon/gameOnLogo.webp",
+        "../images/projects/gameon/gameon_1.webp",
+        "../images/projects/gameon/gameon_2.webp",
+        "../images/projects/gameon/gameon_3.webp",
+        "../images/projects/gameon/gameon_4.webp"
+      ],
+      "goal": "Add the missing JavaScript code to make the form fully functional using javascript.",
+      "description": "GameOn specializes in video game conferences and contests. The company is simplifying the new homepage and contest registration after receiving negative feedback from some users. \n \n Unfortunately, the former developer, who was working on it, didn't have time to finish before leaving for his new job at his new company. \n\nThe HTML structure and CSS styling, based on the mockups, have been started and the layout and content of the homepage and form modal are complete, but the front-end needs to be completed. In addition, the missing JavaScript code to make the form fully functional, using JavaScript, needs to be added and the issues described on the Git Hub repo need to be completed.",
+      "functionality": [
+        "Form validation - First name/first name field have a minimum of 2 characters / are not empty.",
+        "The email address is valid, the number of contests is a numeric value and a radio button must be selected.",
+        "Terms and conditions box is checked, the other box is optional.",
+        "The form data is not deleted when it does not pass validation.",
+        "Either the form is validated or there is an error message.",
+        "There is a confirmation message when the submission is successful."
+      ],
+      "constraints": [
+        "Use pure JavaScript (not jQuery) to finish the form.",
+        "Work on a forked GitHub repo.",
+        "Use separate files for HTML, CSS and JavaScript.",
+        "Comments describing each function and class.",
+        "Manually test functionality and responsive display.",
+        "The site should be compatible with the latest versions of Chrome and Firefox.",
+        "Review the code and make sure it's ready for production."
+      ],
+      "notes": "I did not create the user interface. \n\nThe brief was to write the form validation code in JavaScript and solve the problems ('break of design') with the responsive design only.",
+      "skills": ["Programming in JavaScript"],
+      "tags": ["JavaScript", "HTML", "CSS"],
+      "techIcons": ["html", "javascript", "css", "github"],
+      "website": "https://stevens-mark.github.io/GameOn/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P4_06052021"
+    },
+    {
+      "id": "fisheye",
+      "date": "2021-06-09",
+      "title": "Fisheye",
+      "cover": "images/projects/fisheye/project_fisheye.webp",
+      "objective": "Creation of an accessible website",
+      "summary": "FishEye is a website that allows independent photographers to showcase their best work. They have recently raised funds and would like to update their website.",
+      "pictures": [
+        "../images/projects/fisheye/fisheyeLogo.webp",
+        "../images/projects/fisheye/fisheye_1.webp",
+        "../images/projects/fisheye/fisheye_2.webp",
+        "../images/projects/fisheye/fisheye_3.webp",
+        "../images/projects/fisheye/fisheye_4.webp"
+      ],
+      "goal": "Build a dynamic website prototype with a focus on accessibility (aria). Other features: filters, sorting, lightbox, photo gallery and forms.",
+      "description": "FishEye is a website that allows freelance photographers to showcase their best work. The freelance photographers' website reads, “Our clients take great photos, but they know nothing about web development. That's why we offer a unique platform to show their photos on a beautiful page and contact them for events or prints. We are one of the biggest freelance photography sites, with a huge network of photographers.”\n\n For them, accessibility is essential ! So it's very important that the site is accessible to visually impaired users, with text descriptions for all photos and keyboard commands to navigate the site. Since the site is outdated, it needs to be redesigned from a static site to a dynamic one with an emphasis on accessibility (aria).",
+      "functionality": [
+        "Home page - List of all photographers.",
+        "The list of photographers can be filtered by tag.",
+        "Clicking on a photographer's thumbnail redirects to their page.",
+        "Photographer's pages - Displays a gallery of the photographer's work.",
+        "Clicking on the 'Like' icon increments the number of likes displayed.",
+        "Media can be sorted by popularity, date or title.",
+        "Clicking on a media item opens it in a lightbox.",
+        "A button to contact the photographer opens a contact form.",
+        "The site is mobile friendly and responsive."
+      ],
+      "constraints": [
+        "Add ARIA attributes to create a custom element and describe what it does.",
+        "Pass AChecker tests without a 'known issue' (WCAG compliant).",
+        "All event handling (keyboard presses) must be configured.",
+        "Use 'semantic' HTML elements that describe their intent.",
+        "The website must match the mockups and work correctly (no errors).",
+        "The code is separated into different files (HTML with accessibility tags, CSS, JavaScript).",
+        "A modern version (ES6 or higher) of JavaScript is used.",
+        "Use the Factory Method pattern.",
+        "Object-oriented programming is used."
+      ],
+      "notes": "I used a free screen reader to get an idea of what the site would be like for a visually impaired person.",
+      "skills": [
+        "Managing site events with JavaScript",
+        "Developing a modular web application with design patterns",
+        "Writing maintainable JavaScript code",
+        "Ensuring the accessibility of a web site"
+      ],
+      "tags": ["JavaScript", "Sass", "Accessibility"],
+      "techIcons": ["accessibility", "javascript", "sass", "github"],
+      "website": "https://fisheye2021.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P6_09062021"
+    },
+    {
+      "id": "lespetitsplats",
+      "date": "2021-07-12",
+      "title": "Les Petits Plats",
+      "cover": "images/projects/petitsplats/project_lespetitsplats.webp",
+      "objective": "Develop a search algorithm",
+      "summary": "Les Petits plats have decided to launch their own cooking recipes website. As there are many sites offering cooking recipes, the fluidity and efficiency of the search engine will make the difference.",
+      "pictures": [
+        "../images/projects/petitsplats/petitsLogo.webp",
+        "../images/projects/petitsplats/project_lespetitsplats.webp",
+        "../images/projects/petitsplats/petits_2.webp",
+        "../images/projects/petitsplats/petits_3.webp",
+        "../images/projects/petitsplats/petits_4.webp"
+      ],
+      "goal": "Develop two search algorithms for the search functionality (primary and secondary searches). Test and implement the most effective algorithms.",
+      "description": "After publishing cookbooks for several years, the company has decided to embark on a new project : to create its own recipe site like Marmiton or 750g.\n\nAs there are many sites offering cooking recipes, one of the elements that can make the difference on their site is the fluidity of the search engine. Moreover, the company wants, above all, something efficient because it's users want a fast, almost instantaneous, search!\n\n A JavaScript JSON file containing an array of 50 recipes is provided to develop the project. The first mission is to implement the search functionality.",
+      "functionality": [
+        "The search must be possible via the main field or via tags (ingredients, utensils or appliance).",
+        "The main search is launched after 3 characters are entered by the user in the search bar.",
+        "The search updates for each new character entered.",
+        "The main search displays the first results as quickly as possible.",
+        "Advanced search fields only suggest items remaining in the page's recipes.",
+        "Search returns should be an intersection of results. \n Adding the tags “coconut” and “chocolate” will only return recipes that contain both."
+      ],
+      "constraints": [
+        "Mockups provided.",
+        "The HTML and CSS code for the interface must pass the W3C validator.",
+        "No libraries must be used for the search engine JavaScript",
+        "Using Bootstrap 4 is recommended.",
+        "Write two search algorithms for the main search field.",
+        "Fill out a feature investigation document describing the two algorithms.",
+        "Make a diagram for each algorithm so that the steps in each algorithm are clear.",
+        "Test their performance using a benchmarking tool (Jsben.ch?).",
+        "Only test the main search (no need to use advanced filters)."
+      ],
+      "notes": "",
+      "skills": [
+        "Analyze a computer problem",
+        "Develop an algorithm to solve a problem"
+      ],
+      "tags": ["JavaScript", "Bootstrap", "Sass"],
+      "techIcons": ["javascript", "html", "bootstrap", "sass", "github"],
+      "website": "https://petitplat.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P7_12072021"
+    },
+    {
+      "id": "billed",
+      "date": "2021-08-09",
+      "title": "Billed",
+      "cover": "images/projects/billed/project_billed.webp",
+      "objective": "Debugging and testing an HR SaaS",
+      "summary": "Billed is a company that produces SaaS solutions for human resources teams. In two weeks, the team must show the functional solution to the whole company.",
+      "pictures": [
+        "../images/projects/billed/billedLogo.webp",
+        "../images/projects/billed/billed_1.webp",
+        "../images/projects/billed/billed_2.webp",
+        "../images/projects/billed/billed_3.webp",
+        "../images/projects/billed/billed_4.webp"
+      ],
+      "goal": "Find the bugs indicated in the bug report. Also write unit and integration tests and an E2E plan.",
+      "description": "Billed is a company that produces SaaS solutions for human resources teams. The 'expense report' functionality is highly anticipated in the market and the general management has made it a priority. The goal is to officially launch it to it's customers within two weeks, so the timeline is very tight. The feature team has been working hard over the past two weeks.\n\n Unfortunately, after a colleague on the expense reporting team left the company before completing the application, the lead developer on the feature team asked for help to complete the testing and meet the deadline. This must be completed in one week, as the team needs to show the working solution to the entire company. \n\n Feature Description - There are two paths to this feature: one on the HR administrator side and one on the employee side. The back-end is ready (in alpha version). On the front end, the HR administrator path is complete, fully tested and debugged.",
+      "functionality": [
+        "The employee journey has been made more reliable and improved.",
+        "The bugs identified in the bug report provided by Jest have been fixed.",
+        "Bugs identified on the employee journey by the QA team have been fixed.",
+        "Unit and integration tests for Bills and NewBill files have been added.",
+        "100% branch coverage (outside of firebase backend calls).",
+        "E2E testing - An E2E test plan has been included to complete the testing process."
+      ],
+      "constraints": [
+        "The E2E test must be performed manually by the QA team (not automated).",
+        "No other constraints are mentioned."
+      ],
+      "notes": "I didn't create the user interface because the brief was to debug the code, write unit and integration tests and an E2E report (to eliminate bugs and avoid regression in the next evolution).\n\n Unfortunately, as the Firebase is no longer connected to the companies frontend data is no longer stored in the database. \n\n The bug reports and the E2E plan can be found in the Github repo of this project.",
+      "skills": [
+        "Writing unit tests with JavaScript",
+        "Debugging a web application with the Chrome Debugger",
+        "Writing a manual end-to-end test plan",
+        "Writing integration tests with JavaScript"
+      ],
+      "tags": ["Jest", "JavaScript", "Debugging"],
+      "techIcons": ["jest", "javascript", "github"],
+      "website": "https://billed.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P9_09082021"
+    },
+    {
+      "id": "learnathome",
+      "date": "2021-09-20",
+      "title": "Learn At Home",
+      "cover": "images/projects/learnathome/learn_2.webp",
+      "objective": "Define the needs of a tutoring app",
+      "summary": "Learn@Home is an association that connects children with academic difficulties with volunteer tutors. Basically, their goal is to allow any student, anywhere, to have access to remote tutoring.",
+      "pictures": [
+        "../images/projects/learnathome/learnathomeLogo.webp",
+        "../images/projects/learnathome/learn_1.webp",
+        "../images/projects/learnathome/learn_2.webp",
+        "../images/projects/learnathome/learn_3.webp",
+        "../images/projects/learnathome/learn_4.webp",
+        "../images/projects/learnathome/learn_5.webp",
+        "../images/projects/learnathome/learn_6.webp"
+      ],
+      "goal": "Clearly define the customer's needs. Create use case diagrams and user stories with acceptance criteria for each feature. Mock-up the site (Figma or Sketch) with a Kanban breaking down the project.",
+      "description": "Learn@Home is an association that connects children with learning difficulties with volunteers, online. Their goal is to allow any student, wherever they are, to access distance learning support. Each student registered on the site is assigned a volunteer tutor. The goal of the volunteer is to support the student in their learning through short appointments scheduled each week. During these appointments, the volunteer help the student with their homework and organization. \n\n  To facilitate interaction and communication, Learn@Home would like to create a new website. Before starting the development of the pure software, the first step is to clearly define it's needs, providing use case diagrams for each of the main features of each page, user stories with acceptance criteria for each feature and mock-ups of the site (Figma or Sketch).",
+      "functionality": [
+        "A login page to allow a student or volunteer to log in.",
+        "A system to retrieve a forgotten password.",
+        "A link to an account creation page.",
+        "A dashboard containing a summary of all the recent and important information from other pages.",
+        "A classic chat page.",
+        "A classic calendar page.",
+        "A task management page."
+      ],
+      "constraints": [
+        "There should be a history of conversations.",
+        "The user can add or delete a contact.",
+        "There should be a picture of the sender, next to each message in the chat interface.",
+        "There should be an indicator to see if a message has been read or not.",
+        "There should be a timestamp on the messages.",
+        "The calendar displays the different events and appointments of the user.",
+        "A user can create tasks for himself or for another user.",
+        "A student can only create tasks for himself.",
+        "A volunteer can create tasks for the students of his choice."
+      ],
+      "notes": " The Use case diagrams for each of the major functionalities of each page (login, chat, calendar, task manager, dashboard), the User stories with acceptance criteria for each feature and the link to the Kanban, breaking down the project, can be found in the Github repository.",
+      "skills": [
+        "Contributing to a project using an agile methodology.",
+        "Create a model for a client",
+        "Identify the needs of the application from a specification",
+        "Model a technical solution for a customer"
+      ],
+      "tags": ["User Stories", "Use Case", "Figma"],
+      "techIcons": ["figma", "notion", "usecase"],
+      "website": "https://www.figma.com/file/K8QF42xb6EzUyqDOvKHAXW/Learn-at-home",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P10_20092021"
+    },
+    {
+      "id": "kasa",
+      "date": "2021-10-18",
+      "title": "Kasa",
+      "cover": "images/projects/kasa/kasa_1.webp",
+      "objective": "Development of an SPA",
+      "summary": "Kasa is in the business of renting apartments between individuals. With more than 500 ads posted every day, Kasa is one of the leaders in the rental of apartments between individuals in France.",
+      "pictures": [
+        "../images/projects/kasa/kasaLogo.webp",
+        "../images/projects/kasa/kasa_1.webp",
+        "../images/projects/kasa/kasa_2.webp",
+        "../images/projects/kasa/kasa_3.webp",
+        "../images/projects/kasa/kasa_4.webp"
+      ],
+      "goal": "Start the React project and develop the whole application, the React components, the React Router routes, following the Figma mockups (responsive!)",
+      "description": "Kasa has been in the apartment rental business for almost 10 years now. With more than 500 ads posted every day, Kasa is one of the leaders in apartment rentals between individuals in France. \n\n Kasa's website was coded more than 10 years ago in ASP.NET with a lot of legacy code. The technical director therefore decided to completely redesign it and move to a full JavaScript stack with NodeJS on the back-end and React on the front-end. \n\nThe developer must start the React project and develop the whole application, the React components, the React Router routes, while following the Figma mockups (responsive!). Moreover, as the Back-End team and the data are not in place, 20 housing ads (in a JSON file) have been provided in order to build the corresponding Front-End.",
+      "functionality": [
+        "A home page with a section containing all the housing in the form of a map.",
+        "Clicking on a map takes the user to the corresponding accomodation page.",
+        "An About page with 4 drop-down menus describing the company's values.",
+        "A carousel of photos presenting the accommodation.",
+        "A host's star rating.",
+        "Two drop-down menus describing the accommodation and providing a list of available amenities.",
+        "Classification tags."
+      ],
+      "constraints": [
+        "Class-based components, no functional components.",
+        "Code broken down into modular, reusable components, with one component per file.",
+        "No external React library.",
+        "Use of props between components.",
+        "Use of state in components when needed.",
+        "Event management.",
+        "No external React library",
+        "Event management.",
+        "Route parameters are handled by React Router in the URL.",
+        "There is one page per route.",
+        "The 404 page is returned for each non-existent route.",
+        "The 404 page is returned if a value in the URL is not part of the input.",
+        "The code must not produce an error or warning in the console."
+      ],
+      "notes": "",
+      "skills": [
+        "Developing the routes of a web application with React Router",
+        "Initialize a web application with a framework",
+        "Creating components with React"
+      ],
+      "tags": ["React", "React-Router", "css"],
+      "techIcons": ["react", "css", "jsdoc", "github"],
+      "website": "https://kasa2021.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P11_18102021"
+    },
+    {
+      "id": "sportsee",
+      "date": "2021-11-08",
+      "title": "Sports See",
+      "cover": "images/projects/sportsee/project_sportsee.webp",
+      "objective": "Develop an analytical dashboard",
+      "summary": "SportSee is a startup dedicated to sports coaching. The company will launch a new version of the user's profile page, which will track the number of sessions completed as well as the calories burned.",
+      "pictures": [
+        "../images/projects/sportsee/sportseeLogo.webp",
+        "../images/projects/sportsee/sportsee_1.webp",
+        "../images/projects/sportsee/sportsee_2.webp",
+        "../images/projects/sportsee/sportsee_3.webp"
+      ],
+      "goal": "Redesign the profile page with React, using either D3 or Recharts for the user's sports activity graphics. Create a separate service that will handle HTTP calls to the backend (NodeJS) using Fetch or Axios. It is important that you make the calls outside of the React components. Finally, all the documentation must be done in English.",
+      "description": "SportSee is a startup dedicated to sports coaching. In full growth, the company will launch a new version of the user profile page. This page allows the user to track the number of sessions performed as well as the number of calories burned. Thus, the new user profile page is to be redesigned with React, integrating graphs on the user's sports activity using either D3 or Recharts.",
+      "functionality": [
+        "A horizontal navigation menu to allow navigation between the different screens (in the future).",
+        "A vertical navigation menu to allow navigation between future navigation blocks.",
+        "The display of daily activity (weight and calories burned), in the form of a Barchart. A tooltip appears on hover.",
+        "The display of the average duration of sessions in the form of a LineChart. A tooltip appears when hovering.",
+        "The display of information about the completion of the daily goal (average score) in the form of a RadialBarChart.",
+        "The display of the types of activities performed in the form of a RadarChart.",
+        "The display of the information concerning the daily calories, proteins, carbohydrates and fats consumed in the form of a card."
+      ],
+      "constraints": [
+        "Use Figma mockups and Kanban with User Stories.",
+        "The minimum screen resolution is at least 1024 by 780 pixels.",
+        "A backend (NodeJS) is provided that allows HTTP calls and data retrieval.",
+        "Use either Fetch or Axios to handle the calls themselves.",
+        "Calls should be made outside of the React components.",
+        "Create a separate service that will handle making these calls.",
+        "Start the project with the simulated data. Once the project is functional, integrate the API.",
+        "Include proptypes for each of the components.",
+        "Use JsDoc to document functions and methods.",
+        "All documentation should be done in English."
+      ],
+      "notes": "For the prototype, there are currently only two users: Cecelia and Karl.",
+      "skills": [
+        "Ensuring data quality of an application",
+        "Interacting with a Web service",
+        "Develop advanced graphical elements using JavaScript libraries",
+        "Produce technical documentation for an application"
+      ],
+      "tags": ["React", "Recharts", "JSDoc"],
+      "techIcons": ["react", "styledcomponents", "recharts", "jsdoc", "github"],
+      "website": "https://sportsee2021.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P12_08112021"
+    },
+    {
+      "id": "argentbank",
+      "title": "Argent Bank",
+      "date": "2021-12-02",
+      "cover": "images/projects/argentbank/project_argentbank.webp",
+      "objective": "Using an API for a bank account",
+      "summary": "Argent Bank is a new bank trying to break into the industry and needs help setting up their application. The two-part contract is broken down into several phases. Web application creation and API endpoints specification.",
+      "pictures": [
+        "../images/projects/argentbank/bankLogo.webp",
+        "../images/projects/argentbank/project_argentbank.webp",
+        "../images/projects/argentbank/argent_1.webp",
+        "../images/projects/argentbank/argent_2.webp",
+        "../images/projects/argentbank/argent_3.webp",
+        "../images/projects/argentbank/argent_4.webp"
+      ],
+      "goal": "Create a fully responsive web application with React using Redux to manage the state of the entire application. Users should be able to visit the homepage, log in, see their profile information and edit it. Also provide a document describing the proposed transaction APIs, following the Swagger guidelines.",
+      "description": "Argent Bank is a new start-up bank trying to break into the industry. The company wants to create a web application for its customers to log in and manage their accounts and profiles. \n\nThe project consists of several phases: phase one is the creation of a fully responsive web application with user authentication. This is followed by phase two, which consists of specifying the API endpoints needed for a possible second mission once phase one is complete.",
+      "functionality": [
+        "The user can visit the home page.",
+        "The user can log in to the system.",
+        "User can log out of the system.",
+        "The user can see his own profile information only after successful login.",
+        "The user can modify his profile and keep the data in the database.",
+        "See all his transactions for the current month (in design phase).",
+        "See the details of a transaction in another view (in design phase).",
+        "Add, modify or delete transaction information (in design phase)."
+      ],
+      "constraints": [
+        "Develop the application in React.",
+        "Use static HTML and CSS provided.",
+        "Use Redux to manage the state of the whole application.",
+        "Do not implement the transactions page.",
+        "Back-end engineers have already created all the necessary APIs.",
+        "Provide a Swagger document describing the proposed transaction APIs.",
+        "Follow the Swagger guidelines.",
+        "Specify the API Endpoints (HTTP method, route, description, parameters, ...)."
+      ],
+      "notes": "The transactions are still in the design phase. Once logged in 'dummy' data is displayed for the moment. I have hosted the backend (previously built as a local server by the engineers) on RENDER. Username: Tony@stark.com, Password: password123",
+      "skills": [
+        "Implementing a state manager in a React application.",
+        "Interacting with an API",
+        "Modeling an API",
+        "Authenticating to an API"
+      ],
+      "tags": ["React", "Redux", "Swagger"],
+      "techIcons": [
+        "react",
+        "redux",
+        "styledcomponents",
+        "swagger",
+        "jsdoc",
+        "github"
+      ],
+      "website": "https://argentbankdeployed.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P13_02122021"
+    },
+    {
+      "id": "wealthhealthhrnet",
+      "title": "HRNet",
+      "date": "2022-03-29",
+      "cover": "images/projects/wealthhealth/003_current.webp",
+      "objective": "Switch a jQuery library into React",
+      "summary": "Wealth Health is a large financial company who uses an internal web application, called HRnet that manages employee records. The application is old and uses jQuery on the front end, leading to considerable bugs.",
+      "pictures": [
+        "../images/projects/wealthhealth/wealth.webp",
+        "../images/projects/wealthhealth/001_create.webp",
+        "../images/projects/wealthhealth/002_createnight.webp",
+        "../images/projects/wealthhealth/003_current.webp",
+        "../images/projects/wealthhealth/004_currentnight.webp",
+        "../images/projects/wealthhealth/005_modal.webp",
+        "../images/projects/wealthhealth/006_report_one.webp",
+        "../images/projects/wealthhealth/007_report_two.webp"
+      ],
+      "goal": "Convert the entire HRNet project to React. Convert one of the four current jQuery plugins to React. Replace the 3 remaining jQuery plugins with React components. Perform Lighthouse performance tests comparing the old and new application.",
+      "description": "Wealth Health is a large financial company who uses an internal web application, called HRnet, that manages employee records. The application is old and uses jQuery on the front end, which leads to considerable bugs and increased internal complaints. The biggest issues being the date pickers, modal windows, drop down menus and tables. Several complaints that the jQuery plugins are very slow have been received. \n\n The company wants to create their own React components instead of these third-party jQuery plugins that are used in the user interface and hope that converting these jQuery plugins into React components will improve the performance and stability. For the first part of the conversion process, the developer must pick ONE of the four jQuery plugins and convert it to a React component.",
+      "functionality": [
+        "New version of the “Create Employee” and  “Employee List” pages using React.",
+        "The application UI has been redesigned with a consistent style.",
+        "Better UI experience following accessibility guidelines.",
+        "Basic user input validation with warning messages.",
+        "Input control to avoid user input errors.",
+        "Table search, pagnation, navigation & sort features included (as before).",
+        "Keyboard navigation possible.",
+        "Night mode.",
+        "Fullstack version available with all CRUD features (see notes below)."
+      ],
+      "constraints": [
+        "Convert the entire HRNet project to React.",
+        "Follow a functional programming paradigm when writing these libraries in React.",
+        "Avoid using classes when converting the old application.",
+        "Write smaller, modular pieces of code and standalone functions for optimal modularity and maintainability.",
+        "Convert 1 of the 4 jQuery plugins into React, replacing the 3 remaining jQuery plugins with React components.",
+        "Document the converted React component with a general description of what the component does and comments explaining what each accessory is for and how it is used.",
+        "Once the React version of HRNet works, publish the React component to npm as a package.",
+        "Perform Lighthouse performance tests comparing the old and new application.",
+        "If time, test the React code with a unit test suite. Otherwise, only manual tests are needed."
+      ],
+      "notes": "I have made multiple versions of this project, using either localstorage, FireBase or MongoDB as the backend for the data storage. These are all available in the Git Repo under the branch names: main, db, firebase, usversion & full (fullstack - CRUD version). The demo version uses localstorage. \n\n IMPORTANT: For the  demo version using localstorage, if you DIRECTLY create new employee records from the home page, then ONLY these records will be displayed in the table. BUT if you pass to the VIEW of the current employee records FIRST, then mock data will be loaded into the table to demonstrate the site functionality (this data will be put into your local storage, so you may want to remove it afterwards). \n\n For the full stack version, the frontend is hosted using netlify & the backend using Render. You may need to reload the page a couple of times before a connection is established with the mongoDB database. link: https://wealthcrud.netlify.app/ ",
+      "skills": [
+        "Redesign an application to reduce technical debt.",
+        "Analyze the performance of a web application.",
+        "Deploy a front-end application.",
+        "Programming in JavaScript with functional programming."
+      ],
+      "tags": ["React", "FireBase", "MongoDB"],
+      "techIcons": ["react", "firebase", "mongodb", "tables", "jest", "github"],
+      "website": "https://wealthhealth.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/StevensMark_P14_04022022"
+    },
+    {
+      "id": "wealthhealthplug",
+      "title": "HRNet (Plug-in)",
+      "date": "2022-03-29",
+      "cover": "images/projects/wealthplugin/002_modal_userdefined.webp",
+      "objective": "Create an NPM package",
+      "summary": "Wealth Health’s (HRNet) Management expect that converting the third party jQuery plugins into React components will improve the performance and stability.",
+      "pictures": [
+        "../images/projects/wealthplugin/wealth.webp",
+        "../images/projects/wealthplugin/005_npm_package.webp",
+        "../images/projects/wealthplugin/004_npm package code.webp",
+        "../images/projects/wealthplugin/001_modal_default.webp",
+        "../images/projects/wealthplugin/002_modal_userdefined.webp",
+        "../images/projects/wealthplugin/003_modal_userdefined_night.webp"
+      ],
+      "goal": "Create a Modal React component to which custom styling can be applied then publish the React component to npm as a package.",
+      "description": "As stated in the brief from Wealth Health's Management, it is expected that converting the third party jQuery plugins into React components will improve the performance and stability. \n\n The biggest issues for HRNet users being the date pickers, modal windows, drop down menus, and tables, with all the network calls and DOM manipulations required for jQuery plugins adding up and slowing things down. Several complaints about these jQuery plugins have been received and the management think it will be better to have their own React components to have more control over the application. \n\n For example, the modal dialog currently being used to confirm when new employee records are created does not match the design system that the designers want to use. Also, the plugin is very incompatible with applying custom styles, so create a React component to which custom styling can be applied then publish the React component to npm as a package.",
+      "functionality": [
+        "Can change the modal's page background colour.",
+        "Can change the modal's page background colour.",
+        "Can change the modal's body colour.",
+        "Can change the modal's text colour.",
+        "Can change the modal's border outline.",
+        "Can change the modal's close button colour.",
+        "Can add, remove or change the modal's box shadow.",
+        "Can add or remove the modal's default border-radius.",
+        "Can add or remove a modal logo.",
+        "Can change modal's heading.",
+        "Can add, remove or change a secondary message.",
+        "Can add or remove the default modal animation (animation: modal descends into view)."
+      ],
+      "constraints": [
+        "Follow a functional programming paradigm.",
+        "Avoid using classes.",
+        "Convert 1 of the 4 jQuery plugins into React.",
+        "Publish the React component to npm as a package.",
+        "If time, test the React code with a unit test suite."
+      ],
+      "notes": "The customisable modal comes with default colours already installed, but can be changed if preferred. It is also possible to set themes for both light & dark modes (as shown in the demo) as well as choose whether to use the preset animation. Also, Focus trap is already applied to the modal for keyboard users. \n\n There is a version including the tests with Jest on branch 'withtests' on github. \n\n If you want to try changing the modal's appearance then the npm package can be found at https://www.npmjs.com/package/react-custom-modal-by-msparkystevens",
+      "skills": [
+        "Redesign an application to reduce technical debt.",
+        "Analyze the performance of a web application.",
+        "Programming in JavaScript with functional programming.",
+        "Publish a React component to npm as a package."
+      ],
+      "tags": ["React", "NPM-package"],
+      "techIcons": [
+        "react",
+        "styledcomponents",
+        "jsdoc",
+        "npm",
+        "jest",
+        "github"
+      ],
+      "website": "https://reactcustommodal.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/react-custom-modal-by-msparkystevens"
+    },
+    {
+      "id": "simpleportfolio",
+      "title": "Simple Portfolio",
+      "date": "2022-07-02",
+      "cover": "images/projects/simpleportfolio/simple01.webp",
+      "objective": "Create a Simple Portfolio",
+      "summary": "This is a personal project to develop a simple portfolio using Bootstrap5 features. Graphically cataloging some of the projects I have undertaken to date.",
+      "pictures": [
+        "../images/projects/simpleportfolio/simpleLogo.webp",
+        "../images/projects/simpleportfolio/simple01.webp",
+        "../images/projects/simpleportfolio/simple02.webp",
+        "../images/projects/simpleportfolio/simple03.webp",
+        "../images/projects/simpleportfolio/simple04.webp",
+        "../images/projects/simpleportfolio/simple05.webp",
+        "../images/projects/simpleportfolio/simple06.webp"
+      ],
+      "goal": "Develop a simple portfolio whilst following a Bootstrap 5 course.",
+      "description": "I decided to create a 'light- weight' version of my portfolio that does not include any of the information with regards to the functionality or constraints. It's a graphical story/journey of the projects I have undertaken to date. \n\n The idea was to also learn some of the features of Bootstrap5. I also had the chance to experiment with fontawesome, Bootstrap icons & react icons, as well as storing the svg's locally, to get a feel of the implementation differences.",
+      "functionality": [
+        "Layout Responsive.",
         "Responsive Navigation.",
         "Progress Bar Component.",
         "Card Components.",
@@ -828,183 +721,155 @@
         "Utility Classes.",
         "Toast Notifications.",
         "Dual Language (French/English)."
-			],
-			"constraints": [
-				"Code the site using React.",
-				"Use Bootstrap5.", 		
-				"The site must be compatible with the latest versions of Chrome and Firefox.",
-				"Version the code with Git.",
-				"The entire site must be responsive on mobile, tablet and desktop."
-			],
-			"notes":"",
-			"skills": [
-				"Implementing version management for a project.",
-				"Implementing Bootstrap5 features.",
-				"Programming in React.",
-				"Responsive design."
-			],
-			"tags": [
-				"React",
-				"BootStrap",
-				"Sass"
-			],
-			"techIcons": [
-				"react",
-				"bootstrap",
-				"sass",
-        "jsdoc",
-        "github"
-				],
-			"website": "https://portfoliostevensmark.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/Simple-Portfolio"
-		},
-		{
-			"id": "notflix",
-			"title": "A Netflix Clone",
-			"date": "2022-07-29",
-			"cover": "images/projects/notflix/notflix1.webp",
-			"objective": "Create a Netflix Clone",
-			"summary": "This is a personal project to develop a Netflix website clone using the datatbase provided by TMDB, using their REST API.",
-			"pictures": [
-				"../images/projects/notflix/notflixLogo.webp",
-				"../images/projects/notflix/notflix1.webp",
-				"../images/projects/notflix/notflix2.webp",
-				"../images/projects/notflix/notflix3.webp",
-				"../images/projects/notflix/notflix4.webp",
-				"../images/projects/notflix/notflix5.webp",
-				"../images/projects/notflix/notflix6.webp",
-				"../images/projects/notflix/notflix7.webp",
-				"../images/projects/notflix/notflix8.webp"
-			],
-			"goal": "Using the REST API from TMDB, create a clone of the Netflix Website",
-			"description":"After seeing numerous NetFlix clones on the internet, I thought I would build my own version. \n\n I have tried to avoid using too many libraries, so opted to do the animations with Sass, rather than motion, spring etc... \n\n But, I did use React-slick for the slidder, Focus-trap-react for modal accessibility and although I could have used Redux for the state management, I opted for useContext instead, simply because I thought there was no need to use Redux on this project... \n\n But as the project has progressed & I have added more features, I think the use of Redux would have been better.",
-			"functionality": [
-				"Display movies, tv shows, popular & watch list",
-				"If user clicks on Genre heading a link appears to be able to view more movies ot tv shows for that genre",
-				"Search movies and tv shows",
-				"Add/Remove to/from My Wish List",
-				"A detail modal with more information about the movie or TV show selected by the user",
-				"A Video modal showing a trailer (if available) when selected by the user",
-				"Use of React hooks and custom hooks",
-				"Favourites list persised in local storage for ease of demo",
-				"Responsive layout",
-				"Swipeable movie and tv shows list",
-				"A loading spinner whilst media is loaded",
-				"Database courtesy of TMDB API"
-			],
-			"constraints": [
-				"Code the site using React.",
-				"Make sure the code is documented correctly.", 		
-				"The site must be compatible with the latest versions of Chrome and Firefox.",
-				"Version the code with Git.",
-				"The entire site must be responsive on mobile, tablet and desktop.",
-				"Make the site as accessible as possible.",
-				"Use TMDB datatbase."
-			],
-			"notes":"I have not added all the genres to the site (for example: Romance, History, Mystery, Reality, Talk, Western...). \n\n When navigating between the different pages the data is reload when a page is revisited (new API calls). Thus the same data is downloaded each time and not very efficient. \n\n I could have used MongoDB or Firebase to store the user's Wish list, but instead, used local storage for simplicity for the demo (you may want to remove it afterwards and obviously you will loose your list if you clear the storage)",
-			"skills": [
-				"Use a version management system for project tracking and hosting.",
-				"Implementing advanced graphic CSS effects.",
-				"Programming in React.",
-				"Developing the routes of a web application with React Router.",
-				"Building a website using a REST API."
-			],
-			"tags": [
-				"React",
-				"React-Router",
-				"REST API"
-			],
-			"techIcons": [
-				"react",
-				"javascript",
-				"sass",
-        "jsdoc",
-        "github"
-				],
-			"website": "https://notflixstevensmark.netlify.app/",
-			"github": "https://github.com/Stevens-Mark/NotFlix"
-		},
-		{
-			"id": "bananadesigns",
-			"title": "Banana Designs",
-			"date": "2022-09-04",
-			"cover": "images/projects/bananadesigns/banana2.webp",
-			"objective": "Create a WordPress website",
-			"summary": "Banana Designs provides end to end website & marketing solutions. Due to rapid expansion, they have decided to outsource the redesign of their website.",
-			"pictures": [
-				"../images/projects/bananadesigns/banana1.webp",
-				"../images/projects/bananadesigns/banana2.webp",
-				"../images/projects/bananadesigns/banana3.webp",
-				"../images/projects/bananadesigns/banana4.webp",
-				"../images/projects/bananadesigns/banana5.webp",
-				"../images/projects/bananadesigns/banana6.webp",
-				"../images/projects/bananadesigns/banana7.webp",
-				"../images/projects/bananadesigns/banana8.webp",
-				"../images/projects/bananadesigns/banana9.webp"
-			],
-			"goal": "Build a showcase site using WordPress",
-			"description":"Banana Designs provides end to end website & marketing solutions. Due to rapid expansion, they have decided to outsource the redesign of their website. \n\n The site should contain no more than six pages, giving a brief explaination of the services the company provides, examples from their portfolio, as well as why a client should choose their services. \n\n As it is important to keep the user's attention, the company does not want too much information and text. Each page should contain only the main points (in the form of bullet points for example) making it quick and easy to read.",
-			"functionality": [
-				"Home Page, About Page, Website creation, Reference, Portfolio & Contact Pages.",
-				"Portfolio sortable by category.",
-				"Possibility to view portfolio using a LightBox.",
-				"External Links to view previous company projects 'live'.",
-				"Contact form with 'invisible' CAPTCHA test.",
-				"General Data Protection Regulation (GDPR) templates in place.",
-				"Cached static html files served to increase page load times.",
-				"Broken Link Checker - Detects links that don’t work, missing images and redirects.",
-				"Use of a proper SMTP provider when sending emails.",
-				"A Google map indicating the location of Banana Designs."
-			],
-			"constraints": [
-				"Build site using WordPress.",
-				"Use free plugins.", 		
-				"Use of templates is allowed, but not just copy/paste.",
-				"Site should not resemble templates.",
-				"Use a FREE WordPress hosting service.",
-				"Implement SEO practices as much as possible."
-			],
-			"notes":"As this was a personal project to better understand CMS such as WordPress, I have used https://pantheon.io/ as the free hosting service. Unfortunately, I have read that there is always the possibility that the site is removed for no reason and using a free service and plugins means that features are possibily limited. As an example, I do not have direct access to any config files & therefore cannot edit them (if needed). \n\n At the time of writing, I have no PHP knowledge, but I was able to make custom CSS style modifications... \n\n As mentioned previously, I have only used free plugins for this projects. For example: Broken Link Checker, Central Color Palette, Duplicate Page, GDPR Cookie Consent, Ocean Extra, Redirection, SEO Press, UpdraftPlus, WP Mail SMTP, WP Super Cache, WP-Optimize.... and Page Builder: Elementor. \n\n FIREFOX COMPATIBILITY ISSUE: The Banana Designs Header Logo does not display correctly in Firefox (Instead the oceanWP template logo is displayed). I have not been able to find a solution to this problem, so, the word 'Banana Designs' is displayed in it's place. Not ideal...",
-			"skills": [
-				"Create a website using WordPress.",
-				"Ensure the graphic coherence of a web site.",
-				"Implement SEO techniques.",
-				"Ensure a responsive interface.",
-				"Use of templates and plugins."
-			],
-			"tags": [
-				"WordPress",
-        "css",
-				"PhotoShop"
-			],
-			"techIcons": [
-				"wordpress",
-        "css",
-				"photoshop"
-				],
-			"website": "https://dev-banana-designs.pantheonsite.io/",
-			"github": ""
-		},
+      ],
+      "constraints": [
+        "Code the site using React.",
+        "Use Bootstrap5.",
+        "The site must be compatible with the latest versions of Chrome and Firefox.",
+        "Version the code with Git.",
+        "The entire site must be responsive on mobile, tablet and desktop."
+      ],
+      "notes": "",
+      "skills": [
+        "Implementing version management for a project.",
+        "Implementing Bootstrap5 features.",
+        "Programming in React.",
+        "Responsive design."
+      ],
+      "tags": ["React", "BootStrap", "Sass"],
+      "techIcons": ["react", "bootstrap", "sass", "jsdoc", "github"],
+      "website": "https://portfoliostevensmark.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/Simple-Portfolio"
+    },
     {
-			"id": "foodwishes",
-			"title": "Food Wishes",
-			"date": "2022-11-17",
-			"cover": "images/projects/foodwishes/project_foodWishes.webp",
-			"objective": "Create a Full stack solution",
-			"summary": "Food Wishes provides a food recipe sharing website for amateur chefs with a passion for food. With the help of it's users, they want to create an extensive database of the most popular dishes.",
-			"pictures": [
-				"../images/projects/foodwishes/foodWishesLogo.webp",
-				"../images/projects/foodwishes/foodWishes_1.webp",
-				"../images/projects/foodwishes/foodWishes_2.webp",
-				"../images/projects/foodwishes/foodWishes_3.webp",
-				"../images/projects/foodwishes/foodWishes_4.webp",
-				"../images/projects/foodwishes/foodWishes_5.webp",
-				"../images/projects/foodwishes/foodWishes_6.webp",
+      "id": "notflix",
+      "title": "A Netflix Clone",
+      "date": "2022-07-29",
+      "cover": "images/projects/notflix/notflix1.webp",
+      "objective": "Create a Netflix Clone",
+      "summary": "This is a personal project to develop a Netflix website clone using the datatbase provided by TMDB, using their REST API.",
+      "pictures": [
+        "../images/projects/notflix/notflixLogo.webp",
+        "../images/projects/notflix/notflix1.webp",
+        "../images/projects/notflix/notflix2.webp",
+        "../images/projects/notflix/notflix3.webp",
+        "../images/projects/notflix/notflix4.webp",
+        "../images/projects/notflix/notflix5.webp",
+        "../images/projects/notflix/notflix6.webp",
+        "../images/projects/notflix/notflix7.webp",
+        "../images/projects/notflix/notflix8.webp"
+      ],
+      "goal": "Using the REST API from TMDB, create a clone of the Netflix Website",
+      "description": "After seeing numerous NetFlix clones on the internet, I thought I would build my own version. \n\n I have tried to avoid using too many libraries, so opted to do the animations with Sass, rather than motion, spring etc... \n\n But, I did use React-slick for the slidder, Focus-trap-react for modal accessibility and although I could have used Redux for the state management, I opted for useContext instead, simply because I thought there was no need to use Redux on this project... \n\n But as the project has progressed & I have added more features, I think the use of Redux would have been better.",
+      "functionality": [
+        "Display movies, tv shows, popular & watch list",
+        "If user clicks on Genre heading a link appears to be able to view more movies ot tv shows for that genre",
+        "Search movies and tv shows",
+        "Add/Remove to/from My Wish List",
+        "A detail modal with more information about the movie or TV show selected by the user",
+        "A Video modal showing a trailer (if available) when selected by the user",
+        "Use of React hooks and custom hooks",
+        "Favourites list persised in local storage for ease of demo",
+        "Responsive layout",
+        "Swipeable movie and tv shows list",
+        "A loading spinner whilst media is loaded",
+        "Database courtesy of TMDB API"
+      ],
+      "constraints": [
+        "Code the site using React.",
+        "Make sure the code is documented correctly.",
+        "The site must be compatible with the latest versions of Chrome and Firefox.",
+        "Version the code with Git.",
+        "The entire site must be responsive on mobile, tablet and desktop.",
+        "Make the site as accessible as possible.",
+        "Use TMDB datatbase."
+      ],
+      "notes": "I have not added all the genres to the site (for example: Romance, History, Mystery, Reality, Talk, Western...). \n\n When navigating between the different pages the data is reload when a page is revisited (new API calls). Thus the same data is downloaded each time and not very efficient. \n\n I could have used MongoDB or Firebase to store the user's Wish list, but instead, used local storage for simplicity for the demo (you may want to remove it afterwards and obviously you will loose your list if you clear the storage)",
+      "skills": [
+        "Use a version management system for project tracking and hosting.",
+        "Implementing advanced graphic CSS effects.",
+        "Programming in React.",
+        "Developing the routes of a web application with React Router.",
+        "Building a website using a REST API."
+      ],
+      "tags": ["React", "React-Router", "REST API"],
+      "techIcons": ["react", "javascript", "sass", "jsdoc", "github"],
+      "website": "https://notflixstevensmark.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/NotFlix"
+    },
+    {
+      "id": "bananadesigns",
+      "title": "Banana Designs",
+      "date": "2022-09-04",
+      "cover": "images/projects/bananadesigns/banana2.webp",
+      "objective": "Create a WordPress website",
+      "summary": "Banana Designs provides end to end website & marketing solutions. Due to rapid expansion, they have decided to outsource the redesign of their website.",
+      "pictures": [
+        "../images/projects/bananadesigns/banana1.webp",
+        "../images/projects/bananadesigns/banana2.webp",
+        "../images/projects/bananadesigns/banana3.webp",
+        "../images/projects/bananadesigns/banana4.webp",
+        "../images/projects/bananadesigns/banana5.webp",
+        "../images/projects/bananadesigns/banana6.webp",
+        "../images/projects/bananadesigns/banana7.webp",
+        "../images/projects/bananadesigns/banana8.webp",
+        "../images/projects/bananadesigns/banana9.webp"
+      ],
+      "goal": "Build a showcase site using WordPress",
+      "description": "Banana Designs provides end to end website & marketing solutions. Due to rapid expansion, they have decided to outsource the redesign of their website. \n\n The site should contain no more than six pages, giving a brief explaination of the services the company provides, examples from their portfolio, as well as why a client should choose their services. \n\n As it is important to keep the user's attention, the company does not want too much information and text. Each page should contain only the main points (in the form of bullet points for example) making it quick and easy to read.",
+      "functionality": [
+        "Home Page, About Page, Website creation, Reference, Portfolio & Contact Pages.",
+        "Portfolio sortable by category.",
+        "Possibility to view portfolio using a LightBox.",
+        "External Links to view previous company projects 'live'.",
+        "Contact form with 'invisible' CAPTCHA test.",
+        "General Data Protection Regulation (GDPR) templates in place.",
+        "Cached static html files served to increase page load times.",
+        "Broken Link Checker - Detects links that don’t work, missing images and redirects.",
+        "Use of a proper SMTP provider when sending emails.",
+        "A Google map indicating the location of Banana Designs."
+      ],
+      "constraints": [
+        "Build site using WordPress.",
+        "Use free plugins.",
+        "Use of templates is allowed, but not just copy/paste.",
+        "Site should not resemble templates.",
+        "Use a FREE WordPress hosting service.",
+        "Implement SEO practices as much as possible."
+      ],
+      "notes": "As this was a personal project to better understand CMS such as WordPress, I have used https://pantheon.io/ as the free hosting service. Unfortunately, I have read that there is always the possibility that the site is removed for no reason and using a free service and plugins means that features are possibily limited. As an example, I do not have direct access to any config files & therefore cannot edit them (if needed). \n\n At the time of writing, I have no PHP knowledge, but I was able to make custom CSS style modifications... \n\n As mentioned previously, I have only used free plugins for this projects. For example: Broken Link Checker, Central Color Palette, Duplicate Page, GDPR Cookie Consent, Ocean Extra, Redirection, SEO Press, UpdraftPlus, WP Mail SMTP, WP Super Cache, WP-Optimize.... and Page Builder: Elementor. \n\n FIREFOX COMPATIBILITY ISSUE: The Banana Designs Header Logo does not display correctly in Firefox (Instead the oceanWP template logo is displayed). I have not been able to find a solution to this problem, so, the word 'Banana Designs' is displayed in it's place. Not ideal...",
+      "skills": [
+        "Create a website using WordPress.",
+        "Ensure the graphic coherence of a web site.",
+        "Implement SEO techniques.",
+        "Ensure a responsive interface.",
+        "Use of templates and plugins."
+      ],
+      "tags": ["WordPress", "css", "PhotoShop"],
+      "techIcons": ["wordpress", "css", "photoshop"],
+      "website": "https://dev-banana-designs.pantheonsite.io/",
+      "github": ""
+    },
+    {
+      "id": "foodwishes",
+      "title": "Food Wishes",
+      "date": "2022-11-17",
+      "cover": "images/projects/foodwishes/project_foodWishes.webp",
+      "objective": "Create a Full stack solution",
+      "summary": "Food Wishes provides a food recipe sharing website for amateur chefs with a passion for food. With the help of it's users, they want to create an extensive database of the most popular dishes.",
+      "pictures": [
+        "../images/projects/foodwishes/foodWishesLogo.webp",
+        "../images/projects/foodwishes/foodWishes_1.webp",
+        "../images/projects/foodwishes/foodWishes_2.webp",
+        "../images/projects/foodwishes/foodWishes_3.webp",
+        "../images/projects/foodwishes/foodWishes_4.webp",
+        "../images/projects/foodwishes/foodWishes_5.webp",
+        "../images/projects/foodwishes/foodWishes_6.webp",
         "../images/projects/foodwishes/foodWishes_7.webp"
-			],
-			"goal": "Build a recipe sharing site using PHP & MySQL",
-			"description":"Food Wishes provides a food recipe sharing website for amateur chefs with a passion for food. With the help of it's users, Food Wishes wants to create an extensive database of the most popular dishes. \n\n New users can sign up, then create, update and post a photo of their latest discoveries. With the ability to post comments on recipes they like, the site encourages an inclusive community of food lovers.\n\n Searching for the ultimate recipe couldn't be simpler, as an easy to use search bar allows users to search by keywords of their choice. \n\n And if things go wrong, there's always the possibility to contact the company by an easy to use contact form.",
-			"functionality": [
+      ],
+      "goal": "Build a recipe sharing site using PHP & MySQL",
+      "description": "Food Wishes provides a food recipe sharing website for amateur chefs with a passion for food. With the help of it's users, Food Wishes wants to create an extensive database of the most popular dishes. \n\n New users can sign up, then create, update and post a photo of their latest discoveries. With the ability to post comments on recipes they like, the site encourages an inclusive community of food lovers.\n\n Searching for the ultimate recipe couldn't be simpler, as an easy to use search bar allows users to search by keywords of their choice. \n\n And if things go wrong, there's always the possibility to contact the company by an easy to use contact form.",
+      "functionality": [
         "Create and destroy an account",
         "Login and logout",
         "Recipes viewing page",
@@ -1014,86 +879,129 @@
         "Form validation : valid input & password strength checking, existing user check etc...",
         "File Uploading, verifying and sending by email using PHPMailer",
         "Search by keywords"
-
-			],
-			"constraints": [
-				"Build site using PHP.",
-				"Store data in a MySQL database.", 		
-				"Site must offer all CRUD functionalities",
-				"Option to send email",
-				"Responsive design"
-			],
-			"notes":"This project is my first attempt at using both PHP & MySQL, gaining me a better understanding of both languages. But, there is always room for improvement... In the future, I would like to refactor the code to reflect the MVC model that I had not learnt during the creation of the project and there is some code repitition for the form validations due to mutliple forms. Also, at the time of writing, there were only 18 recipes in the database, so it would be good to add more... \n\n You can sign up or use the visitor's credentials below: \n\n email: guest@foodwishes.com Password: Password@321",
-			"skills": [
+      ],
+      "constraints": [
+        "Build site using PHP.",
+        "Store data in a MySQL database.",
+        "Site must offer all CRUD functionalities",
+        "Option to send email",
+        "Responsive design"
+      ],
+      "notes": "This project is my first attempt at using both PHP & MySQL, gaining me a better understanding of both languages. But, there is always room for improvement... In the future, I would like to refactor the code to reflect the MVC model that I had not learnt during the creation of the project and there is some code repitition for the form validations due to mutliple forms. Also, at the time of writing, there were only 18 recipes in the database, so it would be good to add more... \n\n You can sign up or use the visitor's credentials below: \n\n email: guest@foodwishes.com Password: Password@321",
+      "skills": [
         "Setting up the relevant front-end environment",
         "Developing a web dynamic application using PHP",
         "Developing web application using MySQL database",
         "Managing site events with PHP"
-			],
-			"tags": [
-				"PHP",
-				"MySQL",
-        "Bootstrap"
-			],
-			"techIcons": [
-				"php",
-				"mysql",
-        "bootstrap",
-        "github"
-				],
-			"website": "http://stevensmark.infinityfreeapp.com/index.php",
-			"github": "https://github.com/Stevens-Mark/FoodWishes"
-		},
+      ],
+      "tags": ["PHP", "MySQL", "Bootstrap"],
+      "techIcons": ["php", "mysql", "bootstrap", "github"],
+      "website": "http://stevensmark.infinityfreeapp.com/index.php",
+      "github": "https://github.com/Stevens-Mark/FoodWishes"
+    },
     {
-			"id": "bestdives",
-			"title": "Best Dives",
-			"date": "2023-002-22",
-			"cover": "images/projects/bestdives/bd-1.webp",
-			"objective": "Build a website prototype.",
-			"summary": "Best Dives Maldives operates a PADI 5-star Dive Centre, Watersports Centre and a wide range of Excursions both above and under water in several luxury resorts across the Maldives. They also offer Luxury Yacht Charter.",
-			"pictures": [
+      "id": "bestdives",
+      "title": "Best Dives",
+      "date": "2023-002-22",
+      "cover": "images/projects/bestdives/bd-1.webp",
+      "objective": "Build a website prototype.",
+      "summary": "Best Dives Maldives operates a PADI 5-star Dive Centre, Watersports Centre and a wide range of Excursions both above and under water in several luxury resorts across the Maldives. They also offer Luxury Yacht Charter.",
+      "pictures": [
         "../images/projects/bestdives/bd-logo.webp",
-				"../images/projects/bestdives/bd-1.webp",
-				"../images/projects/bestdives/bd-2.webp",
-				"../images/projects/bestdives/bd-3.webp",
-				"../images/projects/bestdives/bd-4.webp",
-				"../images/projects/bestdives/bd-5.webp",
-				"../images/projects/bestdives/bd-6.webp"
-			],
-			"goal": "Build a prototype of existing website using WordPress",
-			"description":"Best Dives Maldives operates a PADI 5-star Dive Centre, Watersports Centre and a wide range of Excursions both above and under water in several luxury resorts across the Maldives. They also offer Luxury Yacht Charter and Guest Transfer Services from the airport to the resort through our sister company Best Yachts Maldives. They are considering migrating their existing website over to WordPress. The brief was to clone the first part of the site to give an idea of how the 'new' site would look in WordPress.",
-			"functionality": [
-				"Home Page and all pages where Best Dives operates currently (2023).",
-				"External Links to view sister website : Best Yachts as well as Padi & resort islands.",
-				"Contact form with 'invisible' CAPTCHA (currently disabled).",
-				"Cached static html files served to increase page load times (restricted by host provider).",
-				"Use of a proper SMTP provider when sending emails (currently disabled)."
-			],
-			"constraints": [
-				"Build site using WordPress and Use free plugins.",
-				"The new 'prototype' website should follow the original design.",
-				"Site prototype ONLY needs to be the island pages (I have completed the whole site).",
-				"Use a FREE WordPress hosting service for the prototype."
-			],
-			"notes":"I have again used https://pantheon.io/ as the free hosting service. Unfortunately, I have read that there is always the possibility that the site is removed for no reason and using a free service and plugins means that features are possibily limited but this was the brief.\n\n I also found page caching plugins to speed up page loading has mixed results or is blocked by the service provider. Moving from the dev to live environment also removed these plugins, but I have still directed the user to the 'live' site...  Saying that, the site looks remarkable similar with the same functionality. \n\n As mentioned previously, I have only used free plugins for this projects. For example:  Complianz/GDPR Cookie consent,  Conditional Menus, Duplicate Page, Jetpack Boost, Ocean Extra, UpdraftPlus, Wordfence Security, WP Mail SMTP, WP-Optimize, WPForms Lite & Elementor Page Builder. Whilst it's still online, you can see the old website that this site was cloned from at: https://www.bestdivesmaldives.com/ \n\n",
-			"skills": [
-				"Create a website using WordPress.",
-				"Ensure the graphic coherence of a web site.",
-				"Ensure a responsive interface.",
-				"Use of templates and plugins."
-			],
-			"tags": [
-				"WordPress",
-        "css",
-				"PhotoShop"
-			],
-			"techIcons": [
-				"wordpress",
-        "css",
-				"photoshop"
-				],
-			"website": "https://live-bestdives.pantheonsite.io/",
-			"github": ""
-		}
-	]
+        "../images/projects/bestdives/bd-1.webp",
+        "../images/projects/bestdives/bd-2.webp",
+        "../images/projects/bestdives/bd-3.webp",
+        "../images/projects/bestdives/bd-4.webp",
+        "../images/projects/bestdives/bd-5.webp",
+        "../images/projects/bestdives/bd-6.webp"
+      ],
+      "goal": "Build a prototype of existing website using WordPress",
+      "description": "Best Dives Maldives operates a PADI 5-star Dive Centre, Watersports Centre and a wide range of Excursions both above and under water in several luxury resorts across the Maldives. They also offer Luxury Yacht Charter and Guest Transfer Services from the airport to the resort through our sister company Best Yachts Maldives. They are considering migrating their existing website over to WordPress. The brief was to clone the first part of the site to give an idea of how the 'new' site would look in WordPress.",
+      "functionality": [
+        "Home Page and all pages where Best Dives operates currently (2023).",
+        "External Links to view sister website : Best Yachts as well as Padi & resort islands.",
+        "Contact form with 'invisible' CAPTCHA (currently disabled).",
+        "Cached static html files served to increase page load times (restricted by host provider).",
+        "Use of a proper SMTP provider when sending emails (currently disabled)."
+      ],
+      "constraints": [
+        "Build site using WordPress and Use free plugins.",
+        "The new 'prototype' website should follow the original design.",
+        "Site prototype ONLY needs to be the island pages (I have completed the whole site).",
+        "Use a FREE WordPress hosting service for the prototype."
+      ],
+      "notes": "I have again used https://pantheon.io/ as the free hosting service. Unfortunately, I have read that there is always the possibility that the site is removed for no reason and using a free service and plugins means that features are possibily limited but this was the brief.\n\n I also found page caching plugins to speed up page loading has mixed results or is blocked by the service provider. Moving from the dev to live environment also removed these plugins, but I have still directed the user to the 'live' site...  Saying that, the site looks remarkable similar with the same functionality. \n\n As mentioned previously, I have only used free plugins for this projects. For example:  Complianz/GDPR Cookie consent,  Conditional Menus, Duplicate Page, Jetpack Boost, Ocean Extra, UpdraftPlus, Wordfence Security, WP Mail SMTP, WP-Optimize, WPForms Lite & Elementor Page Builder. Whilst it's still online, you can see the old website that this site was cloned from at: https://www.bestdivesmaldives.com/ \n\n",
+      "skills": [
+        "Create a website using WordPress.",
+        "Ensure the graphic coherence of a web site.",
+        "Ensure a responsive interface.",
+        "Use of templates and plugins."
+      ],
+      "tags": ["WordPress", "css", "PhotoShop"],
+      "techIcons": ["wordpress", "css", "photoshop"],
+      "website": "https://live-bestdives.pantheonsite.io/",
+      "github": ""
+    },
+    {
+      "id": "musicontrol",
+      "title": "A Spotify Clone",
+      "date": "2023-08-02",
+      "cover": "images/projects/musicontrol/control_3.webp",
+      "objective": "Create a Spotify Clone",
+      "summary": "This is a personal project to develop a Spotify website clone using Spotify's REST API. IMPORTANT: Read notes BEFORE connecting to site!!",
+      "pictures": [
+        "../images/projects/musicontrol/controlLogo.webp",
+        "../images/projects/musicontrol/control_1.webp",
+        "../images/projects/musicontrol/control_2.webp",
+        "../images/projects/musicontrol/control_3.webp",
+        "../images/projects/musicontrol/control_4.webp",
+        "../images/projects/musicontrol/control_5.webp",
+        "../images/projects/musicontrol/control_6.webp",
+        "../images/projects/musicontrol/control_7.webp",
+        "../images/projects/musicontrol/control_8.webp"
+      ],
+      "goal": "Using the REST API from Spotify, create a partial clone of the Spotify Website",
+      "description": "It started off as a simple project to learn the basics of Next.js, Tailwind and Recoil (all I had never used) from a simple tutorial online. There were some issues with the implementation, but still a good tutorial. \n\n Frustrated with the basic featues, I decided to turn it into a more robust project. I signed up with Spotify & got a FREE introductory PREMIUM account for 3 months in order to be able to implement the features. Thus now I had a deadline by which time I must have completed the project.",
+      "functionality": [
+        "Interact with Spotify's streaming service.",
+        "Secure Login using Next/auth.",
+        "Pages: Welcome, search, search results, album, playlist, artist,  shows/podacasts, episodes, liked songs, recently played.",
+        "Sidebar containing all the users playlists.",
+        "Search option returns results for albums, artists, playlists, podcasts/shows & episodes.",
+        "Media player controls (repeat, shuffle etc).",
+        "'Seek to position' control.",
+        "Quick play start/pause control banner on page scroll.",
+        "Equaliser graphic animation when track playing.",
+        "Infinite scrolling to load more items when user scrolls.",
+        "Use of hooks and custom hooks.",
+        "Recent search list currently persisted in local storage for ease of demo.",
+        "Responsive layout.",
+        "Adaptive banner colour background based on image colors.",
+        "Web Api courtesy of Spotify for developer.",
+        "Spotify Web API Node courtesy of Michael Thelin."
+      ],
+      "constraints": [
+        "Code the site using Next.js & Tailwind.",
+        "State management using Recoil.",
+        "Make sure the code is documented correctly.",
+        "The site must be compatible with the latest versions of Chrome and Firefox.",
+        "Version the code with Git.",
+        "The entire site must be responsive on mobile, tablet and desktop.",
+        "Make the site as accessible as possible.",
+        "Use Spotify Api."
+      ],
+      "notes": "The Spotify site is (deceptively) huge, with a lot of functionality & features. I have not attempted to replicate the whole site. For example, you cannot add/delete/modify your playlists/liked songs from this app (maybe in the future). The Episode ('up next') feature is not implemented on the show page. Also, the Algorithms used by Spotify to create the various lists are not all available, so I have not created lists like 'jump back in' or 'mixes for....' & much much more etc.... But in other places, I have improved the functionality I think, particularly the ability to skip forward/back between episodes on the episode pages (that at the time of writing was/is not possible on the Spotify site). There are a presently a few known issues with my implementation, listed in my github account. \n\n IMPORTANT NOTE: You need to have a Spotify Premium account (to use all playback features, otherwise you can only browse) and more importantly, to contact me, so I can put you on the 'white list' (I need the email address you use to connect to Spotify). Without being on the 'white list' the site will not work!! This is currently the only way as I'm still waiting to hear from Spotify whether I can have extended access so that anyone can connect... Enjoy",
+      "skills": [
+        "Use a version management system for project tracking and hosting.",
+        "Implementing CSS effects using Tailwind.",
+        "Programming in Next.js.",
+        "Authentication using next-auth.",
+        "Building a website using a REST API (Spotify)."
+      ],
+      "tags": ["Next.js", "Tailwind", "REST API"],
+      "techIcons": ["next", "javascript", "tailwind", "jsdoc", "github"],
+      "website": "https://musicontrol2023.netlify.app/",
+      "github": "https://github.com/Stevens-Mark/Spotify-app.git"
+    }
+  ]
 }

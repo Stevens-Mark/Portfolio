@@ -9,7 +9,7 @@ import Tooltip from './ToolsTips/ToolTip'
 // import list of icon paths
 import { techIconList } from '../assets/data/additionalData'
 
-const TechImg = styled.img`   
+const TechImg = styled.img`  
     background: ${colors.Zircon};
     border-radius: 0.313rem;
     height:  1.6rem;

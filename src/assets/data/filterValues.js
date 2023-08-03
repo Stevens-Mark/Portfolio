@@ -50,6 +50,10 @@ export const filter = [
     "value": "mysql"
   },
   {
+    "name": "Next.js",
+    "value": "next"
+  },
+  {
     "name": "Firebase",
     "value": "firebase"
   },
@@ -92,6 +96,10 @@ export const filter = [
   {
     "name": "Swagger",
     "value": "swagger"
+  },
+  {
+    "name": "Tailwind",
+    "value": "tailwind"
   },
   {
     "name": "React Tables",

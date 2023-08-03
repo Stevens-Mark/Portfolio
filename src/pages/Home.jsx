@@ -45,17 +45,24 @@ const PortFolioWrapper = styled.section`
 
 const TechWrapper = styled.aside`
   display: none;
+  // overflow-x: auto;
+  // &::-webkit-scrollbar {
+	// 	width: 0px !important; // Hide scroll bar, but while still being able to scroll using CSS
+	// }
+	// overflow: -moz-scrollbars-none;
+  cursor: pointer;
+  
 
-  @media screen and (min-width: 1440px) {
-    background: ${({ theme }) => (
-      theme === 'light' 
-      ? `linear-gradient(180deg, rgb(148, 191, 224) 0%, rgb(51, 204, 204) 15%)`
-      : `linear-gradient(180deg,rgba(79,76,107,1) 0%,rgba(47,46,65,1) 15%)`)};
+  @media screen and (min-width: 1522px) {
+    background: ${({ theme }) =>
+      theme === 'light'
+        ? `linear-gradient(180deg, rgb(148, 191, 224) 0%, rgb(51, 204, 204) 15%)`
+        : `linear-gradient(180deg,rgba(79,76,107,1) 0%,rgba(47,46,65,1) 15%)`};
     margin-top: 0.25rem;
     padding: 0.25rem;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 `;
 
@@ -103,21 +110,27 @@ const Home = ({ siteData }) => {
   }, []);
 
   /**
-  * Filters projects based on selected tag from dropdown
-  * @function HandleFilter
-  * @param {string} tagSelected: selected tag
-  * @returns {state} filtered-array updated to state
-  */
+   * Filters projects based on selected tag from dropdown
+   * @function HandleFilter
+   * @param {string} tagSelected: selected tag
+   * @returns {state} filtered-array updated to state
+   */
   const HandleFilter = (tagSelected) => {
-    let filtered = tagSelected ? projects.filter(((data) => [tagSelected].every((tag) => data.techIcons.includes(tag)))) : projects;
-    setData(filtered);
+    // let filtered = tagSelected ? projects.filter(((data) => [tagSelected].every((tag) => data.techIcons.includes(tag)))) : projects;
+    // setData(filtered);
+
+    // experiment using GPT-3.5: it's solution to my filter code above.
+    const filterProjectsByTag = tagSelected
+      ? projects.filter((project) => project.techIcons.includes(tagSelected))
+      : projects;
+    setData(filterProjectsByTag);
   };
-  
+
   /**
-  * Sorts projects asc/desc order
-  * @function HandleSort
-  * @returns {state} sorted-array updated to state
-  */
+   * Sorts projects asc/desc order
+   * @function HandleSort
+   * @returns {state} sorted-array updated to state
+   */
   const HandleSort = () => {
     setDesc(!desc);
     const sorted = desc
@@ -163,10 +176,10 @@ const Home = ({ siteData }) => {
               </>
             ) : (
               <>
-              <Tooltip content={siteData.siteText.ascend}>
-                <img src={ASC} alt="Asc" />
-              </Tooltip>
-            </>
+                <Tooltip content={siteData.siteText.ascend}>
+                  <img src={ASC} alt="Asc" />
+                </Tooltip>
+              </>
             )}
           </Sort>
         </Controls>
@@ -181,4 +194,3 @@ export default Home;
 Home.propTypes = {
   siteData: PropTypes.object.isRequired,
 };
-

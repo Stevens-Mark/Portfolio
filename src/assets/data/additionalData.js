@@ -53,6 +53,10 @@ export const techIconList =
       { "id": "mysql", 
         "path": "../images/techIcons/mysql.webp",
         "alt": "MySQL" },
+
+      { "id": "next", 
+      "path": "../images/techIcons/nextjs.svg",
+      "alt": "Next.js" },
 			
       { "id": "notion", 
         "path": "../images/techIcons/notion.svg",
@@ -63,8 +67,8 @@ export const techIconList =
         "alt": "NPM" },
 
 			{ "id": "photoshop", 
-			"path": "../images/techIcons/photoshop.svg",
-			"alt": "PhotoShop" }, 
+        "path": "../images/techIcons/photoshop.svg",
+        "alt": "PhotoShop" }, 
 			        
       { "id": "php", 
         "path": "../images/techIcons/php.svg",
@@ -97,7 +101,11 @@ export const techIconList =
 
       { "id": "tables", 
         "path": "../images/techIcons/tables.svg",
-        "alt": "React Tables" }, 
+        "alt": "React Tables" },
+
+      { "id": "tailwind", 
+        "path": "../images/techIcons/tailwind.svg",
+        "alt": "Tailwind" },
 
 			{ "id": "usecase", 
 				"path": "../images/techIcons/usecase.svg",
