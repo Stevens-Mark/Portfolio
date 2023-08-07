@@ -111,13 +111,12 @@
       "id": "reservia",
       "date": "2021-03-30",
       "title": "Reservia",
-      "cover": "images/projects/reservia/project_reservia.webp",
+      "cover": "images/projects/reservia/reservia1.webp",
       "objective": "Transforming a model into a website",
       "summary": "Reservia is a small company offering a vacation planning tool. Their site allows users to find accommodations and activities in the city of their choice.",
       "pictures": [
         "../images/projects/reservia/ReserviaLogo.webp",
         "../images/projects/reservia/reservia1.webp",
-        "../images/projects/reservia/project_reservia.webp",
         "../images/projects/reservia/reservia2.webp",
         "../images/projects/reservia/reservia3.webp"
       ],
@@ -157,16 +156,14 @@
       "id": "ohmyfood",
       "date": "2021-04-21",
       "title": "Ohmyfood",
-      "cover": "images/projects/ohmyfood/project_ohmyfood.webp",
+      "cover": "images/projects/ohmyfood/ohmyfood_2.webp",
       "objective": "Creation of a dynamic website",
       "summary": "Ohmyfood! is a young startup that would like to impose itself on the restaurant market. The objective is to develop a 100% mobile site that lists the menus of gourmet restaurants.",
       "pictures": [
         "../images/projects/ohmyfood/ohmyfoodLogo.webp",
-        "../images/projects/ohmyfood/project_ohmyfood.webp",
-        "../images/projects/ohmyfood/menu_1.webp",
-        "../images/projects/ohmyfood/menu_2.webp",
-        "../images/projects/ohmyfood/menu_3.webp",
-        "../images/projects/ohmyfood/menu_4.webp"
+        "../images/projects/ohmyfood/ohmyfood_1.webp",
+        "../images/projects/ohmyfood/ohmyfood_2.webp",
+        "../images/projects/ohmyfood/ohmyfood_3.webp"
       ],
       "goal": "Translate the models and make the site more dynamic with animations made with Sass.",
       "description": "Ohmyfood is an online meal ordering company. Their concept allows users to compose their own menu and reduce their waiting time in restaurants, as their menu is prepared in advance. No more time wasted looking at the menu.\n\n They want to offer their customers the menus of gourmet restaurants. Initially developed in New York, they now wish to extend their concept to the capital of gastronomy : Paris. They position themselves on a niche market, with the luxury restaurants of the cities in which they are established. They want to be identified as a company offering high-end services to the middle and upper classes, connected and often in a hurry, who want to taste quality products.",
@@ -205,7 +202,7 @@
       "id": "gameon",
       "date": "2021-05-06",
       "title": "Game On",
-      "cover": "images/projects/gameon/project_gameon.webp",
+      "cover": "images/projects/gameon/gameon.webp",
       "objective": "Creation of the registration form",
       "summary": "GameOn, which specializes in gaming conferences and competitions. The company is simplifying the new homepage and contest registration after receiving negative feedback from some users.",
       "pictures": [
@@ -213,7 +210,7 @@
         "../images/projects/gameon/gameon_1.webp",
         "../images/projects/gameon/gameon_2.webp",
         "../images/projects/gameon/gameon_3.webp",
-        "../images/projects/gameon/gameon_4.webp"
+        "../images/projects/gameon/gameon.webp"
       ],
       "goal": "Add the missing JavaScript code to make the form fully functional using javascript.",
       "description": "GameOn specializes in video game conferences and contests. The company is simplifying the new homepage and contest registration after receiving negative feedback from some users. \n \n Unfortunately, the former developer, who was working on it, didn't have time to finish before leaving for his new job at his new company. \n\nThe HTML structure and CSS styling, based on the mockups, have been started and the layout and content of the homepage and form modal are complete, but the front-end needs to be completed. In addition, the missing JavaScript code to make the form fully functional, using JavaScript, needs to be added and the issues described on the Git Hub repo need to be completed.",
@@ -245,7 +242,7 @@
       "id": "fisheye",
       "date": "2021-06-09",
       "title": "Fisheye",
-      "cover": "images/projects/fisheye/project_fisheye.webp",
+      "cover": "images/projects/fisheye/fisheye_4.webp",
       "objective": "Creation of an accessible website",
       "summary": "FishEye is a website that allows independent photographers to showcase their best work. They have recently raised funds and would like to update their website.",
       "pictures": [
@@ -295,15 +292,15 @@
       "id": "lespetitsplats",
       "date": "2021-07-12",
       "title": "Les Petits Plats",
-      "cover": "images/projects/petitsplats/project_lespetitsplats.webp",
+      "cover": "images/projects/petitsplats/petits.webp",
       "objective": "Develop a search algorithm",
       "summary": "Les Petits plats have decided to launch their own cooking recipes website. As there are many sites offering cooking recipes, the fluidity and efficiency of the search engine will make the difference.",
       "pictures": [
         "../images/projects/petitsplats/petitsLogo.webp",
-        "../images/projects/petitsplats/project_lespetitsplats.webp",
+        "../images/projects/petitsplats/petits_1.webp",
         "../images/projects/petitsplats/petits_2.webp",
         "../images/projects/petitsplats/petits_3.webp",
-        "../images/projects/petitsplats/petits_4.webp"
+        "../images/projects/petitsplats/petits.webp"
       ],
       "goal": "Develop two search algorithms for the search functionality (primary and secondary searches). Test and implement the most effective algorithms.",
       "description": "After publishing cookbooks for several years, the company has decided to embark on a new project : to create its own recipe site like Marmiton or 750g.\n\nAs there are many sites offering cooking recipes, one of the elements that can make the difference on their site is the fluidity of the search engine. Moreover, the company wants, above all, something efficient because it's users want a fast, almost instantaneous, search!\n\n A JavaScript JSON file containing an array of 50 recipes is provided to develop the project. The first mission is to implement the search functionality.",
@@ -340,15 +337,14 @@
       "id": "billed",
       "date": "2021-08-09",
       "title": "Billed",
-      "cover": "images/projects/billed/project_billed.webp",
+      "cover": "images/projects/billed/billed_1.webp",
       "objective": "Debugging and testing an HR SaaS",
       "summary": "Billed is a company that produces SaaS solutions for human resources teams. In two weeks, the team must show the functional solution to the whole company.",
       "pictures": [
         "../images/projects/billed/billedLogo.webp",
         "../images/projects/billed/billed_1.webp",
         "../images/projects/billed/billed_2.webp",
-        "../images/projects/billed/billed_3.webp",
-        "../images/projects/billed/billed_4.webp"
+        "../images/projects/billed/billed_3.webp"
       ],
       "goal": "Find the bugs indicated in the bug report. Also write unit and integration tests and an E2E plan.",
       "description": "Billed is a company that produces SaaS solutions for human resources teams. The 'expense report' functionality is highly anticipated in the market and the general management has made it a priority. The goal is to officially launch it to it's customers within two weeks, so the timeline is very tight. The feature team has been working hard over the past two weeks.\n\n Unfortunately, after a colleague on the expense reporting team left the company before completing the application, the lead developer on the feature team asked for help to complete the testing and meet the deadline. This must be completed in one week, as the team needs to show the working solution to the entire company. \n\n Feature Description - There are two paths to this feature: one on the HR administrator side and one on the employee side. The back-end is ready (in alpha version). On the front end, the HR administrator path is complete, fully tested and debugged.",
@@ -388,9 +384,7 @@
         "../images/projects/learnathome/learn_1.webp",
         "../images/projects/learnathome/learn_2.webp",
         "../images/projects/learnathome/learn_3.webp",
-        "../images/projects/learnathome/learn_4.webp",
-        "../images/projects/learnathome/learn_5.webp",
-        "../images/projects/learnathome/learn_6.webp"
+        "../images/projects/learnathome/learn_4.webp"
       ],
       "goal": "Clearly define the customer's needs. Create use case diagrams and user stories with acceptance criteria for each feature. Mock-up the site (Figma or Sketch) with a Kanban breaking down the project.",
       "description": "Learn@Home is an association that connects children with learning difficulties with volunteers, online. Their goal is to allow any student, wherever they are, to access distance learning support. Each student registered on the site is assigned a volunteer tutor. The goal of the volunteer is to support the student in their learning through short appointments scheduled each week. During these appointments, the volunteer help the student with their homework and organization. \n\n  To facilitate interaction and communication, Learn@Home would like to create a new website. Before starting the development of the pure software, the first step is to clearly define it's needs, providing use case diagrams for each of the main features of each page, user stories with acceptance criteria for each feature and mock-ups of the site (Figma or Sketch).",
@@ -430,7 +424,7 @@
       "id": "kasa",
       "date": "2021-10-18",
       "title": "Kasa",
-      "cover": "images/projects/kasa/kasa_1.webp",
+      "cover": "images/projects/kasa/kasa_4.webp",
       "objective": "Development of an SPA",
       "summary": "Kasa is in the business of renting apartments between individuals. With more than 500 ads posted every day, Kasa is one of the leaders in the rental of apartments between individuals in France.",
       "pictures": [
@@ -481,7 +475,7 @@
       "id": "sportsee",
       "date": "2021-11-08",
       "title": "Sports See",
-      "cover": "images/projects/sportsee/project_sportsee.webp",
+      "cover": "images/projects/sportsee/sportsee_3.webp",
       "objective": "Develop an analytical dashboard",
       "summary": "SportSee is a startup dedicated to sports coaching. The company will launch a new version of the user's profile page, which will track the number of sessions completed as well as the calories burned.",
       "pictures": [
@@ -529,12 +523,11 @@
       "id": "argentbank",
       "title": "Argent Bank",
       "date": "2021-12-02",
-      "cover": "images/projects/argentbank/project_argentbank.webp",
+      "cover": "images/projects/argentbank/argent_4.webp",
       "objective": "Using an API for a bank account",
       "summary": "Argent Bank is a new bank trying to break into the industry and needs help setting up their application. The two-part contract is broken down into several phases. Web application creation and API endpoints specification.",
       "pictures": [
         "../images/projects/argentbank/bankLogo.webp",
-        "../images/projects/argentbank/project_argentbank.webp",
         "../images/projects/argentbank/argent_1.webp",
         "../images/projects/argentbank/argent_2.webp",
         "../images/projects/argentbank/argent_3.webp",
@@ -585,18 +578,15 @@
       "id": "wealthhealthhrnet",
       "title": "HRNet",
       "date": "2022-03-29",
-      "cover": "images/projects/wealthhealth/003_current.webp",
+      "cover": "images/projects/wealthhealth/wealth_1.webp",
       "objective": "Switch a jQuery library into React",
       "summary": "Wealth Health is a large financial company who uses an internal web application, called HRnet that manages employee records. The application is old and uses jQuery on the front end, leading to considerable bugs.",
       "pictures": [
-        "../images/projects/wealthhealth/wealth.webp",
-        "../images/projects/wealthhealth/001_create.webp",
-        "../images/projects/wealthhealth/002_createnight.webp",
-        "../images/projects/wealthhealth/003_current.webp",
-        "../images/projects/wealthhealth/004_currentnight.webp",
-        "../images/projects/wealthhealth/005_modal.webp",
-        "../images/projects/wealthhealth/006_report_one.webp",
-        "../images/projects/wealthhealth/007_report_two.webp"
+        "../images/projects/wealthhealth/wealthLogo.webp",
+        "../images/projects/wealthhealth/wealth_1.webp",
+        "../images/projects/wealthhealth/wealth_2.webp",
+        "../images/projects/wealthhealth/wealth_3.webp",
+        "../images/projects/wealthhealth/wealth_4.webp"
       ],
       "goal": "Convert the entire HRNet project to React. Convert one of the four current jQuery plugins to React. Replace the 3 remaining jQuery plugins with React components. Perform Lighthouse performance tests comparing the old and new application.",
       "description": "Wealth Health is a large financial company who uses an internal web application, called HRnet, that manages employee records. The application is old and uses jQuery on the front end, which leads to considerable bugs and increased internal complaints. The biggest issues being the date pickers, modal windows, drop down menus and tables. Several complaints that the jQuery plugins are very slow have been received. \n\n The company wants to create their own React components instead of these third-party jQuery plugins that are used in the user interface and hope that converting these jQuery plugins into React components will improve the performance and stability. For the first part of the conversion process, the developer must pick ONE of the four jQuery plugins and convert it to a React component.",
@@ -638,16 +628,14 @@
       "id": "wealthhealthplug",
       "title": "HRNet (Plug-in)",
       "date": "2022-03-29",
-      "cover": "images/projects/wealthplugin/002_modal_userdefined.webp",
+      "cover": "images/projects/wealthplugin/modal_2.webp",
       "objective": "Create an NPM package",
       "summary": "Wealth Health’s (HRNet) Management expect that converting the third party jQuery plugins into React components will improve the performance and stability.",
       "pictures": [
-        "../images/projects/wealthplugin/wealth.webp",
-        "../images/projects/wealthplugin/005_npm_package.webp",
-        "../images/projects/wealthplugin/004_npm package code.webp",
-        "../images/projects/wealthplugin/001_modal_default.webp",
-        "../images/projects/wealthplugin/002_modal_userdefined.webp",
-        "../images/projects/wealthplugin/003_modal_userdefined_night.webp"
+        "../images/projects/wealthplugin/wealthLogo.webp",
+        "../images/projects/wealthplugin/modal_1.webp",
+        "../images/projects/wealthplugin/modal_2.webp",
+        "../images/projects/wealthplugin/modal_3.webp"
       ],
       "goal": "Create a Modal React component to which custom styling can be applied then publish the React component to npm as a package.",
       "description": "As stated in the brief from Wealth Health's Management, it is expected that converting the third party jQuery plugins into React components will improve the performance and stability. \n\n The biggest issues for HRNet users being the date pickers, modal windows, drop down menus, and tables, with all the network calls and DOM manipulations required for jQuery plugins adding up and slowing things down. Several complaints about these jQuery plugins have been received and the management think it will be better to have their own React components to have more control over the application. \n\n For example, the modal dialog currently being used to confirm when new employee records are created does not match the design system that the designers want to use. Also, the plugin is very incompatible with applying custom styles, so create a React component to which custom styling can be applied then publish the React component to npm as a package.",
@@ -957,8 +945,7 @@
         "../images/projects/musicontrol/control_4.webp",
         "../images/projects/musicontrol/control_5.webp",
         "../images/projects/musicontrol/control_6.webp",
-        "../images/projects/musicontrol/control_7.webp",
-        "../images/projects/musicontrol/control_8.webp"
+        "../images/projects/musicontrol/control_7.webp"
       ],
       "goal": "Using the REST API from Spotify, create a partial clone of the Spotify Website",
       "description": "It started off as a simple project to learn the basics of Next.js, Tailwind and Recoil (all I had never used) from a simple tutorial online. There were some issues with the implementation, but still a good tutorial. \n\n Frustrated with the basic featues, I decided to turn it into a more robust project. I signed up with Spotify & got a FREE introductory PREMIUM account for 3 months in order to be able to implement the features. Thus now I had a deadline by which time I must have completed the project.",
