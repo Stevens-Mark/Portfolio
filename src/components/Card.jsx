@@ -36,6 +36,7 @@ const ProjectCard = styled.article`
 `;
 
 const CoverImage = styled.img`
+  border-radius: 0.313rem;
   margin-bottom: 5px;
   max-height: 300px;
   width: 100%;
