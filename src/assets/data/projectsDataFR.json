@@ -728,7 +728,7 @@
     },
     {
       "id": "notflix",
-      "title": "Un clône de Netflix",
+      "title": "Notflix",
       "date": "2022-07-29",
       "cover": "images/projects/notflix/notflix_4.webp",
       "objective": "Créer un clone de Netflix",
