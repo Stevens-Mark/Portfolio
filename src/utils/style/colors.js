@@ -7,6 +7,7 @@ const colors = {
   quaternary: ' #282D30',
   background: '#F6F6F6',
   shadow: '#d9d9d9',
+  highlight: '#f2f2f2',
 
   // Text
   styledText: '#33CCCC',
