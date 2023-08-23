@@ -435,7 +435,7 @@
         "../images/projects/kasa/kasa_2.webp",
         "../images/projects/kasa/kasa_3.webp",
         "../images/projects/kasa/kasa_4.webp"
-       ],
+      ],
       "goal": "Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
       "description": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.\n\n Le site Web de Kasa a été codé il y a plus de 10 ans en ASP.NET avec beaucoup de code hérité. Le directeur technique a donc décidé de le remanier complètement et de passer à une stack JavaScript complète avec NodeJS en back-end et React en front-end.\n\n Le développeur doit démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, tout en suivant les maquettes Figma (responsive !). De plus, comme l'équipe Back-End et les données ne sont pas en place, 20 annonces de logements (dans un fichier JSON) ont été fournies afin de construire le Front-End correspondant.",
       "functionality": [
@@ -587,7 +587,7 @@
         "../images/projects/wealthhealth/wealth_2.webp",
         "../images/projects/wealthhealth/wealth_3.webp",
         "../images/projects/wealthhealth/wealth_4.webp"
-       ],
+      ],
       "goal": "Convertir l'ensemble du projet HRNet en React. Convertir un des quatre plugins jQuery actuels en React. Remplacer les 3 plugins jQuery restants par des composants React. Effectuer des tests de performance Lighthouse en comparant l'ancienne et la nouvelle application.",
       "description": "Wealth Health est une grande société financière qui utilise une application web interne, appelée HRNet, pour gérer les dossiers des employés. L'application est ancienne et utilise jQuery sur le front-end, ce qui entraîne des bogues considérables et une augmentation des plaintes internes. Les plus gros problèmes concernent les sélecteurs de date, les fenêtres modales, les menus déroulants et les tableaux. Plusieurs plaintes ont été reçues selon, lesquelles les plugins jQuery sont très lents. \n\n L'entreprise souhaite créer ses propres composants React au lieu de ces plugins jQuery tiers utilisés dans l'interface utilisateur et espère que la conversion de ces plugins jQuery en composants React améliorera les performances et la stabilité. Pour la première partie du processus de conversion, le développeur doit choisir UN des quatre plugins jQuery et le convertir en composant React.",
       "functionality": [
@@ -936,7 +936,11 @@
         "Interagir avec le service de streaming de Spotify.",
         "Connexion sécurisée avec Next/auth.",
         "Pages : Bienvenue, recherche, résultats de recherche, album, liste de lecture, artiste, émissions/podacasts, épisodes, chansons aimées, récemment écoutées.",
-        "Barre latérale contenant toutes les listes de lecture des utilisateurs.",
+        "Barre latérale contenant toutes les listes de lecture et tous les albums des utilisateurs",
+        "Filtrer la barre latérale par listes de lecture (toutes, vous ou Spotify) et par albums",
+        "Filtrer la barre latérale par listes de lecture (toutes, vous ou Spotify) et par albums",
+        "Ajouter/retirer un titre de la liste des Chansons aimées",
+        "Ajouter/retirer un titre d'une liste de lecture",
         "L'option de recherche renvoie les résultats pour les albums, les artistes, les listes de lecture, les podcasts/spectacles et les épisodes.",
         "Contrôles du lecteur multimédia (répétition, lecture aléatoire, etc.)",
         "Contrôle 'Seek to position.'",
