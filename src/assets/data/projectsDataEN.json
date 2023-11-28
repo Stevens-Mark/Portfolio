@@ -981,6 +981,48 @@
       "techIcons": ["next", "javascript", "tailwind", "jsdoc", "github"],
       "website": "https://musicontrol2023.netlify.app/",
       "github": "https://github.com/Stevens-Mark/Spotify-app.git"
+    },
+    {
+      "id": "vertsoleil",
+      "title": "Vert Soleil",
+      "date": "2023-010-23",
+      "cover": "images/projects/vertsoleil/vert_4.webp",
+      "objective": "Build a website prototype.",
+      "summary": "Vert Soleil's range of services is designed to transform and maintain your green spaces, ensuring that they remain beautiful, functional and welcoming.",
+      "pictures": [
+        "../images/projects/vertsoleil/vertLogo.webp",
+        "../images/projects/vertsoleil/vert_1.webp",
+        "../images/projects/vertsoleil/vert_2.webp",
+        "../images/projects/vertsoleil/vert_3.webp",
+        "../images/projects/vertsoleil/vert_4.webp"
+      ],
+      "goal": "Build a prototype for a jardener's website using WordPress",
+      "description": "Vert Soleil is a dedicated landscaping service provider, specializing in the complete development and maintenance of green spaces. They pride themselves on providing first-class landscaping services. Their existing website is very basic, with no real structure and does not reflect the services they provide in an attractive manner. The brief was to use the existing images of the website and create the written content to give an idea of how the new site could look like.",
+      "functionality": [
+        "Home Page and corresponding pages detailing service offered.",
+        "Each page has uniform layout with relevant information.",
+        "Fully responsive to different screen sizes.",
+        "Cached static html files served to increase page load times (restricted by host provider).",
+        "Mention Legal and confidentiality notice.",
+        "Cookie notice."
+      ],
+      "constraints": [
+        "Build site using WordPress and Use free plugins.",
+        "The new 'prototype' website should use Vert soleil colour scheme.",
+        "Use provided images and only use free images if necessary.",
+        "Use a FREE WordPress hosting service for the prototype."
+      ],
+      "notes": "The site is hosted by https://www.infinityfree.com/. I found that page caching plugins to speed up page loading have mixed results or are blocked by the service provider and that using a free service and plugins means that features are possibly limited, but this was the brief..\n\n Unfortunately, this (free) website can be deleted without warning and loading speeds are not so good, but this is not a production version (see brief above). \n\n IMPORTANT: This site is a FIRST draft. As french is not my first language there are probably grammar mistakes within the text and so a native french speaker is needed to correct these errors. As I have created all the content based on what I know about Vert Soleil's services, the owner would also need to decide what information is to be kept and what needs to be deleted.",
+      "skills": [
+        "Create a website using WordPress.",
+        "Ensure the graphic coherence of a web site.",
+        "Ensure a responsive interface.",
+        "Use of templates and plugins."
+      ],
+      "tags": ["WordPress", "css", "PhotoShop"],
+      "techIcons": ["wordpress", "css", "photoshop"],
+      "website": "https://vertsoleil2023.infinityfreeapp.com/",
+      "github": ""
     }
   ]
 }

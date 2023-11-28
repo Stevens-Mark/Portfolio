@@ -978,6 +978,50 @@
       "techIcons": ["next", "javascript", "tailwind", "jsdoc", "github"],
       "website": "https://musicontrol2023.netlify.app/",
       "github": "https://github.com/Stevens-Mark/Spotify-app.git"
+    },
+    {
+      "id": "vertsoleil",
+      "title": "Vert Soleil",
+      "date": "2023-010-23",
+      "cover": "images/projects/vertsoleil/vert_4.webp",
+      "objective": "Construire un prototype de site web.",
+      "summary": "La gamme de services de Vert Soleil est conçue pour transformer et entretenir vos espaces verts, afin qu'ils restent beaux, fonctionnels et accueillants.",
+      "pictures": [
+        "../images/projects/vertsoleil/vertLogo.webp",
+        "../images/projects/vertsoleil/vert_1.webp",
+        "../images/projects/vertsoleil/vert_2.webp",
+        "../images/projects/vertsoleil/vert_3.webp",
+        "../images/projects/vertsoleil/vert_4.webp"
+      ],
+      "goal": "BConstruire un prototype de site web pour un jardinier en utilisant WordPress",
+      "description": "Vert Soleil est un prestataire de services d'aménagement paysager spécialisé dans l'aménagement et l'entretien complets d'espaces verts. Elle est fière de fournir des services d'aménagement paysager de première qualité. Leur site web existant est très basique, sans réelle structure et ne reflète pas les services qu'ils fournissent d'une manière attrayante. Le mandat consistait à utiliser les images existantes du site web et à créer le contenu écrit pour donner une idée de ce à quoi le nouveau site pourrait ressembler.",
+      "functionality": [
+        "Page d'accueil et pages correspondantes détaillant les services offerts.",
+        "Chaque page a une présentation uniforme avec des informations pertinentes.",
+        "Entièrement adapté aux différentes tailles d'écran.",
+        "Fichiers html statiques mis en cache pour augmenter le temps de chargement des pages (restriction imposée par l'hébergeur).",
+        "Mentions Légales et Politique de Confidentialité.",
+        "Notice sur les cookies."
+      ],
+      "constraints": [
+        "Construire le site avec WordPress et utiliser des plugins gratuits.",
+        "Le nouveau site web 'prototype' doit utiliser la palette de couleurs Vert soleil.",
+        "Utiliser les images fournies et n'utiliser des images gratuites que si nécessaire.",
+        "Utiliser un service d'hébergement WordPress GRATUIT pour le prototype."
+      ],
+      "notes": "Le site est hébergé par https://www.infinityfree.com/. J'ai constaté que les plugins de mise en cache des pages pour accélérer le chargement des pages ont des résultats mitigés ou sont bloqués par le fournisseur de services et que l'utilisation d'un service et de plugins gratuits signifie que les fonctionnalités sont peut-être limitées, mais c'était la brève....\n\n Malheureusement, ce site web (gratuit) peut être supprimé sans avertissement et les vitesses de chargement ne sont pas si bonnes, mais ce n'est pas une version de production (voir la brève ci-dessus). \n\n IMPORTANT : Ce site est une PREMIÈRE version. Comme le français n'est pas ma langue maternelle, il y a probablement des fautes de grammaire dans le texte et une personne de langue maternelle française est nécessaire pour corriger ces erreurs. Comme j'ai créé tout le contenu sur la base de ce que je sais des services de Vert Soleil, le propriétaire devra également décider quelles informations doivent être conservées et lesquelles doivent être supprimées.",
+      "skills": [
+        "Créer un site web avec WordPress.", 
+        "Assurer la cohérence graphique d'un site web.",
+        "Créer un site web avec WordPress.",
+        "Assurer la cohérence graphique d'un site web.",
+        "Assurer une interface responsive.",
+        "Utilisation de templates et de plugins."
+      ],
+      "tags": ["WordPress", "css", "PhotoShop"],
+      "techIcons": ["wordpress", "css", "photoshop"],
+      "website": "https://vertsoleil2023.infinityfreeapp.com/",
+      "github": ""
     }
   ]
 }
