@@ -976,7 +976,7 @@
       ],
       "tags": ["Next.js", "Tailwind", "REST API"],
       "techIcons": ["next", "javascript", "tailwind", "jsdoc", "github"],
-      "website": "https://musicontrol2023.netlify.app/",
+      "website": "https://spotifyclone2023.vercel.app/",
       "github": "https://github.com/Stevens-Mark/Spotify-app.git"
     },
     {
